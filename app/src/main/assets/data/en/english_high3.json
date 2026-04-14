@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "grade": "high3",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1501,
+      "word": "derive",
+      "phonetic": "dɪˈraɪv",
+      "meanings": ["얻다", "유래하다"],
+      "exampleSentence": "Many English words derive from Latin.",
+      "exampleTranslation": "많은 영어 단어는 라틴어에서 유래한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1501.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1501.mp3"
+    },
+    {
+      "wordId": 1502,
+      "word": "constrain",
+      "phonetic": "kənˈstreɪn",
+      "meanings": ["제약하다", "억제하다"],
+      "exampleSentence": "Limited time can constrain good writing.",
+      "exampleTranslation": "제한된 시간은 좋은 글쓰기를 제약할 수 있다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1502.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1502.mp3"
+    },
+    {
+      "wordId": 1503,
+      "word": "infer",
+      "phonetic": "ɪnˈfɜːr",
+      "meanings": ["추론하다"],
+      "exampleSentence": "Readers can infer the writer's opinion from the tone.",
+      "exampleTranslation": "독자는 어조를 통해 글쓴이의 의견을 추론할 수 있다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1503.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1503.mp3"
+    },
+    {
+      "wordId": 1504,
+      "word": "allocate",
+      "phonetic": "ˈæləkeɪt",
+      "meanings": ["할당하다"],
+      "exampleSentence": "You should allocate more time to difficult questions.",
+      "exampleTranslation": "어려운 문제에 더 많은 시간을 할당해야 한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1504.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1504.mp3"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "grade": "high1",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1301,
+      "word": "analyze",
+      "phonetic": "ˈænəlaɪz",
+      "meanings": ["분석하다"],
+      "exampleSentence": "Students analyze the graph in science class.",
+      "exampleTranslation": "학생들은 과학 시간에 그 그래프를 분석한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1301.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1301.mp3"
+    },
+    {
+      "wordId": 1302,
+      "word": "resource",
+      "phonetic": "ˈriːsɔːrs",
+      "meanings": ["자원", "자료"],
+      "exampleSentence": "Online resources help students study at home.",
+      "exampleTranslation": "온라인 자료는 학생들이 집에서 공부하도록 돕는다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1302.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1302.mp3"
+    },
+    {
+      "wordId": 1303,
+      "word": "participate",
+      "phonetic": "pɑːrˈtɪsəpeɪt",
+      "meanings": ["참여하다"],
+      "exampleSentence": "Many students participate in the debate club.",
+      "exampleTranslation": "많은 학생들이 토론 동아리에 참여한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1303.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1303.mp3"
+    },
+    {
+      "wordId": 1304,
+      "word": "efficient",
+      "phonetic": "ɪˈfɪʃənt",
+      "meanings": ["효율적인"],
+      "exampleSentence": "She found an efficient way to memorize words.",
+      "exampleTranslation": "그녀는 단어를 암기하는 효율적인 방법을 찾았다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1304.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1304.mp3"
+    }
+  ]
+}
+

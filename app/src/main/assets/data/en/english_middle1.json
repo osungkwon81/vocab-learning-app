@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "grade": "middle1",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1001,
+      "word": "study",
+      "phonetic": "ˈstʌdi",
+      "meanings": ["공부하다", "연구하다"],
+      "exampleSentence": "I study English after dinner.",
+      "exampleTranslation": "나는 저녁 식사 후 영어를 공부한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1001.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1001.mp3"
+    },
+    {
+      "wordId": 1002,
+      "word": "library",
+      "phonetic": "ˈlaɪbreri",
+      "meanings": ["도서관"],
+      "exampleSentence": "She borrows books from the library.",
+      "exampleTranslation": "그녀는 도서관에서 책을 빌린다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1002.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1002.mp3"
+    },
+    {
+      "wordId": 1003,
+      "word": "practice",
+      "phonetic": "ˈpræktɪs",
+      "meanings": ["연습하다", "연습"],
+      "exampleSentence": "We practice speaking every day.",
+      "exampleTranslation": "우리는 매일 말하기를 연습한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1003.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1003.mp3"
+    },
+    {
+      "wordId": 1004,
+      "word": "answer",
+      "phonetic": "ˈænsər",
+      "meanings": ["대답", "대답하다"],
+      "exampleSentence": "Please answer the question clearly.",
+      "exampleTranslation": "그 질문에 분명하게 대답해라.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1004.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1004.mp3"
+    }
+  ]
+}
+

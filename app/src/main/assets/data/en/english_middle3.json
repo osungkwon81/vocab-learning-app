@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "grade": "middle3",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1201,
+      "word": "solution",
+      "phonetic": "səˈluːʃən",
+      "meanings": ["해결책"],
+      "exampleSentence": "They discussed a solution to the problem.",
+      "exampleTranslation": "그들은 그 문제의 해결책을 논의했다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1201.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1201.mp3"
+    },
+    {
+      "wordId": 1202,
+      "word": "environment",
+      "phonetic": "ɪnˈvaɪrənmənt",
+      "meanings": ["환경"],
+      "exampleSentence": "We should protect the environment.",
+      "exampleTranslation": "우리는 환경을 보호해야 한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1202.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1202.mp3"
+    },
+    {
+      "wordId": 1203,
+      "word": "decision",
+      "phonetic": "dɪˈsɪʒən",
+      "meanings": ["결정"],
+      "exampleSentence": "Making a quick decision is not always easy.",
+      "exampleTranslation": "빠른 결정을 내리는 것은 항상 쉽지 않다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1203.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1203.mp3"
+    },
+    {
+      "wordId": 1204,
+      "word": "support",
+      "phonetic": "səˈpɔːrt",
+      "meanings": ["지지하다", "지원하다", "지지"],
+      "exampleSentence": "Parents support their children in many ways.",
+      "exampleTranslation": "부모는 여러 방식으로 자녀를 지원한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1204.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1204.mp3"
+    }
+  ]
+}
+

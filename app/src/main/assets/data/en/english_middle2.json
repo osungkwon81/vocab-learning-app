@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "grade": "middle2",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1101,
+      "word": "experience",
+      "phonetic": "ɪkˈspɪriəns",
+      "meanings": ["경험", "경험하다"],
+      "exampleSentence": "Travel gives students new experience.",
+      "exampleTranslation": "여행은 학생들에게 새로운 경험을 준다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1101.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1101.mp3"
+    },
+    {
+      "wordId": 1102,
+      "word": "culture",
+      "phonetic": "ˈkʌltʃər",
+      "meanings": ["문화"],
+      "exampleSentence": "They learned about Korean culture in class.",
+      "exampleTranslation": "그들은 수업에서 한국 문화를 배웠다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1102.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1102.mp3"
+    },
+    {
+      "wordId": 1103,
+      "word": "improve",
+      "phonetic": "ɪmˈpruːv",
+      "meanings": ["향상시키다", "개선하다"],
+      "exampleSentence": "Reading can improve your vocabulary.",
+      "exampleTranslation": "독서는 너의 어휘력을 향상시킬 수 있다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1103.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1103.mp3"
+    },
+    {
+      "wordId": 1104,
+      "word": "healthy",
+      "phonetic": "ˈhelθi",
+      "meanings": ["건강한"],
+      "exampleSentence": "Walking is a healthy habit.",
+      "exampleTranslation": "걷기는 건강한 습관이다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1104.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1104.mp3"
+    }
+  ]
+}
+

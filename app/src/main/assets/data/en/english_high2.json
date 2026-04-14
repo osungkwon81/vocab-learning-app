@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "grade": "high2",
+  "version": 1,
+  "words": [
+    {
+      "wordId": 1401,
+      "word": "significant",
+      "phonetic": "sɪɡˈnɪfɪkənt",
+      "meanings": ["중요한", "의미 있는"],
+      "exampleSentence": "The report shows a significant change in temperature.",
+      "exampleTranslation": "그 보고서는 온도의 중요한 변화를 보여 준다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1401.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1401.mp3"
+    },
+    {
+      "wordId": 1402,
+      "word": "maintain",
+      "phonetic": "meɪnˈteɪn",
+      "meanings": ["유지하다"],
+      "exampleSentence": "It is hard to maintain good habits every day.",
+      "exampleTranslation": "매일 좋은 습관을 유지하는 것은 어렵다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1402.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1402.mp3"
+    },
+    {
+      "wordId": 1403,
+      "word": "require",
+      "phonetic": "rɪˈkwaɪər",
+      "meanings": ["요구하다", "필요로 하다"],
+      "exampleSentence": "This task requires careful reading.",
+      "exampleTranslation": "이 과제는 주의 깊은 읽기를 요구한다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1403.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1403.mp3"
+    },
+    {
+      "wordId": 1404,
+      "word": "impact",
+      "phonetic": "ˈɪmpækt",
+      "meanings": ["영향", "영향을 주다"],
+      "exampleSentence": "Social media has a strong impact on teenagers.",
+      "exampleTranslation": "소셜 미디어는 청소년에게 강한 영향을 준다.",
+      "wordAudioUrl": "https://firebase-storage-url/audio/en/words/1404.mp3",
+      "exampleAudioUrl": "https://firebase-storage-url/audio/en/sentences/1404.mp3"
+    }
+  ]
+}
+
