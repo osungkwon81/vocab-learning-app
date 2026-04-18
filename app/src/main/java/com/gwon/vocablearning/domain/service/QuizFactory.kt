@@ -23,6 +23,7 @@ class QuizFactory(
 
         return rotation.map { entry ->
             when (type) {
+                QuizType.LEARNING_CARD -> createWordToMeaning(entry, words)
                 QuizType.WORD_TO_MEANING -> createWordToMeaning(entry, words)
                 QuizType.MEANING_TO_WORD -> createMeaningToWord(entry, words)
                 QuizType.SENTENCE_BLANK -> createSentenceBlank(entry, words)
@@ -118,4 +119,3 @@ class QuizFactory(
         }
     }
 }
-

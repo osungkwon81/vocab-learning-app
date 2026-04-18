@@ -18,7 +18,11 @@ android {
         versionName = "0.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "DEFAULT_STORAGE_BASE_URL", "\"\"")
+        buildConfigField(
+            "String",
+            "DEFAULT_STORAGE_BASE_URL",
+            "\"https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o\"",
+        )
     }
 
     buildTypes {

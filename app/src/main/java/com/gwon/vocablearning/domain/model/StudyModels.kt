@@ -14,6 +14,7 @@ data class WordEntry(
 )
 
 enum class QuizType(val label: String) {
+    LEARNING_CARD("학습 카드"),
     WORD_TO_MEANING("단어 -> 뜻"),
     MEANING_TO_WORD("뜻 -> 단어"),
     SENTENCE_BLANK("예문 빈칸"),
@@ -42,6 +43,7 @@ data class WordProgress(
 
 enum class ReviewReason(val label: String) {
     MANY_WRONG("오답이 많음"),
+    LONG_TIME_NO_SEE("오래 안 봄"),
     SLOW_RESPONSE("풀이 시간이 김"),
     EXPLICIT_REVIEW("복습 필요"),
 }
@@ -75,5 +77,10 @@ data class SyncSummary(
     val remoteConfigured: Boolean,
     val manifestVersion: Int?,
     val updatedFiles: List<String>,
+    val errorMessage: String? = null,
 )
 
+data class SyncStatus(
+    val manifestVersion: Int,
+    val fileVersion: Int,
+)

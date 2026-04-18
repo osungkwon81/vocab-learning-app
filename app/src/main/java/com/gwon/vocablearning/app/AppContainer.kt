@@ -11,6 +11,7 @@ import com.gwon.vocablearning.domain.service.AndroidAudioPlayer
 import com.gwon.vocablearning.domain.service.AudioCacheManager
 import com.gwon.vocablearning.domain.service.AudioPlayer
 import com.gwon.vocablearning.domain.service.QuizFactory
+import com.gwon.vocablearning.domain.service.StudyDeckPlanner
 
 class AppContainer(
     context: Context,
@@ -20,6 +21,7 @@ class AppContainer(
     private val settingsRepository = SettingsPreferencesRepository(applicationContext)
     private val catalogFileStore = CatalogFileStore(applicationContext)
     private val remoteCatalogService = RemoteCatalogService()
+    private val studyDeckPlanner = StudyDeckPlanner()
 
     val studyRepository: StudyRepository =
         OfflineFirstStudyRepository(
@@ -28,10 +30,10 @@ class AppContainer(
             remoteCatalogService = remoteCatalogService,
             wordStatDao = database.wordStatDao(),
             quizHistoryDao = database.quizHistoryDao(),
+            studyDeckPlanner = studyDeckPlanner,
         )
 
     val audioPlayer: AudioPlayer = AndroidAudioPlayer()
     val audioCacheManager = AudioCacheManager(catalogFileStore, remoteCatalogService)
     val quizFactory = QuizFactory()
 }
-

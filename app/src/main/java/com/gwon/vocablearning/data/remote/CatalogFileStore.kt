@@ -16,18 +16,23 @@ class CatalogFileStore(
     suspend fun loadWordSet(grade: SchoolGrade): WordSetDto =
         withContext(Dispatchers.IO) {
             val localFile = localCatalogFile(grade)
-            val raw = if (localFile.exists()) {
-                localFile.readText()
+            if (localFile.exists()) {
+                runCatching {
+                    json.decodeFromString<WordSetDto>(localFile.readText())
+                }.getOrElse {
+                    // Ignore a broken remote cache and fall back to the bundled asset.
+                    localFile.delete()
+                    loadBundledWordSet(grade)
+                }
             } else {
-                context.assets.open(grade.assetPath).bufferedReader().use { it.readText() }
+                loadBundledWordSet(grade)
             }
-            json.decodeFromString<WordSetDto>(raw)
         }
 
     suspend fun loadBundledManifest(): VersionManifestDto =
         withContext(Dispatchers.IO) {
             val raw = context.assets.open("data/version.json").bufferedReader().use { it.readText() }
-            json.decodeFromString<VersionManifestDto>(raw)
+            parseVersionManifest(json, raw)
         }
 
     suspend fun saveCatalog(grade: SchoolGrade, payload: ByteArray) {
@@ -37,6 +42,11 @@ class CatalogFileStore(
             target.writeBytes(payload)
         }
     }
+
+    suspend fun validateCatalogPayload(payload: ByteArray): Int =
+        withContext(Dispatchers.IO) {
+            json.decodeFromString<WordSetDto>(payload.decodeToString()).words.size
+        }
 
     suspend fun resolveAudioFile(wordId: Long, audioType: AudioType): File =
         withContext(Dispatchers.IO) {
@@ -50,4 +60,9 @@ class CatalogFileStore(
 
     private fun localCatalogFile(grade: SchoolGrade): File =
         File(context.filesDir, "catalog/${grade.fileKey}.json")
+
+    private fun loadBundledWordSet(grade: SchoolGrade): WordSetDto {
+        val raw = context.assets.open(grade.assetPath).bufferedReader().use { it.readText() }
+        return json.decodeFromString(raw)
+    }
 }

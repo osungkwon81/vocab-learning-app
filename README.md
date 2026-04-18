@@ -1,16 +1,29 @@
 # 외국어 학습 앱
 
-아이들을 위한 시험 대비용 외국어 학습 안드로이드 앱의 초기 구현입니다. 회원가입 없이 학년만 선택하고 바로 사용할 수 있으며, 단어 원본 데이터는 JSON으로 관리하고 학습 통계는 SQLite(Room)에 저장하도록 구성했습니다.
+아이들을 위한 시험 대비용 외국어 학습 안드로이드 앱의 초기 구현입니다. 회원가입은 없고 최초 1회 닉네임만 입력하면 되며, 카드 기반 단어 학습과 간격 반복 복습 흐름을 중심으로 구성했습니다.
 
 ## 현재 포함된 것
 
 - `Android + Jetpack Compose` 기반 앱 골격
-- 학년 선택, 단어 학습, 퀴즈, 복습, 통계 화면
+- 최초 닉네임 입력, 학년 선택, 학습 개수 선택 온보딩
+- 카드 기반 단어 학습 화면
 - `Room` 기반 `word_stat`, `quiz_history` 저장소
 - `DataStore` 기반 선택 학년 및 데이터 버전 저장
+- `DataStore` 기반 닉네임, 학습 개수, 온보딩 완료 상태 저장
 - `version.json` 비교 후 학년별 JSON을 내려받는 동기화 구조
 - 단어 음성/예문 음성의 로컬 캐시 준비 구조
 - 영어 6개 학년 샘플 JSON
+
+## 현재 학습 UX
+
+1. 단어만 먼저 본다.
+2. 뜻을 스스로 떠올린다.
+3. 카드 하단 영역을 드래그해서 뜻/예문을 연다.
+4. `알겠다` 또는 `모르겠다`를 선택한다.
+5. 그 결과를 SQLite에 저장한다.
+6. 다음 카드로 스와이프한다.
+
+뜻을 열기 전에는 다음 카드로 넘어갈 수 없도록 막아 두었습니다.
 
 ## 아키텍처 요약
 
@@ -51,6 +64,27 @@ buildConfigField(
     "\"https://your-storage.example.com\"",
 )
 ```
+
+Firebase Storage REST 기본 URL도 바로 지원합니다.
+
+예시:
+
+```kotlin
+buildConfigField(
+    "String",
+    "DEFAULT_STORAGE_BASE_URL",
+    "\"https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o\"",
+)
+```
+
+이 경우 앱은 내부적으로 다음 형태로 요청합니다.
+
+```text
+https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/version.json?alt=media
+https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/catalog%2Fen%2Fenglish_middle3.json?alt=media
+```
+
+단, 원격 동기화에는 여전히 `version.json`이 필요합니다.
 
 ## 로컬 실행
 

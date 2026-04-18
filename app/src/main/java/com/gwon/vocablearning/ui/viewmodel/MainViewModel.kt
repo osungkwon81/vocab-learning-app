@@ -20,41 +20,90 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-data class QuizConfig(
-    val type: QuizType = QuizType.WORD_TO_MEANING,
-    val questionCount: Int = 10,
+enum class SetupStep {
+    NICKNAME,
+    GRADE,
+    READY,
+}
+
+data class LearningCardProgressState(
+    val isRevealed: Boolean = false,
+    val response: Boolean? = null,
+    val startedAtElapsed: Long = 0L,
 )
 
-sealed interface QuizSessionState {
-    data object Idle : QuizSessionState
+data class LearningDeckItem(
+    val id: Int,
+    val progress: WordProgress,
+)
 
-    data class Running(
-        val questions: List<QuizQuestion>,
-        val currentIndex: Int,
-        val answers: List<Boolean>,
-        val questionStartedAtElapsed: Long,
-    ) : QuizSessionState {
-        val currentQuestion: QuizQuestion
-            get() = questions[currentIndex]
-    }
+data class LearningSessionState(
+    val deck: List<LearningDeckItem> = emptyList(),
+    val cards: Map<Int, LearningCardProgressState> = emptyMap(),
+    val currentPage: Int = 0,
+    val targetCount: Int = 20,
+) {
+    val currentItem: LearningDeckItem?
+        get() = deck.getOrNull(currentPage)
 
-    data class Finished(
-        val totalCount: Int,
-        val correctCount: Int,
-    ) : QuizSessionState
+    val currentCardState: LearningCardProgressState?
+        get() = currentItem?.let { cards[it.id] }
+
+    val completedCount: Int
+        get() = cards.values.count { it.response != null }
+
+    val knownCount: Int
+        get() = cards.values.count { it.response == true }
+
+    val unknownCount: Int
+        get() = cards.values.count { it.response == false }
+
+    val isComplete: Boolean
+        get() = deck.isNotEmpty() && completedCount == deck.size
+}
+
+data class QuizSessionState(
+    val questions: List<QuizQuestion> = emptyList(),
+    val answers: Map<Int, Int> = emptyMap(),
+    val currentIndex: Int = 0,
+    val targetCount: Int = 20,
+    val startedAtElapsed: Long = 0L,
+) {
+    val currentQuestion: QuizQuestion?
+        get() = if (isComplete) null else questions.getOrNull(currentIndex)
+
+    val completedCount: Int
+        get() = answers.size
+
+    val correctCount: Int
+        get() = answers.count { (index, selectedIndex) ->
+            questions.getOrNull(index)?.answerIndex == selectedIndex
+        }
+
+    val wrongCount: Int
+        get() = completedCount - correctCount
+
+    val isComplete: Boolean
+        get() = questions.isNotEmpty() && answers.size == questions.size
 }
 
 data class MainUiState(
     val isLoading: Boolean = true,
     val isSyncing: Boolean = false,
+    val setupStep: SetupStep = SetupStep.NICKNAME,
+    val nicknameInput: String = "",
+    val nickname: String = "",
     val selectedGrade: SchoolGrade = SchoolGrade.HIGH_3,
+    val learningCount: Int = 20,
+    val quizCount: Int = 20,
+    val showStudyStartDialog: Boolean = false,
+    val showQuizStartDialog: Boolean = false,
     val words: List<WordEntry> = emptyList(),
-    val selectedWord: WordEntry? = null,
     val dashboard: DashboardSnapshot = DashboardSnapshot(),
     val wordProgress: List<WordProgress> = emptyList(),
     val reviewItems: List<ReviewItem> = emptyList(),
-    val quizConfig: QuizConfig = QuizConfig(),
-    val quizSession: QuizSessionState = QuizSessionState.Idle,
+    val learningSession: LearningSessionState? = null,
+    val quizSession: QuizSessionState? = null,
     val noticeMessage: String? = null,
 )
 
@@ -62,80 +111,271 @@ class MainViewModel(
     private val container: AppContainer,
 ) : ViewModel() {
     private val repository = container.studyRepository
-    private val quizFactory = container.quizFactory
     private val audioPlayer = container.audioPlayer
     private val audioCacheManager = container.audioCacheManager
+    private val quizFactory = container.quizFactory
 
     private val _uiState = MutableStateFlow(MainUiState())
     val uiState: StateFlow<MainUiState> = _uiState.asStateFlow()
 
     init {
         viewModelScope.launch {
+            val nickname = repository.getNickname()
             val grade = repository.getSelectedGrade()
-            refreshAll(grade)
-            syncCatalog(manual = false)
+            val learningCount = repository.getLearningCount()
+            val hasCompletedOnboarding = repository.hasCompletedOnboarding()
+
+            _uiState.update {
+                it.copy(
+                    isLoading = false,
+                    setupStep = when {
+                        hasCompletedOnboarding -> SetupStep.READY
+                        nickname.isBlank() -> SetupStep.NICKNAME
+                        else -> SetupStep.GRADE
+                    },
+                    nicknameInput = nickname,
+                    nickname = nickname,
+                    selectedGrade = grade,
+                    learningCount = learningCount,
+                    quizCount = learningCount,
+                )
+            }
+
+            if (hasCompletedOnboarding) {
+                refreshReferenceData(grade)
+                syncCatalog(manual = false)
+            }
+        }
+    }
+
+    fun updateNicknameInput(value: String) {
+        _uiState.update { it.copy(nicknameInput = value.take(20)) }
+    }
+
+    fun confirmNickname() {
+        val nickname = _uiState.value.nicknameInput.trim()
+        if (nickname.isBlank()) {
+            _uiState.update { it.copy(noticeMessage = "닉네임을 입력해 주세요.") }
+            return
+        }
+
+        viewModelScope.launch {
+            repository.setNickname(nickname)
+            _uiState.update {
+                it.copy(
+                    nickname = nickname,
+                    setupStep = SetupStep.GRADE,
+                    noticeMessage = null,
+                )
+            }
+        }
+    }
+
+    fun saveNickname() {
+        val nickname = _uiState.value.nicknameInput.trim()
+        if (nickname.isBlank()) {
+            _uiState.update { it.copy(noticeMessage = "닉네임을 입력해 주세요.") }
+            return
+        }
+
+        viewModelScope.launch {
+            repository.setNickname(nickname)
+            _uiState.update {
+                it.copy(
+                    nickname = nickname,
+                    noticeMessage = "닉네임을 저장했습니다.",
+                )
+            }
         }
     }
 
     fun selectGrade(grade: SchoolGrade) {
+        _uiState.update { it.copy(selectedGrade = grade) }
+
         viewModelScope.launch {
             repository.setSelectedGrade(grade)
-            refreshAll(grade)
-        }
-    }
-
-    fun selectWord(word: WordEntry) {
-        _uiState.update { it.copy(selectedWord = word) }
-    }
-
-    fun updateQuizType(type: QuizType) {
-        _uiState.update {
-            it.copy(
-                quizConfig = it.quizConfig.copy(type = type),
-                quizSession = QuizSessionState.Idle,
-            )
-        }
-    }
-
-    fun updateQuestionCount(count: Int) {
-        _uiState.update {
-            it.copy(
-                quizConfig = it.quizConfig.copy(questionCount = count),
-                quizSession = QuizSessionState.Idle,
-            )
-        }
-    }
-
-    fun startQuiz() {
-        val words = _uiState.value.words
-        val quizConfig = _uiState.value.quizConfig
-        val questions = quizFactory.createQuestions(
-            words = words,
-            count = quizConfig.questionCount,
-            type = quizConfig.type,
-        )
-        _uiState.update {
-            it.copy(
-                quizSession = if (questions.isEmpty()) {
-                    QuizSessionState.Idle
-                } else {
-                    QuizSessionState.Running(
-                        questions = questions,
-                        currentIndex = 0,
-                        answers = emptyList(),
-                        questionStartedAtElapsed = SystemClock.elapsedRealtime(),
+            if (_uiState.value.setupStep == SetupStep.READY) {
+                refreshReferenceData(grade)
+                _uiState.update {
+                    it.copy(
+                        learningSession = null,
+                        quizSession = null,
+                        noticeMessage = "학년이 변경되었습니다. 학습이나 퀴즈를 다시 시작해 주세요.",
                     )
-                },
-                noticeMessage = if (questions.isEmpty()) "표시할 단어가 없습니다." else null,
+                }
+            }
+        }
+    }
+
+    fun completeGradeSetup() {
+        viewModelScope.launch {
+            repository.setSelectedGrade(_uiState.value.selectedGrade)
+            repository.setOnboardingCompleted(true)
+            _uiState.update { it.copy(setupStep = SetupStep.READY) }
+            refreshReferenceData(_uiState.value.selectedGrade)
+            syncCatalog(manual = false)
+        }
+    }
+
+    fun updateLearningCount(count: Int) {
+        _uiState.update { it.copy(learningCount = count.coerceIn(1, 999)) }
+    }
+
+    fun adjustLearningCount(delta: Int) {
+        updateLearningCount(_uiState.value.learningCount + delta)
+    }
+
+    fun openStudyStartDialog() {
+        _uiState.update { it.copy(showStudyStartDialog = true) }
+    }
+
+    fun closeStudyStartDialog() {
+        _uiState.update { it.copy(showStudyStartDialog = false) }
+    }
+
+    fun updateQuizCount(count: Int) {
+        _uiState.update { it.copy(quizCount = count.coerceIn(1, 999)) }
+    }
+
+    fun adjustQuizCount(delta: Int) {
+        updateQuizCount(_uiState.value.quizCount + delta)
+    }
+
+    fun openQuizStartDialog() {
+        _uiState.update { it.copy(showQuizStartDialog = true) }
+    }
+
+    fun closeQuizStartDialog() {
+        _uiState.update { it.copy(showQuizStartDialog = false) }
+    }
+
+    fun startLearningSession() {
+        viewModelScope.launch {
+            repository.setLearningCount(_uiState.value.learningCount)
+            buildLearningSession()
+            _uiState.update {
+                it.copy(
+                    showStudyStartDialog = false,
+                    noticeMessage = null,
+                )
+            }
+        }
+    }
+
+    fun startQuizSession() {
+        viewModelScope.launch {
+            buildQuizSession()
+            _uiState.update {
+                it.copy(
+                    showQuizStartDialog = false,
+                    noticeMessage = null,
+                )
+            }
+        }
+    }
+
+    fun clearLearningSession() {
+        _uiState.update { it.copy(learningSession = null) }
+    }
+
+    fun clearQuizSession() {
+        _uiState.update { it.copy(quizSession = null) }
+    }
+
+    fun onLearningPageChanged(page: Int) {
+        val session = _uiState.value.learningSession ?: return
+        if (page !in session.deck.indices) return
+
+        val currentItemId = session.deck[page].id
+        val currentCard = session.cards[currentItemId] ?: return
+        if (page == session.currentPage && currentCard.startedAtElapsed != 0L) return
+
+        _uiState.update {
+            val updatedCards = it.learningSession?.cards.orEmpty().toMutableMap().apply {
+                this[currentItemId] = currentCard.copy(
+                    startedAtElapsed = currentCard.startedAtElapsed.takeIf { started -> started > 0L }
+                        ?: SystemClock.elapsedRealtime(),
+                )
+            }
+            it.copy(
+                learningSession = it.learningSession?.copy(
+                    currentPage = page,
+                    cards = updatedCards,
+                ),
             )
         }
     }
 
-    fun submitAnswer(optionIndex: Int) {
-        val running = _uiState.value.quizSession as? QuizSessionState.Running ?: return
-        val question = running.currentQuestion
-        val isCorrect = optionIndex == question.answerIndex
-        val elapsedMs = SystemClock.elapsedRealtime() - running.questionStartedAtElapsed
+    fun revealCurrentCard() {
+        val session = _uiState.value.learningSession ?: return
+        val itemId = session.currentItem?.id ?: return
+        val currentCard = session.cards[itemId] ?: return
+        if (currentCard.isRevealed) return
+
+        _uiState.update {
+            val updatedCards = it.learningSession?.cards.orEmpty().toMutableMap().apply {
+                this[itemId] = currentCard.copy(isRevealed = true)
+            }
+            it.copy(
+                learningSession = it.learningSession?.copy(cards = updatedCards),
+            )
+        }
+    }
+
+    fun hideCurrentCardDetails() {
+        val session = _uiState.value.learningSession ?: return
+        val itemId = session.currentItem?.id ?: return
+        val currentCard = session.cards[itemId] ?: return
+        if (!currentCard.isRevealed || currentCard.response != null) return
+
+        _uiState.update {
+            val updatedCards = it.learningSession?.cards.orEmpty().toMutableMap().apply {
+                this[itemId] = currentCard.copy(isRevealed = false)
+            }
+            it.copy(
+                learningSession = it.learningSession?.copy(cards = updatedCards),
+            )
+        }
+    }
+
+    fun answerCurrentCard(knewIt: Boolean) {
+        val session = _uiState.value.learningSession ?: return
+        val item = session.currentItem ?: return
+        val progress = item.progress
+        val currentCard = session.currentCardState ?: return
+        if (!currentCard.isRevealed || currentCard.response != null) return
+
+        val elapsedMs = (SystemClock.elapsedRealtime() - currentCard.startedAtElapsed).coerceAtLeast(500L)
+
+        viewModelScope.launch {
+            repository.recordLearningResult(
+                wordId = progress.entry.wordId,
+                knewIt = knewIt,
+                elapsedMs = elapsedMs,
+            )
+
+            _uiState.update {
+                val updatedCards = it.learningSession?.cards.orEmpty().toMutableMap().apply {
+                    this[item.id] = currentCard.copy(response = knewIt)
+                }
+                val updatedSession = it.learningSession?.copy(cards = updatedCards)
+                it.copy(
+                    learningSession = updatedSession,
+                    noticeMessage = if (updatedSession?.isComplete == true) "학습 세션이 끝났습니다." else null,
+                )
+            }
+
+            refreshReferenceData(_uiState.value.selectedGrade)
+        }
+    }
+
+    fun answerCurrentQuizQuestion(selectedIndex: Int) {
+        val session = _uiState.value.quizSession ?: return
+        val question = session.currentQuestion ?: return
+        if (session.answers.containsKey(session.currentIndex)) return
+
+        val elapsedMs = (SystemClock.elapsedRealtime() - session.startedAtElapsed).coerceAtLeast(500L)
+        val isCorrect = selectedIndex == question.answerIndex
 
         viewModelScope.launch {
             repository.recordQuizResult(
@@ -145,32 +385,23 @@ class MainViewModel(
                 elapsedMs = elapsedMs,
             )
 
-            val answers = running.answers + isCorrect
-            val nextIndex = running.currentIndex + 1
-            if (nextIndex >= running.questions.size) {
-                _uiState.update {
-                    it.copy(
-                        quizSession = QuizSessionState.Finished(
-                            totalCount = answers.size,
-                            correctCount = answers.count { result -> result },
-                        ),
-                        noticeMessage = if (isCorrect) "정답입니다." else "오답입니다.",
-                    )
-                }
-                refreshCurrentGrade()
-            } else {
-                _uiState.update {
-                    it.copy(
-                        quizSession = QuizSessionState.Running(
-                            questions = running.questions,
-                            currentIndex = nextIndex,
-                            answers = answers,
-                            questionStartedAtElapsed = SystemClock.elapsedRealtime(),
-                        ),
-                        noticeMessage = if (isCorrect) "정답입니다." else "오답입니다.",
-                    )
-                }
+            val nextIndex = session.currentIndex + 1
+            val updatedAnswers = session.answers + (session.currentIndex to selectedIndex)
+
+            _uiState.update {
+                val questionCount = session.questions.size
+                val isComplete = updatedAnswers.size == questionCount
+                it.copy(
+                    quizSession = session.copy(
+                        answers = updatedAnswers,
+                        currentIndex = if (isComplete) questionCount else nextIndex,
+                        startedAtElapsed = if (isComplete) 0L else SystemClock.elapsedRealtime(),
+                    ),
+                    noticeMessage = if (isComplete) "퀴즈가 끝났습니다." else null,
+                )
             }
+
+            refreshReferenceData(_uiState.value.selectedGrade)
         }
     }
 
@@ -195,19 +426,42 @@ class MainViewModel(
     fun syncCatalog(manual: Boolean = true) {
         viewModelScope.launch {
             _uiState.update { it.copy(isSyncing = true) }
-            val summary = repository.syncCatalog()
-            refreshCurrentGrade()
-            _uiState.update { state ->
-                state.copy(
-                    isSyncing = false,
-                    noticeMessage = when {
-                        !summary.remoteConfigured && manual -> "원격 저장소 URL이 아직 설정되지 않았습니다."
-                        !summary.remoteConfigured -> null
-                        summary.updatedFiles.isEmpty() -> "최신 데이터입니다."
-                        else -> "${summary.updatedFiles.size}개 데이터 파일을 업데이트했습니다."
-                    },
+            runCatching {
+                val selectedGrade = _uiState.value.selectedGrade
+                val summary = repository.syncCatalog(
+                    selectedGrade = selectedGrade,
+                    forceSelectedGrade = manual,
                 )
+                if (_uiState.value.setupStep == SetupStep.READY) {
+                    refreshReferenceData(selectedGrade)
+                }
+                val syncStatus = repository.getSyncStatus(selectedGrade)
+                val currentWordCount = _uiState.value.words.size
+                _uiState.update { state ->
+                    state.copy(
+                        noticeMessage = when {
+                            !summary.remoteConfigured && manual -> "아직 연결된 원격 저장소 주소가 없습니다."
+                            !summary.remoteConfigured -> null
+                            summary.errorMessage != null -> buildSyncFailureMessage(summary.errorMessage)
+                            manual -> buildManualSyncMessage(
+                                grade = selectedGrade,
+                                wordCount = currentWordCount,
+                                manifestVersion = syncStatus.manifestVersion,
+                                fileVersion = syncStatus.fileVersion,
+                            )
+                            summary.updatedFiles.isEmpty() -> "최신 단어장입니다."
+                            else -> "새 단어장을 받아서 반영했습니다."
+                        },
+                    )
+                }
+            }.onFailure { throwable ->
+                _uiState.update {
+                    it.copy(
+                        noticeMessage = buildSyncFailureMessage(throwable.message),
+                    )
+                }
             }
+            _uiState.update { it.copy(isSyncing = false) }
         }
     }
 
@@ -220,23 +474,85 @@ class MainViewModel(
         super.onCleared()
     }
 
-    private suspend fun refreshCurrentGrade() {
-        refreshAll(_uiState.value.selectedGrade)
+    private suspend fun buildLearningSession() {
+        val grade = _uiState.value.selectedGrade
+        val targetCount = _uiState.value.learningCount
+        val deck = repository.loadStudyDeck(grade, targetCount).mapIndexed { index, progress ->
+            LearningDeckItem(
+                id = index,
+                progress = progress,
+            )
+        }
+        val now = SystemClock.elapsedRealtime()
+        val initialCards = deck.associate { item ->
+            item.id to LearningCardProgressState(
+                startedAtElapsed = if (item == deck.firstOrNull()) now else 0L,
+            )
+        }
+
+        _uiState.update {
+            it.copy(
+                learningSession = LearningSessionState(
+                    deck = deck,
+                    cards = initialCards,
+                    currentPage = 0,
+                    targetCount = targetCount,
+                ),
+            )
+        }
     }
 
-    private suspend fun refreshAll(grade: SchoolGrade) {
+    private suspend fun buildQuizSession() {
+        val grade = _uiState.value.selectedGrade
+        val targetCount = _uiState.value.quizCount
+        val words = repository.loadWords(grade)
+        val questions = quizFactory.createQuestions(
+            words = words,
+            count = targetCount,
+            type = QuizType.WORD_TO_MEANING,
+        )
+
+        _uiState.update {
+            it.copy(
+                quizSession = QuizSessionState(
+                    questions = questions,
+                    currentIndex = 0,
+                    targetCount = targetCount,
+                    startedAtElapsed = SystemClock.elapsedRealtime(),
+                ),
+            )
+        }
+    }
+
+    private fun buildManualSyncMessage(
+        grade: SchoolGrade,
+        wordCount: Int,
+        manifestVersion: Int,
+        fileVersion: Int,
+    ): String = buildString {
+        append("${grade.label} 단어장을 확인했어요.")
+        append('\n')
+        append("저장된 단어 ${wordCount}개 · 전체 버전 ${manifestVersion} · 단어장 버전 ${fileVersion}")
+    }
+
+    private fun buildSyncFailureMessage(rawMessage: String?): String {
+        val detail = rawMessage
+            ?.substringBefore('\n')
+            ?.replace("HTTP ", "서버 응답 ")
+            ?.takeIf { it.isNotBlank() }
+            ?: "알 수 없는 오류"
+        return "단어장을 불러오지 못했어요.\n$detail"
+    }
+
+    private suspend fun refreshReferenceData(grade: SchoolGrade) {
         val words = repository.loadWords(grade)
         val wordProgress = repository.loadWordProgress(grade)
         val dashboard = repository.loadDashboard(grade)
         val reviewItems = repository.loadReviewItems(grade)
-        val selectedWordId = _uiState.value.selectedWord?.wordId
 
         _uiState.update {
             it.copy(
-                isLoading = false,
-                selectedGrade = grade,
                 words = words,
-                selectedWord = words.firstOrNull { entry -> entry.wordId == selectedWordId } ?: words.firstOrNull(),
                 dashboard = dashboard,
                 wordProgress = wordProgress,
                 reviewItems = reviewItems,
