@@ -58,9 +58,22 @@ python3 tools/vocabulary/generate_all.py --upload --upload-manifest
 
 단어 mp3를 생성해서 `audio/en/words/{word}.mp3` 경로로 업로드하고, JSON의 `wordAudioUrl`에 URL을 넣으려면 `--upload-word-audio`를 함께 사용합니다.
 `exampleAudioUrl`은 아직 생성하지 않고 빈 문자열로 둡니다.
+업로드 시에는 기존 원격 JSON을 먼저 읽고, 이미 있는 단어는 유지한 뒤 새 단어만 추가해서 다시 업로드합니다.
 
 ```bash
 python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --upload --upload-manifest
+```
+
+기존 원격 JSON을 무시하고 완전히 새로 교체해야 할 때만 `--replace-remote`를 붙입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --replace-remote --upload-word-audio --upload --upload-manifest
+```
+
+기존 로컬 mp3를 무시하고 단어 음성을 다시 만들려면 `--force-word-audio`를 함께 붙입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --force-word-audio --upload --upload-manifest
 ```
 
 중3만 생성/업로드하려면:

@@ -5,6 +5,2678 @@
   "words": [
     {
       "wordId": 400001,
+      "word": "be unlikely to",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "/bi ʌnˈlaɪkli tuː/",
+      "meanings": [
+        "~할 것 같지 않다"
+      ],
+      "meaningsEn": [
+        "not expected to happen"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "He is unlikely to arrive on time.",
+      "exampleTranslation": "그는 제시간에 도착하지 못할 것 같다.",
+      "examples": [
+        {
+          "sentence": "He is unlikely to arrive on time.",
+          "translation": "그는 제시간에 도착하지 못할 것 같다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fbe-unlikely-to.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400002,
+      "word": "afford to",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "/əˈfɔːrd tuː/",
+      "meanings": [
+        "~할 여유가 있다"
+      ],
+      "meaningsEn": [
+        "to have enough money or time"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "I cannot afford to buy a new car.",
+      "exampleTranslation": "나는 새 차를 살 여유가 없다.",
+      "examples": [
+        {
+          "sentence": "I cannot afford to buy a new car.",
+          "translation": "나는 새 차를 살 여유가 없다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fafford-to.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400003,
+      "word": "at first glance",
+      "type": "phrase",
+      "pos": [
+        "idiom"
+      ],
+      "phonetic": "/æt fɜːrst ɡlæns/",
+      "meanings": [
+        "첫눈에",
+        "언뜻 보기에"
+      ],
+      "meaningsEn": [
+        "when first seen"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "At first glance, the problem seemed easy.",
+      "exampleTranslation": "언뜻 보기에 그 문제는 쉬워 보였다.",
+      "examples": [
+        {
+          "sentence": "At first glance, the problem seemed easy.",
+          "translation": "언뜻 보기에 그 문제는 쉬워 보였다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fat-first-glance.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400004,
+      "word": "read aloud",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "/riːd əˈlaʊd/",
+      "meanings": [
+        "소리내어 읽다"
+      ],
+      "meaningsEn": [
+        "to read in a loud voice"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The teacher asked him to read aloud.",
+      "exampleTranslation": "선생님은 그에게 소리 내어 읽으라고 했다.",
+      "examples": [
+        {
+          "sentence": "The teacher asked him to read aloud.",
+          "translation": "선생님은 그에게 소리 내어 읽으라고 했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fread-aloud.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400005,
+      "word": "associated with",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "/əˈsoʊsieɪtɪd wɪð/",
+      "meanings": [
+        "~와 연관된"
+      ],
+      "meaningsEn": [
+        "connected in some way"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Stress is associated with poor sleep.",
+      "exampleTranslation": "스트레스는 수면 부족과 관련이 있다.",
+      "examples": [
+        {
+          "sentence": "Stress is associated with poor sleep.",
+          "translation": "스트레스는 수면 부족과 관련이 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fassociated-with.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400006,
+      "word": "public speaking",
+      "type": "phrase",
+      "pos": [
+        "noun phrase"
+      ],
+      "phonetic": "/ˈpʌblɪk ˈspiːkɪŋ/",
+      "meanings": [
+        "대중 앞에서 말하기"
+      ],
+      "meaningsEn": [
+        "speaking to an audience"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Public speaking requires confidence.",
+      "exampleTranslation": "대중 연설은 자신감을 필요로 한다.",
+      "examples": [
+        {
+          "sentence": "Public speaking requires confidence.",
+          "translation": "대중 연설은 자신감을 필요로 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpublic-speaking.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400007,
+      "word": "wired",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/waɪərd/",
+      "meanings": [
+        "타고나는",
+        "선천적인"
+      ],
+      "meaningsEn": [
+        "naturally programmed"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Humans are wired to seek connection.",
+      "exampleTranslation": "인간은 관계를 추구하도록 타고났다.",
+      "examples": [
+        {
+          "sentence": "Humans are wired to seek connection.",
+          "translation": "인간은 관계를 추구하도록 타고났다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fwired.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400008,
+      "word": "be likely to",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "/bi ˈlaɪkli tuː/",
+      "meanings": [
+        "~할 가능성이 있다"
+      ],
+      "meaningsEn": [
+        "expected to happen"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "She is likely to win the contest.",
+      "exampleTranslation": "그녀는 대회에서 이길 가능성이 있다.",
+      "examples": [
+        {
+          "sentence": "She is likely to win the contest.",
+          "translation": "그녀는 대회에서 이길 가능성이 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fbe-likely-to.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400009,
+      "word": "according to",
+      "type": "phrase",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "/əˈkɔːrdɪŋ tuː/",
+      "meanings": [
+        "~에 따라",
+        "~에 의하면"
+      ],
+      "meaningsEn": [
+        "as stated by"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "According to the weather report, it will rain tomorrow.",
+      "exampleTranslation": "일기예보에 따르면 내일 비가 올 것이다.",
+      "examples": [
+        {
+          "sentence": "According to the weather report, it will rain tomorrow.",
+          "translation": "일기예보에 따르면 내일 비가 올 것이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Faccording-to.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400010,
+      "word": "imagine",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "상상하다"
+      ],
+      "meaningsEn": [
+        "to form a picture in the mind"
+      ],
+      "synonyms": [
+        "picture",
+        "envision"
+      ],
+      "antonyms": [],
+      "exampleSentence": "I can imagine life on another planet.",
+      "exampleTranslation": "나는 다른 행성의 삶을 상상할 수 있다.",
+      "examples": [
+        {
+          "sentence": "I can imagine life on another planet.",
+          "translation": "나는 다른 행성의 삶을 상상할 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fimagine.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400011,
+      "word": "vow",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/vaʊ/",
+      "meanings": [
+        "맹세",
+        "서약",
+        "맹세하다"
+      ],
+      "meaningsEn": [
+        "a serious promise",
+        "to promise seriously"
+      ],
+      "synonyms": [
+        "pledge",
+        "promise"
+      ],
+      "antonyms": [
+        "break"
+      ],
+      "exampleSentence": "He made a vow to help others.",
+      "exampleTranslation": "그는 다른 사람들을 돕겠다고 맹세했다.",
+      "examples": [
+        {
+          "sentence": "He made a vow to help others.",
+          "translation": "그는 다른 사람들을 돕겠다고 맹세했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fvow.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400012,
+      "word": "challenge",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "meanings": [
+        "도전",
+        "도전하다"
+      ],
+      "meaningsEn": [
+        "a difficult task",
+        "to test someone's ability"
+      ],
+      "synonyms": [
+        "test",
+        "dare"
+      ],
+      "antonyms": [
+        "avoid"
+      ],
+      "exampleSentence": "She accepted the challenge bravely.",
+      "exampleTranslation": "그녀는 용감하게 도전을 받아들였다.",
+      "examples": [
+        {
+          "sentence": "She accepted the challenge bravely.",
+          "translation": "그녀는 용감하게 도전을 받아들였다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fchallenge.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400013,
+      "word": "entire",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ɪnˈtaɪər/",
+      "meanings": [
+        "전체의"
+      ],
+      "meaningsEn": [
+        "whole",
+        "complete"
+      ],
+      "synonyms": [
+        "whole",
+        "complete"
+      ],
+      "antonyms": [
+        "partial"
+      ],
+      "exampleSentence": "The entire class joined the event.",
+      "exampleTranslation": "반 전체가 행사에 참여했다.",
+      "examples": [
+        {
+          "sentence": "The entire class joined the event.",
+          "translation": "반 전체가 행사에 참여했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fentire.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400014,
+      "word": "absolutely",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ˈæbsəluːtli/",
+      "meanings": [
+        "전적으로",
+        "틀림없이"
+      ],
+      "meaningsEn": [
+        "completely",
+        "without doubt"
+      ],
+      "synonyms": [
+        "completely",
+        "totally"
+      ],
+      "antonyms": [
+        "partly"
+      ],
+      "exampleSentence": "I absolutely agree with you.",
+      "exampleTranslation": "나는 너에게 전적으로 동의한다.",
+      "examples": [
+        {
+          "sentence": "I absolutely agree with you.",
+          "translation": "나는 너에게 전적으로 동의한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fabsolutely.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400015,
+      "word": "observe",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/əbˈzɜːrv/",
+      "meanings": [
+        "관찰하다",
+        "준수하다"
+      ],
+      "meaningsEn": [
+        "to watch carefully",
+        "to follow a rule"
+      ],
+      "synonyms": [
+        "watch",
+        "notice"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "exampleSentence": "Scientists observe the stars every night.",
+      "exampleTranslation": "과학자들은 매일 밤 별을 관찰한다.",
+      "examples": [
+        {
+          "sentence": "Scientists observe the stars every night.",
+          "translation": "과학자들은 매일 밤 별을 관찰한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fobserve.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400016,
+      "word": "behavioral",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/bɪˈheɪvjərəl/",
+      "meanings": [
+        "행동의",
+        "행동에 대한"
+      ],
+      "meaningsEn": [
+        "related to behavior"
+      ],
+      "synonyms": [
+        "conductive"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The study focused on behavioral changes.",
+      "exampleTranslation": "그 연구는 행동 변화에 초점을 맞췄다.",
+      "examples": [
+        {
+          "sentence": "The study focused on behavioral changes.",
+          "translation": "그 연구는 행동 변화에 초점을 맞췄다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fbehavioral.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400017,
+      "word": "psychology",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/saɪˈkɑːlədʒi/",
+      "meanings": [
+        "심리",
+        "심리학"
+      ],
+      "meaningsEn": [
+        "the study of the mind"
+      ],
+      "synonyms": [
+        "mental science"
+      ],
+      "antonyms": [],
+      "exampleSentence": "She studies psychology at college.",
+      "exampleTranslation": "그녀는 대학에서 심리학을 공부한다.",
+      "examples": [
+        {
+          "sentence": "She studies psychology at college.",
+          "translation": "그녀는 대학에서 심리학을 공부한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpsychology.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400018,
+      "word": "treat",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/triːt/",
+      "meanings": [
+        "대하다",
+        "치료하다"
+      ],
+      "meaningsEn": [
+        "to behave toward someone",
+        "to cure"
+      ],
+      "synonyms": [
+        "heal",
+        "handle"
+      ],
+      "antonyms": [
+        "harm"
+      ],
+      "exampleSentence": "Doctors treat sick patients carefully.",
+      "exampleTranslation": "의사들은 아픈 환자들을 세심하게 치료한다.",
+      "examples": [
+        {
+          "sentence": "Doctors treat sick patients carefully.",
+          "translation": "의사들은 아픈 환자들을 세심하게 치료한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Ftreat.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400019,
+      "word": "conversation",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌkɑːnvərˈseɪʃn/",
+      "meanings": [
+        "대화"
+      ],
+      "meaningsEn": [
+        "an informal talk"
+      ],
+      "synonyms": [
+        "discussion",
+        "talk"
+      ],
+      "antonyms": [],
+      "exampleSentence": "We had a long conversation yesterday.",
+      "exampleTranslation": "우리는 어제 긴 대화를 나누었다.",
+      "examples": [
+        {
+          "sentence": "We had a long conversation yesterday.",
+          "translation": "우리는 어제 긴 대화를 나누었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fconversation.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400020,
+      "word": "rehearse",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/rɪˈhɜːrs/",
+      "meanings": [
+        "예행연습을 하다"
+      ],
+      "meaningsEn": [
+        "to practice before a performance"
+      ],
+      "synonyms": [
+        "practice",
+        "prepare"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The actors rehearsed for the play.",
+      "exampleTranslation": "배우들은 연극 연습을 했다.",
+      "examples": [
+        {
+          "sentence": "The actors rehearsed for the play.",
+          "translation": "배우들은 연극 연습을 했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Frehearse.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400021,
+      "word": "utterance",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈʌtərəns/",
+      "meanings": [
+        "발언"
+      ],
+      "meaningsEn": [
+        "something that is said"
+      ],
+      "synonyms": [
+        "statement",
+        "remark"
+      ],
+      "antonyms": [],
+      "exampleSentence": "His utterance surprised everyone.",
+      "exampleTranslation": "그의 발언은 모두를 놀라게 했다.",
+      "examples": [
+        {
+          "sentence": "His utterance surprised everyone.",
+          "translation": "그의 발언은 모두를 놀라게 했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Futterance.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400022,
+      "word": "eliminate",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪˈlɪməneɪt/",
+      "meanings": [
+        "제거하다"
+      ],
+      "meaningsEn": [
+        "to remove completely"
+      ],
+      "synonyms": [
+        "remove",
+        "erase"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "exampleSentence": "We must eliminate unnecessary costs.",
+      "exampleTranslation": "우리는 불필요한 비용을 제거해야 한다.",
+      "examples": [
+        {
+          "sentence": "We must eliminate unnecessary costs.",
+          "translation": "우리는 불필요한 비용을 제거해야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Feliminate.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400023,
+      "word": "express",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪkˈspres/",
+      "meanings": [
+        "표현하다"
+      ],
+      "meaningsEn": [
+        "to show thoughts or feelings"
+      ],
+      "synonyms": [
+        "show",
+        "communicate"
+      ],
+      "antonyms": [
+        "hide"
+      ],
+      "exampleSentence": "She expressed her opinion clearly.",
+      "exampleTranslation": "그녀는 자신의 의견을 분명하게 표현했다.",
+      "examples": [
+        {
+          "sentence": "She expressed her opinion clearly.",
+          "translation": "그녀는 자신의 의견을 분명하게 표현했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fexpress.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400024,
+      "word": "limit",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/ˈlɪmɪt/",
+      "meanings": [
+        "한계",
+        "제한",
+        "제한하다"
+      ],
+      "meaningsEn": [
+        "a boundary",
+        "to control something"
+      ],
+      "synonyms": [
+        "restrict",
+        "control"
+      ],
+      "antonyms": [
+        "expand"
+      ],
+      "exampleSentence": "The speed limit is 60 kilometers.",
+      "exampleTranslation": "속도 제한은 시속 60킬로미터이다.",
+      "examples": [
+        {
+          "sentence": "The speed limit is 60 kilometers.",
+          "translation": "속도 제한은 시속 60킬로미터이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Flimit.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400025,
+      "word": "attend",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/əˈtend/",
+      "meanings": [
+        "참석하다",
+        "돌보다"
+      ],
+      "meaningsEn": [
+        "to go to",
+        "to take care of"
+      ],
+      "synonyms": [
+        "join",
+        "participate"
+      ],
+      "antonyms": [
+        "miss"
+      ],
+      "exampleSentence": "Many students attended the meeting.",
+      "exampleTranslation": "많은 학생들이 회의에 참석했다.",
+      "examples": [
+        {
+          "sentence": "Many students attended the meeting.",
+          "translation": "많은 학생들이 회의에 참석했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fattend.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400026,
+      "word": "attune",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/əˈtuːn/",
+      "meanings": [
+        "맞추다"
+      ],
+      "meaningsEn": [
+        "to make someone familiar with something"
+      ],
+      "synonyms": [
+        "adapt",
+        "adjust"
+      ],
+      "antonyms": [],
+      "exampleSentence": "He attuned himself to the new culture.",
+      "exampleTranslation": "그는 새로운 문화에 자신을 맞췄다.",
+      "examples": [
+        {
+          "sentence": "He attuned himself to the new culture.",
+          "translation": "그는 새로운 문화에 자신을 맞췄다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fattune.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400027,
+      "word": "respond",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/rɪˈspɑːnd/",
+      "meanings": [
+        "반응하다",
+        "대답하다"
+      ],
+      "meaningsEn": [
+        "to answer or react"
+      ],
+      "synonyms": [
+        "reply",
+        "react"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "exampleSentence": "She responded to my email quickly.",
+      "exampleTranslation": "그녀는 내 이메일에 빨리 답했다.",
+      "examples": [
+        {
+          "sentence": "She responded to my email quickly.",
+          "translation": "그녀는 내 이메일에 빨리 답했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Frespond.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400028,
+      "word": "discover",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/dɪˈskʌvər/",
+      "meanings": [
+        "발견하다",
+        "알아내다"
+      ],
+      "meaningsEn": [
+        "to find something new"
+      ],
+      "synonyms": [
+        "find",
+        "detect"
+      ],
+      "antonyms": [
+        "lose"
+      ],
+      "exampleSentence": "They discovered a new species.",
+      "exampleTranslation": "그들은 새로운 종을 발견했다.",
+      "examples": [
+        {
+          "sentence": "They discovered a new species.",
+          "translation": "그들은 새로운 종을 발견했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fdiscover.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400029,
+      "word": "knowledge",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈnɑːlɪdʒ/",
+      "meanings": [
+        "지식"
+      ],
+      "meaningsEn": [
+        "information and understanding"
+      ],
+      "synonyms": [
+        "understanding",
+        "wisdom"
+      ],
+      "antonyms": [
+        "ignorance"
+      ],
+      "exampleSentence": "Reading increases your knowledge.",
+      "exampleTranslation": "독서는 지식을 늘려 준다.",
+      "examples": [
+        {
+          "sentence": "Reading increases your knowledge.",
+          "translation": "독서는 지식을 늘려 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fknowledge.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400030,
+      "word": "threaten",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈθretn/",
+      "meanings": [
+        "위협하다"
+      ],
+      "meaningsEn": [
+        "to cause fear or danger"
+      ],
+      "synonyms": [
+        "menace",
+        "intimidate"
+      ],
+      "antonyms": [
+        "protect"
+      ],
+      "exampleSentence": "Dark clouds threatened the village.",
+      "exampleTranslation": "검은 구름이 마을을 위협했다.",
+      "examples": [
+        {
+          "sentence": "Dark clouds threatened the village.",
+          "translation": "검은 구름이 마을을 위협했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fthreaten.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400031,
+      "word": "opposite",
+      "type": "word",
+      "pos": [
+        "adjective",
+        "preposition"
+      ],
+      "phonetic": "/ˈɑːpəzɪt/",
+      "meanings": [
+        "반대의",
+        "반대편에"
+      ],
+      "meaningsEn": [
+        "completely different",
+        "on the other side"
+      ],
+      "synonyms": [
+        "contrary"
+      ],
+      "antonyms": [
+        "same"
+      ],
+      "exampleSentence": "The bank is opposite the school.",
+      "exampleTranslation": "은행은 학교 맞은편에 있다.",
+      "examples": [
+        {
+          "sentence": "The bank is opposite the school.",
+          "translation": "은행은 학교 맞은편에 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fopposite.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400032,
+      "word": "rob A of B",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "/rɑːb əv/",
+      "meanings": [
+        "A에게서 B를 빼앗다"
+      ],
+      "meaningsEn": [
+        "to take something away from someone"
+      ],
+      "synonyms": [
+        "deprive",
+        "steal"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The accident robbed him of confidence.",
+      "exampleTranslation": "그 사고는 그의 자신감을 빼앗았다.",
+      "examples": [
+        {
+          "sentence": "The accident robbed him of confidence.",
+          "translation": "그 사고는 그의 자신감을 빼앗았다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Frob-a-of-b.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400033,
+      "word": "related",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/rɪˈleɪtɪd/",
+      "meanings": [
+        "관련된",
+        "친척의"
+      ],
+      "meaningsEn": [
+        "connected with something"
+      ],
+      "synonyms": [
+        "connected",
+        "associated"
+      ],
+      "antonyms": [
+        "unrelated"
+      ],
+      "exampleSentence": "The two topics are closely related.",
+      "exampleTranslation": "그 두 주제는 밀접하게 관련되어 있다.",
+      "examples": [
+        {
+          "sentence": "The two topics are closely related.",
+          "translation": "그 두 주제는 밀접하게 관련되어 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Frelated.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400034,
+      "word": "pessimistic",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˌpesəˈmɪstɪk/",
+      "meanings": [
+        "염세적인",
+        "비관적인"
+      ],
+      "meaningsEn": [
+        "expecting bad things"
+      ],
+      "synonyms": [
+        "negative",
+        "gloomy"
+      ],
+      "antonyms": [
+        "optimistic"
+      ],
+      "exampleSentence": "He is pessimistic about the future.",
+      "exampleTranslation": "그는 미래에 대해 비관적이다.",
+      "examples": [
+        {
+          "sentence": "He is pessimistic about the future.",
+          "translation": "그는 미래에 대해 비관적이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpessimistic.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400035,
+      "word": "protect",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/prəˈtekt/",
+      "meanings": [
+        "보호하다"
+      ],
+      "meaningsEn": [
+        "to keep safe"
+      ],
+      "synonyms": [
+        "guard",
+        "defend"
+      ],
+      "antonyms": [
+        "harm"
+      ],
+      "exampleSentence": "Sunscreen protects your skin.",
+      "exampleTranslation": "선크림은 피부를 보호한다.",
+      "examples": [
+        {
+          "sentence": "Sunscreen protects your skin.",
+          "translation": "선크림은 피부를 보호한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fprotect.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400036,
+      "word": "illness",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈɪlnəs/",
+      "meanings": [
+        "병",
+        "아픔"
+      ],
+      "meaningsEn": [
+        "a disease or poor health"
+      ],
+      "synonyms": [
+        "disease",
+        "sickness"
+      ],
+      "antonyms": [
+        "health"
+      ],
+      "exampleSentence": "The illness kept him at home.",
+      "exampleTranslation": "그 병 때문에 그는 집에 있었다.",
+      "examples": [
+        {
+          "sentence": "The illness kept him at home.",
+          "translation": "그 병 때문에 그는 집에 있었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fillness.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400037,
+      "word": "intend",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪnˈtend/",
+      "meanings": [
+        "할 작정이다",
+        "의도하다"
+      ],
+      "meaningsEn": [
+        "to plan or mean to do something"
+      ],
+      "synonyms": [
+        "plan",
+        "aim"
+      ],
+      "antonyms": [],
+      "exampleSentence": "I intend to study harder this year.",
+      "exampleTranslation": "나는 올해 더 열심히 공부할 생각이다.",
+      "examples": [
+        {
+          "sentence": "I intend to study harder this year.",
+          "translation": "나는 올해 더 열심히 공부할 생각이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fintend.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400038,
+      "word": "warn",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/wɔːrn/",
+      "meanings": [
+        "경고하다"
+      ],
+      "meaningsEn": [
+        "to tell someone about danger"
+      ],
+      "synonyms": [
+        "alert",
+        "caution"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The teacher warned us about the storm.",
+      "exampleTranslation": "선생님은 우리에게 폭풍을 경고했다.",
+      "examples": [
+        {
+          "sentence": "The teacher warned us about the storm.",
+          "translation": "선생님은 우리에게 폭풍을 경고했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fwarn.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400039,
+      "word": "cancer",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈkænsər/",
+      "meanings": [
+        "암"
+      ],
+      "meaningsEn": [
+        "a serious disease caused by harmful cells"
+      ],
+      "synonyms": [
+        "tumor"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Doctors are researching cancer treatments.",
+      "exampleTranslation": "의사들은 암 치료법을 연구하고 있다.",
+      "examples": [
+        {
+          "sentence": "Doctors are researching cancer treatments.",
+          "translation": "의사들은 암 치료법을 연구하고 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fcancer.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400040,
+      "word": "result in",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "/rɪˈzʌlt ɪn/",
+      "meanings": [
+        "~한 결과를 낳다"
+      ],
+      "meaningsEn": [
+        "to cause something to happen"
+      ],
+      "synonyms": [
+        "cause",
+        "lead to"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "exampleSentence": "Lack of sleep can result in illness.",
+      "exampleTranslation": "수면 부족은 질병으로 이어질 수 있다.",
+      "examples": [
+        {
+          "sentence": "Lack of sleep can result in illness.",
+          "translation": "수면 부족은 질병으로 이어질 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fresult-in.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400041,
+      "word": "screen",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/skriːn/",
+      "meanings": [
+        "가리다",
+        "차단하다"
+      ],
+      "meaningsEn": [
+        "to block or protect"
+      ],
+      "synonyms": [
+        "block",
+        "shield"
+      ],
+      "antonyms": [
+        "expose"
+      ],
+      "exampleSentence": "Trees screened the house from view.",
+      "exampleTranslation": "나무들이 집을 가려 주었다.",
+      "examples": [
+        {
+          "sentence": "Trees screened the house from view.",
+          "translation": "나무들이 집을 가려 주었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fscreen.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400042,
+      "word": "disease",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/dɪˈziːz/",
+      "meanings": [
+        "병"
+      ],
+      "meaningsEn": [
+        "an illness affecting the body"
+      ],
+      "synonyms": [
+        "illness",
+        "sickness"
+      ],
+      "antonyms": [
+        "health"
+      ],
+      "exampleSentence": "The disease spread quickly.",
+      "exampleTranslation": "그 병은 빠르게 퍼졌다.",
+      "examples": [
+        {
+          "sentence": "The disease spread quickly.",
+          "translation": "그 병은 빠르게 퍼졌다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fdisease.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400043,
+      "word": "terrify",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈterəfaɪ/",
+      "meanings": [
+        "무섭게 하다"
+      ],
+      "meaningsEn": [
+        "to make someone very afraid"
+      ],
+      "synonyms": [
+        "frighten",
+        "scare"
+      ],
+      "antonyms": [
+        "comfort"
+      ],
+      "exampleSentence": "The loud noise terrified the child.",
+      "exampleTranslation": "큰 소리가 아이를 무섭게 했다.",
+      "examples": [
+        {
+          "sentence": "The loud noise terrified the child.",
+          "translation": "큰 소리가 아이를 무섭게 했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fterrify.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400044,
+      "word": "doom",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/duːm/",
+      "meanings": [
+        "나쁜 운명",
+        "운명 짓다"
+      ],
+      "meaningsEn": [
+        "terrible fate",
+        "to cause failure"
+      ],
+      "synonyms": [
+        "ruin",
+        "destroy"
+      ],
+      "antonyms": [
+        "save"
+      ],
+      "exampleSentence": "The decision doomed the project.",
+      "exampleTranslation": "그 결정은 그 프로젝트를 망치게 했다.",
+      "examples": [
+        {
+          "sentence": "The decision doomed the project.",
+          "translation": "그 결정은 그 프로젝트를 망치게 했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fdoom.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400045,
+      "word": "gloom",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɡluːm/",
+      "meanings": [
+        "우울",
+        "어둠"
+      ],
+      "meaningsEn": [
+        "sadness or darkness"
+      ],
+      "synonyms": [
+        "darkness",
+        "depression"
+      ],
+      "antonyms": [
+        "brightness"
+      ],
+      "exampleSentence": "A feeling of gloom filled the room.",
+      "exampleTranslation": "우울한 분위기가 방을 가득 채웠다.",
+      "examples": [
+        {
+          "sentence": "A feeling of gloom filled the room.",
+          "translation": "우울한 분위기가 방을 가득 채웠다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fgloom.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400046,
+      "word": "depressed",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/dɪˈprest/",
+      "meanings": [
+        "우울한"
+      ],
+      "meaningsEn": [
+        "feeling very sad"
+      ],
+      "synonyms": [
+        "sad",
+        "gloomy"
+      ],
+      "antonyms": [
+        "happy"
+      ],
+      "exampleSentence": "He felt depressed after the failure.",
+      "exampleTranslation": "그는 실패 후 우울함을 느꼈다.",
+      "examples": [
+        {
+          "sentence": "He felt depressed after the failure.",
+          "translation": "그는 실패 후 우울함을 느꼈다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fdepressed.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400047,
+      "word": "ecological",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˌiːkəˈlɑːdʒɪkl/",
+      "meanings": [
+        "생태계의",
+        "환경친화적인"
+      ],
+      "meaningsEn": [
+        "related to the environment"
+      ],
+      "synonyms": [
+        "environmental"
+      ],
+      "antonyms": [],
+      "exampleSentence": "We need ecological solutions.",
+      "exampleTranslation": "우리는 친환경적인 해결책이 필요하다.",
+      "examples": [
+        {
+          "sentence": "We need ecological solutions.",
+          "translation": "우리는 친환경적인 해결책이 필요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fecological.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400048,
+      "word": "collapse",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/kəˈlæps/",
+      "meanings": [
+        "무너지다",
+        "붕괴"
+      ],
+      "meaningsEn": [
+        "to fall down suddenly",
+        "a sudden failure"
+      ],
+      "synonyms": [
+        "breakdown"
+      ],
+      "antonyms": [
+        "stability"
+      ],
+      "exampleSentence": "The old bridge collapsed last year.",
+      "exampleTranslation": "그 오래된 다리는 작년에 무너졌다.",
+      "examples": [
+        {
+          "sentence": "The old bridge collapsed last year.",
+          "translation": "그 오래된 다리는 작년에 무너졌다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fcollapse.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400049,
+      "word": "overstate",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˌoʊvərˈsteɪt/",
+      "meanings": [
+        "과장하다"
+      ],
+      "meaningsEn": [
+        "to describe something as greater than it is"
+      ],
+      "synonyms": [
+        "exaggerate"
+      ],
+      "antonyms": [
+        "understate"
+      ],
+      "exampleSentence": "Do not overstate your abilities.",
+      "exampleTranslation": "자신의 능력을 과장하지 마라.",
+      "examples": [
+        {
+          "sentence": "Do not overstate your abilities.",
+          "translation": "자신의 능력을 과장하지 마라."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foverstate.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400050,
+      "word": "fulfillment",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/fʊlˈfɪlmənt/",
+      "meanings": [
+        "성취",
+        "수행"
+      ],
+      "meaningsEn": [
+        "a feeling of satisfaction from achievement"
+      ],
+      "synonyms": [
+        "achievement",
+        "satisfaction"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Helping others gives her fulfillment.",
+      "exampleTranslation": "다른 사람을 돕는 것은 그녀에게 성취감을 준다.",
+      "examples": [
+        {
+          "sentence": "Helping others gives her fulfillment.",
+          "translation": "다른 사람을 돕는 것은 그녀에게 성취감을 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Ffulfillment.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400051,
+      "word": "empowerment",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɪmˈpaʊərmənt/",
+      "meanings": [
+        "권한",
+        "힘을 줌"
+      ],
+      "meaningsEn": [
+        "giving power or confidence"
+      ],
+      "synonyms": [
+        "authorization",
+        "strengthening"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Education leads to empowerment.",
+      "exampleTranslation": "교육은 힘을 길러 준다.",
+      "examples": [
+        {
+          "sentence": "Education leads to empowerment.",
+          "translation": "교육은 힘을 길러 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fempowerment.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400052,
+      "word": "energize",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈenərdʒaɪz/",
+      "meanings": [
+        "활기를 돋우다",
+        "동력을 공급하다"
+      ],
+      "meaningsEn": [
+        "to give energy to something"
+      ],
+      "synonyms": [
+        "stimulate",
+        "invigorate"
+      ],
+      "antonyms": [
+        "weaken"
+      ],
+      "exampleSentence": "Music energizes the crowd.",
+      "exampleTranslation": "음악은 사람들에게 활기를 준다.",
+      "examples": [
+        {
+          "sentence": "Music energizes the crowd.",
+          "translation": "음악은 사람들에게 활기를 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fenergize.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400053,
+      "word": "satisfy",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈsætɪsfaɪ/",
+      "meanings": [
+        "만족시키다"
+      ],
+      "meaningsEn": [
+        "to make someone pleased"
+      ],
+      "synonyms": [
+        "please",
+        "fulfill"
+      ],
+      "antonyms": [
+        "disappoint"
+      ],
+      "exampleSentence": "The meal satisfied everyone.",
+      "exampleTranslation": "그 식사는 모두를 만족시켰다.",
+      "examples": [
+        {
+          "sentence": "The meal satisfied everyone.",
+          "translation": "그 식사는 모두를 만족시켰다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fsatisfy.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400054,
+      "word": "count",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/kaʊnt/",
+      "meanings": [
+        "세다",
+        "간주하다"
+      ],
+      "meaningsEn": [
+        "to calculate numbers",
+        "to consider"
+      ],
+      "synonyms": [
+        "calculate",
+        "regard"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "exampleSentence": "Please count the students carefully.",
+      "exampleTranslation": "학생 수를 잘 세어 보세요.",
+      "examples": [
+        {
+          "sentence": "Please count the students carefully.",
+          "translation": "학생 수를 잘 세어 보세요."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fcount.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400055,
+      "word": "employment",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɪmˈplɔɪmənt/",
+      "meanings": [
+        "고용",
+        "취업"
+      ],
+      "meaningsEn": [
+        "the state of having a job"
+      ],
+      "synonyms": [
+        "work",
+        "occupation"
+      ],
+      "antonyms": [
+        "unemployment"
+      ],
+      "exampleSentence": "The city offers more employment opportunities.",
+      "exampleTranslation": "그 도시는 더 많은 취업 기회를 제공한다.",
+      "examples": [
+        {
+          "sentence": "The city offers more employment opportunities.",
+          "translation": "그 도시는 더 많은 취업 기회를 제공한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Femployment.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400056,
+      "word": "source",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/sɔːrs/",
+      "meanings": [
+        "원천",
+        "원인"
+      ],
+      "meaningsEn": [
+        "the origin of something"
+      ],
+      "synonyms": [
+        "origin",
+        "cause"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The river is the source of water.",
+      "exampleTranslation": "그 강은 물의 원천이다.",
+      "examples": [
+        {
+          "sentence": "The river is the source of water.",
+          "translation": "그 강은 물의 원천이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fsource.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400057,
+      "word": "pride",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/praɪd/",
+      "meanings": [
+        "자부심"
+      ],
+      "meaningsEn": [
+        "a feeling of satisfaction about oneself"
+      ],
+      "synonyms": [
+        "confidence",
+        "honor"
+      ],
+      "antonyms": [
+        "shame"
+      ],
+      "exampleSentence": "She takes pride in her work.",
+      "exampleTranslation": "그녀는 자신의 일에 자부심을 가진다.",
+      "examples": [
+        {
+          "sentence": "She takes pride in her work.",
+          "translation": "그녀는 자신의 일에 자부심을 가진다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpride.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400058,
+      "word": "conduct",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/ˈkɑːndʌkt/",
+      "meanings": [
+        "수행하다",
+        "행동하다",
+        "행위"
+      ],
+      "meaningsEn": [
+        "behavior",
+        "to carry out"
+      ],
+      "synonyms": [
+        "behavior",
+        "perform"
+      ],
+      "antonyms": [
+        "misbehave"
+      ],
+      "exampleSentence": "Scientists conducted an experiment.",
+      "exampleTranslation": "과학자들은 실험을 수행했다.",
+      "examples": [
+        {
+          "sentence": "Scientists conducted an experiment.",
+          "translation": "과학자들은 실험을 수행했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fconduct.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400059,
+      "word": "fulfilled",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/fʊlˈfɪld/",
+      "meanings": [
+        "성취감을 느끼는"
+      ],
+      "meaningsEn": [
+        "feeling satisfied and happy"
+      ],
+      "synonyms": [
+        "satisfied",
+        "content"
+      ],
+      "antonyms": [
+        "empty"
+      ],
+      "exampleSentence": "She felt fulfilled after helping others.",
+      "exampleTranslation": "그녀는 다른 사람들을 도운 후 성취감을 느꼈다.",
+      "examples": [
+        {
+          "sentence": "She felt fulfilled after helping others.",
+          "translation": "그녀는 다른 사람들을 도운 후 성취감을 느꼈다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Ffulfilled.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400060,
+      "word": "produce",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/prəˈduːs/",
+      "meanings": [
+        "생산하다"
+      ],
+      "meaningsEn": [
+        "to make or create something"
+      ],
+      "synonyms": [
+        "create",
+        "manufacture"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "exampleSentence": "The factory produces cars.",
+      "exampleTranslation": "그 공장은 자동차를 생산한다.",
+      "examples": [
+        {
+          "sentence": "The factory produces cars.",
+          "translation": "그 공장은 자동차를 생산한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fproduce.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 400061,
       "word": "progress",
       "type": "word",
       "pos": [
@@ -50,11 +2722,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fprogress.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400002,
+      "wordId": 400062,
       "word": "propose",
       "type": "word",
       "pos": [
@@ -94,103 +2766,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpropose.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400003,
-      "word": "produce",
-      "type": "word",
-      "pos": [
-        "verb",
-        "noun"
-      ],
-      "phonetic": "/prəˈduːs/",
-      "meanings": [
-        "생산하다",
-        "제조하다",
-        "농산물"
-      ],
-      "meaningsEn": [
-        "to make or create goods"
-      ],
-      "synonyms": [
-        "manufacture",
-        "create"
-      ],
-      "antonyms": [],
-      "exampleSentence": "They produce cars in this factory.",
-      "exampleTranslation": "그들은 이 공장에서 자동차를 생산한다.",
-      "examples": [
-        {
-          "sentence": "They produce cars in this factory.",
-          "translation": "그들은 이 공장에서 자동차를 생산한다."
-        }
-      ],
-      "wordFamily": {
-        "prefix": "",
-        "prefixMeaning": "",
-        "relatedWords": []
-      },
-      "sources": [
-        {
-          "book": "",
-          "day": "",
-          "section": "",
-          "originalNo": ""
-        }
-      ],
-      "wordAudioUrl": "",
-      "exampleAudioUrl": ""
-    },
-    {
-      "wordId": 400004,
-      "word": "protect",
-      "type": "word",
-      "pos": [
-        "verb"
-      ],
-      "phonetic": "/prəˈtekt/",
-      "meanings": [
-        "보호하다",
-        "지키다"
-      ],
-      "meaningsEn": [
-        "to keep safe from harm"
-      ],
-      "synonyms": [
-        "guard",
-        "defend"
-      ],
-      "antonyms": [
-        "attack"
-      ],
-      "exampleSentence": "Sunscreen protects your skin.",
-      "exampleTranslation": "선크림은 피부를 보호한다.",
-      "examples": [
-        {
-          "sentence": "Sunscreen protects your skin.",
-          "translation": "선크림은 피부를 보호한다."
-        }
-      ],
-      "wordFamily": {
-        "prefix": "",
-        "prefixMeaning": "",
-        "relatedWords": []
-      },
-      "sources": [
-        {
-          "book": "",
-          "day": "",
-          "section": "",
-          "originalNo": ""
-        }
-      ],
-      "wordAudioUrl": "",
-      "exampleAudioUrl": ""
-    },
-    {
-      "wordId": 400005,
+      "wordId": 400063,
       "word": "profile",
       "type": "word",
       "pos": [
@@ -228,11 +2808,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fprofile.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400006,
+      "wordId": 400064,
       "word": "purchase",
       "type": "word",
       "pos": [
@@ -272,11 +2852,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpurchase.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400007,
+      "wordId": 400065,
       "word": "predict",
       "type": "word",
       "pos": [
@@ -315,11 +2895,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpredict.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400008,
+      "wordId": 400066,
       "word": "precaution",
       "type": "word",
       "pos": [
@@ -356,11 +2936,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fprecaution.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400009,
+      "wordId": 400067,
       "word": "premature",
       "type": "word",
       "pos": [
@@ -399,11 +2979,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpremature.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400010,
+      "wordId": 400068,
       "word": "preview",
       "type": "word",
       "pos": [
@@ -441,11 +3021,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpreview.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400011,
+      "wordId": 400069,
       "word": "income",
       "type": "word",
       "pos": [
@@ -485,11 +3065,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fincome.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400012,
+      "wordId": 400070,
       "word": "intake",
       "type": "word",
       "pos": [
@@ -525,11 +3105,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fintake.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400013,
+      "wordId": 400071,
       "word": "infection",
       "type": "word",
       "pos": [
@@ -566,11 +3146,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Finfection.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400014,
+      "wordId": 400072,
       "word": "insight",
       "type": "word",
       "pos": [
@@ -606,11 +3186,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Finsight.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400015,
+      "wordId": 400073,
       "word": "inherent",
       "type": "word",
       "pos": [
@@ -649,11 +3229,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Finherent.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400016,
+      "wordId": 400074,
       "word": "investment",
       "type": "word",
       "pos": [
@@ -689,11 +3269,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Finvestment.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400017,
+      "wordId": 400075,
       "word": "investigate",
       "type": "word",
       "pos": [
@@ -733,11 +3313,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Finvestigate.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400018,
+      "wordId": 400076,
       "word": "illustrate",
       "type": "word",
       "pos": [
@@ -774,11 +3354,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fillustrate.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400019,
+      "wordId": 400077,
       "word": "outcome",
       "type": "word",
       "pos": [
@@ -818,11 +3398,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foutcome.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400020,
+      "wordId": 400078,
       "word": "outline",
       "type": "word",
       "pos": [
@@ -861,11 +3441,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foutline.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400021,
+      "wordId": 400079,
       "word": "outstanding",
       "type": "word",
       "pos": [
@@ -907,11 +3487,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foutstanding.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400022,
+      "wordId": 400080,
       "word": "outbreak",
       "type": "word",
       "pos": [
@@ -948,11 +3528,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foutbreak.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400023,
+      "wordId": 400081,
       "word": "outlet",
       "type": "word",
       "pos": [
@@ -989,11 +3569,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Foutlet.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400024,
+      "wordId": 400082,
       "word": "utter",
       "type": "word",
       "pos": [
@@ -1032,11 +3612,11 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Futter.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
-      "wordId": 400025,
+      "wordId": 400083,
       "word": "utmost",
       "type": "word",
       "pos": [
@@ -1076,7 +3656,7 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Futmost.mp3?alt=media",
       "exampleAudioUrl": ""
     }
   ]

@@ -1,4 +1,5 @@
 import argparse
+import copy
 import json
 import os
 import re
@@ -35,6 +36,11 @@ def to_list(value):
     return [v.strip() for v in value.split(",") if v.strip()] if value else []
 
 
+def max_word_id(data):
+    word_ids = [word.get("wordId", 0) for word in data.get("words", [])]
+    return max(word_ids, default=0)
+
+
 def firebase_download_url(destination_path):
     bucket_name = os.environ.get("FIREBASE_STORAGE_BUCKET", DEFAULT_BUCKET)
     encoded_path = quote(destination_path, safe="")
@@ -56,17 +62,55 @@ def create_tts_mp3(text, output_path):
     print(f"오디오 생성 완료: {output_path}")
 
 
-def prepare_word_audio(word, audio_output_dir=DEFAULT_AUDIO_OUTPUT_DIR, audio_storage_prefix=DEFAULT_AUDIO_STORAGE_PREFIX):
+def prepare_word_audio(
+    word,
+    audio_output_dir=DEFAULT_AUDIO_OUTPUT_DIR,
+    audio_storage_prefix=DEFAULT_AUDIO_STORAGE_PREFIX,
+    force_word_audio=False,
+):
     slug = audio_slug(word)
     local_file = Path(audio_output_dir) / f"{slug}.mp3"
     storage_path = f"{audio_storage_prefix.rstrip('/')}/{slug}.mp3"
 
-    if local_file.exists() and local_file.stat().st_size > 0:
+    if local_file.exists() and local_file.stat().st_size > 0 and not force_word_audio:
         print(f"오디오 생성 건너뜀: {local_file}")
     else:
         create_tts_mp3(word, local_file)
 
     return local_file, storage_path
+
+
+def update_word_audio(item, audio_output_dir, audio_storage_prefix, upload_word_audio, force_word_audio):
+    word = item.get("word", "").strip()
+    if not word:
+        return
+
+    local_audio_file, audio_storage_path = prepare_word_audio(
+        word,
+        audio_output_dir=audio_output_dir,
+        audio_storage_prefix=audio_storage_prefix,
+        force_word_audio=force_word_audio,
+    )
+    if upload_word_audio:
+        upload_to_firebase_storage(
+            local_audio_file,
+            audio_storage_path,
+            cache_control="public, max-age=31536000",
+            content_type="audio/mpeg",
+        )
+        item["wordAudioUrl"] = firebase_download_url(audio_storage_path)
+
+
+def load_existing_catalog_from_firebase(destination_path):
+    blob = firebase_blob(destination_path)
+    if not blob.exists():
+        print(f"원격 JSON 없음, 새로 생성: gs://{blob.bucket.name}/{destination_path}")
+        return None
+
+    payload = blob.download_as_bytes()
+    data = json.loads(payload.decode("utf-8"))
+    print(f"원격 JSON 로드 완료: gs://{blob.bucket.name}/{destination_path}")
+    return data
 
 
 def generate(
@@ -79,6 +123,8 @@ def generate(
     upload_word_audio=False,
     audio_output_dir=DEFAULT_AUDIO_OUTPUT_DIR,
     audio_storage_prefix=DEFAULT_AUDIO_STORAGE_PREFIX,
+    existing_data=None,
+    force_word_audio=False,
 ):
     input_file = Path(input_file)
     output_file = Path(output_file)
@@ -87,16 +133,35 @@ def generate(
     if not output_file.is_absolute():
         output_file = BASE_DIR / output_file
 
-    data = {
-        "language": "en",
-        "grade": grade,
-        "version": version,
-        "words": [],
-    }
+    if existing_data:
+        data = copy.deepcopy(existing_data)
+        data["language"] = data.get("language") or "en"
+        data["grade"] = grade
+        data["version"] = version
+        data.setdefault("words", [])
+        word_map = {normalize(item.get("word", "")): True for item in data["words"] if item.get("word")}
+        word_id = max(max_word_id(data) + 1, word_id_start)
+        print(f"기존 단어 {len(word_map)}개 유지, 새 단어 ID 시작: {word_id}")
+        if generate_word_audio or upload_word_audio:
+            for item in data["words"]:
+                update_word_audio(
+                    item,
+                    audio_output_dir=audio_output_dir,
+                    audio_storage_prefix=audio_storage_prefix,
+                    upload_word_audio=upload_word_audio,
+                    force_word_audio=force_word_audio,
+                )
+    else:
+        data = {
+            "language": "en",
+            "grade": grade,
+            "version": version,
+            "words": [],
+        }
+        word_map = {}
+        word_id = word_id_start
 
-    word_map = {}
     audio_slug_map = {}
-    word_id = word_id_start
 
     with open(input_file, "r", encoding="utf-8") as f:
         for line in f:
@@ -126,20 +191,6 @@ def generate(
                     )
                 audio_slug_map[slug] = word
                 WORD_AUDIO_SLUGS[slug] = word
-
-                local_audio_file, audio_storage_path = prepare_word_audio(
-                    word,
-                    audio_output_dir=audio_output_dir,
-                    audio_storage_prefix=audio_storage_prefix,
-                )
-                if upload_word_audio:
-                    upload_to_firebase_storage(
-                        local_audio_file,
-                        audio_storage_path,
-                        cache_control="public, max-age=31536000",
-                        content_type="audio/mpeg",
-                    )
-                    word_audio_url = firebase_download_url(audio_storage_path)
 
             item = {
                 "wordId": word_id,
@@ -175,6 +226,14 @@ def generate(
                 "wordAudioUrl": word_audio_url,
                 "exampleAudioUrl": "",
             }
+            if generate_word_audio or upload_word_audio:
+                update_word_audio(
+                    item,
+                    audio_output_dir=audio_output_dir,
+                    audio_storage_prefix=audio_storage_prefix,
+                    upload_word_audio=upload_word_audio,
+                    force_word_audio=force_word_audio,
+                )
 
             data["words"].append(item)
             word_map[key] = True
@@ -219,7 +278,7 @@ def copy_to_assets(local_file, output_name):
     return target
 
 
-def upload_to_firebase_storage(local_file, destination_path, cache_control=None, content_type="application/json"):
+def firebase_blob(destination_path):
     credentials_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
     if not credentials_path and DEFAULT_CREDENTIALS_PATH.exists():
         credentials_path = str(DEFAULT_CREDENTIALS_PATH)
@@ -241,12 +300,15 @@ def upload_to_firebase_storage(local_file, destination_path, cache_control=None,
         cred = credentials.Certificate(credentials_path)
         firebase_admin.initialize_app(cred, {"storageBucket": bucket_name})
 
-    bucket = storage.bucket()
-    blob = bucket.blob(destination_path)
+    return storage.bucket().blob(destination_path)
+
+
+def upload_to_firebase_storage(local_file, destination_path, cache_control=None, content_type="application/json"):
+    blob = firebase_blob(destination_path)
     if cache_control:
         blob.cache_control = cache_control
     blob.upload_from_filename(str(local_file), content_type=content_type)
-    print(f"업로드 완료: gs://{bucket_name}/{destination_path}")
+    print(f"업로드 완료: gs://{blob.bucket.name}/{destination_path}")
 
 
 def main():
@@ -262,9 +324,16 @@ def main():
     parser.add_argument("--update-assets", action="store_true")
     parser.add_argument("--generate-word-audio", action="store_true")
     parser.add_argument("--upload-word-audio", action="store_true")
+    parser.add_argument("--force-word-audio", action="store_true")
     parser.add_argument("--audio-output-dir", default=DEFAULT_AUDIO_OUTPUT_DIR)
     parser.add_argument("--audio-storage-prefix", default=DEFAULT_AUDIO_STORAGE_PREFIX)
+    parser.add_argument("--replace-remote", action="store_true")
     args = parser.parse_args()
+
+    storage_path = args.storage_path or f"{args.storage_prefix}/{args.output}"
+    existing_data = None
+    if args.upload and not args.replace_remote:
+        existing_data = load_existing_catalog_from_firebase(storage_path)
 
     output_file = generate(
         input_file=BASE_DIR / args.input,
@@ -276,11 +345,12 @@ def main():
         upload_word_audio=args.upload_word_audio,
         audio_output_dir=args.audio_output_dir,
         audio_storage_prefix=args.audio_storage_prefix,
+        existing_data=existing_data,
+        force_word_audio=args.force_word_audio,
     )
     if args.update_assets:
         copy_to_assets(output_file, args.output)
     if args.upload:
-        storage_path = args.storage_path or f"{args.storage_prefix}/{args.output}"
         upload_to_firebase_storage(output_file, storage_path, cache_control="public, max-age=300")
 
 

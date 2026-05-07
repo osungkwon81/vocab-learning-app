@@ -1,6 +1,12 @@
 import argparse
 
-from generate_vocabulary_json import copy_to_assets, generate, upload_to_firebase_storage, write_manifest
+from generate_vocabulary_json import (
+    copy_to_assets,
+    generate,
+    load_existing_catalog_from_firebase,
+    upload_to_firebase_storage,
+    write_manifest,
+)
 
 
 VOCABULARIES = [
@@ -39,6 +45,8 @@ parser.add_argument("--upload-manifest", action="store_true")
 parser.add_argument("--update-assets", action="store_true")
 parser.add_argument("--generate-word-audio", action="store_true")
 parser.add_argument("--upload-word-audio", action="store_true")
+parser.add_argument("--force-word-audio", action="store_true")
+parser.add_argument("--replace-remote", action="store_true")
 args = parser.parse_args()
 
 
@@ -50,6 +58,11 @@ selected_vocabularies = [
 manifest_files = []
 
 for vocabulary in selected_vocabularies:
+    remote_path = f"catalog/en/{vocabulary['output_file']}"
+    existing_data = None
+    if args.upload and not args.replace_remote:
+        existing_data = load_existing_catalog_from_firebase(remote_path)
+
     output_file = generate(
         input_file=vocabulary["input_file"],
         output_file=vocabulary["output_file"],
@@ -58,12 +71,13 @@ for vocabulary in selected_vocabularies:
         word_id_start=vocabulary["word_id_start"],
         generate_word_audio=args.generate_word_audio,
         upload_word_audio=args.upload_word_audio,
+        existing_data=existing_data,
+        force_word_audio=args.force_word_audio,
     )
     if args.update_assets:
         copy_to_assets(output_file, vocabulary["output_file"])
 
     if args.upload:
-        remote_path = f"catalog/en/{vocabulary['output_file']}"
         upload_to_firebase_storage(output_file, remote_path, cache_control="public, max-age=300")
 
 manifest_files = [
