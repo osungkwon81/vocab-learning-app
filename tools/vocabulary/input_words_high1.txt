@@ -1,0 +1,25 @@
+progress|word|noun,verb|/ˈprɑːɡres/|진보,발전,진행|movement forward,improvement|advance,development|regress,decline|She made progress in her studies.|그녀는 공부에서 발전을 이루었다.
+propose|word|verb|/prəˈpoʊz/|제안하다,제시하다|to suggest or present an idea|suggest,recommend||He proposed a new plan.|그는 새로운 계획을 제안했다.
+produce|word|verb,noun|/prəˈduːs/|생산하다,제조하다,농산물|to make or create goods|manufacture,create||They produce cars in this factory.|그들은 이 공장에서 자동차를 생산한다.
+protect|word|verb|/prəˈtekt/|보호하다,지키다|to keep safe from harm|guard,defend|attack|Sunscreen protects your skin.|선크림은 피부를 보호한다.
+profile|word|noun|/ˈproʊfaɪl/|윤곽,프로필,개요|a short description or outline|||She updated her profile online.|그녀는 온라인 프로필을 수정했다.
+purchase|word|verb,noun|/ˈpɜːrtʃəs/|구매하다,구입|to buy something|buy||I purchased a new laptop.|나는 새 노트북을 구입했다.
+predict|word|verb|/prɪˈdɪkt/|예측하다|to say what will happen|forecast,anticipate||Experts predict rain tomorrow.|전문가들은 내일 비를 예측한다.
+precaution|word|noun|/prɪˈkɔːʃən/|조심,예방책|action taken to prevent danger|||Take precautions before traveling.|여행 전에 예방 조치를 취해라.
+premature|word|adjective|/ˈpriːmətʃʊr/|너무 이른,조기의|happening too soon|early||The decision was premature.|그 결정은 너무 빨랐다.
+preview|word|noun,verb|/ˈpriːvjuː/|미리 보기,시사하다|to see before release|||We watched a preview of the movie.|우리는 영화 시사회를 봤다.
+income|word|noun|/ˈɪnkʌm/|소득,수입|money received|earnings,revenue||His income increased this year.|그의 수입은 올해 늘었다.
+intake|word|noun|/ˈɪnteɪk/|섭취량|amount taken in|||Limit your sugar intake.|당 섭취를 줄여라.
+infection|word|noun|/ɪnˈfekʃən/|감염,오염|disease caused by germs|||The infection spread quickly.|감염이 빠르게 퍼졌다.
+insight|word|noun|/ˈɪnsaɪt/|통찰력|deep understanding|||She has insight into the problem.|그녀는 문제에 대한 통찰력이 있다.
+inherent|word|adjective|/ɪnˈhɪrənt/|내재된,고유의|existing as a natural part|intrinsic||Risk is inherent in business.|위험은 사업에 내재되어 있다.
+investment|word|noun|/ɪnˈvestmənt/|투자|putting money for profit|||He made a smart investment.|그는 현명한 투자를 했다.
+investigate|word|verb|/ɪnˈvestɪɡeɪt/|조사하다,연구하다|to examine carefully|research,examine||Police investigate the case.|경찰이 사건을 조사한다.
+illustrate|word|verb|/ˈɪləstreɪt/|설명하다,예를 들다|to explain with examples|||He illustrated the idea with charts.|그는 도표로 설명했다.
+outcome|word|noun|/ˈaʊtkʌm/|결과,성과|result of an action|result,consequence||The outcome was successful.|결과는 성공적이었다.
+outline|word|noun,verb|/ˈaʊtlaɪn/|개요,윤곽,요약하다|general description|||She outlined her plan.|그녀는 계획을 요약했다.
+outstanding|word|adjective|/aʊtˈstændɪŋ/|뛰어난,눈에 띄는|very excellent|excellent,remarkable|ordinary|He did an outstanding job.|그는 뛰어난 일을 해냈다.
+outbreak|word|noun|/ˈaʊtbreɪk/|발생,발발|sudden start of something|||The outbreak spread fast.|발병이 빠르게 퍼졌다.
+outlet|word|noun|/ˈaʊtlet/|배출구,매장|place or opening|||This store is an outlet.|이 가게는 아울렛이다.
+utter|word|verb,adjective|/ˈʌtər/|말하다,완전한|to speak,complete|||He uttered a word.|그는 한마디 했다.
+utmost|word|adjective,noun|/ˈʌtmoʊst/|최대의,극도의|greatest possible|maximum||We did our utmost.|우리는 최선을 다했다.

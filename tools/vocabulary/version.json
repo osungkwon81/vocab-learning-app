@@ -1,0 +1,21 @@
+{
+  "version": 4,
+  "files": [
+    {
+      "path": "catalog/en/english_middle3.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high1.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high2.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high3.json",
+      "version": 4
+    }
+  ]
+}

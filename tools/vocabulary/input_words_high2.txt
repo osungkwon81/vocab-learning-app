@@ -1,0 +1,1 @@
+# word|type|pos|phonetic|meanings|meaningsEn|synonyms|antonyms|example sentence|example translation

@@ -11,6 +11,7 @@ import com.gwon.vocablearning.data.remote.CatalogFileStore
 import com.gwon.vocablearning.data.remote.RemoteCatalogService
 import com.gwon.vocablearning.data.remote.toDomain
 import com.gwon.vocablearning.domain.model.DashboardSnapshot
+import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.QuizType
 import com.gwon.vocablearning.domain.model.ReviewItem
 import com.gwon.vocablearning.domain.model.ReviewReason
@@ -130,14 +131,15 @@ class OfflineFirstStudyRepository(
 
     override suspend fun recordLearningResult(
         wordId: Long,
-        knewIt: Boolean,
+        response: LearningResponse,
         elapsedMs: Long,
     ) {
         persistResult(
             wordId = wordId,
             quizType = QuizType.LEARNING_CARD,
-            isCorrect = knewIt,
+            isCorrect = response.isCorrect,
             elapsedMs = elapsedMs,
+            wrongWeight = if (response == LearningResponse.UNKNOWN) 2 else 1,
         )
     }
 
@@ -155,6 +157,7 @@ class OfflineFirstStudyRepository(
         quizType: QuizType,
         isCorrect: Boolean,
         elapsedMs: Long,
+        wrongWeight: Int = 1,
     ) {
         val current = wordStatDao.getByWordId(wordId)
         val updated = if (current == null) {
@@ -162,7 +165,7 @@ class OfflineFirstStudyRepository(
                 wordId = wordId,
                 totalSolvedCount = 1,
                 correctCount = if (isCorrect) 1 else 0,
-                wrongCount = if (isCorrect) 0 else 1,
+                wrongCount = if (isCorrect) 0 else wrongWeight,
                 totalElapsedMs = elapsedMs,
                 averageElapsedMs = elapsedMs,
                 lastSolvedAt = System.currentTimeMillis(),
@@ -171,9 +174,10 @@ class OfflineFirstStudyRepository(
         } else {
             val totalSolvedCount = current.totalSolvedCount + 1
             val correctCount = current.correctCount + if (isCorrect) 1 else 0
-            val wrongCount = current.wrongCount + if (isCorrect) 0 else 1
+            val wrongCount = current.wrongCount + if (isCorrect) 0 else wrongWeight
             val totalElapsed = current.totalElapsedMs + elapsedMs
             val averageElapsed = totalElapsed / totalSolvedCount
+            val needsMoreCorrectAnswers = wrongCount > correctCount
             WordStatEntity(
                 wordId = wordId,
                 totalSolvedCount = totalSolvedCount,
@@ -182,7 +186,7 @@ class OfflineFirstStudyRepository(
                 totalElapsedMs = totalElapsed,
                 averageElapsedMs = averageElapsed,
                 lastSolvedAt = System.currentTimeMillis(),
-                needReview = wrongCount > 0 || averageElapsed >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS,
+                needReview = needsMoreCorrectAnswers || averageElapsed >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS,
             )
         }
 

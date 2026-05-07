@@ -5,8 +5,13 @@ data class WordEntry(
     val language: Language,
     val grade: SchoolGrade,
     val word: String,
+    val lexicalType: String = "word",
+    val partsOfSpeech: List<String> = emptyList(),
     val phonetic: String,
     val meanings: List<String>,
+    val meaningsEn: List<String> = emptyList(),
+    val synonyms: List<String> = emptyList(),
+    val antonyms: List<String> = emptyList(),
     val exampleSentence: String,
     val exampleTranslation: String,
     val wordAudioUrl: String,
@@ -18,6 +23,15 @@ enum class QuizType(val label: String) {
     WORD_TO_MEANING("단어 -> 뜻"),
     MEANING_TO_WORD("뜻 -> 단어"),
     SENTENCE_BLANK("예문 빈칸"),
+}
+
+enum class LearningResponse(
+    val label: String,
+    val isCorrect: Boolean,
+) {
+    KNOWN("외움", true),
+    HESITANT("헷갈림", false),
+    UNKNOWN("모름", false),
 }
 
 enum class AudioType {

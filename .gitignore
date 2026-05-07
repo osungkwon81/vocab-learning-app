@@ -6,4 +6,7 @@ app/build/
 captures/
 *.iml
 *.log
-
+__pycache__/
+*.pyc
+service-account*.json
+firebase-service-account*.json

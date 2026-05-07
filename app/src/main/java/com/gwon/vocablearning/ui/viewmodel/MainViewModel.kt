@@ -8,6 +8,7 @@ import androidx.lifecycle.viewmodel.CreationExtras
 import com.gwon.vocablearning.app.AppContainer
 import com.gwon.vocablearning.domain.model.AudioType
 import com.gwon.vocablearning.domain.model.DashboardSnapshot
+import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.QuizQuestion
 import com.gwon.vocablearning.domain.model.QuizType
 import com.gwon.vocablearning.domain.model.ReviewItem
@@ -28,7 +29,7 @@ enum class SetupStep {
 
 data class LearningCardProgressState(
     val isRevealed: Boolean = false,
-    val response: Boolean? = null,
+    val response: LearningResponse? = null,
     val startedAtElapsed: Long = 0L,
 )
 
@@ -53,10 +54,10 @@ data class LearningSessionState(
         get() = cards.values.count { it.response != null }
 
     val knownCount: Int
-        get() = cards.values.count { it.response == true }
+        get() = cards.values.count { it.response == LearningResponse.KNOWN }
 
-    val unknownCount: Int
-        get() = cards.values.count { it.response == false }
+    val needsPracticeCount: Int
+        get() = cards.values.count { it.response == LearningResponse.HESITANT || it.response == LearningResponse.UNKNOWN }
 
     val isComplete: Boolean
         get() = deck.isNotEmpty() && completedCount == deck.size
@@ -338,7 +339,7 @@ class MainViewModel(
         }
     }
 
-    fun answerCurrentCard(knewIt: Boolean) {
+    fun answerCurrentCard(response: LearningResponse) {
         val session = _uiState.value.learningSession ?: return
         val item = session.currentItem ?: return
         val progress = item.progress
@@ -350,15 +351,26 @@ class MainViewModel(
         viewModelScope.launch {
             repository.recordLearningResult(
                 wordId = progress.entry.wordId,
-                knewIt = knewIt,
+                response = response,
                 elapsedMs = elapsedMs,
             )
 
             _uiState.update {
                 val updatedCards = it.learningSession?.cards.orEmpty().toMutableMap().apply {
-                    this[item.id] = currentCard.copy(response = knewIt)
+                    this[item.id] = currentCard.copy(response = response)
                 }
-                val updatedSession = it.learningSession?.copy(cards = updatedCards)
+                val updatedSession = it.learningSession
+                    ?.copy(cards = updatedCards)
+                    ?.let { session ->
+                        if (response == LearningResponse.KNOWN || session.deck.count { deckItem ->
+                                deckItem.progress.entry.wordId == progress.entry.wordId
+                            } >= MAX_SAME_SESSION_OCCURRENCES
+                        ) {
+                            session
+                        } else {
+                            session.scheduleRetryAfterCurrentPage(item.progress)
+                        }
+                    }
                 it.copy(
                     learningSession = updatedSession,
                     noticeMessage = if (updatedSession?.isComplete == true) "학습 세션이 끝났습니다." else null,
@@ -367,6 +379,21 @@ class MainViewModel(
 
             refreshReferenceData(_uiState.value.selectedGrade)
         }
+    }
+
+    private fun LearningSessionState.scheduleRetryAfterCurrentPage(progress: WordProgress): LearningSessionState {
+        val retryItem = LearningDeckItem(
+            id = (deck.maxOfOrNull { it.id } ?: -1) + 1,
+            progress = progress,
+        )
+        val insertIndex = (currentPage + RETRY_GAP + 1).coerceAtMost(deck.size)
+        val updatedDeck = deck.toMutableList().apply {
+            add(insertIndex, retryItem)
+        }
+        return copy(
+            deck = updatedDeck,
+            cards = cards + (retryItem.id to LearningCardProgressState()),
+        )
     }
 
     fun answerCurrentQuizQuestion(selectedIndex: Int) {
@@ -561,6 +588,9 @@ class MainViewModel(
     }
 
     companion object {
+        private const val RETRY_GAP = 3
+        private const val MAX_SAME_SESSION_OCCURRENCES = 2
+
         fun factory(container: AppContainer): ViewModelProvider.Factory =
             object : ViewModelProvider.Factory {
                 override fun <T : ViewModel> create(

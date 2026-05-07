@@ -36,6 +36,8 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
@@ -63,6 +65,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardCapitalization
@@ -73,6 +76,7 @@ import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.gwon.vocablearning.domain.model.AudioType
 import com.gwon.vocablearning.domain.model.DashboardSnapshot
+import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.QuizQuestion
 import com.gwon.vocablearning.domain.model.ReviewItem
 import com.gwon.vocablearning.domain.model.SchoolGrade
@@ -81,6 +85,9 @@ import com.gwon.vocablearning.domain.model.WordProgress
 import com.gwon.vocablearning.ui.theme.Clay
 import com.gwon.vocablearning.ui.theme.Cream
 import com.gwon.vocablearning.ui.theme.Ink
+import com.gwon.vocablearning.ui.theme.Mist
+import com.gwon.vocablearning.ui.theme.Moss
+import com.gwon.vocablearning.ui.theme.SoftRed
 import com.gwon.vocablearning.ui.viewmodel.LearningCardProgressState
 import com.gwon.vocablearning.ui.viewmodel.LearningSessionState
 import com.gwon.vocablearning.ui.viewmodel.MainUiState
@@ -99,6 +106,25 @@ private enum class AppTab(
     REVIEW("복습", Icons.Rounded.TaskAlt),
     STATS("통계", Icons.Rounded.Assessment),
     SETTINGS("설정", Icons.Rounded.Settings),
+}
+
+private enum class StudyMode(
+    val label: String,
+) {
+    TODAY("오늘 학습"),
+    WORDS("단어 목록"),
+}
+
+private enum class WordListSortMode(
+    val label: String,
+) {
+    PRIORITY("외울 순서"),
+    REVIEW("복습 먼저"),
+    UNSEEN("처음 본 단어"),
+    WRONG("오답 많은 순"),
+    KNOWN("외운 단어"),
+    ALPHABET("알파벳순"),
+    ORIGINAL("등록 순서"),
 }
 
 private data class CountPreset(
@@ -391,11 +417,41 @@ private fun StudyTab(
     onPageChanged: (Int) -> Unit,
     onRevealCard: () -> Unit,
     onHideCardDetails: () -> Unit,
-    onAnswerCard: (Boolean) -> Unit,
+    onAnswerCard: (LearningResponse) -> Unit,
     onPlayWordAudio: (WordEntry) -> Unit,
     onPlayExampleAudio: (WordEntry) -> Unit,
 ) {
     val session = uiState.learningSession
+    var selectedStudyModeName by rememberSaveable { mutableStateOf(StudyMode.TODAY.name) }
+    val selectedStudyMode = StudyMode.valueOf(selectedStudyModeName)
+
+    if (session == null) {
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            StudyModeSelector(
+                selectedMode = selectedStudyMode,
+                onSelectMode = { selectedStudyModeName = it.name },
+            )
+            when (selectedStudyMode) {
+                StudyMode.TODAY -> TodayStudyPanel(
+                    uiState = uiState,
+                    onOpenStudyStartDialog = onOpenStudyStartDialog,
+                    modifier = Modifier.weight(1f),
+                )
+
+                StudyMode.WORDS -> WordCatalogTab(
+                    grade = uiState.selectedGrade,
+                    wordProgress = uiState.wordProgress,
+                    onPlayWordAudio = onPlayWordAudio,
+                    onPlayExampleAudio = onPlayExampleAudio,
+                    modifier = Modifier.weight(1f),
+                )
+            }
+        }
+        return
+    }
 
     Column(
         modifier = Modifier
@@ -403,30 +459,11 @@ private fun StudyTab(
             .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            Button(
-                onClick = onOpenStudyStartDialog,
-                modifier = Modifier.weight(1f),
-            ) {
-                Text("학습 시작")
-            }
-            if (session != null && !session.isComplete) {
-                OutlinedButton(
-                    onClick = onClearLearningSession,
-                    modifier = Modifier.weight(1f),
-                ) {
-                    Text("세션 닫기")
-                }
-            }
-        }
-
-        if (session == null) {
-            EmptyState("학습 시작을 누르면 개수 선택 화면이 열리고 카드 학습이 시작됩니다.")
-            return@Column
-        }
+        StudyActionRow(
+            session = session,
+            onOpenStudyStartDialog = onOpenStudyStartDialog,
+            onClearLearningSession = onClearLearningSession,
+        )
 
         SessionHeader(session = session)
 
@@ -490,6 +527,141 @@ private fun StudyTab(
                 onPlayWordAudio = onPlayWordAudio,
                 onPlayExampleAudio = onPlayExampleAudio,
             )
+        }
+    }
+}
+
+@Composable
+private fun StudyModeSelector(
+    selectedMode: StudyMode,
+    onSelectMode: (StudyMode) -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        StudyMode.entries.forEach { mode ->
+            FilterChip(
+                selected = selectedMode == mode,
+                onClick = { onSelectMode(mode) },
+                label = { Text(mode.label) },
+                modifier = Modifier.weight(1f),
+            )
+        }
+    }
+}
+
+@Composable
+private fun TodayStudyPanel(
+    uiState: MainUiState,
+    onOpenStudyStartDialog: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    LazyColumn(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+        contentPadding = PaddingValues(bottom = 24.dp),
+    ) {
+        item {
+            TodayStudyCard(
+                uiState = uiState,
+                onOpenStudyStartDialog = onOpenStudyStartDialog,
+            )
+        }
+        item {
+            DashboardCards(dashboard = uiState.dashboard)
+        }
+        item {
+            StudyResponseGuide()
+        }
+    }
+}
+
+@Composable
+private fun TodayStudyCard(
+    uiState: MainUiState,
+    onOpenStudyStartDialog: () -> Unit,
+) {
+    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(18.dp),
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text(
+                        text = "${uiState.selectedGrade.label} 오늘 학습",
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                    )
+                    Text(
+                        text = "목표 ${uiState.learningCount}개 · 등록 ${uiState.words.size}개",
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                Tag("${uiState.dashboard.reviewCount} 복습")
+            }
+            Button(
+                onClick = onOpenStudyStartDialog,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 54.dp),
+                enabled = uiState.words.isNotEmpty(),
+            ) {
+                Text("학습 시작")
+            }
+        }
+    }
+}
+
+@Composable
+private fun StudyResponseGuide() {
+    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Text(
+                text = "응답 기준",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+            )
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                items(LearningResponse.entries) { response ->
+                    Tag(response.label)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun StudyActionRow(
+    session: LearningSessionState?,
+    onOpenStudyStartDialog: () -> Unit,
+    onClearLearningSession: () -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Button(
+            onClick = onOpenStudyStartDialog,
+            modifier = Modifier.weight(1f),
+        ) {
+            Text("학습 시작")
+        }
+        if (session != null && !session.isComplete) {
+            OutlinedButton(
+                onClick = onClearLearningSession,
+                modifier = Modifier.weight(1f),
+            ) {
+                Text("세션 닫기")
+            }
         }
     }
 }
@@ -1020,7 +1192,7 @@ private fun LearningWordCard(
     cardState: LearningCardProgressState,
     onRevealCard: () -> Unit,
     onHideCardDetails: () -> Unit,
-    onAnswerCard: (Boolean) -> Unit,
+    onAnswerCard: (LearningResponse) -> Unit,
     onMoveNext: () -> Unit,
     isLastCard: Boolean,
     onPlayWordAudio: (WordEntry) -> Unit,
@@ -1055,6 +1227,8 @@ private fun LearningWordCard(
                         style = MaterialTheme.typography.bodyLarge,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
+                    Spacer(modifier = Modifier.height(6.dp))
+                    WordMetadataRow(word = progress.entry)
                 }
                 AssistChip(
                     onClick = { onPlayWordAudio(progress.entry) },
@@ -1087,7 +1261,7 @@ private fun RevealPanel(
     cardState: LearningCardProgressState,
     onRevealCard: () -> Unit,
     onHideCardDetails: () -> Unit,
-    onAnswerCard: (Boolean) -> Unit,
+    onAnswerCard: (LearningResponse) -> Unit,
     onMoveNext: () -> Unit,
     isLastCard: Boolean,
     onPlayExampleAudio: (WordEntry) -> Unit,
@@ -1135,6 +1309,18 @@ private fun RevealPanel(
                         fontWeight = FontWeight.SemiBold,
                     )
                     Text(text = progress.entry.meanings.joinToString(", "))
+                    if (progress.entry.synonyms.isNotEmpty()) {
+                        LabeledText(
+                            label = "유의어",
+                            text = progress.entry.synonyms.joinToString(", "),
+                        )
+                    }
+                    if (progress.entry.antonyms.isNotEmpty()) {
+                        LabeledText(
+                            label = "반의어",
+                            text = progress.entry.antonyms.joinToString(", "),
+                        )
+                    }
                     Text(
                         text = "예문",
                         style = MaterialTheme.typography.titleSmall,
@@ -1151,18 +1337,26 @@ private fun RevealPanel(
                     )
                 }
                 if (cardState.response == null) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         Button(
-                            onClick = { onAnswerCard(true) },
-                            modifier = Modifier.weight(1f),
+                            onClick = { onAnswerCard(LearningResponse.KNOWN) },
+                            modifier = Modifier.fillMaxWidth(),
                         ) {
-                            Text("O")
+                            Text("외움")
                         }
-                        OutlinedButton(
-                            onClick = { onAnswerCard(false) },
-                            modifier = Modifier.weight(1f),
-                        ) {
-                            Text("X")
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            OutlinedButton(
+                                onClick = { onAnswerCard(LearningResponse.HESITANT) },
+                                modifier = Modifier.weight(1f),
+                            ) {
+                                Text("헷갈림")
+                            }
+                            OutlinedButton(
+                                onClick = { onAnswerCard(LearningResponse.UNKNOWN) },
+                                modifier = Modifier.weight(1f),
+                            ) {
+                                Text("모름")
+                            }
                         }
                     }
                     OutlinedButton(
@@ -1194,9 +1388,9 @@ private fun SessionCompleteCard(
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold,
             )
-            Text("알겠다 ${session.knownCount}개 · 모르겠다 ${session.unknownCount}개")
+            Text("외움 ${session.knownCount}개 · 재학습 ${session.needsPracticeCount}개")
             Text(
-                text = "모르겠다고 표시한 단어는 다음 세션에서 우선적으로 다시 나옵니다.",
+                text = "헷갈림이나 모름으로 표시한 단어는 같은 세션 뒤쪽과 다음 세션에서 더 먼저 나옵니다.",
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             Button(
@@ -1230,6 +1424,370 @@ private fun GradeSelector(
                 )
             }
         }
+    }
+}
+
+@Composable
+private fun WordCatalogTab(
+    grade: SchoolGrade,
+    wordProgress: List<WordProgress>,
+    onPlayWordAudio: (WordEntry) -> Unit,
+    onPlayExampleAudio: (WordEntry) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    var selectedSortModeName by rememberSaveable { mutableStateOf(WordListSortMode.PRIORITY.name) }
+    val selectedSortMode = WordListSortMode.valueOf(selectedSortModeName)
+    val sortedProgress = remember(wordProgress, selectedSortMode) {
+        sortWordProgress(wordProgress, selectedSortMode)
+    }
+
+    if (wordProgress.isEmpty()) {
+        EmptyState("${grade.label}에 등록된 단어가 없습니다. 단어장을 업로드한 뒤 동기화해 주세요.")
+        return
+    }
+
+    LazyColumn(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+        contentPadding = PaddingValues(bottom = 24.dp),
+    ) {
+        item {
+            CatalogSummaryCard(
+                grade = grade,
+                wordCount = wordProgress.size,
+            )
+        }
+        item {
+            WordListSortSelector(
+                selectedSortMode = selectedSortMode,
+                onSelectSortMode = { selectedSortModeName = it.name },
+            )
+        }
+        items(sortedProgress, key = { it.entry.wordId }) { progress ->
+            WordCatalogCard(
+                progress = progress,
+                onPlayWordAudio = onPlayWordAudio,
+                onPlayExampleAudio = onPlayExampleAudio,
+            )
+        }
+    }
+}
+
+@Composable
+private fun WordListSortSelector(
+    selectedSortMode: WordListSortMode,
+    onSelectSortMode: (WordListSortMode) -> Unit,
+) {
+    var expanded by remember { mutableStateOf(false) }
+
+    Box(modifier = Modifier.fillMaxWidth()) {
+        OutlinedButton(
+            onClick = { expanded = true },
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text("정렬: ${selectedSortMode.label}")
+                Text("▼")
+            }
+        }
+        DropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false },
+        ) {
+            WordListSortMode.entries.forEach { mode ->
+                DropdownMenuItem(
+                    text = { Text(mode.label) },
+                    onClick = {
+                        onSelectSortMode(mode)
+                        expanded = false
+                    },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun CatalogSummaryCard(
+    grade: SchoolGrade,
+    wordCount: Int,
+) {
+    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = "${grade.label} 단어장",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                Text(
+                    text = "현재 앱에 로드된 단어",
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Tag("${wordCount}개")
+        }
+    }
+}
+
+@Composable
+private fun WordCatalogCard(
+    progress: WordProgress,
+    onPlayWordAudio: (WordEntry) -> Unit,
+    onPlayExampleAudio: (WordEntry) -> Unit,
+) {
+    val word = progress.entry
+    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.Top,
+            ) {
+                Column(
+                    modifier = Modifier.weight(1f),
+                    verticalArrangement = Arrangement.spacedBy(3.dp),
+                ) {
+                    Text(
+                        text = "#${word.wordId}",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Text(
+                        text = word.word,
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                        color = Ink,
+                    )
+                    if (word.phonetic.isNotBlank()) {
+                        Text(
+                            text = word.phonetic,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                }
+                WordProgressTags(progress = progress)
+            }
+
+            WordMetadataRow(word = word)
+
+            Text(
+                text = word.meanings.joinToString(", "),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+            )
+
+            if (word.synonyms.isNotEmpty()) {
+                LabeledText(
+                    label = "유의어",
+                    text = word.synonyms.joinToString(", "),
+                )
+            }
+
+            if (word.antonyms.isNotEmpty()) {
+                LabeledText(
+                    label = "반의어",
+                    text = word.antonyms.joinToString(", "),
+                )
+            }
+
+            Surface(
+                modifier = Modifier.fillMaxWidth(),
+                color = MaterialTheme.colorScheme.surfaceVariant,
+                shape = RoundedCornerShape(18.dp),
+            ) {
+                Column(
+                    modifier = Modifier.padding(14.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    Text(
+                        text = word.exampleSentence,
+                        style = MaterialTheme.typography.bodyLarge,
+                    )
+                    Text(
+                        text = word.exampleTranslation,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                AssistChip(
+                    onClick = { onPlayWordAudio(word) },
+                    label = { Text("단어 듣기") },
+                )
+                AssistChip(
+                    onClick = { onPlayExampleAudio(word) },
+                    label = { Text("예문 듣기") },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun WordProgressTags(
+    progress: WordProgress,
+) {
+    val tags = buildList {
+        if (progress.stat.needReview) {
+            add(ProgressTag("복습", SoftRed, Color.White))
+        }
+        if (progress.stat.wrongCount > 0) {
+            add(ProgressTag("오답 ${progress.stat.wrongCount}", Clay, Color.White))
+        }
+        if (progress.stat.totalSolvedCount == 0) {
+            add(ProgressTag("처음", Ink.copy(alpha = 0.88f), Color.White))
+        }
+        if (progress.stat.correctCount > 0) {
+            add(ProgressTag("정답 ${progress.stat.correctCount}", Mist, Moss))
+        }
+    }
+
+    if (tags.isEmpty()) return
+
+    Column(
+        horizontalAlignment = Alignment.End,
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        tags.take(2).forEach { tag ->
+            StatusTag(tag = tag)
+        }
+    }
+}
+
+private data class ProgressTag(
+    val label: String,
+    val containerColor: Color,
+    val contentColor: Color,
+)
+
+@Composable
+private fun StatusTag(
+    tag: ProgressTag,
+) {
+    Box(
+        modifier = Modifier
+            .clip(RoundedCornerShape(999.dp))
+            .background(tag.containerColor)
+            .padding(horizontal = 10.dp, vertical = 6.dp),
+    ) {
+        Text(
+            text = tag.label,
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.SemiBold,
+            color = tag.contentColor,
+        )
+    }
+}
+
+@Composable
+private fun WordMetadataRow(
+    word: WordEntry,
+) {
+    val labels = buildList {
+        if (word.lexicalType == "phrase") {
+            add("표현")
+        }
+        addAll(word.partsOfSpeech.map(::formatPartOfSpeech))
+    }.filter { it.isNotBlank() }
+
+    if (labels.isEmpty()) return
+
+    LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        items(labels) { label ->
+            Tag(label)
+        }
+    }
+}
+
+private fun formatPartOfSpeech(value: String): String =
+    when (value.trim().lowercase()) {
+        "noun" -> "명사"
+        "verb" -> "동사"
+        "adjective" -> "형용사"
+        "adverb" -> "부사"
+        "preposition" -> "전치사"
+        "conjunction" -> "접속사"
+        "phrase" -> "표현"
+        "verb phrase" -> "동사구"
+        "noun phrase" -> "명사구"
+        "idiom" -> "숙어"
+        else -> value
+    }
+
+private fun sortWordProgress(
+    wordProgress: List<WordProgress>,
+    sortMode: WordListSortMode,
+): List<WordProgress> =
+    when (sortMode) {
+        WordListSortMode.PRIORITY -> wordProgress.sortedWith(
+            compareByDescending<WordProgress> { wordListPriorityScore(it) }
+                .thenBy { it.stat.lastSolvedAt ?: 0L }
+                .thenBy { it.stat.totalSolvedCount }
+                .thenBy { it.entry.word },
+        )
+
+        WordListSortMode.REVIEW -> wordProgress.sortedWith(
+            compareByDescending<WordProgress> { it.stat.needReview }
+                .thenByDescending { it.stat.wrongCount }
+                .thenBy { it.stat.lastSolvedAt ?: 0L }
+                .thenBy { it.entry.word },
+        )
+
+        WordListSortMode.UNSEEN -> wordProgress.sortedWith(
+            compareBy<WordProgress> { it.stat.totalSolvedCount > 0 }
+                .thenBy { it.entry.word },
+        )
+
+        WordListSortMode.WRONG -> wordProgress.sortedWith(
+            compareByDescending<WordProgress> { it.stat.wrongCount }
+                .thenBy { it.stat.correctCount }
+                .thenBy { it.entry.word },
+        )
+
+        WordListSortMode.KNOWN -> wordProgress.sortedWith(
+            compareByDescending<WordProgress> { it.stat.correctCount }
+                .thenBy { it.stat.wrongCount }
+                .thenBy { it.entry.word },
+        )
+
+        WordListSortMode.ALPHABET -> wordProgress.sortedBy { it.entry.word.lowercase() }
+        WordListSortMode.ORIGINAL -> wordProgress
+    }
+
+private fun wordListPriorityScore(progress: WordProgress): Int {
+    val stat = progress.stat
+    val unseenScore = if (stat.totalSolvedCount == 0) 4 else 0
+    val reviewScore = if (stat.needReview) 5 else 0
+    return unseenScore + reviewScore + (stat.wrongCount * 4) - (stat.correctCount * 2)
+}
+
+@Composable
+private fun LabeledText(
+    label: String,
+    text: String,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Text(text = text)
     }
 }
 

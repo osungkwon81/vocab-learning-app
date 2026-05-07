@@ -1,0 +1,104 @@
+# Vocabulary JSON Generator
+
+텍스트 단어장을 JSON으로 변환하고, 필요하면 Firebase Storage에 업로드합니다.
+
+## Generate only
+
+```bash
+python3 tools/vocabulary/generate_all.py
+python3 tools/vocabulary/generate_all.py --grade middle3
+python3 tools/vocabulary/generate_all.py --grade high1
+python3 tools/vocabulary/generate_all.py --grade high2
+python3 tools/vocabulary/generate_all.py --grade high3
+python3 tools/vocabulary/generate_english_middle3.py
+python3 tools/vocabulary/generate_english_high1.py
+python3 tools/vocabulary/generate_english_high2.py
+python3 tools/vocabulary/generate_english_high3.py
+```
+
+생성되는 단어장 JSON은 앱의 `WordDto`가 읽는 `exampleSentence`, `exampleTranslation` 필드를 포함합니다.
+기본 버전은 현재 원격 매니페스트에 맞춘 `4`입니다.
+
+로컬 앱 assets도 같이 갱신하려면 `--update-assets`를 붙입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --update-assets
+```
+
+## Generate and upload
+
+먼저 Firebase Admin SDK를 설치합니다.
+
+```bash
+pip install -r tools/vocabulary/requirements.txt
+```
+
+Firebase service account JSON 경로와 Storage bucket 이름을 환경변수로 설정합니다.
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/firebase-service-account.json"
+export FIREBASE_STORAGE_BUCKET="vocab-learning-ff783.firebasestorage.app"
+```
+
+`GOOGLE_APPLICATION_CREDENTIALS`를 생략하면 `/Users/gwon-oseong/key/vocab-learning-firebase-adminsdk.json` 파일이 있을 때 자동으로 사용합니다.
+`FIREBASE_STORAGE_BUCKET`을 생략하면 `vocab-learning-ff783.firebasestorage.app`을 기본값으로 사용합니다.
+
+업로드까지 실행합니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --upload --upload-manifest
+```
+
+중3만 생성/업로드하려면:
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --upload --upload-manifest
+```
+
+고1만 생성/업로드하려면:
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade high1 --upload --upload-manifest
+```
+
+고2/고3도 같은 방식입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade high2 --upload --upload-manifest
+python3 tools/vocabulary/generate_all.py --grade high3 --upload --upload-manifest
+```
+
+기본 업로드 경로는 앱의 원격 경로와 같은 `catalog/en/english_middle3.json`, `catalog/en/english_high1.json`, `catalog/en/english_high2.json`, `catalog/en/english_high3.json`입니다.
+`--upload-manifest`를 붙이면 루트 `version.json`도 업로드합니다. `version.json`은 앱이 원격 버전을 판단하는 기준이라, 특정 학년만 생성하더라도 중3/고1/고2/고3 항목을 함께 포함합니다.
+
+현재 생성되는 `version.json` 형식:
+
+```json
+{
+  "version": 4,
+  "files": [
+    {
+      "path": "catalog/en/english_middle3.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high1.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high2.json",
+      "version": 4
+    },
+    {
+      "path": "catalog/en/english_high3.json",
+      "version": 4
+    }
+  ]
+}
+```
+
+다른 경로로 올리려면 `--storage-path`를 사용합니다.
+
+```bash
+python3 tools/vocabulary/generate_english_middle3.py --upload --storage-path catalog/en/english_middle3.json
+```

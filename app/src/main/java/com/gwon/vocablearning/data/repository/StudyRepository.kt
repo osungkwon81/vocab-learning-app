@@ -1,6 +1,7 @@
 package com.gwon.vocablearning.data.repository
 
 import com.gwon.vocablearning.domain.model.DashboardSnapshot
+import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.QuizType
 import com.gwon.vocablearning.domain.model.ReviewItem
 import com.gwon.vocablearning.domain.model.SchoolGrade
@@ -26,7 +27,7 @@ interface StudyRepository {
     suspend fun loadReviewItems(grade: SchoolGrade): List<ReviewItem>
     suspend fun recordLearningResult(
         wordId: Long,
-        knewIt: Boolean,
+        response: LearningResponse,
         elapsedMs: Long,
     )
 

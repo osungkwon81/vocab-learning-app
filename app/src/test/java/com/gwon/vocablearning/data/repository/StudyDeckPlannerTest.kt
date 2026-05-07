@@ -14,7 +14,7 @@ class StudyDeckPlannerTest {
     private val now = 1_000_000L
 
     @Test
-    fun wrongWordsArePrioritizedBeforeOldAndSlowWords() {
+    fun wrongAndSlowWordsArePrioritizedBeforeOldWords() {
         val ordered = planner.prioritize(
             progress = listOf(
                 progress(wordId = 1, word = "general"),
@@ -26,7 +26,37 @@ class StudyDeckPlannerTest {
             nowMillis = now,
         )
 
-        assertEquals(listOf("wrong", "old", "slow", "general"), ordered.map { it.entry.word })
+        assertEquals(listOf("wrong", "slow", "old", "general"), ordered.map { it.entry.word })
+    }
+
+    @Test
+    fun correctAnswersPushWordsBelowNewWords() {
+        val ordered = planner.prioritize(
+            progress = listOf(
+                progress(wordId = 1, word = "known", correctCount = 1, lastSolvedAt = now),
+                progress(wordId = 2, word = "new"),
+                progress(wordId = 3, word = "mastered", correctCount = 3, lastSolvedAt = now),
+            ),
+            count = 3,
+            nowMillis = now,
+        )
+
+        assertEquals(listOf("new", "known", "mastered"), ordered.map { it.entry.word })
+    }
+
+    @Test
+    fun quizWrongRaisesAndLaterCorrectAnswersLowerPriority() {
+        val ordered = planner.prioritize(
+            progress = listOf(
+                progress(wordId = 1, word = "still-hard", wrongCount = 2, correctCount = 1, needReview = true),
+                progress(wordId = 2, word = "recovered", wrongCount = 1, correctCount = 2),
+                progress(wordId = 3, word = "new"),
+            ),
+            count = 3,
+            nowMillis = now,
+        )
+
+        assertEquals(listOf("still-hard", "new", "recovered"), ordered.map { it.entry.word })
     }
 
     @Test
@@ -63,9 +93,11 @@ class StudyDeckPlannerTest {
     private fun progress(
         wordId: Long,
         word: String,
+        correctCount: Int = 0,
         wrongCount: Int = 0,
         averageElapsedMs: Long = 0,
         lastSolvedAt: Long? = null,
+        needReview: Boolean = false,
     ): WordProgress =
         WordProgress(
             entry = WordEntry(
@@ -82,9 +114,12 @@ class StudyDeckPlannerTest {
             ),
             stat = WordStat(
                 wordId = wordId,
+                totalSolvedCount = correctCount + wrongCount,
+                correctCount = correctCount,
                 wrongCount = wrongCount,
                 averageElapsedMs = averageElapsedMs,
                 lastSolvedAt = lastSolvedAt,
+                needReview = needReview,
             ),
         )
 }
