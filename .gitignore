@@ -8,5 +8,6 @@ captures/
 *.log
 __pycache__/
 *.pyc
+tools/vocabulary/generated_audio/
 service-account*.json
 firebase-service-account*.json

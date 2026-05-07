@@ -47,7 +47,7 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fprogress.mp3?alt=media",
       "exampleAudioUrl": ""
     },
     {
@@ -85,7 +85,7 @@
           "originalNo": ""
         }
       ],
-      "wordAudioUrl": "",
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Flead-to.mp3?alt=media",
       "exampleAudioUrl": ""
     }
   ]

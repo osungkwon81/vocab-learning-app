@@ -13,6 +13,8 @@ parser.add_argument("--version", type=int, default=VERSION)
 parser.add_argument("--upload", action="store_true")
 parser.add_argument("--storage-path", default=REMOTE_PATH)
 parser.add_argument("--update-assets", action="store_true")
+parser.add_argument("--generate-word-audio", action="store_true")
+parser.add_argument("--upload-word-audio", action="store_true")
 args = parser.parse_args()
 
 
@@ -22,6 +24,8 @@ output_file = generate(
     grade="high2",
     version=args.version,
     word_id_start=500001,
+    generate_word_audio=args.generate_word_audio,
+    upload_word_audio=args.upload_word_audio,
 )
 
 if args.update_assets:

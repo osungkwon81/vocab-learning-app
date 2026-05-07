@@ -25,9 +25,16 @@ python3 tools/vocabulary/generate_english_high3.py
 python3 tools/vocabulary/generate_all.py --update-assets
 ```
 
+단어 mp3만 로컬에 생성하려면 `--generate-word-audio`를 붙입니다.
+오디오 파일은 기본적으로 `tools/vocabulary/generated_audio/words`에 저장되고, 파일명은 단어를 소문자 slug로 바꾼 값입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --generate-word-audio
+```
+
 ## Generate and upload
 
-먼저 Firebase Admin SDK를 설치합니다.
+먼저 Firebase Admin SDK와 gTTS를 설치합니다.
 
 ```bash
 pip install -r tools/vocabulary/requirements.txt
@@ -47,6 +54,13 @@ export FIREBASE_STORAGE_BUCKET="vocab-learning-ff783.firebasestorage.app"
 
 ```bash
 python3 tools/vocabulary/generate_all.py --upload --upload-manifest
+```
+
+단어 mp3를 생성해서 `audio/en/words/{word}.mp3` 경로로 업로드하고, JSON의 `wordAudioUrl`에 URL을 넣으려면 `--upload-word-audio`를 함께 사용합니다.
+`exampleAudioUrl`은 아직 생성하지 않고 빈 문자열로 둡니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --upload --upload-manifest
 ```
 
 중3만 생성/업로드하려면:
