@@ -1,13 +1,71 @@
+be unlikely to|phrase|phrase|/bi ʌnˈlaɪkli tuː/|~할 것 같지 않다|not expected to happen|||He is unlikely to arrive on time.|그는 제시간에 도착하지 못할 것 같다.
+afford to|phrase|verb phrase|/əˈfɔːrd tuː/|~할 여유가 있다|to have enough money or time|||I cannot afford to buy a new car.|나는 새 차를 살 여유가 없다.
+at first glance|phrase|idiom|/æt fɜːrst ɡlæns/|첫눈에,언뜻 보기에|when first seen|||At first glance, the problem seemed easy.|언뜻 보기에 그 문제는 쉬워 보였다.
+read aloud|phrase|verb phrase|/riːd əˈlaʊd/|소리내어 읽다|to read in a loud voice|||The teacher asked him to read aloud.|선생님은 그에게 소리 내어 읽으라고 했다.
+associated with|phrase|phrase|/əˈsoʊsieɪtɪd wɪð/|~와 연관된|connected in some way|||Stress is associated with poor sleep.|스트레스는 수면 부족과 관련이 있다.
+public speaking|phrase|noun phrase|/ˈpʌblɪk ˈspiːkɪŋ/|대중 앞에서 말하기|speaking to an audience|||Public speaking requires confidence.|대중 연설은 자신감을 필요로 한다.
+wired|word|adjective|/waɪərd/|타고나는,선천적으로 갖춘|naturally programmed|||Humans are wired to seek connection.|인간은 관계를 추구하도록 타고났다.
+be likely to|phrase|phrase|/bi ˈlaɪkli tuː/|~할 가능성이 있다|expected to happen|||She is likely to win the contest.|그녀는 대회에서 이길 가능성이 있다.
+according to|phrase|preposition|/əˈkɔːrdɪŋ tuː/|~에 따라,~에 의하면|as stated by|||According to the weather report, it will rain tomorrow.|일기예보에 따르면 내일 비가 올 것이다.
+imagine|word|verb|/ɪˈmædʒɪn/|상상하다|to form a picture in the mind|picture,envision||I can imagine life on another planet.|나는 다른 행성의 삶을 상상할 수 있다.
+vow|word|noun,verb|/vaʊ/|맹세,서약,맹세하다|a serious promise,to promise seriously|pledge,promise|break|He made a vow to help others.|그는 다른 사람들을 돕겠다고 맹세했다.
+challenge|word|noun,verb|/ˈtʃælɪndʒ/|도전,도전하다|a difficult task,to test someone's ability|test,dare|avoid|She accepted the challenge bravely.|그녀는 용감하게 도전을 받아들였다.
+entire|word|adjective|/ɪnˈtaɪər/|전체의|whole,complete|whole,complete|partial|The entire class joined the event.|반 전체가 행사에 참여했다.
+absolutely|word|adverb|/ˈæbsəluːtli/|전적으로,틀림없이|completely,without doubt|completely,totally|partly|I absolutely agree with you.|나는 너에게 전적으로 동의한다.
+observe|word|verb|/əbˈzɜːrv/|관찰하다,준수하다|to watch carefully,to follow a rule|watch,notice|ignore|Scientists observe the stars every night.|과학자들은 매일 밤 별을 관찰한다.
+behavioral|word|adjective|/bɪˈheɪvjərəl/|행동의,행동에 관한|related to behavior|||The study focused on behavioral changes.|그 연구는 행동 변화에 초점을 맞췄다.
+psychology|word|noun|/saɪˈkɑːlədʒi/|심리학,심리|the study of the mind|mental science||She studies psychology at college.|그녀는 대학에서 심리학을 공부한다.
+treat|word|verb|/triːt/|대하다,치료하다|to behave toward someone,to cure|heal,handle|harm|Doctors treat sick patients carefully.|의사들은 아픈 환자들을 세심하게 치료한다.
+conversation|word|noun|/ˌkɑːnvərˈseɪʃn/|대화|an informal talk|discussion,talk||We had a long conversation yesterday.|우리는 어제 긴 대화를 나누었다.
+rehearse|word|verb|/rɪˈhɜːrs/|예행연습을 하다|to practice before a performance|practice,prepare||The actors rehearsed for the play.|배우들은 연극 연습을 했다.
+utterance|word|noun|/ˈʌtərəns/|발언|something that is said|statement,remark||His utterance surprised everyone.|그의 발언은 모두를 놀라게 했다.
+eliminate|word|verb|/ɪˈlɪməneɪt/|제거하다|to remove completely|remove,erase|keep|We must eliminate unnecessary costs.|우리는 불필요한 비용을 제거해야 한다.
+express|word|verb|/ɪkˈspres/|표현하다|to show thoughts or feelings|show,communicate|hide|She expressed her opinion clearly.|그녀는 자신의 의견을 분명하게 표현했다.
+limit|word|noun,verb|/ˈlɪmɪt/|한계,제한,제한하다|a boundary,to control something|restrict,control|expand|The speed limit is 60 kilometers.|속도 제한은 시속 60킬로미터이다.
+attend|word|verb|/əˈtend/|참석하다,돌보다|to go to,to take care of|join,participate|miss|Many students attended the meeting.|많은 학생들이 회의에 참석했다.
+attune|word|verb|/əˈtuːn/|맞추다|to make someone familiar with something|adapt,adjust||He attuned himself to the new culture.|그는 새로운 문화에 자신을 맞췄다.
+respond|word|verb|/rɪˈspɑːnd/|반응하다,대답하다|to answer or react|reply,react|ignore|She responded to my email quickly.|그녀는 내 이메일에 빨리 답했다.
+discover|word|verb|/dɪˈskʌvər/|발견하다,알아내다|to find something new|find,detect|lose|They discovered a new species.|그들은 새로운 종을 발견했다.
+knowledge|word|noun|/ˈnɑːlɪdʒ/|지식|information and understanding|understanding,wisdom|ignorance|Reading increases your knowledge.|독서는 지식을 늘려 준다.
+threaten|word|verb|/ˈθretn/|위협하다|to cause fear or danger|menace,intimidate|protect|Dark clouds threatened the village.|검은 구름이 마을을 위협했다.
+opposite|word|adjective,preposition|/ˈɑːpəzɪt/|반대의,반대편에|completely different,on the other side|contrary|same|The bank is opposite the school.|은행은 학교 맞은편에 있다.
+rob someone of something|phrase|verb phrase|/rɑːb əv/|A에게서 B를 빼앗다|to take something away from someone|deprive,steal||The accident robbed him of confidence.|그 사고는 그의 자신감을 빼앗았다.
+related|word|adjective|/rɪˈleɪtɪd/|관련된,친척의|connected with something|connected,associated|unrelated|The two topics are closely related.|그 두 주제는 밀접하게 관련되어 있다.
+pessimistic|word|adjective|/ˌpesəˈmɪstɪk/|비관적인|expecting bad things|negative,gloomy|optimistic|He is pessimistic about the future.|그는 미래에 대해 비관적이다.
+protect|word|verb|/prəˈtekt/|보호하다|to keep safe|guard,defend|harm|Sunscreen protects your skin.|선크림은 피부를 보호한다.
+illness|word|noun|/ˈɪlnəs/|병,아픔|a disease or poor health|disease,sickness|health|The illness kept him at home.|그 병 때문에 그는 집에 있었다.
+intend|word|verb|/ɪnˈtend/|할 작정이다,의도하다|to plan or mean to do something|plan,aim||I intend to study harder this year.|나는 올해 더 열심히 공부할 생각이다.
+warn|word|verb|/wɔːrn/|경고하다|to tell someone about danger|alert,caution||The teacher warned us about the storm.|선생님은 우리에게 폭풍을 경고했다.
+cancer|word|noun|/ˈkænsər/|암|a serious disease caused by harmful cells|tumor||Doctors are researching cancer treatments.|의사들은 암 치료법을 연구하고 있다.
+result in|phrase|verb phrase|/rɪˈzʌlt ɪn/|~한 결과를 낳다|to cause something to happen|cause,lead to|prevent|Lack of sleep can result in illness.|수면 부족은 질병으로 이어질 수 있다.
+screen|word|verb|/skriːn/|가리다,차단하다,검사하다|to block or protect|block,shield|expose|Trees screened the house from view.|나무들이 집을 가려 주었다.
+disease|word|noun|/dɪˈziːz/|병|an illness affecting the body|illness,sickness|health|The disease spread quickly.|그 병은 빠르게 퍼졌다.
+terrify|word|verb|/ˈterəfaɪ/|무섭게 하다|to make someone very afraid|frighten,scare|comfort|The loud noise terrified the child.|큰 소리가 아이를 무섭게 했다.
+doom|word|noun,verb|/duːm/|나쁜 운명,파멸시키다|terrible fate,to cause failure|ruin,destroy|save|The decision doomed the project.|그 결정은 그 프로젝트를 망치게 했다.
+gloom|word|noun|/ɡluːm/|우울,어둠|sadness or darkness|darkness,depression|brightness|A feeling of gloom filled the room.|우울한 분위기가 방을 가득 채웠다.
+depressed|word|adjective|/dɪˈprest/|우울한|feeling very sad|sad,gloomy|happy|He felt depressed after the failure.|그는 실패 후 우울함을 느꼈다.
+ecological|word|adjective|/ˌiːkəˈlɑːdʒɪkl/|생태계의,환경친화적인|related to the environment|environmental||We need ecological solutions.|우리는 친환경적인 해결책이 필요하다.
+collapse|word|noun,verb|/kəˈlæps/|무너지다,붕괴|to fall down suddenly,a sudden failure|breakdown|stability|The old bridge collapsed last year.|그 오래된 다리는 작년에 무너졌다.
+overstate|word|verb|/ˌoʊvərˈsteɪt/|과장하다|to describe something as greater than it is|exaggerate|understate|Do not overstate your abilities.|자신의 능력을 과장하지 마라.
+fulfillment|word|noun|/fʊlˈfɪlmənt/|성취감,실현|a feeling of satisfaction from achievement|achievement,satisfaction||Helping others gives her fulfillment.|다른 사람을 돕는 것은 그녀에게 성취감을 준다.
+empowerment|word|noun|/ɪmˈpaʊərmənt/|권한 부여,자신감을 줌|giving power or confidence|authorization,strengthening||Education leads to empowerment.|교육은 힘을 길러 준다.
+energize|word|verb|/ˈenərdʒaɪz/|활기를 돋우다,동력을 공급하다|to give energy to something|stimulate,invigorate|weaken|Music energizes the crowd.|음악은 사람들에게 활기를 준다.
+satisfy|word|verb|/ˈsætɪsfaɪ/|만족시키다|to make someone pleased|please,fulfill|disappoint|The meal satisfied everyone.|그 식사는 모두를 만족시켰다.
+count|word|verb|/kaʊnt/|세다,간주하다|to calculate numbers,to consider|calculate,regard|ignore|Please count the students carefully.|학생 수를 잘 세어 보세요.
+employment|word|noun|/ɪmˈplɔɪmənt/|고용,취업|the state of having a job|work,occupation|unemployment|The city offers more employment opportunities.|그 도시는 더 많은 취업 기회를 제공한다.
+source|word|noun|/sɔːrs/|원천,출처,원인|the origin of something|origin,cause||The river is the source of water.|그 강은 물의 원천이다.
+pride|word|noun|/praɪd/|자부심|a feeling of satisfaction about oneself|confidence,honor|shame|She takes pride in her work.|그녀는 자신의 일에 자부심을 가진다.
+conduct|word|noun,verb|/ˈkɑːndʌkt/|수행하다,행동,행위|behavior,to carry out|behavior,perform|misbehave|Scientists conducted an experiment.|과학자들은 실험을 수행했다.
+fulfilled|word|adjective|/fʊlˈfɪld/|성취감을 느끼는|feeling satisfied and happy|satisfied,content|empty|She felt fulfilled after helping others.|그녀는 다른 사람들을 도운 후 성취감을 느꼈다.
+produce|word|verb|/prəˈduːs/|생산하다|to make or create something|create,manufacture|destroy|The factory produces cars.|그 공장은 자동차를 생산한다.
 progress|word|noun,verb|/ˈprɑːɡres/|진보,발전,진행|movement forward,improvement|advance,development|regress,decline|She made progress in her studies.|그녀는 공부에서 발전을 이루었다.
 propose|word|verb|/prəˈpoʊz/|제안하다,제시하다|to suggest or present an idea|suggest,recommend||He proposed a new plan.|그는 새로운 계획을 제안했다.
-produce|word|verb,noun|/prəˈduːs/|생산하다,제조하다,농산물|to make or create goods|manufacture,create||They produce cars in this factory.|그들은 이 공장에서 자동차를 생산한다.
-protect|word|verb|/prəˈtekt/|보호하다,지키다|to keep safe from harm|guard,defend|attack|Sunscreen protects your skin.|선크림은 피부를 보호한다.
 profile|word|noun|/ˈproʊfaɪl/|윤곽,프로필,개요|a short description or outline|||She updated her profile online.|그녀는 온라인 프로필을 수정했다.
 purchase|word|verb,noun|/ˈpɜːrtʃəs/|구매하다,구입|to buy something|buy||I purchased a new laptop.|나는 새 노트북을 구입했다.
 predict|word|verb|/prɪˈdɪkt/|예측하다|to say what will happen|forecast,anticipate||Experts predict rain tomorrow.|전문가들은 내일 비를 예측한다.
 precaution|word|noun|/prɪˈkɔːʃən/|조심,예방책|action taken to prevent danger|||Take precautions before traveling.|여행 전에 예방 조치를 취해라.
 premature|word|adjective|/ˈpriːmətʃʊr/|너무 이른,조기의|happening too soon|early||The decision was premature.|그 결정은 너무 빨랐다.
-preview|word|noun,verb|/ˈpriːvjuː/|미리 보기,시사하다|to see before release|||We watched a preview of the movie.|우리는 영화 시사회를 봤다.
+preview|word|noun,verb|/ˈpriːvjuː/|미리 보기,미리 보다|to see before release|||We watched a preview of the movie.|우리는 영화 시사회를 봤다.
 income|word|noun|/ˈɪnkʌm/|소득,수입|money received|earnings,revenue||His income increased this year.|그의 수입은 올해 늘었다.
 intake|word|noun|/ˈɪnteɪk/|섭취량|amount taken in|||Limit your sugar intake.|당 섭취를 줄여라.
 infection|word|noun|/ɪnˈfekʃən/|감염,오염|disease caused by germs|||The infection spread quickly.|감염이 빠르게 퍼졌다.
@@ -20,6 +78,1198 @@ outcome|word|noun|/ˈaʊtkʌm/|결과,성과|result of an action|result,conseque
 outline|word|noun,verb|/ˈaʊtlaɪn/|개요,윤곽,요약하다|general description|||She outlined her plan.|그녀는 계획을 요약했다.
 outstanding|word|adjective|/aʊtˈstændɪŋ/|뛰어난,눈에 띄는|very excellent|excellent,remarkable|ordinary|He did an outstanding job.|그는 뛰어난 일을 해냈다.
 outbreak|word|noun|/ˈaʊtbreɪk/|발생,발발|sudden start of something|||The outbreak spread fast.|발병이 빠르게 퍼졌다.
-outlet|word|noun|/ˈaʊtlet/|배출구,매장|place or opening|||This store is an outlet.|이 가게는 아울렛이다.
+outlet|word|noun|/ˈaʊtlet/|배출구,판매점|place or opening|||This store is an outlet.|이 가게는 아울렛이다.
 utter|word|verb,adjective|/ˈʌtər/|말하다,완전한|to speak,complete|||He uttered a word.|그는 한마디 했다.
 utmost|word|adjective,noun|/ˈʌtmoʊst/|최대의,극도의|greatest possible|maximum||We did our utmost.|우리는 최선을 다했다.
+contribute|word|verb|/kənˈtrɪbjuːt/|기여하다|to give or add something to help|donate,add||Everyone can contribute to the project.|모두가 프로젝트에 기여할 수 있다.
+circumstance|word|noun|/ˈsɜːrkəmstæns/|상황,환경|a condition affecting a situation|situation,condition||He succeeded despite difficult circumstances.|그는 어려운 상황에도 성공했다.
+engage|word|verb|/ɪnˈɡeɪdʒ/|참여하다,관여하다|to take part in,to involve|participate,involve||Students should engage in discussion.|학생들은 토론에 참여해야 한다.
+meaningful|word|adjective|/ˈmiːnɪŋfəl/|의미 있는|having importance or value|significant,important||We had a meaningful conversation.|우리는 의미 있는 대화를 나눴다.
+positively|word|adverb|/ˈpɑːzətɪvli/|긍정적으로|in a positive way|favorably||She responded positively to the idea.|그녀는 그 아이디어에 긍정적으로 반응했다.
+connection|word|noun|/kəˈnekʃən/|연결,관계|a relationship or link|link,relationship||There is a strong connection between them.|그들 사이에는 강한 관계가 있다.
+negative|word|adjective|/ˈneɡətɪv/|부정적인|not positive,harmful|pessimistic,unfavorable|positive|Negative thinking can hurt confidence.|부정적인 생각은 자신감을 해칠 수 있다.
+appreciate|word|verb|/əˈpriːʃieɪt/|감사하다,이해하다|to value or understand|value,recognize||I appreciate your help.|도와주셔서 감사합니다.
+shift|word|noun,verb|/ʃɪft/|변화,옮기다|a change,to move|change,move||Public opinion shifted quickly.|여론이 빠르게 바뀌었다.
+significant|word|adjective|/sɪɡˈnɪfɪkənt/|중요한,상당한|important or large in effect|important,major||This is a significant discovery.|이것은 중요한 발견이다.
+emotion|word|noun|/ɪˈmoʊʃən/|감정|a strong feeling|||Fear is a natural emotion.|두려움은 자연스러운 감정이다.
+decrease|word|noun,verb|/dɪˈkriːs/|감소,감소하다|to become less|reduce,decline|increase|Sales decreased last month.|지난달 매출이 감소했다.
+anxiety|word|noun|/æŋˈzaɪəti/|불안|a feeling of worry or fear|||Anxiety can affect sleep.|불안은 수면에 영향을 줄 수 있다.
+anger|word|noun|/ˈæŋɡər/|분노|strong feeling of displeasure|||He could not control his anger.|그는 분노를 조절하지 못했다.
+improve|word|verb|/ɪmˈpruːv/|개선하다|to make better|enhance,better|worsen|Exercise improves health.|운동은 건강을 개선한다.
+physical|word|adjective|/ˈfɪzɪkəl/|신체의|related to the body|bodily||Physical activity is important.|신체 활동은 중요하다.
+health|word|noun|/helθ/|건강|the condition of the body|||Good health is valuable.|건강은 소중하다.
+benefit|word|noun,verb|/ˈbenɪfɪt/|이점,도움이 되다|an advantage,to help|advantage,help||Reading benefits your mind.|독서는 정신에 도움이 된다.
+relationship|word|noun|/rɪˈleɪʃənʃɪp/|관계|the way people are connected|connection,bond||Trust is important in a relationship.|관계에서 신뢰는 중요하다.
+strengthen|word|verb|/ˈstreŋθən/|강화하다|to make stronger|reinforce,fortify|weaken|Exercise strengthens muscles.|운동은 근육을 강화한다.
+mental|word|adjective|/ˈmentl/|정신의|related to the mind|||Mental health matters too.|정신 건강도 중요하다.
+reduce|word|verb|/rɪˈduːs/|줄이다|to make smaller or less|decrease,lower|increase|We should reduce waste.|우리는 쓰레기를 줄여야 한다.
+stress|word|noun|/stres/|스트레스|mental or emotional pressure|||Too much stress is harmful.|너무 많은 스트레스는 해롭다.
+support|word|noun,verb|/səˈpɔːrt/|지지,지원하다|help or encouragement|help,assist||Friends support each other.|친구들은 서로를 돕는다.
+community|word|noun|/kəˈmjuːnəti/|공동체,지역사회|a group of people living together|||A strong community helps everyone.|강한 공동체는 모두를 돕는다.
+surround|word|verb|/səˈraʊnd/|둘러싸다|to be all around something|encircle||Trees surround the house.|나무들이 집을 둘러싸고 있다.
+interaction|word|noun|/ˌɪntərˈækʃən/|상호작용|communication or action between people|communication,exchange||Social interaction is important for children.|사회적 상호작용은 아이들에게 중요하다.
+isolation|word|noun|/ˌaɪsəˈleɪʃən/|고립|the state of being alone or separated|separation,loneliness||Long isolation can affect mental health.|오랜 고립은 정신 건강에 영향을 줄 수 있다.
+participate in|phrase|verb phrase|/pɑːrˈtɪsəpeɪt ɪn/|~에 참여하다|to take part in something|join,take part in||Many students participate in sports.|많은 학생들이 스포츠에 참여한다.
+regularly|word|adverb|/ˈreɡjələrli/|규칙적으로,정기적으로|in a regular way|consistently||She exercises regularly.|그녀는 규칙적으로 운동한다.
+activity|word|noun|/ækˈtɪvəti/|활동|something that you do|||Outdoor activity improves health.|야외 활동은 건강을 향상시킨다.
+maintain|word|verb|/meɪnˈteɪn/|유지하다|to keep in good condition|keep,preserve||It is important to maintain balance.|균형을 유지하는 것은 중요하다.
+balance|word|noun|/ˈbæləns/|균형|a stable and equal state|stability,equilibrium||Work-life balance is important.|일과 삶의 균형은 중요하다.
+encourage|word|verb|/ɪnˈkɜːrɪdʒ/|격려하다,장려하다|to give confidence or support|support,motivate||Teachers encourage students to ask questions.|선생님들은 학생들이 질문하도록 격려한다.
+develop|word|verb|/dɪˈveləp/|발달시키다,개발하다|to grow or improve|grow,improve||Children develop language skills early.|아이들은 일찍 언어 능력을 발달시킨다.
+habit|word|noun|/ˈhæbɪt/|습관|something you do regularly|||Reading is a good habit.|독서는 좋은 습관이다.
+essential|word|adjective|/ɪˈsenʃəl/|필수적인|absolutely necessary|necessary,critical||Water is essential for life.|물은 생명에 필수적이다.
+prevent|word|verb|/prɪˈvent/|예방하다|to stop something from happening|stop,avoid||Exercise helps prevent disease.|운동은 질병 예방에 도움이 된다.
+loneliness|word|noun|/ˈloʊnlinəs/|외로움|sadness from being alone|||Loneliness can affect anyone.|외로움은 누구에게나 영향을 줄 수 있다.
+communicate|word|verb|/kəˈmjuːnɪkeɪt/|소통하다|to share information or feelings|talk,express||We need to communicate clearly.|우리는 분명하게 소통해야 한다.
+social|word|adjective|/ˈsoʊʃəl/|사회적인|related to society or people|||Humans are social beings.|인간은 사회적 존재다.
+confidence|word|noun|/ˈkɑːnfɪdəns/|자신감|belief in yourself|||Practice builds confidence.|연습은 자신감을 키운다.
+motivation|word|noun|/ˌmoʊtəˈveɪʃən/|동기|the reason for doing something|||Motivation helps people succeed.|동기는 사람을 성공하게 돕는다.
+achieve|word|verb|/əˈtʃiːv/|성취하다|to successfully reach a goal|accomplish,attain||She achieved her dream.|그녀는 꿈을 이루었다.
+goal|word|noun|/ɡoʊl/|목표|something you aim for|||Set a clear goal before you begin.|시작 전에 분명한 목표를 세워라.
+focus|word|noun,verb|/ˈfoʊkəs/|집중,집중하다|to pay attention carefully|concentrate||Focus on your work.|네 일에 집중해라.
+distraction|word|noun|/dɪˈstrækʃən/|방해 요소|something that takes attention away|||Noise is a common distraction.|소음은 흔한 방해 요소다.
+concentrate|word|verb|/ˈkɑːnsəntreɪt/|집중하다|to direct attention fully|focus||Students should concentrate in class.|학생들은 수업에 집중해야 한다.
+performance|word|noun|/pərˈfɔːrməns/|성과,수행|how well someone does something|||His performance improved greatly.|그의 성과는 크게 향상되었다.
+awareness|word|noun|/əˈwernəs/|인식,자각|knowledge or understanding of something|understanding,recognition||Environmental awareness is increasing.|환경 인식이 높아지고 있다.
+consequence|word|noun|/ˈkɑːnsəkwens/|결과,영향|the result of an action|result,effect||Every action has consequences.|모든 행동에는 결과가 있다.
+decision|word|noun|/dɪˈsɪʒən/|결정|a choice made after thinking|||It was a difficult decision.|그것은 어려운 결정이었다.
+responsibility|word|noun|/rɪˌspɑːnsəˈbɪləti/|책임|a duty or obligation|||Parents have responsibility for their children.|부모는 자녀에 대한 책임이 있다.
+influence|word|noun,verb|/ˈɪnfluəns/|영향,영향을 주다|the power to affect something|effect,impact||Friends can influence your choices.|친구들은 네 선택에 영향을 줄 수 있다.
+environment|word|noun|/ɪnˈvaɪrənmənt/|환경|the surroundings or conditions|||A clean environment is important.|깨끗한 환경은 중요하다.
+awful|word|adjective|/ˈɔːfəl/|끔찍한|very bad or unpleasant|terrible,horrible|wonderful|The weather was awful yesterday.|어제 날씨는 끔찍했다.
+recover|word|verb|/rɪˈkʌvər/|회복하다|to become healthy again|get better,heal||He recovered from the illness.|그는 병에서 회복했다.
+damage|word|noun,verb|/ˈdæmɪdʒ/|손상,손상시키다|harm or injury|harm,destroy||The storm damaged the roof.|폭풍이 지붕을 손상시켰다.
+resource|word|noun|/ˈriːsɔːrs/|자원|something useful that can be used|||Water is a valuable resource.|물은 소중한 자원이다.
+consume|word|verb|/kənˈsuːm/|소비하다|to use up something|use,spend||We consume too much energy.|우리는 너무 많은 에너지를 소비한다.
+waste|word|noun,verb|/weɪst/|낭비,낭비하다|to use carelessly|squander||Do not waste your time.|시간을 낭비하지 마라.
+conserve|word|verb|/kənˈsɜːrv/|보존하다,절약하다|to protect or save|preserve,save||We should conserve water.|우리는 물을 절약해야 한다.
+pollution|word|noun|/pəˈluːʃən/|오염|harmful substances in the environment|||Air pollution is a serious problem.|대기 오염은 심각한 문제다.
+climate|word|noun|/ˈklaɪmət/|기후|the usual weather of a place|||Climate change affects everyone.|기후 변화는 모두에게 영향을 준다.
+global warming|phrase|noun phrase|/ˌɡloʊbl ˈwɔːrmɪŋ/|지구 온난화|the increase in Earth's temperature|||Global warming is a worldwide issue.|지구 온난화는 전 세계적인 문제다.
+renewable|word|adjective|/rɪˈnuːəbl/|재생 가능한|able to be used again naturally|||Solar energy is renewable.|태양 에너지는 재생 가능하다.
+energy|word|noun|/ˈenərdʒi/|에너지|power used for work|||Saving energy helps the planet.|에너지를 절약하면 지구에 도움이 된다.
+protective|word|adjective|/prəˈtektɪv/|보호하는|intended to protect|||Protective clothing is necessary here.|여기서는 보호복이 필요하다.
+ecosystem|word|noun|/ˈiːkoʊsɪstəm/|생태계|a community of living things|||A healthy ecosystem supports life.|건강한 생태계는 생명을 지탱한다.
+species|word|noun|/ˈspiːʃiːz/|종|a group of similar living things|||Many species are endangered.|많은 종이 멸종 위기에 있다.
+extinction|word|noun|/ɪkˈstɪŋkʃən/|멸종|the dying out of a species|||Some animals face extinction.|일부 동물은 멸종 위기에 처해 있다.
+survive|word|verb|/sərˈvaɪv/|생존하다|to continue to live|live,endure||Plants cannot survive without water.|식물은 물 없이 생존할 수 없다.
+habitat|word|noun|/ˈhæbɪtæt/|서식지|the natural home of an animal|||The forest is their natural habitat.|숲은 그들의 자연 서식지다.
+endangered|word|adjective|/ɪnˈdeɪndʒərd/|멸종 위기의|at risk of disappearing|threatened||Tigers are endangered animals.|호랑이는 멸종 위기 동물이다.
+preserve|word|verb|/prɪˈzɜːrv/|보호하다,보존하다|to keep something safe|protect,conserve||We must preserve nature.|우리는 자연을 보존해야 한다.
+biodiversity|word|noun|/ˌbaɪoʊdaɪˈvɜːrsəti/|생물 다양성|the variety of living things|||Biodiversity is essential for ecosystems.|생물 다양성은 생태계에 필수적이다.
+natural resource|phrase|noun phrase|/ˈnætʃərəl ˈriːsɔːrs/|천연자원|materials from nature used by humans|||Oil is a natural resource.|석유는 천연자원이다.
+responsible|word|adjective|/rɪˈspɑːnsəbl/|책임 있는|having a duty and acting carefully|reliable|irresponsible|We should be responsible consumers.|우리는 책임 있는 소비자가 되어야 한다.
+sustainable|word|adjective|/səˈsteɪnəbl/|지속 가능한|able to continue without harm|||Sustainable living protects the environment.|지속 가능한 생활은 환경을 보호한다.
+solution|word|noun|/səˈluːʃən/|해결책|an answer to a problem|answer,fix||We need a long-term solution.|우리는 장기적인 해결책이 필요하다.
+effort|word|noun|/ˈefərt/|노력|hard work to achieve something|||Saving the planet takes effort.|지구를 지키는 데는 노력이 필요하다.
+cooperate|word|verb|/koʊˈɑːpəreɪt/|협력하다|to work together|collaborate||Countries must cooperate on climate issues.|국가들은 기후 문제에 협력해야 한다.
+campaign|word|noun|/kæmˈpeɪn/|운동,캠페인|organized activities for a purpose|||They started a recycling campaign.|그들은 재활용 캠페인을 시작했다.
+raise awareness|phrase|verb phrase|/reɪz əˈwernəs/|인식을 높이다|to make people more aware|||The ad helps raise awareness about safety.|그 광고는 안전 인식을 높이는 데 도움 된다.
+action|word|noun|/ˈækʃən/|행동|something done to achieve something|||We need action, not just words.|우리에겐 말이 아니라 행동이 필요하다.
+immediate|word|adjective|/ɪˈmiːdiət/|즉각적인|happening right away|instant||Immediate action is necessary.|즉각적인 조치가 필요하다.
+future generation|phrase|noun phrase|/ˈfjuːtʃər ˌdʒenəˈreɪʃən/|미래 세대|people who will live in the future|||We must protect Earth for future generations.|우리는 미래 세대를 위해 지구를 보호해야 한다.
+awareness campaign|phrase|noun phrase|/əˈwernəs kæmˈpeɪn/|인식 개선 캠페인|a campaign to inform people|||The school launched an awareness campaign.|학교는 인식 개선 캠페인을 시작했다.
+environmentally friendly|phrase|adjective phrase|/ɪnˌvaɪrənˈmentəli ˈfrendli/|친환경적인|not harmful to the environment|||We should environmentally friendly.|우리는 친환경적인 해야 한다.
+recycle|word|verb|/ˌriːˈsaɪkl/|재활용하다|to use something again after processing|||We should recycle carefully.|우리는 신중하게 재활용해야 한다.
+reuse|word|verb|/ˌriːˈjuːz/|재사용하다|to use again|||We should reuse carefully.|우리는 신중하게 재사용해야 한다.
+reduce emissions|phrase|verb phrase|/rɪˈduːs ɪˈmɪʃənz/|배출을 줄이다|to lower harmful gas output|||We should reduce emissions.|우리는 배출을 줄이다 해야 한다.
+carbon footprint|phrase|noun phrase|/ˈkɑːrbən ˈfʊtprɪnt/|탄소 발자국|the amount of carbon emissions caused|||The carbon footprint is important.|탄소 발자국은 중요하다.
+eco-friendly|word|adjective|/ˈiːkoʊ frendli/|친환경적인|good for the environment|||This is eco-friendly.|이것은 친환경적인 것이다.
+protect wildlife|phrase|verb phrase|/prəˈtekt ˈwaɪldlaɪf/|야생동물을 보호하다|to keep wild animals safe|||We should protect wildlife.|우리는 야생동물을 보호하다 해야 한다.
+environmental issue|phrase|noun phrase|/ɪnˌvaɪrənˈmentl ˈɪʃuː/|환경 문제|a problem related to the environment|||The environmental issue is important.|환경 문제은 중요하다.
+technology|word|noun|/tekˈnɑːlədʒi/|기술|the use of scientific knowledge|||The technology is important.|기술은 중요하다.
+advance|word|noun,verb|/ədˈvæns/|발전,진보하다|progress or development|progress,improve||Technology continues to advance.|기술은 계속 발전한다.
+innovation|word|noun|/ˌɪnəˈveɪʃən/|혁신|a new idea or method|||The innovation is important.|혁신은 중요하다.
+device|word|noun|/dɪˈvaɪs/|장치,기기|a machine made for a purpose|||The device is important.|장치은 중요하다.
+artificial intelligence|phrase|noun phrase|/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/|인공지능|computer systems that think like humans|||The artificial intelligence is important.|인공지능은 중요하다.
+automation|word|noun|/ˌɔːtəˈmeɪʃən/|자동화|the use of machines to do work|||The automation is important.|자동화은 중요하다.
+efficient|word|adjective|/ɪˈfɪʃənt/|효율적인|working well without waste|effective||This system is highly efficient.|이 시스템은 매우 효율적이다.
+replace|word|verb|/rɪˈpleɪs/|대체하다|to take the place of something|substitute||Machines may replace some jobs.|기계가 일부 일자리를 대체할 수 있다.
+skill|word|noun|/skɪl/|기술,능력|the ability to do something|||The skill is important.|기술은 중요하다.
+adapt|word|verb|/əˈdæpt/|적응하다|to change to fit new conditions|adjust||We must adapt to change.|우리는 변화에 적응해야 한다.
+digital|word|adjective|/ˈdɪdʒɪtl/|디지털의|using computer technology|||This is digital.|이것은 디지털의 것이다.
+network|word|noun|/ˈnetwɜːrk/|네트워크|a connected system|||The network is important.|네트워크은 중요하다.
+connect|word|verb|/kəˈnekt/|연결하다|to join things together|link||The app connects users worldwide.|그 앱은 전 세계 사용자를 연결한다.
+access|word|noun,verb|/ˈækses/|접근,접근하다|the ability to enter or use|entry,use||Students have access to online lessons.|학생들은 온라인 수업에 접근할 수 있다.
+information|word|noun|/ˌɪnfərˈmeɪʃən/|정보|facts or knowledge|||The information is important.|정보은 중요하다.
+privacy|word|noun|/ˈpraɪvəsi/|사생활,개인정보 보호|freedom from unwanted access|||The privacy is important.|사생활은 중요하다.
+security|word|noun|/sɪˈkjʊrəti/|보안|protection from danger or attack|||The security is important.|보안은 중요하다.
+cyberattack|word|noun|/ˈsaɪbərətæk/|사이버 공격|an attack on computer systems|||The cyberattack is important.|사이버 공격은 중요하다.
+software|word|noun|/ˈsɔːftwer/|소프트웨어|computer programs|||The software is important.|소프트웨어은 중요하다.
+hardware|word|noun|/ˈhɑːrdwer/|하드웨어|physical computer equipment|||The hardware is important.|하드웨어은 중요하다.
+virtual|word|adjective|/ˈvɜːrtʃuəl/|가상의|existing online,not physically|||This is virtual.|이것은 가상의 것이다.
+platform|word|noun|/ˈplætfɔːrm/|플랫폼|a system used for services or communication|||The platform is important.|플랫폼은 중요하다.
+data|word|noun|/ˈdeɪtə/|데이터|facts collected for analysis|||The data is important.|데이터은 중요하다.
+algorithm|word|noun|/ˈælɡərɪðəm/|알고리즘|a set of rules for solving problems|||The algorithm is important.|알고리즘은 중요하다.
+machine learning|phrase|noun phrase|/məˈʃiːn ˈlɜːrnɪŋ/|기계 학습|a system that learns from data|||The machine learning is important.|기계 학습은 중요하다.
+analyze|word|verb|/ˈænəlaɪz/|분석하다|to examine carefully|examine,study||Scientists analyze large amounts of data.|과학자들은 많은 데이터를 분석한다.
+process|word|noun,verb|/ˈprɑːses/|과정,처리하다|a series of actions,to handle data|procedure,handle||Computers process information quickly.|컴퓨터는 정보를 빠르게 처리한다.
+accuracy|word|noun|/ˈækjərəsi/|정확성|the quality of being correct|||The accuracy is important.|정확성은 중요하다.
+detect|word|verb|/dɪˈtekt/|감지하다,발견하다|to notice or discover|discover,identify||The system detects unusual activity.|시스템이 비정상 활동을 감지한다.
+recognize|word|verb|/ˈrekəɡnaɪz/|인식하다,알아보다|to identify something known|identify||Face recognition systems recognize people.|얼굴 인식 시스템은 사람을 알아본다.
+pattern|word|noun|/ˈpætərn/|패턴|a repeated design or behavior|||The pattern is important.|패턴은 중요하다.
+generate|word|verb|/ˈdʒenəreɪt/|생성하다|to produce or create|create,produce||The tool generates reports automatically.|그 도구는 보고서를 자동 생성한다.
+recommend|word|verb|/ˌrekəˈmend/|추천하다|to suggest something|suggest||The app recommends movies based on your taste.|그 앱은 취향에 따라 영화를 추천한다.
+assistant|word|noun|/əˈsɪstənt/|도우미,비서|someone or something that helps|||The assistant is important.|도우미은 중요하다.
+chatbot|word|noun|/ˈtʃætbɑːt/|챗봇|a program that talks with users|||The chatbot is important.|챗봇은 중요하다.
+productivity|word|noun|/ˌprɑːdʌkˈtɪvəti/|생산성|how effectively work is done|||The productivity is important.|생산성은 중요하다.
+optimize|word|verb|/ˈɑːptɪmaɪz/|최적화하다|to make as effective as possible|improve,maximize||We optimize the system for speed.|우리는 속도를 위해 시스템을 최적화한다.
+upgrade|word|noun,verb|/ˈʌpɡreɪd/|업그레이드,업그레이드하다|to improve to a better version|improve||We upgraded the server last week.|우리는 지난주 서버를 업그레이드했다.
+compatible|word|adjective|/kəmˈpætəbl/|호환되는|able to work together|||This is compatible.|이것은 호환되는 것이다.
+integration|word|noun|/ˌɪntɪˈɡreɪʃən/|통합|combining parts into a whole|||The integration is important.|통합은 중요하다.
+cloud computing|phrase|noun phrase|/klaʊd kəmˈpjuːtɪŋ/|클라우드 컴퓨팅|using computing services over the internet|||The cloud computing is important.|클라우드 컴퓨팅은 중요하다.
+server|word|noun|/ˈsɜːrvər/|서버|a computer providing services|||The server is important.|서버은 중요하다.
+database|word|noun|/ˈdeɪtəbeɪs/|데이터베이스|an organized collection of data|||The database is important.|데이터베이스은 중요하다.
+backup|word|noun,verb|/ˈbækʌp/|백업,백업하다|a copy kept for safety|||We should backup carefully.|우리는 신중하게 백업해야 한다.
+storage|word|noun|/ˈstɔːrɪdʒ/|저장 공간|a place or method for storing data|||The storage is important.|저장 공간은 중요하다.
+internet|word|noun|/ˈɪntərnet/|인터넷|the global computer network|||The internet is important.|인터넷은 중요하다.
+browser|word|noun|/ˈbraʊzər/|브라우저|software used to access websites|||The browser is important.|브라우저은 중요하다.
+search engine|phrase|noun phrase|/sɜːrtʃ ˈendʒɪn/|검색 엔진|a tool used to find information online|||The search engine is important.|검색 엔진은 중요하다.
+website|word|noun|/ˈwebsaɪt/|웹사이트|a collection of web pages|||The website is important.|웹사이트은 중요하다.
+application|word|noun|/ˌæplɪˈkeɪʃən/|응용 프로그램,신청|software designed for a purpose|app,program||This application helps manage tasks.|이 앱은 작업 관리를 도와준다.
+user interface|phrase|noun phrase|/ˈjuːzər ˈɪntərfeɪs/|사용자 인터페이스|the part users interact with|||The user interface is important.|사용자 인터페이스은 중요하다.
+experience|word|noun|/ɪkˈspɪriəns/|경험|knowledge gained by doing something|||The experience is important.|경험은 중요하다.
+responsive|word|adjective|/rɪˈspɑːnsɪv/|반응이 빠른,반응형의|reacting quickly|||This is responsive.|이것은 반응이 빠른 것이다.
+framework|word|noun|/ˈfreɪmwɜːrk/|프레임워크|a structure for building software|||The framework is important.|프레임워크은 중요하다.
+deploy|word|verb|/dɪˈplɔɪ/|배포하다|to release software for use|||We should deploy carefully.|우리는 신중하게 배포해야 한다.
+debug|word|verb|/diːˈbʌɡ/|디버깅하다|to find and fix software errors|||We should debug carefully.|우리는 신중하게 디버깅해야 한다.
+exception|word|noun|/ɪkˈsepʃən/|예외,예외 오류|an error condition in software|||The exception is important.|예외은 중요하다.
+dependency|word|noun|/dɪˈpendənsi/|의존성|something required by another component|||The dependency is important.|의존성은 중요하다.
+repository|word|noun|/rɪˈpɑːzətɔːri/|저장소|a place where code is stored|||The repository is important.|저장소은 중요하다.
+commit|word|noun,verb|/kəˈmɪt/|커밋,커밋하다|to save code changes|||We should commit carefully.|우리는 신중하게 커밋해야 한다.
+branch|word|noun|/bræntʃ/|브랜치|a separate line of development|||The branch is important.|브랜치은 중요하다.
+merge|word|verb|/mɜːrdʒ/|병합하다|to combine code changes|||We should merge carefully.|우리는 신중하게 병합해야 한다.
+pipeline|word|noun|/ˈpaɪplaɪn/|파이프라인|an automated build or deployment process|||The pipeline is important.|파이프라인은 중요하다.
+container|word|noun|/kənˈteɪnər/|컨테이너|a packaged software environment|||The container is important.|컨테이너은 중요하다.
+orchestration|word|noun|/ˌɔːrkɪˈstreɪʃən/|오케스트레이션|automated management of systems|||The orchestration is important.|오케스트레이션은 중요하다.
+monitor|word|verb,noun|/ˈmɑːnɪtər/|모니터링하다,감시 장치|to observe continuously|observe,track||We monitor system health 24 hours a day.|우리는 하루 24시간 시스템 상태를 모니터링한다.
+log|word|noun,verb|/lɔːɡ/|로그,기록하다|a record of events|||We should log carefully.|우리는 신중하게 기록해야 한다.
+configuration|word|noun|/kənˌfɪɡjəˈreɪʃən/|설정|the arrangement of system settings|||The configuration is important.|설정은 중요하다.
+scalability|word|noun|/ˌskeɪləˈbɪləti/|확장성|the ability to grow without problems|||The scalability is important.|확장성은 중요하다.
+latency|word|noun|/ˈleɪtənsi/|지연 시간|delay before a response|||The latency is important.|지연 시간은 중요하다.
+throughput|word|noun|/ˈθruːpʊt/|처리량|the amount processed in a given time|||The throughput is important.|처리량은 중요하다.
+availability|word|noun|/əˌveɪləˈbɪləti/|가용성|the state of being available|||The availability is important.|가용성은 중요하다.
+reliability|word|noun|/rɪˌlaɪəˈbɪləti/|신뢰성|the ability to work consistently|||The reliability is important.|신뢰성은 중요하다.
+fault tolerance|phrase|noun phrase|/fɔːlt ˈtɑːlərəns/|장애 허용성|the ability to continue despite failures|||The fault tolerance is important.|장애 허용성은 중요하다.
+redundancy|word|noun|/rɪˈdʌndənsi/|이중화|extra components for backup|||The redundancy is important.|이중화은 중요하다.
+downtime|word|noun|/ˈdaʊntaɪm/|서비스 중단 시간|time when a system is unavailable|||The downtime is important.|서비스 중단 시간은 중요하다.
+maintenance|word|noun|/ˈmeɪntənəns/|유지보수|work to keep systems working|||The maintenance is important.|유지보수은 중요하다.
+incident|word|noun|/ˈɪnsɪdənt/|장애,사건|an unexpected event|||The incident is important.|장애은 중요하다.
+alert|word|noun,verb|/əˈlɜːrt/|경고,알리다|a warning or notification|||We should alert carefully.|우리는 신중하게 알리야 한다.
+outage|word|noun|/ˈaʊtɪdʒ/|서비스 장애|a period when a service is unavailable|||The outage is important.|서비스 장애은 중요하다.
+recovery|word|noun|/rɪˈkʌvəri/|복구|the process of returning to normal|||The recovery is important.|복구은 중요하다.
+rollback|word|noun,verb|/ˈroʊlbæk/|롤백,되돌리다|returning to a previous version|||We should rollback carefully.|우리는 신중하게 되돌리야 한다.
+hotfix|word|noun|/ˈhɑːtfɪks/|긴급 수정|an urgent software fix|||The hotfix is important.|긴급 수정은 중요하다.
+patch|word|noun,verb|/pætʃ/|패치,패치하다|a software fix|||We should patch carefully.|우리는 신중하게 패치해야 한다.
+authentication|word|noun|/ɔːˌθentɪˈkeɪʃən/|인증|verifying identity|||The authentication is important.|인증은 중요하다.
+authorization|word|noun|/ˌɔːθərəˈzeɪʃən/|권한 부여|permission to access resources|||The authorization is important.|권한 부여은 중요하다.
+encryption|word|noun|/ɪnˈkrɪpʃən/|암호화|converting data into secure form|||The encryption is important.|암호화은 중요하다.
+credential|word|noun|/krəˈdenʃəl/|자격 증명|login information or proof of identity|||The credential is important.|자격 증명은 중요하다.
+token|word|noun|/ˈtoʊkən/|토큰|a digital access credential|||The token is important.|토큰은 중요하다.
+session|word|noun|/ˈseʃən/|세션|a temporary user connection|||The session is important.|세션은 중요하다.
+endpoint|word|noun|/ˈendpɔɪnt/|엔드포인트|a specific API address|||The endpoint is important.|엔드포인트은 중요하다.
+request|word|noun,verb|/rɪˈkwest/|요청,요청하다|asking for something|||We should request carefully.|우리는 신중하게 요청해야 한다.
+response|word|noun|/rɪˈspɑːns/|응답|an answer returned by a system|||The response is important.|응답은 중요하다.
+payload|word|noun|/ˈpeɪloʊd/|페이로드,전송 데이터|the data sent in a request or response|||The payload is important.|페이로드은 중요하다.
+parameter|word|noun|/pəˈræmɪtər/|매개변수|a value passed into a function or request|||The parameter is important.|매개변수은 중요하다.
+header|word|noun|/ˈhedər/|헤더|metadata sent with a request|||The header is important.|헤더은 중요하다.
+body|word|noun|/ˈbɑːdi/|본문|the main content of a request|||The body is important.|본문은 중요하다.
+query string|phrase|noun phrase|/ˈkwɪri strɪŋ/|쿼리 문자열|parameters added to a URL|||The query string is important.|쿼리 문자열은 중요하다.
+status code|phrase|noun phrase|/ˈsteɪtəs koʊd/|상태 코드|an HTTP response code|||The status code is important.|상태 코드은 중요하다.
+timeout|word|noun|/ˈtaɪmaʊt/|타임아웃|a limit on waiting time|||The timeout is important.|타임아웃은 중요하다.
+retry|word|noun,verb|/ˌriːˈtraɪ/|재시도,재시도하다|to try again|||The client will retry the failed request.|클라이언트가 실패한 요청을 다시 시도할 것이다.
+cache|word|noun,verb|/kæʃ/|캐시,캐시하다|temporary stored data|||The browser cache caused the issue.|브라우저 캐시가 그 문제를 일으켰다.
+serialization|word|noun|/ˌsɪriələˈzeɪʃən/|직렬화|converting data for transfer|||JSON serialization failed.|JSON 직렬화가 실패했다.
+deserialization|word|noun|/diːˌsɪriələˈzeɪʃən/|역직렬화|converting transferred data back|||Deserialization caused the exception.|역직렬화가 예외를 일으켰다.
+schema|word|noun|/ˈskiːmə/|스키마|a structured data definition|||The payload does not match the schema.|요청 데이터가 스키마와 맞지 않는다.
+validation|word|noun|/ˌvælɪˈdeɪʃən/|검증|checking if data is correct|||Input validation is required.|입력값 검증이 필요하다.
+constraint|word|noun|/kənˈstreɪnt/|제약 조건|a rule or limitation|||The database constraint blocked the insert.|데이터베이스 제약 조건 때문에 삽입이 막혔다.
+transaction|word|noun|/trænˈzækʃən/|트랜잭션|a unit of database work|||The transaction was rolled back.|트랜잭션이 롤백되었다.
+deadlock|word|noun|/ˈdedlɑːk/|교착 상태|a state where processes block each other|||The database encountered a deadlock.|데이터베이스에서 교착 상태가 발생했다.
+concurrency|word|noun|/kənˈkɜːrənsi/|동시성|multiple operations happening together|||Concurrency issues caused duplicate records.|동시성 문제로 중복 데이터가 생겼다.
+optimistic locking|phrase|noun phrase|/ˌɑːptɪˈmɪstɪk ˈlɑːkɪŋ/|낙관적 락|conflict checking during updates|||Optimistic locking prevented lost updates.|낙관적 락이 업데이트 손실을 막았다.
+pessimistic locking|phrase|noun phrase|/ˌpesɪˈmɪstɪk ˈlɑːkɪŋ/|비관적 락|locking resources before changes|||Pessimistic locking reduced race conditions.|비관적 락이 경쟁 상태를 줄였다.
+migration|word|noun|/maɪˈɡreɪʃən/|데이터 이전,구조 변경|moving or changing database structure|||The Liquibase migration failed.|Liquibase 마이그레이션이 실패했다.
+index|word|noun|/ˈɪndeks/|색인,인덱스|a database structure for faster search|||Adding an index improved query speed.|인덱스를 추가하자 쿼리 속도가 향상되었다.
+query|word|noun|/ˈkwɪri/|질의,쿼리|a database request for data|||The SQL query is too slow.|SQL 쿼리가 너무 느리다.
+entity|word|noun|/ˈentəti/|개체,엔티티|a mapped domain object in software|||The JPA entity needs a new field.|JPA 엔티티에 새 필드가 필요하다.
+choice|word|noun|/tʃɔɪs/|선택|the act of choosing|||That was a hard choice for me.|그것은 나에게 어려운 선택이었다.
+opinion|word|noun|/əˈpɪnjən/|의견|what someone thinks|||What’s your opinion about this movie?|이 영화에 대한 네 의견은 무엇이니?
+agree|word|verb|/əˈɡriː/|동의하다|to have the same opinion|accept||I agree with your idea.|나는 네 생각에 동의해.
+disagree|word|verb|/ˌdɪsəˈɡriː/|동의하지 않다|to have a different opinion|object|agree|I disagree with that decision.|나는 그 결정에 동의하지 않아.
+suggest|word|verb|/səˈdʒest/|제안하다|to give an idea|recommend||I suggest meeting after school.|방과 후에 만나자고 제안할게.
+plan|word|noun,verb|/plæn/|계획,계획하다|something arranged in advance|||Do you have any plans for the weekend?|주말에 계획이 있니?
+promise|word|noun,verb|/ˈprɑːmɪs/|약속,약속하다|to say you will do something|||I promise I’ll help you tomorrow.|내일 너를 돕겠다고 약속할게.
+invite|word|verb|/ɪnˈvaɪt/|초대하다|to ask someone to join|||She invited me to her birthday party.|그녀는 나를 생일 파티에 초대했다.
+accept|word|verb|/əkˈsept/|받아들이다,수락하다|to say yes to something|agree||He accepted my invitation.|그가 내 초대를 받아들였어.
+refuse|word|verb|/rɪˈfjuːz/|거절하다|to say no to something|reject|accept|She refused to answer my question.|그녀는 내 질문에 답하길 거절했어.
+explain|word|verb|/ɪkˈspleɪn/|설명하다|to make something clear|||Can you explain this homework to me?|이 숙제를 나에게 설명해 줄 수 있니?
+understand|word|verb|/ˌʌndərˈstænd/|이해하다|to know the meaning|||I understand what you mean.|나는 네가 무슨 뜻인지 이해한다.
+confused|word|adjective|/kənˈfjuːzd/|헷갈리는|unable to understand clearly|||I’m confused about this math problem.|나는 이 수학 문제가 헷갈린다.
+practice|word|noun,verb|/ˈpræktɪs/|연습,연습하다|to do repeatedly to improve|||We should practice English together.|우리는 함께 영어를 연습해야 한다.
+mistake|word|noun|/mɪˈsteɪk/|실수|something done wrongly|||The mistake is important.|실수은 중요하다.
+correct|word|adjective,verb|/kəˈrekt/|맞는,고치다|free from error,to fix|||We should correct carefully.|우리는 신중하게 고치야 한다.
+nervous|word|adjective|/ˈnɜːrvəs/|긴장한|feeling worried or anxious|||This is nervous.|이것은 긴장한 것이다.
+relaxed|word|adjective|/rɪˈlækst/|편안한|feeling calm|calm|nervous|I feel relaxed after listening to music.|음악 듣고 나니 편안해졌어.
+excited|word|adjective|/ɪkˈsaɪtɪd/|신나는,들뜬|feeling happy and eager|||This is excited.|이것은 신나는 것이다.
+worried|word|adjective|/ˈwɜːrid/|걱정하는|feeling anxious|||This is worried.|이것은 걱정하는 것이다.
+surprised|word|adjective|/sərˈpraɪzd/|놀란|feeling unexpected shock|||This is surprised.|이것은 놀란 것이다.
+embarrassed|word|adjective|/ɪmˈberəst/|당황한,창피한|feeling ashamed or awkward|||This is embarrassed.|이것은 당황한 것이다.
+proud|word|adjective|/praʊd/|자랑스러운|feeling pleased about something|||This is proud.|이것은 자랑스러운 것이다.
+jealous|word|adjective|/ˈdʒeləs/|질투하는|wanting what someone else has|||This is jealous.|이것은 질투하는 것이다.
+kind|word|adjective|/kaɪnd/|친절한|being nice to others|||This is kind.|이것은 친절한 것이다.
+rude|word|adjective|/ruːd/|무례한|not polite|impolite|polite|It was rude to interrupt her.|그녀 말을 끊은 건 무례했어.
+polite|word|adjective|/pəˈlaɪt/|예의 바른|showing good manners|courteous|rude|Please be polite to your teacher.|선생님께 예의 바르게 행동해.
+honest|word|adjective|/ˈɑːnɪst/|정직한|telling the truth|truthful||Be honest with me.|나한테 솔직하게 말해.
+lie|word|verb,noun|/laɪ/|거짓말하다,거짓말|to say something untrue|||We should lie carefully.|우리는 신중하게 거짓말해야 한다.
+trust|word|noun,verb|/trʌst/|신뢰,믿다|belief in someone|||We should trust carefully.|우리는 신중하게 믿야 한다.
+forgive|word|verb|/fərˈɡɪv/|용서하다|to stop being angry|||We should forgive carefully.|우리는 신중하게 용서해야 한다.
+apologize|word|verb|/əˈpɑːlədʒaɪz/|사과하다|to say sorry|||We should apologize carefully.|우리는 신중하게 사과해야 한다.
+helpful|word|adjective|/ˈhelpfəl/|도움이 되는|giving help|||This is helpful.|이것은 도움이 되는 것이다.
+careful|word|adjective|/ˈkerfəl/|조심하는,주의 깊은|paying attention to avoid mistakes|||Be careful with your phone.|휴대폰을 조심해서 다뤄라.
+careless|word|adjective|/ˈkerləs/|부주의한|not careful|thoughtless|careful|He was careless with his homework.|그는 숙제를 너무 대충 했어.
+friendly|word|adjective|/ˈfrendli/|친근한|kind and easy to talk to|||This is friendly.|이것은 친근한 것이다.
+quiet|word|adjective|/ˈkwaɪət/|조용한|making little noise|silent|noisy|Please be quiet in the library.|도서관에서는 조용히 해.
+noisy|word|adjective|/ˈnɔɪzi/|시끄러운|making a lot of noise|loud|quiet|The classroom was too noisy.|교실이 너무 시끄러웠어.
+boring|word|adjective|/ˈbɔːrɪŋ/|지루한|not interesting|dull|interesting|The movie was boring.|그 영화는 지루했어.
+interesting|word|adjective|/ˈɪntrəstɪŋ/|흥미로운|holding attention|fascinating|boring|That book looks interesting.|그 책 흥미로워 보여.
+funny|word|adjective|/ˈfʌni/|웃긴,재미있는|making people laugh|||This is funny.|이것은 웃긴 것이다.
+serious|word|adjective|/ˈsɪriəs/|진지한|thoughtful,not joking|||This is serious.|이것은 진지한 것이다.
+lazy|word|adjective|/ˈleɪzi/|게으른|not willing to work hard|||This is lazy.|이것은 게으른 것이다.
+active|word|adjective|/ˈæktɪv/|활동적인|energetic and busy|energetic||She is very active in school clubs.|그녀는 학교 동아리 활동을 활발히 해.
+smart|word|adjective|/smɑːrt/|똑똑한|intelligent or clever|clever,bright||He is smart, but he doesn’t study much.|그는 똑똑하지만 공부를 많이 하진 않아.
+clever|word|adjective|/ˈklevər/|영리한|quick to learn or understand|smart||That was a clever idea.|그거 정말 영리한 생각이었어.
+brave|word|adjective|/breɪv/|용감한|showing courage|courageous||She was brave enough to speak first.|그녀는 먼저 말할 만큼 용감했어.
+shy|word|adjective|/ʃaɪ/|수줍은|nervous around people|timid||I’m too shy to talk to strangers.|나는 낯선 사람에게 말 걸기 너무 수줍어.
+generous|word|adjective|/ˈdʒenərəs/|관대한,후한|willing to give or share|||This is generous.|이것은 관대한 것이다.
+selfish|word|adjective|/ˈselfɪʃ/|이기적인|caring only about yourself|||This is selfish.|이것은 이기적인 것이다.
+patient|word|adjective|/ˈpeɪʃənt/|참을성 있는|able to wait calmly|calm|impatient|You need to be patient with beginners.|초보자들에게는 참을성이 필요해.
+impatient|word|adjective|/ɪmˈpeɪʃənt/|참을성 없는|unable to wait calmly|restless|patient|He gets impatient in long lines.|그는 긴 줄에서 참을성을 못 내.
+cheerful|word|adjective|/ˈtʃɪrfəl/|쾌활한|happy and positive|happy||She is always cheerful in the morning.|그녀는 아침마다 항상 쾌활해.
+calm|word|adjective|/kɑːm/|차분한|peaceful and not nervous|relaxed|nervous|Stay calm during the test.|시험 중에는 차분하게 있어.
+upset|word|adjective|/ʌpˈset/|속상한|feeling unhappy or troubled|||This is upset.|이것은 속상한 것이다.
+annoyed|word|adjective|/əˈnɔɪd/|짜증 난|slightly angry|||This is annoyed.|이것은 짜증 난 것이다.
+disappointed|word|adjective|/ˌdɪsəˈpɔɪntɪd/|실망한|feeling unhappy because expectations failed|||This is disappointed.|이것은 실망한 것이다.
+grateful|word|adjective|/ˈɡreɪtfəl/|감사한|feeling thankful|thankful||I’m grateful for your help.|도와줘서 고마워.
+thankful|word|adjective|/ˈθæŋkfəl/|고마운|feeling pleased and grateful|grateful||I’m thankful you came.|와줘서 고마워.
+hopeful|word|adjective|/ˈhoʊpfəl/|희망적인|feeling positive about the future|||This is hopeful.|이것은 희망적인 것이다.
+hopeless|word|adjective|/ˈhoʊpləs/|희망 없는|without hope|||This is hopeless.|이것은 희망 없는 것이다.
+curious|word|adjective|/ˈkjʊriəs/|궁금한|wanting to know something|||This is curious.|이것은 궁금한 것이다.
+creative|word|adjective|/kriˈeɪtɪv/|창의적인|good at making new ideas|||This is creative.|이것은 창의적인 것이다.
+talented|word|adjective|/ˈtæləntɪd/|재능 있는|having natural ability|||This is talented.|이것은 재능 있는 것이다.
+popular|word|adjective|/ˈpɑːpjələr/|인기 있는|liked by many people|||This is popular.|이것은 인기 있는 것이다.
+famous|word|adjective|/ˈfeɪməs/|유명한|known by many people|||This is famous.|이것은 유명한 것이다.
+ordinary|word|adjective|/ˈɔːrdəneri/|평범한|not special or unusual|||This is ordinary.|이것은 평범한 것이다.
+neighbor|word|noun|/ˈneɪbər/|이웃|a person living near you|||The neighbor is important.|이웃은 중요하다.
+classmate|word|noun|/ˈklæsmeɪt/|반 친구|someone in the same class|||The classmate is important.|반 친구은 중요하다.
+teammate|word|noun|/ˈtiːmmeɪt/|팀원|someone on the same team|||The teammate is important.|팀원은 중요하다.
+stranger|word|noun|/ˈstreɪndʒər/|낯선 사람|someone you do not know|||The stranger is important.|낯선 사람은 중요하다.
+teacher|word|noun|/ˈtiːtʃər/|선생님|a person who teaches|||The teacher is important.|선생님은 중요하다.
+student|word|noun|/ˈstuːdnt/|학생|a person who studies at school|||The student is important.|학생은 중요하다.
+principal|word|noun|/ˈprɪnsəpl/|교장 선생님|the head of a school|||The principal is important.|교장 선생님은 중요하다.
+coach|word|noun|/koʊtʃ/|코치|a person who trains a team|||The coach is important.|코치은 중요하다.
+teammwork|word|noun|/ˈtiːmwɜːrk/|팀워크|working well together|||The teammwork is important.|팀워크은 중요하다.
+competition|word|noun|/ˌkɑːmpəˈtɪʃən/|경쟁,대회|a contest between people|||The competition is important.|경쟁은 중요하다.
+match|word|noun|/mætʃ/|경기|a sports game|||The match is important.|경기은 중요하다.
+score|word|noun,verb|/skɔːr/|점수,득점하다|points in a game|||We should score carefully.|우리는 신중하게 득점해야 한다.
+win|word|verb,noun|/wɪn/|이기다,승리|to be successful in a game|||We should win carefully.|우리는 신중하게 이기야 한다.
+lose|word|verb|/luːz/|지다,잃다|to fail to win|fail|win|We lost the basketball game.|우리는 농구 경기에서 졌어.
+draw|word|noun,verb|/drɔː/|비기다,그리다|to finish equally in a game|||We should draw carefully.|우리는 신중하게 비기야 한다.
+practice match|phrase|noun phrase|/ˈpræktɪs mætʃ/|연습 경기|a game for training|||The practice match is important.|연습 경기은 중요하다.
+uniform|word|noun|/ˈjuːnɪfɔːrm/|유니폼|special clothes worn by a group|||The uniform is important.|유니폼은 중요하다.
+locker|word|noun|/ˈlɑːkər/|사물함|a storage box at school|||The locker is important.|사물함은 중요하다.
+cafeteria|word|noun|/ˌkæfəˈtɪriə/|급식실|a place where meals are served|||The cafeteria is important.|급식실은 중요하다.
+library|word|noun|/ˈlaɪbreri/|도서관|a place with books|||The library is important.|도서관은 중요하다.
+assignment|word|noun|/əˈsaɪnmənt/|과제|schoolwork given by a teacher|||The assignment is important.|과제은 중요하다.
+deadline|word|noun|/ˈdedlaɪn/|마감일|the latest time to finish something|||The deadline is important.|마감일은 중요하다.
+presentation|word|noun|/ˌpreznˈteɪʃən/|발표|a talk given to others|||The presentation is important.|발표은 중요하다.
+speech|word|noun|/spiːtʃ/|연설,말|spoken words|||The speech is important.|연설은 중요하다.
+impressive|word|adjective|/ɪmˈpresɪv/|인상적인|causing admiration|||This is impressive.|이것은 인상적인 것이다.
+awesome|word|adjective|/ˈɔːsəm/|멋진,굉장한|very good or exciting|||This is awesome.|이것은 멋진 것이다.
+amazing|word|adjective|/əˈmeɪzɪŋ/|놀라운|very surprising or excellent|||This is amazing.|이것은 놀라운 것이다.
+terrible|word|adjective|/ˈterəbl/|끔찍한|very bad|awful|great|I had a terrible day today.|오늘 정말 최악의 하루였어.
+great|word|adjective|/ɡreɪt/|훌륭한,좋은|very good|excellent|terrible|You did a great job.|정말 잘했어.
+excellent|word|adjective|/ˈeksələnt/|훌륭한|extremely good|great||Your test result was excellent.|네 시험 결과 정말 훌륭했어.
+perfect|word|adjective|/ˈpɜːrfɪkt/|완벽한|without any mistakes|||This is perfect.|이것은 완벽한 것이다.
+favorite|word|adjective,noun|/ˈfeɪvərɪt/|가장 좋아하는|liked the most|||This is favorite.|이것은 가장 좋아하는 것이다.
+hobby|word|noun|/ˈhɑːbi/|취미|an activity you enjoy|||The hobby is important.|취미은 중요하다.
+collect|word|verb|/kəˈlekt/|수집하다|to gather things|||We should collect carefully.|우리는 신중하게 수집해야 한다.
+hang out|phrase|verb phrase|/hæŋ aʊt/|놀다,시간 보내다|to spend time together|||We should hang out.|우리는 놀다 해야 한다.
+text|word|verb,noun|/tekst/|문자 보내다,문자|a written phone message|||We should text carefully.|우리는 신중하게 문자 보내야 한다.
+call|word|verb,noun|/kɔːl/|전화하다,전화|to phone someone|||We should call carefully.|우리는 신중하게 전화해야 한다.
+reply|word|verb,noun|/rɪˈplaɪ/|답장하다,답장|to answer a message|||We should reply carefully.|우리는 신중하게 답장해야 한다.
+online|word|adjective,adverb|/ˈɑːnlaɪn/|온라인의,온라인으로|connected to the internet|||We should online carefully.|우리는 신중하게 온라인의해야 한다.
+offline|word|adjective,adverb|/ˌɔːfˈlaɪn/|오프라인의|not connected to the internet|||We should offline carefully.|우리는 신중하게 오프라인의해야 한다.
+upload|word|verb|/ʌpˈloʊd/|업로드하다|to send a file online|||We should upload carefully.|우리는 신중하게 업로드해야 한다.
+download|word|verb|/ˌdaʊnˈloʊd/|다운로드하다|to copy a file from the internet|||We should download carefully.|우리는 신중하게 다운로드해야 한다.
+photo|word|noun|/ˈfoʊtoʊ/|사진|a picture taken by camera|||The photo is important.|사진은 중요하다.
+selfie|word|noun|/ˈselfi/|셀카|a photo of yourself|||The selfie is important.|셀카은 중요하다.
+memory|word|noun|/ˈmeməri/|추억,기억|something remembered|||The memory is important.|추억은 중요하다.
+trip|word|noun|/trɪp/|여행|a short journey|||The trip is important.|여행은 중요하다.
+vacation|word|noun|/veɪˈkeɪʃən/|방학,휴가|time away from school or work|||The vacation is important.|방학은 중요하다.
+pack|word|verb|/pæk/|짐 싸다|to put things into a bag|||We should pack carefully.|우리는 신중하게 짐 싸야 한다.
+forget|word|verb|/fərˈɡet/|잊다|to fail to remember|miss||Don’t forget your charger.|충전기 잊지 마.
+arrive|word|verb|/əˈraɪv/|도착하다|to get to a place|||We should arrive carefully.|우리는 신중하게 도착해야 한다.
+leave|word|verb|/liːv/|떠나다|to go away from a place|||We should leave carefully.|우리는 신중하게 떠나야 한다.
+miss|word|verb|/mɪs/|놓치다,그리워하다|to fail to catch something|||We should miss carefully.|우리는 신중하게 놓치야 한다.
+hurry|word|verb|/ˈhɜːri/|서두르다|to move quickly|||We should hurry carefully.|우리는 신중하게 서두르야 한다.
+late|word|adjective,adverb|/leɪt/|늦은,늦게|after the expected time|delayed|early|I was late for class again.|나 또 수업에 늦었어.
+early|word|adjective,adverb|/ˈɜːrli/|이른,일찍|before the expected time|soon|late|She arrived early for the meeting.|그녀는 모임에 일찍 도착했어.
+wait|word|verb|/weɪt/|기다리다|to stay until something happens|||We should wait carefully.|우리는 신중하게 기다리야 한다.
+meet|word|verb|/miːt/|만나다|to see someone|||We should meet carefully.|우리는 신중하게 만나야 한다.
+borrow|word|verb|/ˈbɑːroʊ/|빌리다|to take and return later|||We should borrow carefully.|우리는 신중하게 빌리야 한다.
+lend|word|verb|/lend/|빌려주다|to give temporarily|||We should lend carefully.|우리는 신중하게 빌려주야 한다.
+return|word|verb|/rɪˈtɜːrn/|돌려주다,돌아오다|to give back or come back|||We should return carefully.|우리는 신중하게 돌려주야 한다.
+bring|word|verb|/brɪŋ/|가져오다|to carry something to a place|||We should bring carefully.|우리는 신중하게 가져오야 한다.
+carry|word|verb|/ˈkæri/|들고 가다|to hold and move something|||We should carry carefully.|우리는 신중하게 들고 가야 한다.
+choose|word|verb|/tʃuːz/|고르다|to select something|pick,select||Choose any seat you like.|마음에 드는 자리 아무거나 골라.
+pick|word|verb|/pɪk/|고르다,집다|to choose or take|choose||Pick your favorite color.|네가 좋아하는 색 골라.
+order|word|noun,verb|/ˈɔːrdər/|주문,주문하다|to ask for food or goods|||We should order carefully.|우리는 신중하게 주문해야 한다.
+pay|word|verb|/peɪ/|지불하다|to give money|||We should pay carefully.|우리는 신중하게 지불해야 한다.
+cost|word|noun,verb|/kɔːst/|비용,비용이 들다|the price of something|||We should cost carefully.|우리는 신중하게 비용이 들야 한다.
+cheap|word|adjective|/tʃiːp/|저렴한|low in price|inexpensive|expensive|This shirt was really cheap.|이 셔츠 정말 저렴했어.
+expensive|word|adjective|/ɪkˈspensɪv/|비싼|costing a lot|costly|cheap|That bag is too expensive.|그 가방 너무 비싸.
+save money|phrase|verb phrase|/seɪv ˈmʌni/|돈을 아끼다|to spend less money|||We should save money.|우리는 돈을 아끼다 해야 한다.
+spend|word|verb|/spend/|쓰다,소비하다|to use money or time|||We should spend carefully.|우리는 신중하게 쓰야 한다.
+allowance|word|noun|/əˈlaʊəns/|용돈|money given regularly|||The allowance is important.|용돈은 중요하다.
+wallet|word|noun|/ˈwɑːlɪt/|지갑|a small case for money|||The wallet is important.|지갑은 중요하다.
+find|word|verb|/faɪnd/|찾다,발견하다|to discover or locate something|||We should find carefully.|우리는 신중하게 찾야 한다.
+search|word|verb|/sɜːrtʃ/|찾다,검색하다|to look carefully for something|||We should search carefully.|우리는 신중하게 찾야 한다.
+look for|phrase|verb phrase|/lʊk fɔːr/|찾다|to try to find something|||We should look for this issue.|우리는 이 문제에 대해 찾다 해야 한다.
+found|word|adjective|/faʊnd/|찾은|discovered after being lost|||This is found.|이것은 찾은 것이다.
+broken|word|adjective|/ˈbroʊkən/|고장 난|damaged and not working|||This is broken.|이것은 고장 난 것이다.
+fix|word|verb|/fɪks/|고치다|to repair something|repair||Can you fix my bike?|내 자전거 고쳐줄 수 있어?
+repair|word|verb,noun|/rɪˈper/|수리하다,수리|to fix something broken|fix||The shop repaired my laptop.|가게에서 내 노트북을 수리했어.
+charge|word|verb|/tʃɑːrdʒ/|충전하다|to fill a battery with power|||We should charge carefully.|우리는 신중하게 충전해야 한다.
+battery|word|noun|/ˈbætəri/|배터리|a device that provides power|||The battery is important.|배터리은 중요하다.
+dead|word|adjective|/ded/|방전된|having no power|||This is dead.|이것은 방전된 것이다.
+plug in|phrase|verb phrase|/plʌɡ ɪn/|꽂다,연결하다|to connect to electricity|||We should plug in this issue.|우리는 이 문제에 대해 꽂다 해야 한다.
+turn on|phrase|verb phrase|/tɜːrn ɑːn/|켜다|to start a device|switch on||Turn on the TV, please.|TV 좀 켜 줘.
+turn off|phrase|verb phrase|/tɜːrn ɔːf/|끄다|to stop a device|switch off|turn on|Turn off the light before sleeping.|자기 전에 불 꺼.
+switch|word|verb,noun|/swɪtʃ/|바꾸다,스위치|to change something|||We should switch carefully.|우리는 신중하게 바꾸야 한다.
+change|word|verb,noun|/tʃeɪndʒ/|바꾸다,변화|to make something different|||We should change carefully.|우리는 신중하게 바꾸야 한다.
+decide|word|verb|/dɪˈsaɪd/|결정하다|to make a choice|||We should decide carefully.|우리는 신중하게 결정해야 한다.
+guess|word|verb,noun|/ɡes/|추측하다|to give an answer without knowing|||We should guess carefully.|우리는 신중하게 추측해야 한다.
+secret|word|noun,adjective|/ˈsiːkrət/|비밀|something hidden|||This is secret.|이것은 비밀 것이다.
+surprise|word|noun,verb|/sərˈpraɪz/|놀라게 하다,놀라움|something unexpected|||We should surprise carefully.|우리는 신중하게 놀라게 해야 한다.
+celebrate|word|verb|/ˈselɪbreɪt/|축하하다|to do something special for an event|||We should celebrate carefully.|우리는 신중하게 축하해야 한다.
+birthday|word|noun|/ˈbɜːrθdeɪ/|생일|the day you were born|||The birthday is important.|생일은 중요하다.
+gift|word|noun|/ɡɪft/|선물|something given to someone|||The gift is important.|선물은 중요하다.
+party|word|noun|/ˈpɑːrti/|파티|a social event with people|||The party is important.|파티은 중요하다.
+cake|word|noun|/keɪk/|케이크|a sweet baked dessert|||The cake is important.|케이크은 중요하다.
+candle|word|noun|/ˈkændl/|초|a stick of wax that burns|||The candle is important.|초은 중요하다.
+wish|word|noun,verb|/wɪʃ/|소원,바라다|to hope for something|||We should wish carefully.|우리는 신중하게 바라야 한다.
+dream|word|noun,verb|/driːm/|꿈,꿈꾸다|something hoped for in the future|||We should dream carefully.|우리는 신중하게 꿈꾸야 한다.
+future|word|noun,adjective|/ˈfjuːtʃər/|미래|time that will come|||This is future.|이것은 미래 것이다.
+job|word|noun|/dʒɑːb/|직업|work that someone does|||The job is important.|직업은 중요하다.
+career|word|noun|/kəˈrɪr/|진로,경력|the work you do over your life|||The career is important.|진로은 중요하다.
+interview|word|noun|/ˈɪntərvjuː/|면접,인터뷰|a meeting with questions|||The interview is important.|면접은 중요하다.
+apply|word|verb|/əˈplaɪ/|지원하다|to ask officially for something|||We should apply carefully.|우리는 신중하게 지원해야 한다.
+join|word|verb|/dʒɔɪn/|가입하다,참여하다|to become part of something|||We should join carefully.|우리는 신중하게 가입해야 한다.
+club|word|noun|/klʌb/|동아리|a group with a shared interest|||The club is important.|동아리은 중요하다.
+member|word|noun|/ˈmembər/|회원,구성원|a person in a group|||The member is important.|회원은 중요하다.
+leader|word|noun|/ˈliːdər/|리더|the person in charge of a group|||The leader is important.|리더은 중요하다.
+follow|word|verb|/ˈfɑːloʊ/|따르다|to go after or obey|||We should follow carefully.|우리는 신중하게 따르야 한다.
+lead|word|verb,noun|/liːd/|이끌다,이끌기|to guide others|||We should lead carefully.|우리는 신중하게 이끌야 한다.
+teach|word|verb|/tiːtʃ/|가르치다|to help someone learn|||We should teach carefully.|우리는 신중하게 가르치야 한다.
+learn|word|verb|/lɜːrn/|배우다|to gain knowledge|||We should learn carefully.|우리는 신중하게 배우야 한다.
+study|word|verb,noun|/ˈstʌdi/|공부하다,공부|to learn by reading|||We should study carefully.|우리는 신중하게 공부해야 한다.
+review|word|verb,noun|/rɪˈvjuː/|복습하다,검토하다|to look at again|||We should review carefully.|우리는 신중하게 복습해야 한다.
+test|word|noun|/test/|시험|an exam to check knowledge|||The test is important.|시험은 중요하다.
+quiz|word|noun|/kwɪz/|쪽지시험|a short test|||The quiz is important.|쪽지시험은 중요하다.
+grade|word|noun|/ɡreɪd/|성적,학년|a mark in school|||The grade is important.|성적은 중요하다.
+pass|word|verb|/pæs/|합격하다|to succeed in a test|succeed|fail|I hope I pass the exam.|시험 합격했으면 좋겠다.
+fail|word|verb|/feɪl/|떨어지다,실패하다|to not succeed|lose|pass|He failed the driving test.|그는 운전 시험에 떨어졌어.
+exam|word|noun|/ɪɡˈzæm/|시험|an important test|||The exam is important.|시험은 중요하다.
+final exam|phrase|noun phrase|/ˈfaɪnl ɪɡˈzæm/|기말고사|the last exam of a course|||The final exam is important.|기말고사은 중요하다.
+midterm|word|noun|/ˈmɪdtɜːrm/|중간고사|an exam in the middle of a term|||The midterm is important.|중간고사은 중요하다.
+subject|word|noun|/ˈsʌbdʒɪkt/|과목|something studied at school|||The subject is important.|과목은 중요하다.
+math|word|noun|/mæθ/|수학|the study of numbers|||The math is important.|수학은 중요하다.
+science|word|noun|/ˈsaɪəns/|과학|the study of nature and facts|||The science is important.|과학은 중요하다.
+history|word|noun|/ˈhɪstəri/|역사|the study of the past|||The history is important.|역사은 중요하다.
+geography|word|noun|/dʒiˈɑːɡrəfi/|지리|the study of places and Earth|||The geography is important.|지리은 중요하다.
+art|word|noun|/ɑːrt/|미술|creative drawing or making|||The art is important.|미술은 중요하다.
+music|word|noun|/ˈmjuːzɪk/|음악|organized sound|||The music is important.|음악은 중요하다.
+P.E.|word|noun|/ˌpiːˈiː/|체육|physical education class|||The P.E. is important.|체육은 중요하다.
+homework|word|noun|/ˈhoʊmwɜːrk/|숙제|school work done at home|||The homework is important.|숙제은 중요하다.
+notebook|word|noun|/ˈnoʊtbʊk/|공책|a book for writing notes|||The notebook is important.|공책은 중요하다.
+textbook|word|noun|/ˈtekstbʊk/|교과서|a school study book|||The textbook is important.|교과서은 중요하다.
+dictionary|word|noun|/ˈdɪkʃəneri/|사전|a book of word meanings|||The dictionary is important.|사전은 중요하다.
+translate|word|verb|/trænzˈleɪt/|번역하다|to change into another language|||We should translate carefully.|우리는 신중하게 번역해야 한다.
+pronounce|word|verb|/prəˈnaʊns/|발음하다|to say a word aloud|||We should pronounce carefully.|우리는 신중하게 발음해야 한다.
+spell|word|verb|/spel/|철자를 쓰다|to say or write letters in order|||We should spell carefully.|우리는 신중하게 철자를 쓰야 한다.
+sentence|word|noun|/ˈsentəns/|문장|a group of words with meaning|||The sentence is important.|문장은 중요하다.
+question|word|noun|/ˈkwestʃən/|질문|something asked|||The question is important.|질문은 중요하다.
+answer|word|noun,verb|/ˈænsər/|답,대답하다|a reply to a question|||We should answer carefully.|우리는 신중하게 대답해야 한다.
+problem|word|noun|/ˈprɑːbləm/|문제|something difficult to solve|||The problem is important.|문제은 중요하다.
+solve|word|verb|/sɑːlv/|해결하다|to find the answer|||We should solve carefully.|우리는 신중하게 해결해야 한다.
+explanation|word|noun|/ˌekspləˈneɪʃən/|설명|details that make something clear|||The explanation is important.|설명은 중요하다.
+puzzle|word|noun|/ˈpʌzl/|퍼즐,수수께끼|a problem made for solving|||The puzzle is important.|퍼즐은 중요하다.
+clue|word|noun|/kluː/|단서|a hint that helps solve something|||The clue is important.|단서은 중요하다.
+hint|word|noun|/hɪnt/|힌트|a small suggestion or clue|||The hint is important.|힌트은 중요하다.
+guess again|phrase|verb phrase|/ɡes əˈɡen/|다시 맞혀 봐|to try another guess|||We should guess again.|우리는 다시 맞혀 봐 해야 한다.
+correct answer|phrase|noun phrase|/kəˈrekt ˈænsər/|정답|the right answer|||The correct answer is important.|정답은 중요하다.
+wrong|word|adjective|/rɔːŋ/|틀린|not correct|incorrect|correct|Sorry, that answer is wrong.|미안, 그 답은 틀렸어.
+mistaken|word|adjective|/mɪˈsteɪkən/|착각한|wrong because of misunderstanding|||This is mistaken.|이것은 착각한 것이다.
+understanding|word|noun|/ˌʌndərˈstændɪŋ/|이해|knowledge of meaning|||The understanding is important.|이해은 중요하다.
+explain again|phrase|verb phrase|/ɪkˈspleɪn əˈɡen/|다시 설명하다|to explain one more time|||We should explain again.|우리는 다시 설명하다 해야 한다.
+repeat|word|verb|/rɪˈpiːt/|반복하다,다시 말하다|to say or do again|||We should repeat carefully.|우리는 신중하게 반복해야 한다.
+listen|word|verb|/ˈlɪsn/|듣다|to pay attention to sound|||We should listen carefully.|우리는 신중하게 들어야 한다.
+hear|word|verb|/hɪr/|들리다,듣다|to notice sound|||We should hear carefully.|우리는 신중하게 들리야 한다.
+speak|word|verb|/spiːk/|말하다|to say words|||We should speak carefully.|우리는 신중하게 말해야 한다.
+talk|word|verb,noun|/tɔːk/|이야기하다,대화|to have a conversation|||We should talk carefully.|우리는 신중하게 이야기해야 한다.
+chat|word|verb,noun|/tʃæt/|수다 떨다,채팅|to talk in a casual way|||We should chat carefully.|우리는 신중하게 수다 떨야 한다.
+joke|word|noun,verb|/dʒoʊk/|농담,농담하다|something said to be funny|||We should joke carefully.|우리는 신중하게 농담해야 한다.
+seriously|word|adverb|/ˈsɪriəsli/|진지하게,정말로|in a serious way|||We should seriously carefully.|우리는 신중하게 진지하게해야 한다.
+actually|word|adverb|/ˈæktʃuəli/|사실은|in fact|||We should actually carefully.|우리는 신중하게 사실은해야 한다.
+maybe|word|adverb|/ˈmeɪbi/|아마|perhaps|||We should maybe carefully.|우리는 신중하게 아마해야 한다.
+probably|word|adverb|/ˈprɑːbəbli/|아마도|most likely|||We should probably carefully.|우리는 신중하게 아마도해야 한다.
+definitely|word|adverb|/ˈdefɪnətli/|분명히|without doubt|certainly||I’ll definitely come.|나 분명히 갈게.
+of course|phrase|adverb phrase|/əv kɔːrs/|물론|certainly|||We should of course.|우리는 물론 해야 한다.
+no way|phrase|interjection|/noʊ weɪ/|말도 안 돼|used to show surprise|||We should no way.|우리는 말도 안 돼 해야 한다.
+really|word|adverb|/ˈriːəli/|정말|in fact or very much|||We should really carefully.|우리는 신중하게 정말해야 한다.
+sure|word|adjective,adverb|/ʃʊr/|확실한,물론|certain or yes|||We should sure carefully.|우리는 신중하게 확실한해야 한다.
+maybe later|phrase|adverb phrase|/ˈmeɪbi ˈleɪtər/|나중에 아마|possibly at a later time|||We should maybe later.|우리는 나중에 아마 해야 한다.
+right now|phrase|adverb phrase|/raɪt naʊ/|지금 당장|at this exact moment|||We should right now.|우리는 지금 당장 해야 한다.
+for a while|phrase|adverb phrase|/fɔːr ə waɪl/|잠시 동안|for some time|||We should for a while.|우리는 잠시 동안 해야 한다.
+a moment|phrase|noun phrase|/ə ˈmoʊmənt/|잠깐|a short time|||The a moment is important.|잠깐은 중요하다.
+in a minute|phrase|adverb phrase|/ɪn ə ˈmɪnɪt/|곧|very soon|||We should in a minute.|우리는 곧 해야 한다.
+as soon as possible|phrase|adverb phrase|/əz suːn əz ˈpɑːsəbl/|가능한 한 빨리|as quickly as you can|||We should as soon as possible.|우리는 가능한 한 빨리 해야 한다.
+busy|word|adjective|/ˈbɪzi/|바쁜|having a lot to do|||This is busy.|이것은 바쁜 것이다.
+free|word|adjective|/friː/|한가한|not busy|||This is free.|이것은 한가한 것이다.
+available|word|adjective|/əˈveɪləbl/|가능한,시간 되는|ready to be used|||This is available.|이것은 가능한 것이다.
+schedule|word|noun,verb|/ˈskedʒuːl/|일정|a plan of times|||We should schedule carefully.|우리는 신중하게 일정해야 한다.
+appointment|word|noun|/əˈpɔɪntmənt/|약속,예약|a planned meeting|||The appointment is important.|약속은 중요하다.
+cancel|word|verb|/ˈkænsəl/|취소하다|to stop a plan|||We should cancel carefully.|우리는 신중하게 취소해야 한다.
+postpone|word|verb|/poʊstˈpoʊn/|미루다|to delay until later|||We should postpone carefully.|우리는 신중하게 미루야 한다.
+reschedule|word|verb|/ˌriːˈskedʒuːl/|일정 변경하다|to arrange a new time|||We should reschedule carefully.|우리는 신중하게 일정 변경해야 한다.
+plan ahead|phrase|verb phrase|/plæn əˈhed/|미리 계획하다|to prepare early|||We should plan ahead.|우리는 미리 계획하다 해야 한다.
+prepare|word|verb|/prɪˈper/|준비하다|to get ready|||We should prepare carefully.|우리는 신중하게 준비해야 한다.
+ready|word|adjective|/ˈredi/|준비된|fully prepared|||This is ready.|이것은 준비된 것이다.
+almost|word|adverb|/ˈɔːlmoʊst/|거의|nearly|||We should almost carefully.|우리는 신중하게 거의해야 한다.
+finished|word|adjective|/ˈfɪnɪʃt/|끝난|completed|||This is finished.|이것은 끝난 것이다.
+start|word|verb,noun|/stɑːrt/|시작하다,시작|to begin|||We should start carefully.|우리는 신중하게 시작해야 한다.
+begin|word|verb|/bɪˈɡɪn/|시작하다|to start|||We should begin carefully.|우리는 신중하게 시작해야 한다.
+continue|word|verb|/kənˈtɪnjuː/|계속하다|to keep going|||We should continue carefully.|우리는 신중하게 계속해야 한다.
+stop|word|verb|/stɑːp/|멈추다|to end an action|quit|continue|Stop talking for a second.|잠깐 말 좀 멈춰.
+quit|word|verb|/kwɪt/|그만두다|to stop doing something|stop||I want to quit eating junk food.|정크푸드 먹는 거 끊고 싶어.
+finish up|phrase|verb phrase|/ˈfɪnɪʃ ʌp/|마무리하다|to complete the last part|||We should finish up.|우리는 마무리하다 해야 한다.
+clean|word|verb,adjective|/kliːn/|청소하다,깨끗한|to remove dirt|||We should clean carefully.|우리는 신중하게 청소해야 한다.
+mess|word|noun|/mes/|엉망,어질러진 상태|a dirty or disorganized state|||The mess is important.|엉망은 중요하다.
+organize|word|verb|/ˈɔːrɡənaɪz/|정리하다|to arrange neatly|||We should organize carefully.|우리는 신중하게 정리해야 한다.
+throw away|phrase|verb phrase|/θroʊ əˈweɪ/|버리다|to put something in the trash|||We should throw away.|우리는 버리다 해야 한다.
+keep|word|verb|/kiːp/|보관하다,유지하다|to continue to have|||We should keep carefully.|우리는 신중하게 보관해야 한다.
+save|word|verb|/seɪv/|저장하다,아끼다|to keep for later|||We should save carefully.|우리는 신중하게 저장해야 한다.
+open|word|verb,adjective|/ˈoʊpən/|열다,열린|to make something not closed|||We should open carefully.|우리는 신중하게 열야 한다.
+close|word|verb,adjective|/kloʊz/|닫다,닫힌|to shut something|shut|open|Please close the door.|문 좀 닫아 줘.
+lock|word|verb,noun|/lɑːk/|잠그다,자물쇠|to secure with a key|||We should lock carefully.|우리는 신중하게 잠그야 한다.
+unlock|word|verb|/ʌnˈlɑːk/|잠금 해제하다|to open a lock|||We should unlock carefully.|우리는 신중하게 잠금 해제해야 한다.
+push|word|verb|/pʊʃ/|밀다|to move by force|||We should push carefully.|우리는 신중하게 밀야 한다.
+pull|word|verb|/pʊl/|당기다|to move toward yourself|||We should pull carefully.|우리는 신중하게 당기야 한다.
+hold|word|verb|/hoʊld/|잡다|to keep in your hand|||We should hold carefully.|우리는 신중하게 잡야 한다.
+drop|word|verb|/drɑːp/|떨어뜨리다|to let something fall|||We should drop carefully.|우리는 신중하게 떨어뜨리야 한다.
+catch|word|verb|/kætʃ/|잡다|to stop something from falling|||We should catch carefully.|우리는 신중하게 잡야 한다.
+fall|word|verb|/fɔːl/|떨어지다|to move downward|||We should fall carefully.|우리는 신중하게 떨어지야 한다.
+stand up|phrase|verb phrase|/stænd ʌp/|일어나다|to rise to your feet|||We should stand up.|우리는 일어나다 해야 한다.
+sit down|phrase|verb phrase|/sɪt daʊn/|앉다|to take a seat|||We should sit down.|우리는 앉다 해야 한다.
+walk|word|verb,noun|/wɔːk/|걷다|to move on foot|||We should walk carefully.|우리는 신중하게 걸어야 한다.
+run|word|verb,noun|/rʌn/|달리다|to move quickly on foot|||We should run carefully.|우리는 신중하게 달리야 한다.
+jump|word|verb|/dʒʌmp/|점프하다|to push yourself into the air|||We should jump carefully.|우리는 신중하게 점프해야 한다.
+sit|word|verb|/sɪt/|앉다|to rest on a chair|||We should sit carefully.|우리는 신중하게 앉야 한다.
+lie down|phrase|verb phrase|/laɪ daʊn/|눕다|to put your body flat|||We should lie down.|우리는 눕다 해야 한다.
+wake up|phrase|verb phrase|/weɪk ʌp/|일어나다|to stop sleeping|||We should wake up.|우리는 일어나다 해야 한다.
+get up|phrase|verb phrase|/ɡet ʌp/|일어나다|to leave your bed|||We should get up.|우리는 일어나다 해야 한다.
+sleep|word|verb,noun|/sliːp/|자다,수면|to rest with eyes closed|||We should sleep carefully.|우리는 신중하게 자야 한다.
+nap|word|noun,verb|/næp/|낮잠,낮잠 자다|a short sleep|||We should nap carefully.|우리는 신중하게 낮잠 자야 한다.
+dream about|phrase|verb phrase|/driːm əˈbaʊt/|~에 대한 꿈을 꾸다|to see in sleep or imagine|||We should dream about this issue.|우리는 이 문제에 대해 ~에 대한 꿈을 꾸다 해야 한다.
+eat|word|verb|/iːt/|먹다|to have food|||We should eat carefully.|우리는 신중하게 먹야 한다.
+drink|word|verb,noun|/drɪŋk/|마시다,음료|to swallow liquid|||We should drink carefully.|우리는 신중하게 마시야 한다.
+hungry|word|adjective|/ˈhʌŋɡri/|배고픈|needing food|starving|full|I’m really hungry right now.|지금 진짜 배고파.
+thirsty|word|adjective|/ˈθɜːrsti/|목마른|needing a drink|||This is thirsty.|이것은 목마른 것이다.
+full|word|adjective|/fʊl/|배부른|having enough food|satisfied|hungry|I’m too full to eat more.|너무 배불러서 더 못 먹겠어.
+delicious|word|adjective|/dɪˈlɪʃəs/|맛있는|tasting very good|tasty||This pasta is delicious.|이 파스타 맛있다.
+taste|word|verb,noun|/teɪst/|맛보다,맛|to try food|||We should taste carefully.|우리는 신중하게 맛보야 한다.
+cook|word|verb|/kʊk/|요리하다|to make food|||We should cook carefully.|우리는 신중하게 요리해야 한다.
+recipe|word|noun|/ˈresəpi/|요리법|instructions for cooking|||The recipe is important.|요리법은 중요하다.
+restaurant|word|noun|/ˈrestərənt/|식당|a place where meals are served|||The restaurant is important.|식당은 중요하다.
+menu|word|noun|/ˈmenjuː/|메뉴|a list of food choices|||The menu is important.|메뉴은 중요하다.
+waiter|word|noun|/ˈweɪtər/|웨이터|a man serving food|||The waiter is important.|웨이터은 중요하다.
+customer|word|noun|/ˈkʌstəmər/|손님,고객|a person buying something|||The customer is important.|손님은 중요하다.
+shop|word|noun,verb|/ʃɑːp/|가게,쇼핑하다|a place to buy things|||We should shop carefully.|우리는 신중하게 쇼핑해야 한다.
+store|word|noun|/stɔːr/|가게|a place selling goods|||The store is important.|가게은 중요하다.
+mall|word|noun|/mɔːl/|쇼핑몰|a large shopping center|||The mall is important.|쇼핑몰은 중요하다.
+sale|word|noun|/seɪl/|세일|discounted selling|||The sale is important.|세일은 중요하다.
+discount|word|noun|/ˈdɪskaʊnt/|할인|a reduced price|||The discount is important.|할인은 중요하다.
+receipt|word|noun|/rɪˈsiːt/|영수증|a paper showing payment|||The receipt is important.|영수증은 중요하다.
+cash|word|noun|/kæʃ/|현금|money in bills or coins|||The cash is important.|현금은 중요하다.
+card|word|noun|/kɑːrd/|카드|a payment card|||The card is important.|카드은 중요하다.
+price|word|noun|/praɪs/|가격|how much something costs|||The price is important.|가격은 중요하다.
+size|word|noun|/saɪz/|사이즈|how big something is|||The size is important.|사이즈은 중요하다.
+fit|word|verb|/fɪt/|맞다|to be the right size|||We should fit carefully.|우리는 신중하게 맞야 한다.
+try on|phrase|verb phrase|/traɪ ɑːn/|입어보다|to wear something to check size|||We should try on this issue.|우리는 이 문제에 대해 입어보다 해야 한다.
+mirror|word|noun|/ˈmɪrər/|거울|a surface showing reflection|||The mirror is important.|거울은 중요하다.
+color|word|noun|/ˈkʌlər/|색|the appearance of something|||The color is important.|색은 중요하다.
+style|word|noun|/staɪl/|스타일|a way of looking or dressing|||The style is important.|스타일은 중요하다.
+wear|word|verb|/wer/|입다,착용하다|to have clothes on|||We should wear carefully.|우리는 신중하게 입야 한다.
+dress up|phrase|verb phrase|/dres ʌp/|차려입다|to wear nice clothes|||We should dress up.|우리는 차려입다 해야 한다.
+casual|word|adjective|/ˈkæʒuəl/|편한 차림의|relaxed and informal|||This is casual.|이것은 편한 차림의 것이다.
+formal|word|adjective|/ˈfɔːrml/|격식 있는|official or proper|official|casual|It’s a formal dinner.|격식 있는 저녁 식사야.
+weather|word|noun|/ˈweðər/|날씨|the condition outside|||The weather is important.|날씨은 중요하다.
+sunny|word|adjective|/ˈsʌni/|맑은|bright with sunshine|||This is sunny.|이것은 맑은 것이다.
+cloudy|word|adjective|/ˈklaʊdi/|흐린|covered with clouds|||This is cloudy.|이것은 흐린 것이다.
+rainy|word|adjective|/ˈreɪni/|비 오는|with rain|||This is rainy.|이것은 비 오는 것이다.
+snowy|word|adjective|/ˈsnoʊi/|눈 오는|with snow|||This is snowy.|이것은 눈 오는 것이다.
+windy|word|adjective|/ˈwɪndi/|바람 부는|with strong wind|||This is windy.|이것은 바람 부는 것이다.
+hot|word|adjective|/hɑːt/|더운|having high temperature|warm|cold|It’s so hot today.|오늘 너무 덥다.
+cold|word|adjective|/koʊld/|추운|having low temperature|cool|hot|It’s really cold this morning.|오늘 아침 진짜 춥다.
+warm|word|adjective|/wɔːrm/|따뜻한|pleasantly hot|||This is warm.|이것은 따뜻한 것이다.
+cool|word|adjective|/kuːl/|선선한,멋진|slightly cold or nice|||This is cool.|이것은 선선한 것이다.
+umbrella|word|noun|/ʌmˈbrelə/|우산|something used in rain|||The umbrella is important.|우산은 중요하다.
+jacket|word|noun|/ˈdʒækɪt/|재킷|a short coat|||The jacket is important.|재킷은 중요하다.
+coat|word|noun|/koʊt/|코트|a warm outer piece of clothing|||The coat is important.|코트은 중요하다.
+sweater|word|noun|/ˈswetər/|스웨터|a warm knitted top|||The sweater is important.|스웨터은 중요하다.
+scarf|word|noun|/skɑːrf/|목도리|cloth worn around the neck|||The scarf is important.|목도리은 중요하다.
+gloves|word|noun|/ɡlʌvz/|장갑|hand coverings for warmth|||The gloves is important.|장갑은 중요하다.
+hat|word|noun|/hæt/|모자|something worn on the head|||The hat is important.|모자은 중요하다.
+shoes|word|noun|/ʃuːz/|신발|things worn on your feet|||The shoes is important.|신발은 중요하다.
+socks|word|noun|/sɑːks/|양말|foot coverings|||The socks is important.|양말은 중요하다.
+jeans|word|noun|/dʒiːnz/|청바지|pants made of denim|||The jeans is important.|청바지은 중요하다.
+pants|word|noun|/pænts/|바지|clothing for the legs|||The pants is important.|바지은 중요하다.
+shirt|word|noun|/ʃɜːrt/|셔츠|a top with buttons or sleeves|||The shirt is important.|셔츠은 중요하다.
+T-shirt|word|noun|/ˈtiː ʃɜːrt/|티셔츠|a casual short-sleeved shirt|||The T-shirt is important.|티셔츠은 중요하다.
+skirt|word|noun|/skɜːrt/|치마|clothing worn around the waist|||The skirt is important.|치마은 중요하다.
+wash|word|verb|/wɑːʃ/|씻다,세탁하다|to clean with water|||We should wash carefully.|우리는 신중하게 씻야 한다.
+brush|word|verb,noun|/brʌʃ/|닦다,칫솔|to clean with a brush|||We should brush carefully.|우리는 신중하게 닦야 한다.
+shower|word|noun,verb|/ˈʃaʊər/|샤워,샤워하다|to wash your body|||We should shower carefully.|우리는 신중하게 샤워해야 한다.
+bath|word|noun|/bæθ/|목욕|washing in a tub|||The bath is important.|목욕은 중요하다.
+toothpaste|word|noun|/ˈtuːθpeɪst/|치약|paste used for brushing teeth|||The toothpaste is important.|치약은 중요하다.
+soap|word|noun|/soʊp/|비누|used for washing|||The soap is important.|비누은 중요하다.
+towel|word|noun|/ˈtaʊəl/|수건|cloth used for drying|||The towel is important.|수건은 중요하다.
+comb|word|noun,verb|/koʊm/|빗,빗다|to arrange hair|||We should comb carefully.|우리는 신중하게 빗야 한다.
+haircut|word|noun|/ˈherkʌt/|머리 자르기|the act of cutting hair|||The haircut is important.|머리 자르기은 중요하다.
+face|word|noun|/feɪs/|얼굴|the front part of your head|||The face is important.|얼굴은 중요하다.
+skin|word|noun|/skɪn/|피부|the outer layer of the body|||The skin is important.|피부은 중요하다.
+eye|word|noun|/aɪ/|눈|the organ used for seeing|||The eye is important.|눈은 중요하다.
+ear|word|noun|/ɪr/|귀|the organ used for hearing|||The ear is important.|귀은 중요하다.
+nose|word|noun|/noʊz/|코|the organ used for smelling|||The nose is important.|코은 중요하다.
+mouth|word|noun|/maʊθ/|입|the opening used for speaking and eating|||The mouth is important.|입은 중요하다.
+tooth|word|noun|/tuːθ/|이|a hard structure in the mouth|||The tooth is important.|이은 중요하다.
+head|word|noun|/hed/|머리|the top part of the body|||The head is important.|머리은 중요하다.
+neck|word|noun|/nek/|목|the part between head and body|||The neck is important.|목은 중요하다.
+shoulder|word|noun|/ˈʃoʊldər/|어깨|the part connecting arm to body|||The shoulder is important.|어깨은 중요하다.
+arm|word|noun|/ɑːrm/|팔|the upper limb of the body|||The arm is important.|팔은 중요하다.
+hand|word|noun|/hænd/|손|the body part at the end of the arm|||The hand is important.|손은 중요하다.
+finger|word|noun|/ˈfɪŋɡər/|손가락|one of the parts on your hand|||The finger is important.|손가락은 중요하다.
+leg|word|noun|/leɡ/|다리|the limb used for walking|||The leg is important.|다리은 중요하다.
+foot|word|noun|/fʊt/|발|the body part used for standing|||The foot is important.|발은 중요하다.
+knee|word|noun|/niː/|무릎|the joint in the leg|||The knee is important.|무릎은 중요하다.
+back|word|noun|/bæk/|등,허리|the rear part of the body|||The back is important.|등은 중요하다.
+sick|word|adjective|/sɪk/|아픈|not feeling well|ill|healthy|I feel sick today.|오늘 몸이 안 좋아.
+healthy|word|adjective|/ˈhelθi/|건강한|in good health|well|sick|Eating vegetables keeps you healthy.|채소 먹으면 건강해져.
+medicine|word|noun|/ˈmedɪsn/|약|something used to treat illness|||The medicine is important.|약은 중요하다.
+hospital|word|noun|/ˈhɑːspɪtl/|병원|a place for medical care|||The hospital is important.|병원은 중요하다.
+clinic|word|noun|/ˈklɪnɪk/|병원,의원|a small medical center|||The clinic is important.|병원은 중요하다.
+doctor|word|noun|/ˈdɑːktər/|의사|a medical professional|||The doctor is important.|의사은 중요하다.
+nurse|word|noun|/nɜːrs/|간호사|someone who cares for patients|||The nurse is important.|간호사은 중요하다.
+fever|word|noun|/ˈfiːvər/|열|a high body temperature|||The fever is important.|열은 중요하다.
+cough|word|noun,verb|/kɔːf/|기침,기침하다|to force air from your throat|||We should cough carefully.|우리는 신중하게 기침해야 한다.
+sneeze|word|verb,noun|/sniːz/|재채기,재채기하다|to suddenly blow air through your nose|||We should sneeze carefully.|우리는 신중하게 재채기해야 한다.
+flu|word|noun|/fluː/|독감|a serious illness like a bad cold|||The flu is important.|독감은 중요하다.
+rest|word|noun,verb|/rest/|휴식,쉬다|to relax and recover|||We should rest carefully.|우리는 신중하게 쉬야 한다.
+pain|word|noun|/peɪn/|통증|a feeling of hurt|||The pain is important.|통증은 중요하다.
+hurt|word|verb,adjective|/hɜːrt/|아프다,다치다|to feel pain|||We should hurt carefully.|우리는 신중하게 아프야 한다.
+injury|word|noun|/ˈɪndʒəri/|부상|damage to the body|||The injury is important.|부상은 중요하다.
+bandage|word|noun|/ˈbændɪdʒ/|붕대|cloth used to cover an injury|||The bandage is important.|붕대은 중요하다.
+cut|word|noun,verb|/kʌt/|베인 상처,베다|to make a wound|||We should cut carefully.|우리는 신중하게 베야 한다.
+bleed|word|verb|/bliːd/|피가 나다|to lose blood|||We should bleed carefully.|우리는 신중하게 피가 나야 한다.
+emergency|word|noun|/ɪˈmɜːrdʒənsi/|응급상황|a serious urgent situation|||The emergency is important.|응급상황은 중요하다.
+ambulance|word|noun|/ˈæmbjələns/|구급차|a vehicle for emergencies|||The ambulance is important.|구급차은 중요하다.
+temperature|word|noun|/ˈtemprətʃər/|체온,온도|the level of heat|||The temperature is important.|체온은 중요하다.
+mask|word|noun|/mæsk/|마스크|something worn over the face|||The mask is important.|마스크은 중요하다.
+exercise|word|noun,verb|/ˈeksərsaɪz/|운동,운동하다|physical activity for health|||We should exercise carefully.|우리는 신중하게 운동해야 한다.
+stretch|word|verb,noun|/stretʃ/|스트레칭하다|to extend your body|||We should stretch carefully.|우리는 신중하게 스트레칭해야 한다.
+gym|word|noun|/dʒɪm/|체육관|a place for exercise|||The gym is important.|체육관은 중요하다.
+soccer|word|noun|/ˈsɑːkər/|축구|a sport played with a ball|||The soccer is important.|축구은 중요하다.
+basketball|word|noun|/ˈbæskɪtbɔːl/|농구|a sport with a hoop|||The basketball is important.|농구은 중요하다.
+baseball|word|noun|/ˈbeɪsbɔːl/|야구|a bat-and-ball sport|||The baseball is important.|야구은 중요하다.
+swimming|word|noun|/ˈswɪmɪŋ/|수영|the activity of moving in water|||The swimming is important.|수영은 중요하다.
+race|word|noun|/reɪs/|경주|a competition of speed|||The race is important.|경주은 중요하다.
+winner|word|noun|/ˈwɪnər/|우승자|the person who wins|||The winner is important.|우승자은 중요하다.
+medal|word|noun|/ˈmedl/|메달|an award for winning|||The medal is important.|메달은 중요하다.
+prize|word|noun|/praɪz/|상,상품|something given for winning|||The prize is important.|상은 중요하다.
+trophy|word|noun|/ˈtroʊfi/|트로피|an award shaped object|||The trophy is important.|트로피은 중요하다.
+cheer|word|verb,noun|/tʃɪr/|응원하다,응원|to shout support|||We should cheer carefully.|우리는 신중하게 응원해야 한다.
+crowd|word|noun|/kraʊd/|군중|a large group of people|||The crowd is important.|군중은 중요하다.
+stadium|word|noun|/ˈsteɪdiəm/|경기장|a large sports place|||The stadium is important.|경기장은 중요하다.
+fan|word|noun|/fæn/|팬|someone who likes a team or person|||The fan is important.|팬은 중요하다.
+concert|word|noun|/ˈkɑːnsərt/|콘서트|a live music event|||The concert is important.|콘서트은 중요하다.
+ticket|word|noun|/ˈtɪkɪt/|티켓|a pass for entry|||The ticket is important.|티켓은 중요하다.
+movie|word|noun|/ˈmuːvi/|영화|a film|||The movie is important.|영화은 중요하다.
+cinema|word|noun|/ˈsɪnəmə/|영화관|a place to watch movies|||The cinema is important.|영화관은 중요하다.
+actor|word|noun|/ˈæktər/|배우|a person in movies or plays|||The actor is important.|배우은 중요하다.
+actress|word|noun|/ˈæktrəs/|여배우|a female actor|||The actress is important.|여배우은 중요하다.
+scene|word|noun|/siːn/|장면|a part of a movie|||The scene is important.|장면은 중요하다.
+ending|word|noun|/ˈendɪŋ/|결말|the final part of a story|||The ending is important.|결말은 중요하다.
+character|word|noun|/ˈkærəktər/|등장인물|a person in a story|||The character is important.|등장인물은 중요하다.
+story|word|noun|/ˈstɔːri/|이야기|a tale or plot|||The story is important.|이야기은 중요하다.
+book|word|noun|/bʊk/|책|something you read|||The book is important.|책은 중요하다.
+novel|word|noun|/ˈnɑːvl/|소설|a long fictional book|||The novel is important.|소설은 중요하다.
+comic|word|noun|/ˈkɑːmɪk/|만화|a funny or illustrated story|||The comic is important.|만화은 중요하다.
+episode|word|noun|/ˈepɪsoʊd/|에피소드|one part of a series|||The episode is important.|에피소드은 중요하다.
+series|word|noun|/ˈsɪriːz/|시리즈|a set of connected shows|||The series is important.|시리즈은 중요하다.
+stream|word|verb|/striːm/|스트리밍하다|to watch online|||We should stream carefully.|우리는 신중하게 스트리밍해야 한다.
+subscribe|word|verb|/səbˈskraɪb/|구독하다|to sign up regularly|||We should subscribe carefully.|우리는 신중하게 구독해야 한다.
+channel|word|noun|/ˈtʃænl/|채널|a source of videos or broadcasts|||The channel is important.|채널은 중요하다.
+video|word|noun|/ˈvɪdioʊ/|영상|a moving picture recording|||The video is important.|영상은 중요하다.
+comment|word|noun,verb|/ˈkɑːment/|댓글,댓글 달다|to write an opinion|||We should comment carefully.|우리는 신중하게 댓글 달야 한다.
+like|word|verb,noun|/laɪk/|좋아요,좋아하다|to enjoy or approve|||We should like carefully.|우리는 신중하게 좋아해야 한다.
+share|word|verb|/ʃer/|공유하다|to send something to others|||We should share carefully.|우리는 신중하게 공유해야 한다.
+creator|word|noun|/kriˈeɪtər/|창작자|someone who makes content|||The creator is important.|창작자은 중요하다.
+content|word|noun|/ˈkɑːntent/|콘텐츠|media material online|||The content is important.|콘텐츠은 중요하다.
+viral|word|adjective|/ˈvaɪrəl/|화제가 된|spreading quickly online|||This is viral.|이것은 화제가 된 것이다.
+trend|word|noun|/trend/|유행|something popular now|||The trend is important.|유행은 중요하다.
+popular song|phrase|noun phrase|/ˈpɑːpjələr sɔːŋ/|인기곡|a song many people like|||The popular song is important.|인기곡은 중요하다.
+dance|word|verb,noun|/dæns/|춤추다,춤|to move to music|||We should dance carefully.|우리는 신중하게 춤추야 한다.
+sing|word|verb|/sɪŋ/|노래하다|to make music with your voice|||We should sing carefully.|우리는 신중하게 노래해야 한다.
+band|word|noun|/bænd/|밴드|a music group|||The band is important.|밴드은 중요하다.
+instrument|word|noun|/ˈɪnstrəmənt/|악기|a tool for making music|||The instrument is important.|악기은 중요하다.
+guitar|word|noun|/ɡɪˈtɑːr/|기타|a string instrument|||The guitar is important.|기타은 중요하다.
+piano|word|noun|/piˈænoʊ/|피아노|a keyboard instrument|||The piano is important.|피아노은 중요하다.
+drum|word|noun|/drʌm/|드럼|a percussion instrument|||The drum is important.|드럼은 중요하다.
+microphone|word|noun|/ˈmaɪkrəfoʊn/|마이크|a device for speaking louder|||The microphone is important.|마이크은 중요하다.
+voice|word|noun|/vɔɪs/|목소리|the sound made when speaking|||The voice is important.|목소리은 중요하다.
+sound|word|noun|/saʊnd/|소리|something you hear|||The sound is important.|소리은 중요하다.
+noise|word|noun|/nɔɪz/|소음|unwanted loud sound|||The noise is important.|소음은 중요하다.
+silent|word|adjective|/ˈsaɪlənt/|조용한|without sound|quiet|noisy|Please keep your phone on silent.|휴대폰 무음으로 해 줘.
+volume|word|noun|/ˈvɑːljuːm/|볼륨|sound level|||The volume is important.|볼륨은 중요하다.
+turn down|phrase|verb phrase|/tɜːrn daʊn/|줄이다|to lower volume or level|||We should turn down.|우리는 줄이다 해야 한다.
+turn up|phrase|verb phrase|/tɜːrn ʌp/|올리다|to increase volume or level|||We should turn up.|우리는 올리다 해야 한다.
+charger|word|noun|/ˈtʃɑːrdʒər/|충전기|a device used for charging|||The charger is important.|충전기은 중요하다.
+earphones|word|noun|/ˈɪrfoʊnz/|이어폰|small devices for listening|||The earphones is important.|이어폰은 중요하다.
+speaker|word|noun|/ˈspiːkər/|스피커|a device that plays sound|||The speaker is important.|스피커은 중요하다.
+brightness|word|noun|/ˈbraɪtnəs/|밝기|how bright something is|||The brightness is important.|밝기은 중요하다.
+password|word|noun|/ˈpæswɜːrd/|비밀번호|a secret word for access|||The password is important.|비밀번호은 중요하다.
+login|word|noun,verb|/ˈlɔːɡɪn/|로그인|to access an account|||We should login carefully.|우리는 신중하게 로그인해야 한다.
+logout|word|noun,verb|/ˈlɔːɡaʊt/|로그아웃|to leave an account|||We should logout carefully.|우리는 신중하게 로그아웃해야 한다.
+account|word|noun|/əˈkaʊnt/|계정|a personal online profile|||The account is important.|계정은 중요하다.
+nickname|word|noun|/ˈnɪkneɪm/|별명|an informal name|||The nickname is important.|별명은 중요하다.
+message|word|noun|/ˈmesɪdʒ/|메시지|written communication|||The message is important.|메시지은 중요하다.
+notification|word|noun|/ˌnoʊtɪfɪˈkeɪʃən/|알림|a message alert|||The notification is important.|알림은 중요하다.
+alarm|word|noun|/əˈlɑːrm/|알람|a sound to wake or remind|||The alarm is important.|알람은 중요하다.
+calendar|word|noun|/ˈkælɪndər/|달력,일정표|a schedule or date list|||The calendar is important.|달력은 중요하다.
+reminder|word|noun|/rɪˈmaɪndər/|알림,리마인더|something that helps you remember|||The reminder is important.|알림은 중요하다.
+map|word|noun|/mæp/|지도|a picture of places|||The map is important.|지도은 중요하다.
+direction|word|noun|/dəˈrekʃən/|방향,길 안내|where to go|||The direction is important.|방향은 중요하다.
+location|word|noun|/loʊˈkeɪʃən/|위치|a place or position|||The location is important.|위치은 중요하다.
+near|word|preposition,adjective|/nɪr/|가까운,근처에|close to something|close|far|Is there a cafe near here?|이 근처에 카페 있어?
+far|word|adjective,adverb|/fɑːr/|먼|a long distance away|distant|near|My school is far from home.|우리 학교 집에서 멀어.
+across from|phrase|preposition|/əˈkrɔːs frəm/|~맞은편에|on the opposite side|||We should across from this issue.|우리는 이 문제에 대해 ~맞은편에 해야 한다.
+next to|phrase|preposition|/nekst tuː/|~옆에|beside something|||We should next to this issue.|우리는 이 문제에 대해 ~옆에 해야 한다.
+between|word|preposition|/bɪˈtwiːn/|~사이에|in the middle of two things|||The between is important.|~사이에은 중요하다.
+behind|word|preposition|/bɪˈhaɪnd/|~뒤에|at the back of something|||The behind is important.|~뒤에은 중요하다.
+in front of|phrase|preposition|/ɪn frʌnt əv/|~앞에|before something|||We should in front of this issue.|우리는 이 문제에 대해 ~앞에 해야 한다.
+inside|word|preposition,adverb|/ɪnˈsaɪd/|안에|within something|||We should inside carefully.|우리는 신중하게 안에해야 한다.
+outside|word|preposition,adverb|/ˌaʊtˈsaɪd/|밖에|not inside|||We should outside carefully.|우리는 신중하게 밖에해야 한다.
+upstairs|word|adverb|/ˌʌpˈsterz/|위층에|on a higher floor|||We should upstairs carefully.|우리는 신중하게 위층에해야 한다.
+downstairs|word|adverb|/ˌdaʊnˈsterz/|아래층에|on a lower floor|||We should downstairs carefully.|우리는 신중하게 아래층에해야 한다.
+elevator|word|noun|/ˈelɪveɪtər/|엘리베이터|a moving lift in a building|||The elevator is important.|엘리베이터은 중요하다.
+stairs|word|noun|/sterz/|계단|steps between floors|||The stairs is important.|계단은 중요하다.
+cross|word|verb|/krɔːs/|건너다|to go across|||We should cross carefully.|우리는 신중하게 건너야 한다.
+traffic light|phrase|noun phrase|/ˈtræfɪk laɪt/|신호등|road signal lights|||The traffic light is important.|신호등은 중요하다.
+bus stop|phrase|noun phrase|/ˈbʌs stɑːp/|버스 정류장|a place to catch a bus|||The bus stop is important.|버스 정류장은 중요하다.
+subway|word|noun|/ˈsʌbweɪ/|지하철|underground train|||The subway is important.|지하철은 중요하다.
+train|word|noun|/treɪn/|기차|rail transport|||The train is important.|기차은 중요하다.
+station|word|noun|/ˈsteɪʃən/|역|a transport stop|||The station is important.|역은 중요하다.
+transfer|word|verb,noun|/trænsˈfɜːr/|환승하다|to change transportation|||We should transfer carefully.|우리는 신중하게 환승해야 한다.
+ride|word|verb,noun|/raɪd/|타다|to travel in a vehicle|||We should ride carefully.|우리는 신중하게 타야 한다.
+drive|word|verb|/draɪv/|운전하다|to control a car|||We should drive carefully.|우리는 신중하게 운전해야 한다.
+parking lot|phrase|noun phrase|/ˈpɑːrkɪŋ lɑːt/|주차장|a place to park cars|||The parking lot is important.|주차장은 중요하다.
+gas station|phrase|noun phrase|/ˈɡæs steɪʃən/|주유소|a place to buy fuel|||The gas station is important.|주유소은 중요하다.
+airport|word|noun|/ˈerpɔːrt/|공항|a place for airplanes|||The airport is important.|공항은 중요하다.
+passport|word|noun|/ˈpæspɔːrt/|여권|a travel ID document|||The passport is important.|여권은 중요하다.
+luggage|word|noun|/ˈlʌɡɪdʒ/|짐|bags for travel|||The luggage is important.|짐은 중요하다.
+boarding pass|phrase|noun phrase|/ˈbɔːrdɪŋ pæs/|탑승권|a pass for getting on a plane|||The boarding pass is important.|탑승권은 중요하다.
+gate|word|noun|/ɡeɪt/|탑승구|the place where you board a plane|||The gate is important.|탑승구은 중요하다.
+flight|word|noun|/flaɪt/|항공편|a trip by airplane|||The flight is important.|항공편은 중요하다.
+delay|word|noun,verb|/dɪˈleɪ/|지연,지연되다|to happen later than expected|||We should delay carefully.|우리는 신중하게 지연되어야 한다.
+cancelled|word|adjective|/ˈkænsəld/|취소된|stopped before happening|||This is cancelled.|이것은 취소된 것이다.
+arrivals|word|noun|/əˈraɪvlz/|도착장|the area for arriving passengers|||The arrivals is important.|도착장은 중요하다.
+departure|word|noun|/dɪˈpɑːrtʃər/|출발|the act of leaving|||The departure is important.|출발은 중요하다.
+customs|word|noun|/ˈkʌstəmz/|세관|airport inspection area|||The customs is important.|세관은 중요하다.
+security check|phrase|noun phrase|/sɪˈkjʊrəti tʃek/|보안 검색|airport safety inspection|||The security check is important.|보안 검색은 중요하다.
+seat belt|phrase|noun phrase|/siːt belt/|안전벨트|a belt for safety in vehicles|||The seat belt is important.|안전벨트은 중요하다.
+window seat|phrase|noun phrase|/ˈwɪndoʊ siːt/|창가 자리|a seat by the window|||The window seat is important.|창가 자리은 중요하다.
+aisle seat|phrase|noun phrase|/aɪl siːt/|복도 자리|a seat beside the aisle|||The aisle seat is important.|복도 자리은 중요하다.
+trip plan|phrase|noun phrase|/trɪp plæn/|여행 계획|a travel schedule|||The trip plan is important.|여행 계획은 중요하다.
+hotel|word|noun|/hoʊˈtel/|호텔|a place to stay|||The hotel is important.|호텔은 중요하다.
+reservation|word|noun|/ˌrezərˈveɪʃən/|예약|an arranged booking|||The reservation is important.|예약은 중요하다.
+check in|phrase|verb phrase|/tʃek ɪn/|체크인하다|to register on arrival|||We should check in this issue.|우리는 이 문제에 대해 체크인하다 해야 한다.
+check out|phrase|verb phrase|/tʃek aʊt/|체크아웃하다|to leave after staying|||We should check out.|우리는 체크아웃하다 해야 한다.
+room key|phrase|noun phrase|/ruːm kiː/|객실 키|a key for your room|||The room key is important.|객실 키은 중요하다.
+tourist|word|noun|/ˈtʊrɪst/|관광객|someone traveling for fun|||The tourist is important.|관광객은 중요하다.
+guide|word|noun|/ɡaɪd/|가이드|someone who shows places|||The guide is important.|가이드은 중요하다.
+souvenir|word|noun|/ˌsuːvəˈnɪr/|기념품|something kept from a trip|||The souvenir is important.|기념품은 중요하다.
+take a picture|phrase|verb phrase|/teɪk ə ˈpɪktʃər/|사진 찍다|to take a photo|||We should take a picture.|우리는 사진 찍다 해야 한다.
+beautiful|word|adjective|/ˈbjuːtəfəl/|아름다운|very pretty|||This is beautiful.|이것은 아름다운 것이다.
+amusement park|phrase|noun phrase|/əˈmjuːzmənt pɑːrk/|놀이공원|a place with rides and games|||The amusement park is important.|놀이공원은 중요하다.
+ride a roller coaster|phrase|verb phrase|/raɪd ə ˈroʊlər ˌkoʊstər/|롤러코스터 타다|to ride a fast amusement ride|||We should ride a roller coaster.|우리는 롤러코스터 타다 해야 한다.
+fun|word|adjective,noun|/fʌn/|재미있는,재미|something enjoyable|||This is fun.|이것은 재미있는 것이다.
+scary|word|adjective|/ˈskeri/|무서운|causing fear|||This is scary.|이것은 무서운 것이다.
+laugh|word|verb,noun|/læf/|웃다,웃음|to make a happy sound|||We should laugh carefully.|우리는 신중하게 웃야 한다.
+smile|word|verb,noun|/smaɪl/|웃다,미소|to show happiness with your face|||We should smile carefully.|우리는 신중하게 웃야 한다.
+cry|word|verb,noun|/kraɪ/|울다,울음|to show sadness with tears|||We should cry carefully.|우리는 신중하게 울야 한다.
+tear|word|noun|/tɪr/|눈물|water from the eyes|||The tear is important.|눈물은 중요하다.
+hug|word|verb,noun|/hʌɡ/|안다,포옹|to hold someone closely|||She gave me a big hug.|그녀는 나를 꼭 안아 주었다.
+kiss|word|verb,noun|/kɪs/|입맞춤하다|to touch with your lips|||The baby kissed his mom.|아기가 엄마에게 입을 맞췄다.
+hold hands|phrase|verb phrase|/hoʊld hændz/|손잡다|to hold another person’s hand|||We should hold hands.|우리는 손잡다 해야 한다.
+miss someone|phrase|verb phrase|/mɪs ˈsʌmwʌn/|누군가가 그립다|to feel sad because someone is away|||We should miss someone.|우리는 누군가가 그립다 해야 한다.
+care about|phrase|verb phrase|/ker əˈbaʊt/|신경 쓰다,아끼다|to feel concern for someone|||We should care about this issue.|우리는 이 문제에 대해 신경 쓰다 해야 한다.
+fall in love|phrase|verb phrase|/fɔːl ɪn lʌv/|사랑에 빠지다|to start loving someone|||We should fall in love.|우리는 사랑에 빠지다 해야 한다.
+break up|phrase|verb phrase|/breɪk ʌp/|헤어지다|to end a relationship|||We should break up.|우리는 헤어지다 해야 한다.
+argue|word|verb|/ˈɑːrɡjuː/|말다툼하다|to disagree angrily|||We should argue carefully.|우리는 신중하게 말다툼해야 한다.
+make up|phrase|verb phrase|/meɪk ʌp/|화해하다|to become friends again|||We should make up.|우리는 화해하다 해야 한다.
+trust someone|phrase|verb phrase|/trʌst ˈsʌmwʌn/|누군가를 믿다|to believe in someone|||We should trust someone.|우리는 누군가를 믿다 해야 한다.
+promise someone|phrase|verb phrase|/ˈprɑːmɪs ˈsʌmwʌn/|누군가에게 약속하다|to say you will do something|||We should promise someone.|우리는 누군가에게 약속하다 해야 한다.
+keep a promise|phrase|verb phrase|/kiːp ə ˈprɑːmɪs/|약속을 지키다|to do what you promised|||We should keep a promise.|우리는 약속을 지키다 해야 한다.
+break a promise|phrase|verb phrase|/breɪk ə ˈprɑːmɪs/|약속을 어기다|to not do what you promised|||We should break a promise.|우리는 약속을 어기다 해야 한다.
+forgive someone|phrase|verb phrase|/fərˈɡɪv ˈsʌmwʌn/|누군가를 용서하다|to stop being angry|||We should forgive someone.|우리는 누군가를 용서하다 해야 한다.
+understand someone|phrase|verb phrase|/ˌʌndərˈstænd ˈsʌmwʌn/|누군가를 이해하다|to know how they feel|||We should understand someone.|우리는 누군가를 이해하다 해야 한다.
+be honest|phrase|adjective phrase|/bi ˈɑːnɪst/|솔직하다|to tell the truth|||We should be honest.|우리는 솔직하다 해야 한다.
+tell the truth|phrase|verb phrase|/tel ðə truːθ/|진실을 말하다|to say what is true|||We should tell the truth.|우리는 진실을 말하다 해야 한다.
+keep a secret|phrase|verb phrase|/kiːp ə ˈsiːkrət/|비밀을 지키다|to not tell others|||We should keep a secret.|우리는 비밀을 지키다 해야 한다.
+tell a secret|phrase|verb phrase|/tel ə ˈsiːkrət/|비밀을 말하다|to share hidden information|||We should tell a secret.|우리는 비밀을 말하다 해야 한다.
+trust issue|phrase|noun phrase|/trʌst ˈɪʃuː/|신뢰 문제|difficulty trusting someone|||The trust issue is important.|신뢰 문제은 중요하다.
+feel better|phrase|verb phrase|/fiːl ˈbetər/|기분이 나아지다|to improve emotionally or physically|||We should feel better.|우리는 기분이 나아지다 해야 한다.
+cheer up|phrase|verb phrase|/tʃɪr ʌp/|기운 내다|to become happier|||We should cheer up.|우리는 기운 내다 해야 한다.
+calm down|phrase|verb phrase|/kɑːm daʊn/|진정하다|to become less upset|||We should calm down.|우리는 진정하다 해야 한다.
+take care|phrase|verb phrase|/teɪk ker/|몸조심하다,잘 지내다|to be careful or stay well|||We should take care.|우리는 몸조심하다 해야 한다.
+good luck|phrase|interjection|/ɡʊd lʌk/|행운을 빌어|used to wish success|||We should good luck.|우리는 행운을 빌어 해야 한다.
+congratulations|word|interjection|/kənˌɡrætʃəˈleɪʃənz/|축하해|used to praise success|||The congratulations is important.|축하해은 중요하다.
+welcome|word|interjection,adjective|/ˈwelkəm/|천만에,환영하는|a polite response|||This is welcome.|이것은 천만에 것이다.
+excuse me|phrase|interjection|/ɪkˈskjuːz miː/|실례합니다|used to get attention|||We should excuse me.|우리는 실례합니다 해야 한다.
+sorry|word|interjection,adjective|/ˈsɑːri/|미안해|used to apologize|||This is sorry.|이것은 미안해 것이다.
+thank you|phrase|interjection|/θæŋk juː/|고마워|used to show thanks|||We should thank you.|우리는 고마워 해야 한다.
+please|word|interjection|/pliːz/|제발,부탁해|used politely in requests|||The please is important.|제발은 중요하다.
+no problem|phrase|interjection|/noʊ ˈprɑːbləm/|문제없어|used to say it's okay|||We should no problem.|우리는 문제없어 해야 한다.
+see you later|phrase|interjection|/siː juː ˈleɪtər/|나중에 봐|used when saying goodbye|||We should see you later.|우리는 나중에 봐 해야 한다.
+see you tomorrow|phrase|interjection|/siː juː təˈmɑːroʊ/|내일 봐|used when leaving|||We should see you tomorrow.|우리는 내일 봐 해야 한다.
+good night|phrase|interjection|/ɡʊd naɪt/|잘 자|used before sleeping|||We should good night.|우리는 잘 자 해야 한다.
+good morning|phrase|interjection|/ɡʊd ˈmɔːrnɪŋ/|좋은 아침|morning greeting|||We should good morning.|우리는 좋은 아침 해야 한다.
+good afternoon|phrase|interjection|/ɡʊd ˌæftərˈnuːn/|안녕하세요|afternoon greeting|||We should good afternoon.|우리는 안녕하세요 해야 한다.
+good evening|phrase|interjection|/ɡʊd ˌiːvnɪŋ/|안녕하세요|evening greeting|||We should good evening.|우리는 안녕하세요 해야 한다.
+how are you|phrase|interjection|/haʊ ɑːr juː/|어떻게 지내?|asking about condition|||We should how are you.|우리는 어떻게 지내? 해야 한다.
+I’m fine|phrase|interjection|/aɪm faɪn/|잘 지내|a reply meaning okay|||We should I’m fine.|우리는 잘 지내 해야 한다.
+what’s up|phrase|interjection|/wʌts ʌp/|무슨 일이야?|casual greeting|||We should what’s up.|우리는 무슨 일이야? 해야 한다.
+how’s it going|phrase|interjection|/haʊz ɪt ˈɡoʊɪŋ/|어떻게 지내?|casual greeting|||We should how’s it going.|우리는 어떻게 지내? 해야 한다.
+not much|phrase|interjection|/nɑːt mʌtʃ/|별일 없어|casual reply|||We should not much.|우리는 별일 없어 해야 한다.
+see you|phrase|interjection|/siː juː/|또 봐|casual goodbye|||We should see you.|우리는 또 봐 해야 한다.
+take it easy|phrase|interjection|/teɪk ɪt ˈiːzi/|편하게 있어,무리하지 마|casual goodbye or advice|||We should take it easy.|우리는 편하게 있어 해야 한다.
+come on|phrase|interjection|/kʌm ɑːn/|에이,빨리|used to encourage or complain|||We should come on this issue.|우리는 이 문제에 대해 에이 해야 한다.
+hurry up|phrase|verb phrase|/ˈhɜːri ʌp/|서둘러|to move faster|||We should hurry up.|우리는 서둘러 해야 한다.
+wait a second|phrase|interjection|/weɪt ə ˈsekənd/|잠깐만|asking for a short pause|||We should wait a second.|우리는 잠깐만 해야 한다.
+hold on|phrase|interjection|/hoʊld ɑːn/|잠깐만|asking someone to wait|||We should hold on this issue.|우리는 이 문제에 대해 잠깐만 해야 한다.
+never mind|phrase|interjection|/ˈnevər maɪnd/|신경 쓰지 마|used to dismiss something|||We should never mind.|우리는 신경 쓰지 마 해야 한다.
+that’s okay|phrase|interjection|/ðæts oʊˈkeɪ/|괜찮아|used to reassure|||We should that’s okay.|우리는 괜찮아 해야 한다.
+I don’t know|phrase|interjection|/aɪ doʊnt noʊ/|모르겠어|used when unsure|||We should I don’t know.|우리는 모르겠어 해야 한다.
+I think so|phrase|interjection|/aɪ θɪŋk soʊ/|그런 것 같아|used for uncertain agreement|||We should I think so.|우리는 그런 것 같아 해야 한다.
+I don’t think so|phrase|interjection|/aɪ doʊnt θɪŋk soʊ/|아닌 것 같아|used for uncertain disagreement|||We should I don’t think so.|우리는 아닌 것 같아 해야 한다.
+sounds good|phrase|interjection|/saʊndz ɡʊd/|좋아 들리네|used to agree|||We should sounds good.|우리는 좋아 들리네 해야 한다.
+that’s great|phrase|interjection|/ðæts ɡreɪt/|좋다|used to show happiness|||We should that’s great.|우리는 좋다 해야 한다.
+awesome idea|phrase|noun phrase|/ˈɔːsəm aɪˈdiːə/|멋진 생각|a very good idea|||The awesome idea is important.|멋진 생각은 중요하다.
+I’m tired|phrase|interjection|/aɪm taɪərd/|피곤해|used to express tiredness|||We should I’m tired.|우리는 피곤해 해야 한다.
+I’m bored|phrase|interjection|/aɪm bɔːrd/|심심해|used to express boredom|||We should I’m bored.|우리는 심심해 해야 한다.
+I’m busy|phrase|interjection|/aɪm ˈbɪzi/|바빠|used to say no time|||We should I’m busy.|우리는 바빠 해야 한다.
+I’m hungry|phrase|interjection|/aɪm ˈhʌŋɡri/|배고파|used to express hunger|||We should I’m hungry.|우리는 배고파 해야 한다.
+I’m thirsty|phrase|interjection|/aɪm ˈθɜːrsti/|목말라|used to express thirst|||We should I’m thirsty.|우리는 목말라 해야 한다.
+I’m sleepy|phrase|interjection|/aɪm ˈsliːpi/|졸려|used to express sleepiness|||We should I’m sleepy.|우리는 졸려 해야 한다.
+I’m excited|phrase|interjection|/aɪm ɪkˈsaɪtɪd/|신나|used to express excitement|||We should I’m excited.|우리는 신나 해야 한다.
+I’m nervous|phrase|interjection|/aɪm ˈnɜːrvəs/|긴장돼|used to express anxiety|||We should I’m nervous.|우리는 긴장돼 해야 한다.
+I’m okay|phrase|interjection|/aɪm oʊˈkeɪ/|괜찮아|used to say you are fine|||We should I’m okay.|우리는 괜찮아 해야 한다.
+I’m not okay|phrase|interjection|/aɪm nɑːt oʊˈkeɪ/|안 괜찮아|used to express distress|||We should I’m not okay.|우리는 안 괜찮아 해야 한다.
+I’m sick|phrase|interjection|/aɪm sɪk/|아파|used to say you are ill|||We should I’m sick.|우리는 아파 해야 한다.
+I feel better|phrase|interjection|/aɪ fiːl ˈbetər/|좀 나아졌어|used after illness|||We should I feel better.|우리는 좀 나아졌어 해야 한다.
+I’m ready|phrase|interjection|/aɪm ˈredi/|준비됐어|used when prepared|||We should I’m ready.|우리는 준비됐어 해야 한다.
+I’m coming|phrase|interjection|/aɪm ˈkʌmɪŋ/|가는 중이야|used when heading over|||We should I’m coming.|우리는 가는 중이야 해야 한다.
+I’m here|phrase|interjection|/aɪm hɪr/|나 왔어|used when arriving|||We should I’m here.|우리는 나 왔어 해야 한다.
+I’m sorry|phrase|interjection|/aɪm ˈsɑːri/|미안해|used to apologize|||We should I’m sorry.|우리는 미안해 해야 한다.
+my bad|phrase|interjection|/maɪ bæd/|내 잘못이야|casual apology|||We should my bad.|우리는 내 잘못이야 해야 한다.
+no worries|phrase|interjection|/noʊ ˈwɜːriz/|괜찮아|casual reassurance|||We should no worries.|우리는 괜찮아 해야 한다.
+be careful|phrase|verb phrase|/bi ˈkerfəl/|조심해|warning or advice|||We should be careful.|우리는 조심해 해야 한다.
+watch out|phrase|interjection|/wɑːtʃ aʊt/|조심해|warning of danger|||We should watch out.|우리는 조심해 해야 한다.
+look out|phrase|interjection|/lʊk aʊt/|조심해|warning of danger|||We should look out.|우리는 조심해 해야 한다.
+help me|phrase|verb phrase|/help miː/|도와줘|asking for help|||We should help me.|우리는 도와줘 해야 한다.
+can you help me|phrase|verb phrase|/kæn juː help miː/|도와줄래?|asking politely|||We should can you help me.|우리는 도와줄래? 해야 한다.
+I need help|phrase|interjection|/aɪ niːd help/|도움이 필요해|asking for assistance|||We should I need help.|우리는 도움이 필요해 해야 한다.
+let’s go|phrase|interjection|/lets ɡoʊ/|가자|used to start moving|||We should let’s go.|우리는 가자 해야 한다.
+come with me|phrase|verb phrase|/kʌm wɪð miː/|나랑 가자|asking someone to join|||We should come with me.|우리는 나랑 가자 해야 한다.
+follow me|phrase|verb phrase|/ˈfɑːloʊ miː/|따라와|asking someone to come behind|||We should follow me.|우리는 따라와 해야 한다.
+go ahead|phrase|interjection|/ɡoʊ əˈhed/|먼저 해|giving permission|||We should go ahead.|우리는 먼저 해 해야 한다.
+after you|phrase|interjection|/ˈæftər juː/|먼저 가세요|polite expression|||We should after you.|우리는 먼저 가세요 해야 한다.
+ladies first|phrase|interjection|/ˈleɪdiz fɜːrst/|여성 먼저|polite expression|||We should ladies first.|우리는 여성 먼저 해야 한다.
+be quiet|phrase|verb phrase|/bi ˈkwaɪət/|조용히 해|asking for silence|||We should be quiet.|우리는 조용히 해 해야 한다.
+pay attention|phrase|verb phrase|/peɪ əˈtenʃən/|집중해|asking someone to focus|||We should pay attention.|우리는 집중해 해야 한다.
+listen carefully|phrase|verb phrase|/ˈlɪsn ˈkerfəli/|잘 들어|to pay close attention|||We should listen carefully.|우리는 잘 들어 해야 한다.
+look at this|phrase|verb phrase|/lʊk æt ðɪs/|이거 봐|asking someone to see something|||We should look at this.|우리는 이거 봐 해야 한다.
+check this out|phrase|interjection|/tʃek ðɪs aʊt/|이거 봐봐|casual way to show something|||We should check this out.|우리는 이거 봐봐 해야 한다.
+try it|phrase|verb phrase|/traɪ ɪt/|해봐|asking someone to attempt|||We should try it.|우리는 해봐 해야 한다.
+give it a try|phrase|verb phrase|/ɡɪv ɪt ə traɪ/|한번 해봐|encouraging someone to try|||We should give it a try.|우리는 한번 해봐 해야 한다.
+don’t give up|phrase|verb phrase|/doʊnt ɡɪv ʌp/|포기하지 마|encouragement|||We should don’t give up.|우리는 포기하지 마 해야 한다.
+keep going|phrase|verb phrase|/kiːp ˈɡoʊɪŋ/|계속해|encouragement to continue|||We should keep going.|우리는 계속해 해야 한다.
+you can do it|phrase|interjection|/juː kæn duː ɪt/|넌 할 수 있어|encouragement|||We should you can do it.|우리는 넌 할 수 있어 해야 한다.
+good job|phrase|interjection|/ɡʊd dʒɑːb/|잘했어|praise for doing well|||We should good job.|우리는 잘했어 해야 한다.
+well done|phrase|interjection|/wel dʌn/|잘했어|praise for success|||We should well done.|우리는 잘했어 해야 한다.
+nice try|phrase|interjection|/naɪs traɪ/|좋은 시도였어|kind response after failure|||We should nice try.|우리는 좋은 시도였어 해야 한다.
+better luck next time|phrase|interjection|/ˈbetər lʌk nekst taɪm/|다음엔 더 잘될 거야|kind encouragement after failure|||We should better luck next time.|우리는 다음엔 더 잘될 거야 해야 한다.
+I believe in you|phrase|interjection|/aɪ bɪˈliːv ɪn juː/|난 널 믿어|encouragement|||We should I believe in you.|우리는 난 널 믿어 해야 한다.
+trust yourself|phrase|verb phrase|/trʌst jərˈself/|자신을 믿어|encouragement|||We should trust yourself.|우리는 자신을 믿어 해야 한다.
+take your time|phrase|verb phrase|/teɪk jər taɪm/|천천히 해|no need to hurry|||We should take your time.|우리는 천천히 해 해야 한다.
+no rush|phrase|interjection|/noʊ rʌʃ/|안 급해|used to reduce pressure|||We should no rush.|우리는 안 급해 해야 한다.
+have fun|phrase|interjection|/hæv fʌn/|재밌게 놀아|wish enjoyment|||We should have fun.|우리는 재밌게 놀아 해야 한다.
+enjoy yourself|phrase|verb phrase|/ɪnˈdʒɔɪ jərˈself/|즐겁게 보내|wish enjoyment|||We should enjoy yourself.|우리는 즐겁게 보내 해야 한다.
+take a break|phrase|verb phrase|/teɪk ə breɪk/|쉬어|suggesting rest|||We should take a break.|우리는 쉬어 해야 한다.
+get some sleep|phrase|verb phrase|/ɡet sʌm sliːp/|잠 좀 자|advice for rest|||We should get some sleep.|우리는 잠 좀 자 해야 한다.
+drink water|phrase|verb phrase|/drɪŋk ˈwɔːtər/|물 마셔|health advice|||We should drink water.|우리는 물 마셔 해야 한다.
+eat something|phrase|verb phrase|/iːt ˈsʌmθɪŋ/|뭐 좀 먹어|health advice|||We should eat something.|우리는 뭐 좀 먹어 해야 한다.
+see you soon|phrase|interjection|/siː juː suːn/|곧 보자|goodbye phrase|||We should see you soon.|우리는 곧 보자 해야 한다.
+take care of yourself|phrase|verb phrase|/teɪk ker əv jərˈself/|몸 잘 챙겨|used to show concern|||We should take care of yourself.|우리는 몸 잘 챙겨 해야 한다.
+get home safe|phrase|verb phrase|/ɡet hoʊm seɪf/|조심히 들어가|used when parting|||We should get home safe.|우리는 조심히 들어가 해야 한다.
+text me later|phrase|verb phrase|/tekst miː ˈleɪtər/|나중에 문자해|asking for a message later|||We should text me later.|우리는 나중에 문자해 해야 한다.
+call me|phrase|verb phrase|/kɔːl miː/|전화해|asking for a call|||We should call me.|우리는 전화해 해야 한다.
+let me know|phrase|verb phrase|/let miː noʊ/|알려줘|asking for information|||We should let me know.|우리는 알려줘 해야 한다.
+sounds fun|phrase|interjection|/saʊndz fʌn/|재밌겠다|reacting positively|||We should sounds fun.|우리는 재밌겠다 해야 한다.
+sounds boring|phrase|interjection|/saʊndz ˈbɔːrɪŋ/|재미없겠다|reacting negatively|||We should sounds boring.|우리는 재미없겠다 해야 한다.
+sounds difficult|phrase|interjection|/saʊndz ˈdɪfɪkəlt/|어려워 보인다|reacting to challenge|||We should sounds difficult.|우리는 어려워 보인다 해야 한다.
+sounds easy|phrase|interjection|/saʊndz ˈiːzi/|쉬워 보인다|reacting to ease|||We should sounds easy.|우리는 쉬워 보인다 해야 한다.
+sounds interesting|phrase|interjection|/saʊndz ˈɪntrəstɪŋ/|흥미로워 보인다|reacting positively|||We should sounds interesting.|우리는 흥미로워 보인다 해야 한다.
+sounds familiar|phrase|interjection|/saʊndz fəˈmɪliər/|익숙하게 들린다|seems known|||We should sounds familiar.|우리는 익숙하게 들린다 해야 한다.
+sounds weird|phrase|interjection|/saʊndz wɪrd/|이상하게 들린다|reacting to something strange|||We should sounds weird.|우리는 이상하게 들린다 해야 한다.
+what happened|phrase|interjection|/wʌt ˈhæpənd/|무슨 일이야?|asking about an event|||We should what happened.|우리는 무슨 일이야? 해야 한다.
+what’s wrong|phrase|interjection|/wʌts rɔːŋ/|왜 그래?|asking about a problem|||We should what’s wrong.|우리는 왜 그래? 해야 한다.
+are you okay|phrase|interjection|/ɑːr juː oʊˈkeɪ/|괜찮아?|checking condition|||We should are you okay.|우리는 괜찮아? 해야 한다.
+what do you mean|phrase|interjection|/wʌt duː juː miːn/|무슨 뜻이야?|asking for clarification|||We should what do you mean.|우리는 무슨 뜻이야? 해야 한다.
+what should I do|phrase|interjection|/wʌt ʃʊd aɪ duː/|어떡하지?|asking for advice|||We should what should I do.|우리는 어떡하지? 해야 한다.
+what do you think|phrase|interjection|/wʌt duː juː θɪŋk/|어떻게 생각해?|asking opinion|||We should what do you think.|우리는 어떻게 생각해? 해야 한다.
+why not|phrase|interjection|/waɪ nɑːt/|왜 안 돼?|suggesting agreement|||We should why not.|우리는 왜 안 돼? 해야 한다.
+that makes sense|phrase|interjection|/ðæt meɪks sens/|말이 되네|showing understanding|||We should that makes sense.|우리는 말이 되네 해야 한다.
+I get it|phrase|interjection|/aɪ ɡet ɪt/|이해했어|showing understanding|||We should I get it.|우리는 이해했어 해야 한다.
+I have no idea|phrase|interjection|/aɪ hæv noʊ aɪˈdiːə/|전혀 모르겠어|showing no knowledge|||We should I have no idea.|우리는 전혀 모르겠어 해야 한다.
+it depends|phrase|interjection|/ɪt dɪˈpendz/|상황에 따라 달라|showing uncertainty|||We should it depends.|우리는 상황에 따라 달라 해야 한다.
+maybe next time|phrase|interjection|/ˈmeɪbi nekst taɪm/|다음에 하자|polite refusal|||We should maybe next time.|우리는 다음에 하자 해야 한다.
+let’s do it|phrase|interjection|/lets duː ɪt/|하자|agreeing to an action|||We should let’s do it.|우리는 하자 해야 한다.
+count me in|phrase|interjection|/kaʊnt miː ɪn/|나도 할게|joining enthusiastically|||We should count me in this issue.|우리는 이 문제에 대해 나도 할게 해야 한다.
+I’m in|phrase|interjection|/aɪm ɪn/|나 할래|agreeing to join|||We should I’m in this issue.|우리는 이 문제에 대해 나 할래 해야 한다.
+I’ll pass|phrase|interjection|/aɪl pæs/|난 패스할게|politely declining|||We should I’ll pass.|우리는 난 패스할게 해야 한다.
+maybe another time|phrase|interjection|/ˈmeɪbi əˈnʌðər taɪm/|다음에 하자|polite refusal|||We should maybe another time.|우리는 다음에 하자 해야 한다.
+not today|phrase|interjection|/nɑːt təˈdeɪ/|오늘은 아니야|declining for now|||We should not today.|우리는 오늘은 아니야 해야 한다.
+I can’t make it|phrase|interjection|/aɪ kænt meɪk ɪt/|못 갈 것 같아|unable to attend|||We should I can’t make it.|우리는 못 갈 것 같아 해야 한다.
+sure thing|phrase|interjection|/ʃʊr θɪŋ/|물론이지|strong agreement|||We should sure thing.|우리는 물론이지 해야 한다.
+definitely not|phrase|interjection|/ˈdefɪnətli nɑːt/|절대 아니야|strong refusal|||We should definitely not.|우리는 절대 아니야 해야 한다.
+no thanks|phrase|interjection|/noʊ θæŋks/|괜찮아|polite refusal|||We should no thanks.|우리는 괜찮아 해야 한다.
+yes please|phrase|interjection|/jes pliːz/|네,주세요|polite acceptance|||We should yes please.|우리는 네 해야 한다.
+here you go|phrase|interjection|/hɪr juː ɡoʊ/|여기 있어|giving something|||We should here you go.|우리는 여기 있어 해야 한다.
+this one|phrase|noun phrase|/ðɪs wʌn/|이거|referring to one thing|||The this one is important.|이거은 중요하다.
+that one|phrase|noun phrase|/ðæt wʌn/|저거|referring to one thing|||The that one is important.|저거은 중요하다.
+which one|phrase|interrogative phrase|/wɪtʃ wʌn/|어느 거|asking to choose|||We should which one.|우리는 어느 거 해야 한다.
+how much is it|phrase|interrogative phrase|/haʊ mʌtʃ ɪz ɪt/|얼마예요?|asking price|||We should how much is it.|우리는 얼마예요? 해야 한다.
+too expensive|phrase|adjective phrase|/tuː ɪkˈspensɪv/|너무 비싸|reacting to price|||We should too expensive.|우리는 너무 비싸 해야 한다.
+that’s cheap|phrase|interjection|/ðæts tʃiːp/|싸네|reacting to price|||We should that’s cheap.|우리는 싸네 해야 한다.
+I like it|phrase|interjection|/aɪ laɪk ɪt/|마음에 들어|showing approval|||We should I like it.|우리는 마음에 들어 해야 한다.
+I don’t like it|phrase|interjection|/aɪ doʊnt laɪk ɪt/|별로야|showing dislike|||We should I don’t like it.|우리는 별로야 해야 한다.
+looks good|phrase|interjection|/lʊks ɡʊd/|좋아 보여|reacting positively|||We should looks good.|우리는 좋아 보여 해야 한다.
+looks nice|phrase|interjection|/lʊks naɪs/|괜찮아 보여|reacting positively|||We should looks nice.|우리는 괜찮아 보여 해야 한다.
+looks strange|phrase|interjection|/lʊks streɪndʒ/|이상해 보여|reacting negatively|||We should looks strange.|우리는 이상해 보여 해야 한다.
+too big|phrase|adjective phrase|/tuː bɪɡ/|너무 커|describing size|||We should too big.|우리는 너무 커 해야 한다.
+too small|phrase|adjective phrase|/tuː smɔːl/|너무 작아|describing size|||We should too small.|우리는 너무 작아 해야 한다.
+just right|phrase|adjective phrase|/dʒʌst raɪt/|딱 맞아|perfect size or amount|||We should just right.|우리는 딱 맞아 해야 한다.
+too heavy|phrase|adjective phrase|/tuː ˈhevi/|너무 무거워|describing weight|||We should too heavy.|우리는 너무 무거워 해야 한다.
+too light|phrase|adjective phrase|/tuː laɪt/|너무 가벼워|describing weight|||We should too light.|우리는 너무 가벼워 해야 한다.
+too loud|phrase|adjective phrase|/tuː laʊd/|너무 시끄러워|describing sound|||We should too loud.|우리는 너무 시끄러워 해야 한다.
+too quiet|phrase|adjective phrase|/tuː ˈkwaɪət/|너무 조용해|describing sound|||We should too quiet.|우리는 너무 조용해 해야 한다.
+too fast|phrase|adjective phrase|/tuː fæst/|너무 빨라|describing speed|||We should too fast.|우리는 너무 빨라 해야 한다.
+too slow|phrase|adjective phrase|/tuː sloʊ/|너무 느려|describing speed|||We should too slow.|우리는 너무 느려 해야 한다.
+too early|phrase|adjective phrase|/tuː ˈɜːrli/|너무 일러|describing time|||We should too early.|우리는 너무 일러 해야 한다.
+too late|phrase|adjective phrase|/tuː leɪt/|너무 늦어|describing time|||We should too late.|우리는 너무 늦어 해야 한다.
+a little|phrase|adverb phrase|/ə ˈlɪtl/|조금|a small amount|||We should a little.|우리는 조금 해야 한다.
+a lot|phrase|adverb phrase|/ə lɑːt/|많이|a large amount|||We should a lot.|우리는 많이 해야 한다.
+very much|phrase|adverb phrase|/ˈveri mʌtʃ/|매우|to a high degree|||We should very much.|우리는 매우 해야 한다.
+too much|phrase|adverb phrase|/tuː mʌtʃ/|너무 많이|more than needed|||We should too much.|우리는 너무 많이 해야 한다.
+not enough|phrase|adjective phrase|/nɑːt ɪˈnʌf/|충분하지 않아|less than needed|||We should not enough.|우리는 충분하지 않아 해야 한다.
+more|word|adjective,adverb|/mɔːr/|더 많은|a greater amount|extra||I need more time.|시간이 더 필요해.
+less|word|adjective,adverb|/les/|더 적은|a smaller amount|fewer|more|Try to spend less money.|돈 좀 덜 써.
+same|word|adjective|/seɪm/|같은|not different|||This is same.|이것은 같은 것이다.
+different|word|adjective|/ˈdɪfrənt/|다른|not the same|another|same|We have different opinions.|우리 의견이 달라.
+another|word|adjective,pronoun|/əˈnʌðər/|또 다른|one more or different|||This is another.|이것은 또 다른 것이다.
+again|word|adverb|/əˈɡen/|다시|one more time|||We should again carefully.|우리는 신중하게 다시해야 한다.
+once|word|adverb|/wʌns/|한 번|one time|||We should once carefully.|우리는 신중하게 한 번해야 한다.
+twice|word|adverb|/twaɪs/|두 번|two times|||We should twice carefully.|우리는 신중하게 두 번해야 한다.
+sometimes|word|adverb|/ˈsʌmtaɪmz/|가끔|occasionally|||We should sometimes carefully.|우리는 신중하게 가끔해야 한다.
+often|word|adverb|/ˈɔːfən/|자주|frequently|||We should often carefully.|우리는 신중하게 자주해야 한다.
+usually|word|adverb|/ˈjuːʒuəli/|보통|most of the time|||We should usually carefully.|우리는 신중하게 보통해야 한다.
+always|word|adverb|/ˈɔːlweɪz/|항상|every time|||We should always carefully.|우리는 신중하게 항상해야 한다.
+never|word|adverb|/ˈnevər/|절대 안|not ever|not once|always|I never skip breakfast.|나는 절대 아침 안 거른다.
+every day|phrase|adverb phrase|/ˈevri deɪ/|매일|each day|||We should every day.|우리는 매일 해야 한다.
+every week|phrase|adverb phrase|/ˈevri wiːk/|매주|each week|||We should every week.|우리는 매주 해야 한다.
+every month|phrase|adverb phrase|/ˈevri mʌnθ/|매달|each month|||We should every month.|우리는 매달 해야 한다.
+every year|phrase|adverb phrase|/ˈevri jɪr/|매년|each year|||We should every year.|우리는 매년 해야 한다.
+today|word|adverb,noun|/təˈdeɪ/|오늘|this day|||We should today carefully.|우리는 신중하게 오늘해야 한다.
+tomorrow|word|adverb,noun|/təˈmɑːroʊ/|내일|the next day|||We should tomorrow carefully.|우리는 신중하게 내일해야 한다.
+yesterday|word|adverb,noun|/ˈjestərdeɪ/|어제|the day before today|||We should yesterday carefully.|우리는 신중하게 어제해야 한다.
+this morning|phrase|adverb phrase|/ðɪs ˈmɔːrnɪŋ/|오늘 아침|the morning of today|||We should this morning.|우리는 오늘 아침 해야 한다.
+this afternoon|phrase|adverb phrase|/ðɪs ˌæftərˈnuːn/|오늘 오후|the afternoon of today|||We should this afternoon.|우리는 오늘 오후 해야 한다.
+tonight|word|adverb,noun|/təˈnaɪt/|오늘 밤|this evening/night|||We should tonight carefully.|우리는 신중하게 오늘 밤해야 한다.
+last night|phrase|adverb phrase|/læst naɪt/|어젯밤|the night before today|||We should last night.|우리는 어젯밤 해야 한다.
+next week|phrase|adverb phrase|/nekst wiːk/|다음 주|the following week|||We should next week.|우리는 다음 주 해야 한다.
+last weekend|phrase|adverb phrase|/læst ˌwiːkˈend/|지난 주말|the weekend before now|||We should last weekend.|우리는 지난 주말 해야 한다.
+soon|word|adverb|/suːn/|곧|in a short time|||We should soon carefully.|우리는 신중하게 곧해야 한다.
+later|word|adverb|/ˈleɪtər/|나중에|after now|||We should later carefully.|우리는 신중하게 나중에해야 한다.
+already|word|adverb|/ɔːlˈredi/|이미|before now|||We should already carefully.|우리는 신중하게 이미해야 한다.
+yet|word|adverb|/jet/|아직|until now in questions/negatives|||We should yet carefully.|우리는 신중하게 아직해야 한다.
+still|word|adverb|/stɪl/|아직도|continuing until now|||We should still carefully.|우리는 신중하게 아직도해야 한다.
+before|word|preposition,adverb|/bɪˈfɔːr/|전에|earlier than something|||We should before carefully.|우리는 신중하게 전에해야 한다.
+after|word|preposition,adverb|/ˈæftər/|후에|later than something|||We should after carefully.|우리는 신중하게 후에해야 한다.
+during|word|preposition|/ˈdʊrɪŋ/|~동안|through a period of time|||The during is important.|~동안은 중요하다.
+until|word|preposition,conjunction|/ənˈtɪl/|~까지|up to a certain time|||The until is important.|~까지은 중요하다.
+midnight|word|noun|/ˈmɪdnaɪt/|자정|12 o’clock at night|||The midnight is important.|자정은 중요하다.
+noon|word|noun|/nuːn/|정오|12 o’clock in the daytime|||The noon is important.|정오은 중요하다.
+morning|word|noun|/ˈmɔːrnɪŋ/|아침|the early part of the day|||The morning is important.|아침은 중요하다.
+afternoon|word|noun|/ˌæftərˈnuːn/|오후|the time after noon|||The afternoon is important.|오후은 중요하다.
+evening|word|noun|/ˈiːvnɪŋ/|저녁|the later part of the day|||The evening is important.|저녁은 중요하다.
+night|word|noun|/naɪt/|밤|the dark part of the day|||The night is important.|밤은 중요하다.
+weekday|word|noun|/ˈwiːkdeɪ/|평일|Monday to Friday|||The weekday is important.|평일은 중요하다.
+weekend|word|noun|/ˌwiːkˈend/|주말|Saturday and Sunday|||The weekend is important.|주말은 중요하다.
+Monday|word|noun|/ˈmʌndeɪ/|월요일|the first weekday|||The Monday is important.|월요일은 중요하다.
+Tuesday|word|noun|/ˈtuːzdeɪ/|화요일|the second weekday|||The Tuesday is important.|화요일은 중요하다.
+Wednesday|word|noun|/ˈwenzdeɪ/|수요일|the middle weekday|||The Wednesday is important.|수요일은 중요하다.
+Thursday|word|noun|/ˈθɜːrzdeɪ/|목요일|the fourth weekday|||The Thursday is important.|목요일은 중요하다.
+Friday|word|noun|/ˈfraɪdeɪ/|금요일|the last weekday|||The Friday is important.|금요일은 중요하다.
+Saturday|word|noun|/ˈsætərdeɪ/|토요일|the first weekend day|||The Saturday is important.|토요일은 중요하다.
+Sunday|word|noun|/ˈsʌndeɪ/|일요일|the second weekend day|||The Sunday is important.|일요일은 중요하다.
+January|word|noun|/ˈdʒænjueri/|1월|the first month|||The January is important.|1월은 중요하다.
+February|word|noun|/ˈfebrueri/|2월|the second month|||The February is important.|2월은 중요하다.
+March|word|noun|/mɑːrtʃ/|3월|the third month|||The March is important.|3월은 중요하다.
+April|word|noun|/ˈeɪprəl/|4월|the fourth month|||The April is important.|4월은 중요하다.
+May|word|noun|/meɪ/|5월|the fifth month|||The May is important.|5월은 중요하다.
+June|word|noun|/dʒuːn/|6월|the sixth month|||The June is important.|6월은 중요하다.
+July|word|noun|/dʒuˈlaɪ/|7월|the seventh month|||The July is important.|7월은 중요하다.
+August|word|noun|/ˈɔːɡəst/|8월|the eighth month|||The August is important.|8월은 중요하다.
+September|word|noun|/sepˈtembər/|9월|the ninth month|||The September is important.|9월은 중요하다.
+October|word|noun|/ɑːkˈtoʊbər/|10월|the tenth month|||The October is important.|10월은 중요하다.
+November|word|noun|/noʊˈvembər/|11월|the eleventh month|||The November is important.|11월은 중요하다.
+December|word|noun|/dɪˈsembər/|12월|the twelfth month|||The December is important.|12월은 중요하다.
+spring|word|noun|/sprɪŋ/|봄|the season after winter|||The spring is important.|봄은 중요하다.
+summer|word|noun|/ˈsʌmər/|여름|the hottest season|||The summer is important.|여름은 중요하다.
+winter|word|noun|/ˈwɪntər/|겨울|the coldest season|||The winter is important.|겨울은 중요하다.
+birthday party|phrase|noun phrase|/ˈbɜːrθdeɪ ˈpɑːrti/|생일 파티|a party for a birthday|||The birthday party is important.|생일 파티은 중요하다.
+Christmas|word|noun|/ˈkrɪsməs/|크리스마스|the holiday in December|||The Christmas is important.|크리스마스은 중요하다.
+New Year|phrase|noun phrase|/nuː jɪr/|새해|the beginning of a new year|||The New Year is important.|새해은 중요하다.
+holiday|word|noun|/ˈhɑːlədeɪ/|휴일|a day off or celebration|||The holiday is important.|휴일은 중요하다.
+festival|word|noun|/ˈfestɪvl/|축제|a special celebration event|||The festival is important.|축제은 중요하다.
+fireworks|word|noun|/ˈfaɪərwɜːrks/|불꽃놀이|explosions of light in the sky|||The fireworks is important.|불꽃놀이은 중요하다.
+gift card|phrase|noun phrase|/ɡɪft kɑːrd/|기프트카드|a prepaid shopping card|||The gift card is important.|기프트카드은 중요하다.
+party invitation|phrase|noun phrase|/ˈpɑːrti ˌɪnvɪˈteɪʃən/|파티 초대|an invitation to a party|||The party invitation is important.|파티 초대은 중요하다.
+decorate|word|verb|/ˈdekəreɪt/|장식하다|to make something look nice|||We should decorate carefully.|우리는 신중하게 장식해야 한다.
+celebration|word|noun|/ˌselɪˈbreɪʃən/|축하 행사|an event for celebration|||The celebration is important.|축하 행사은 중요하다.
+graduation|word|noun|/ˌɡrædʒuˈeɪʃən/|졸업|finishing school|||The graduation is important.|졸업은 중요하다.
+memory lane|phrase|noun phrase|/ˈmeməri leɪn/|추억 회상|thinking about old memories|||The memory lane is important.|추억 회상은 중요하다.
+best friend|phrase|noun phrase|/best frend/|가장 친한 친구|closest friend|||The best friend is important.|가장 친한 친구은 중요하다.
+class trip|phrase|noun phrase|/klæs trɪp/|수학여행|a school trip|||The class trip is important.|수학여행은 중요하다.
+unforgettable|word|adjective|/ˌʌnfərˈɡetəbl/|잊을 수 없는|impossible to forget|||This is unforgettable.|이것은 잊을 수 없는 것이다.
+favorite memory|phrase|noun phrase|/ˈfeɪvərɪt ˈmeməri/|가장 좋아하는 추억|best memory|||The favorite memory is important.|가장 좋아하는 추억은 중요하다.
+the end|phrase|noun phrase|/ði end/|끝|the final part|||The the end is important.|끝은 중요하다.
+finished at last|phrase|adjective phrase|/ˈfɪnɪʃt æt læst/|드디어 끝|finally completed|||We should finished at last.|우리는 드디어 끝 해야 한다.
+all done|phrase|interjection|/ɔːl dʌn/|다 끝났어|everything is complete|||We should all done.|우리는 다 끝났어 해야 한다.
+that’s all|phrase|interjection|/ðæts ɔːl/|이게 전부야|nothing more|||We should that’s all.|우리는 이게 전부야 해야 한다.
+complete|word|adjective,verb|/kəmˈpliːt/|완료된,완성하다|fully finished|||We should complete carefully.|우리는 신중하게 완성해야 한다.
+final|word|adjective|/ˈfaɪnl/|마지막의|coming at the end|||This is final.|이것은 마지막의 것이다.
+last one|phrase|noun phrase|/læst wʌn/|마지막 것|the final item|||The last one is important.|마지막 것은 중요하다.
+finally|word|adverb|/ˈfaɪnəli/|드디어|after a long time|||We should finally carefully.|우리는 신중하게 드디어해야 한다.
+done|word|adjective|/dʌn/|끝난|finished|||This is done.|이것은 끝난 것이다.
+wrap up|phrase|verb phrase|/ræp ʌp/|마무리하다|to finish something|||We should wrap up.|우리는 마무리하다 해야 한다.
+mission complete|phrase|interjection|/ˈmɪʃən kəmˈpliːt/|미션 완료|task successfully finished|||We should mission complete.|우리는 미션 완료 해야 한다.
+great work|phrase|interjection|/ɡreɪt wɜːrk/|수고했어|praise for effort|||We should great work.|우리는 수고했어 해야 한다.
+nice work|phrase|interjection|/naɪs wɜːrk/|잘했어|praise for effort|||We should nice work.|우리는 잘했어 해야 한다.
+well played|phrase|interjection|/wel pleɪd/|잘했어|praise after performance|||We should well played.|우리는 잘했어 해야 한다.
+good effort|phrase|interjection|/ɡʊd ˈefərt/|좋은 노력|praise for trying|||We should good effort.|우리는 좋은 노력 해야 한다.
+excellent work|phrase|interjection|/ˈeksələnt wɜːrk/|훌륭했어|strong praise|||We should excellent work.|우리는 훌륭했어 해야 한다.
+you made it|phrase|interjection|/juː meɪd ɪt/|해냈어|congratulating success|||We should you made it.|우리는 해냈어 해야 한다.
+what a journey|phrase|interjection|/wʌt ə ˈdʒɜːrni/|정말 긴 여정이었네|reflecting on completion|||We should what a journey.|우리는 정말 긴 여정이었네 해야 한다.
+time to rest|phrase|noun phrase|/taɪm tə rest/|쉴 시간|time to relax|||The time to rest is important.|쉴 시간은 중요하다.
+goodbye for now|phrase|interjection|/ɡʊdˈbaɪ fɔːr naʊ/|이만 안녕|temporary goodbye|||We should goodbye for now.|우리는 이만 안녕 해야 한다.
+see you next time|phrase|interjection|/siː juː nekst taɪm/|다음에 봐|goodbye until next meeting|||We should see you next time.|우리는 다음에 봐 해야 한다.
+take care always|phrase|interjection|/teɪk ker ˈɔːlweɪz/|항상 잘 지내|warm goodbye|||We should take care always.|우리는 항상 잘 지내 해야 한다.
+keep studying|phrase|verb phrase|/kiːp ˈstʌdiɪŋ/|계속 공부해|encouragement|||We should keep studying.|우리는 계속 공부해 해야 한다.
+never stop learning|phrase|verb phrase|/ˈnevər stɑːp ˈlɜːrnɪŋ/|계속 배워라|encouragement|||We should never stop learning.|우리는 계속 배워라 해야 한다.
+start again tomorrow|phrase|verb phrase|/stɑːrt əˈɡen təˈmɑːroʊ/|내일 다시 시작하자|encouragement|||We should start again tomorrow.|우리는 내일 다시 시작하자 해야 한다.
+perform|word|noun|/pɜːrfɔːrm/|공연하다,수행하다||||The word 'perform' appeared on the worksheet.|'perform'라는 단어가 학습지에 나왔다.
+similarly|word|adverb|/sɪmʌlɜːrliː/|비슷하게,마찬가지로||||The word 'similarly' appeared on the worksheet.|'similarly'라는 단어가 학습지에 나왔다.
+convince|word|noun|/kʌnvɪns/|설득하다,납득시키다||||The word 'convince' appeared on the worksheet.|'convince'라는 단어가 학습지에 나왔다.
+no longer|phrase|phrase|/noʊ lɔːŋɡɜːr/|더 이상 ~아니다||||We practiced the phrase 'no longer' in class.|우리는 수업에서 'no longer' 표현을 연습했다.
+pursue|word|noun|/pɜːrsuː/|추구하다||||The word 'pursue' appeared on the worksheet.|'pursue'라는 단어가 학습지에 나왔다.
+somehow|word|noun|/sʌmhaʊ/|왜 그런지 모르겠지만,왠지||||The word 'somehow' appeared on the worksheet.|'somehow'라는 단어가 학습지에 나왔다.
+abstract|word|noun|/æbstrækt/|추상적인,개요,추상화하다||||The word 'abstract' appeared on the worksheet.|'abstract'라는 단어가 학습지에 나왔다.
+practical|word|noun|/præktʌkʌl/|실용적인,현실적인||||The word 'practical' appeared on the worksheet.|'practical'라는 단어가 학습지에 나왔다.
+imperfect|word|noun|/ɪmpɜːrfɪkt/|불완전한,결함이 있는||||The word 'imperfect' appeared on the worksheet.|'imperfect'라는 단어가 학습지에 나왔다.
+visualize|word|noun|/vɪʒwʌlaɪz/|시각화하다||||The word 'visualize' appeared on the worksheet.|'visualize'라는 단어가 학습지에 나왔다.
+changeable|word|noun|/tʃeɪndʒʌbʌl/|바뀔 수 있는,변덕이 심한||||The word 'changeable' appeared on the worksheet.|'changeable'라는 단어가 학습지에 나왔다.
+determine|word|noun|/dʌtɜːrmʌn/|결정하다,결심하다||||The word 'determine' appeared on the worksheet.|'determine'라는 단어가 학습지에 나왔다.
+merely|word|adverb|/mɪrliː/|단지,그저||||The word 'merely' appeared on the worksheet.|'merely'라는 단어가 학습지에 나왔다.
+individual|word|noun|/ɪndʌvɪdʒʌwʌl/|개인의,개인||||The word 'individual' appeared on the worksheet.|'individual'라는 단어가 학습지에 나왔다.
+successive|word|noun|/sʌksesɪv/|연속적인||||The word 'successive' appeared on the worksheet.|'successive'라는 단어가 학습지에 나왔다.
+affect|word|noun|/ʌfekt/|영향을 주다||||The word 'affect' appeared on the worksheet.|'affect'라는 단어가 학습지에 나왔다.
+blow|word|noun|/bloʊ/|불다,날려버리다||||The word 'blow' appeared on the worksheet.|'blow'라는 단어가 학습지에 나왔다.
+gust|word|noun|/ɡʌst/|돌풍||||The word 'gust' appeared on the worksheet.|'gust'라는 단어가 학습지에 나왔다.
+adjust|word|noun|/ʌdʒʌst/|조절하다,적응하다||||The word 'adjust' appeared on the worksheet.|'adjust'라는 단어가 학습지에 나왔다.
+default|word|noun|/dɪfɔːlt/|기본값,디폴트||||The word 'default' appeared on the worksheet.|'default'라는 단어가 학습지에 나왔다.
+seek|word|noun|/siːk/|찾다,구하다||||The word 'seek' appeared on the worksheet.|'seek'라는 단어가 학습지에 나왔다.
+fade|word|noun|/feɪd/|사라지다,바래다||||The word 'fade' appeared on the worksheet.|'fade'라는 단어가 학습지에 나왔다.
+despair|word|noun|/dɪsper/|절망,절망하다||||The word 'despair' appeared on the worksheet.|'despair'라는 단어가 학습지에 나왔다.
+tendency|word|noun|/tendʌnsiː/|경향,성향||||The word 'tendency' appeared on the worksheet.|'tendency'라는 단어가 학습지에 나왔다.
+long for|phrase|phrase|/lɔːŋ fɔːr/|~을 열망하다||||We practiced the phrase 'long for' in class.|우리는 수업에서 'long for' 표현을 연습했다.
+regret|word|noun|/rʌɡret/|후회하다,후회||||The word 'regret' appeared on the worksheet.|'regret'라는 단어가 학습지에 나왔다.
+explore|word|noun|/ɪksplɔːr/|탐험하다,조사하다||||The word 'explore' appeared on the worksheet.|'explore'라는 단어가 학습지에 나왔다.
+struggle|word|noun|/strʌɡʌl/|애쓰다,발버둥치다,투쟁,분투||||The word 'struggle' appeared on the worksheet.|'struggle'라는 단어가 학습지에 나왔다.
+entrepreneur|word|noun|/ɑːntrʌprʌnɜːr/|사업가||||The word 'entrepreneur' appeared on the worksheet.|'entrepreneur'라는 단어가 학습지에 나왔다.
+tremendous|word|noun|/trʌmendʌs/|엄청난,대단한||||The word 'tremendous' appeared on the worksheet.|'tremendous'라는 단어가 학습지에 나왔다.
+launch|word|noun|/lɔːntʃ/|시작하다,출시하다,발사||||The word 'launch' appeared on the worksheet.|'launch'라는 단어가 학습지에 나왔다.
+product|word|noun|/prɑːdʌkt/|상품||||The word 'product' appeared on the worksheet.|'product'라는 단어가 학습지에 나왔다.
+overprice|word|noun|/oʊvɜːrpraɪs/|너무 비싼 값을 매기다||||The word 'overprice' appeared on the worksheet.|'overprice'라는 단어가 학습지에 나왔다.
+ownership|word|noun|/oʊnɜːrʃɪp/|소유권||||The word 'ownership' appeared on the worksheet.|'ownership'라는 단어가 학습지에 나왔다.
+distort|word|noun|/dɪstɔːrt/|왜곡하다||||The word 'distort' appeared on the worksheet.|'distort'라는 단어가 학습지에 나왔다.
+perception|word|noun|/pɜːrsepʃʌn/|자각,통찰력||||The word 'perception' appeared on the worksheet.|'perception'라는 단어가 학습지에 나왔다.
+realize|word|noun|/riːʌlaɪz/|깨닫다,실현하다||||The word 'realize' appeared on the worksheet.|'realize'라는 단어가 학습지에 나왔다.
+be willing to|phrase|phrase|/biː wɪlɪŋ tuː/|기꺼이 ~하다||||We practiced the phrase 'be willing to' in class.|우리는 수업에서 'be willing to' 표현을 연습했다.
+attractive|word|noun|/ʌtræktɪv/|매력적인||||The word 'attractive' appeared on the worksheet.|'attractive'라는 단어가 학습지에 나왔다.
+costly|word|adverb|/kɑːstliː/|많은 돈이 드는,대가가 큰||||The word 'costly' appeared on the worksheet.|'costly'라는 단어가 학습지에 나왔다.
+priority|word|noun|/praɪɔːrʌtiː/|우선 사항||||The word 'priority' appeared on the worksheet.|'priority'라는 단어가 학습지에 나왔다.
+sufficient|word|noun|/sʌfɪʃʌnt/|충분한||||The word 'sufficient' appeared on the worksheet.|'sufficient'라는 단어가 학습지에 나왔다.
+adoption|word|noun|/ʌdɑːpʃʌn/|입양,채택||||The word 'adoption' appeared on the worksheet.|'adoption'라는 단어가 학습지에 나왔다.
+maximize|word|noun|/mæksʌmaɪz/|극대화하다||||The word 'maximize' appeared on the worksheet.|'maximize'라는 단어가 학습지에 나왔다.
+sacrifice|word|noun|/sækrʌfaɪs/|희생하다,희생||||The word 'sacrifice' appeared on the worksheet.|'sacrifice'라는 단어가 학습지에 나왔다.
+strategy|word|noun|/strætʌdʒiː/|전략,계획||||The word 'strategy' appeared on the worksheet.|'strategy'라는 단어가 학습지에 나왔다.
+economy|word|noun|/ɪkɑːnʌmiː/|경제||||The word 'economy' appeared on the worksheet.|'economy'라는 단어가 학습지에 나왔다.
+locate|word|noun|/loʊkeɪt/|찾아내다,위치에 두다||||The word 'locate' appeared on the worksheet.|'locate'라는 단어가 학습지에 나왔다.
+emerge|word|noun|/ɪmɜːrdʒ/|나타나다||||The word 'emerge' appeared on the worksheet.|'emerge'라는 단어가 학습지에 나왔다.
+merchant|word|noun|/mɜːrtʃʌnt/|상인||||The word 'merchant' appeared on the worksheet.|'merchant'라는 단어가 학습지에 나왔다.
+operation|word|noun|/ɑːpɜːreɪʃʌn/|작업,수술,작전||||The word 'operation' appeared on the worksheet.|'operation'라는 단어가 학습지에 나왔다.
+neighborhood|word|noun|/neɪbɜːrhʊd/|지역,이웃 사람||||The word 'neighborhood' appeared on the worksheet.|'neighborhood'라는 단어가 학습지에 나왔다.
+resident|word|noun|/rezɪdʌnt/|거주자,살고 있는||||The word 'resident' appeared on the worksheet.|'resident'라는 단어가 학습지에 나왔다.
+scale|word|noun|/skeɪl/|규모,등급,저울,비늘||||The word 'scale' appeared on the worksheet.|'scale'라는 단어가 학습지에 나왔다.
+local|word|noun|/loʊkʌl/|지역의||||The word 'local' appeared on the worksheet.|'local'라는 단어가 학습지에 나왔다.
+distant|word|noun|/dɪstʌnt/|먼,멀리 떨어진||||The word 'distant' appeared on the worksheet.|'distant'라는 단어가 학습지에 나왔다.
+material|word|noun|/mʌtɪriːʌl/|재료,소재||||The word 'material' appeared on the worksheet.|'material'라는 단어가 학습지에 나왔다.
+textile|word|noun|/tekstaɪl/|직물||||The word 'textile' appeared on the worksheet.|'textile'라는 단어가 학습지에 나왔다.
+raw|word|noun|/rɑː/|날것의||||The word 'raw' appeared on the worksheet.|'raw'라는 단어가 학습지에 나왔다.
+sensory|word|noun|/sensɜːriː/|감각의||||The word 'sensory' appeared on the worksheet.|'sensory'라는 단어가 학습지에 나왔다.
+organ|word|noun|/ɔːrɡʌn/|장기||||The word 'organ' appeared on the worksheet.|'organ'라는 단어가 학습지에 나왔다.
+transport|word|noun|/trænspɔːrt/|수송하다,수송||||The word 'transport' appeared on the worksheet.|'transport'라는 단어가 학습지에 나왔다.
+undergo|word|noun|/ʌndɜːrɡoʊ/|겪다,경험하다||||The word 'undergo' appeared on the worksheet.|'undergo'라는 단어가 학습지에 나왔다.
+transformation|word|noun|/trænsfɜːrmeɪʃʌn/|변화,변신,변형||||The word 'transformation' appeared on the worksheet.|'transformation'라는 단어가 학습지에 나왔다.
+conscious|word|noun|/kɑːnʃʌs/|의식하는,의식이 있는||||The word 'conscious' appeared on the worksheet.|'conscious'라는 단어가 학습지에 나왔다.
+suffer|word|noun|/sʌfɜːr/|고통받다,겪다||||The word 'suffer' appeared on the worksheet.|'suffer'라는 단어가 학습지에 나왔다.
+resemble|word|noun|/rɪzembʌl/|~와 닮다||||The word 'resemble' appeared on the worksheet.|'resemble'라는 단어가 학습지에 나왔다.
+strike|word|noun|/straɪk/|치다,파업,타격||||The word 'strike' appeared on the worksheet.|'strike'라는 단어가 학습지에 나왔다.
+partial|word|noun|/pɑːrʃʌl/|부분적인,편파적인||||The word 'partial' appeared on the worksheet.|'partial'라는 단어가 학습지에 나왔다.
+reflection|word|noun|/rɪflekʃʌn/|비친 모습,반사,심사숙고||||The word 'reflection' appeared on the worksheet.|'reflection'라는 단어가 학습지에 나왔다.
+capture|word|noun|/kæptʃɜːr/|붙잡다,점유하다||||The word 'capture' appeared on the worksheet.|'capture'라는 단어가 학습지에 나왔다.
+particular|word|noun|/pɜːrtɪkjʌlɜːr/|특정한||||The word 'particular' appeared on the worksheet.|'particular'라는 단어가 학습지에 나왔다.
+rather|word|noun|/ræðɜːr/|다소,오히려||||The word 'rather' appeared on the worksheet.|'rather'라는 단어가 학습지에 나왔다.
+complicated|word|noun|/kɑːmplʌkeɪtʌd/|복잡한||||The word 'complicated' appeared on the worksheet.|'complicated'라는 단어가 학습지에 나왔다.
+plenty|word|noun|/plentiː/|풍부한,많은||||The word 'plenty' appeared on the worksheet.|'plenty'라는 단어가 학습지에 나왔다.
+tend to|phrase|phrase|/tend tuː/|~하는 경향이 있다||||We practiced the phrase 'tend to' in class.|우리는 수업에서 'tend to' 표현을 연습했다.
+happen upon|phrase|phrase|/hæpʌn ʌpɑːn/|~을 우연히 만나다||||We practiced the phrase 'happen upon' in class.|우리는 수업에서 'happen upon' 표현을 연습했다.
+survival|word|noun|/sɜːrvaɪvʌl/|생존||||The word 'survival' appeared on the worksheet.|'survival'라는 단어가 학습지에 나왔다.
+depend on|phrase|phrase|/dɪpend ɑːn/|~에 달려 있다,~에 의존하다||||We practiced the phrase 'depend on' in class.|우리는 수업에서 'depend on' 표현을 연습했다.
+ironically|word|adverb|/aɪrɑːnɪkliː/|아이러니하게도,반어적으로||||The word 'ironically' appeared on the worksheet.|'ironically'라는 단어가 학습지에 나왔다.
+fence|word|noun|/fens/|울타리||||The word 'fence' appeared on the worksheet.|'fence'라는 단어가 학습지에 나왔다.
+sophisticated|word|noun|/sʌfɪstʌkeɪtɪd/|정교한||||The word 'sophisticated' appeared on the worksheet.|'sophisticated'라는 단어가 학습지에 나왔다.
+combine with|phrase|phrase|/kɑːmbaɪn wɪð/|~과 결합하다||||We practiced the phrase 'combine with' in class.|우리는 수업에서 'combine with' 표현을 연습했다.
+disconnection|word|noun|/dɪskʌnekʃʌn/|단절||||The word 'disconnection' appeared on the worksheet.|'disconnection'라는 단어가 학습지에 나왔다.
+blindness|word|noun|/blaɪndnʌs/|무분별,무지||||The word 'blindness' appeared on the worksheet.|'blindness'라는 단어가 학습지에 나왔다.
+promotion|word|noun|/prʌmoʊʃʌn/|프로모션,홍보||||The word 'promotion' appeared on the worksheet.|'promotion'라는 단어가 학습지에 나왔다.
+deal with|phrase|phrase|/diːl wɪð/|~을 다루다||||We practiced the phrase 'deal with' in class.|우리는 수업에서 'deal with' 표현을 연습했다.
+consumer|word|noun|/kʌnsuːmɜːr/|소비자||||The word 'consumer' appeared on the worksheet.|'consumer'라는 단어가 학습지에 나왔다.
+one way or another|phrase|phrase|/weɪ ɔːr ʌnʌðɜːr/|어떤 한 방식으로||||We practiced the phrase 'one way or another' in class.|우리는 수업에서 'one way or another' 표현을 연습했다.
+marketer|word|noun|/mɑːrkʌtɜːr/|마케팅 담당자||||The word 'marketer' appeared on the worksheet.|'marketer'라는 단어가 학습지에 나왔다.
+provide|word|noun|/prʌvaɪd/|제공하다||||The word 'provide' appeared on the worksheet.|'provide'라는 단어가 학습지에 나왔다.
+fashion|word|noun|/fæʃʌn/|방식,방법||||The word 'fashion' appeared on the worksheet.|'fashion'라는 단어가 학습지에 나왔다.
+possibility|word|noun|/pɑːsʌbɪlʌtiː/|가능성||||The word 'possibility' appeared on the worksheet.|'possibility'라는 단어가 학습지에 나왔다.
+sales|word|noun|/seɪlz/|매출,판매||||The word 'sales' appeared on the worksheet.|'sales'라는 단어가 학습지에 나왔다.
+fool|word|noun|/fuːl/|속이다||||The word 'fool' appeared on the worksheet.|'fool'라는 단어가 학습지에 나왔다.
+long-term|word|noun|/lɔːŋ tɜːrm/|장기적인||||The word 'long-term' appeared on the worksheet.|'long-term'라는 단어가 학습지에 나왔다.
+relate|word|noun|/rɪleɪt/|전하다,관련시키다||||The word 'relate' appeared on the worksheet.|'relate'라는 단어가 학습지에 나왔다.
+identify|word|noun|/aɪdentʌfaɪ/|확인하다,동일시하다||||The word 'identify' appeared on the worksheet.|'identify'라는 단어가 학습지에 나왔다.
+reach|word|noun|/riːtʃ/|도달하다||||The word 'reach' appeared on the worksheet.|'reach'라는 단어가 학습지에 나왔다.
+limitation|word|noun|/lɪmɪteɪʃʌn/|한계||||The word 'limitation' appeared on the worksheet.|'limitation'라는 단어가 학습지에 나왔다.
+cognitive|word|noun|/kɑːɡnɪtɪv/|인지적인||||The word 'cognitive' appeared on the worksheet.|'cognitive'라는 단어가 학습지에 나왔다.
+capacity|word|noun|/kʌpæsʌtiː/|능력||||The word 'capacity' appeared on the worksheet.|'capacity'라는 단어가 학습지에 나왔다.
+lack|word|noun|/læk/|부족하다||||The word 'lack' appeared on the worksheet.|'lack'라는 단어가 학습지에 나왔다.
+compute|word|noun|/kʌmpjuːt/|계산하다||||The word 'compute' appeared on the worksheet.|'compute'라는 단어가 학습지에 나왔다.
+independently|word|adverb|/ɪndɪpendʌntliː/|독립적으로||||The word 'independently' appeared on the worksheet.|'independently'라는 단어가 학습지에 나왔다.
+distribute|word|noun|/dɪstrɪbjuːt/|분배하다,유통시키다,배포하다||||The word 'distribute' appeared on the worksheet.|'distribute'라는 단어가 학습지에 나왔다.
+computation|word|noun|/kɑːmpjʌteɪʃʌn/|계산||||The word 'computation' appeared on the worksheet.|'computation'라는 단어가 학습지에 나왔다.
+population|word|noun|/pɑːpjʌleɪʃʌn/|인구||||The word 'population' appeared on the worksheet.|'population'라는 단어가 학습지에 나왔다.
+generation|word|noun|/dʒenɜːreɪʃʌn/|세대||||The word 'generation' appeared on the worksheet.|'generation'라는 단어가 학습지에 나왔다.
+toilet|word|noun|/tɔɪlʌt/|변기||||The word 'toilet' appeared on the worksheet.|'toilet'라는 단어가 학습지에 나왔다.
+work|word|noun|/wɜːrk/|작동하다,작용하다||||The word 'work' appeared on the worksheet.|'work'라는 단어가 학습지에 나왔다.
+interface|word|noun|/ɪntɜːrfeɪs/|인터페이스||||The word 'interface' appeared on the worksheet.|'interface'라는 단어가 학습지에 나왔다.
+flush|word|noun|/flʌʃ/|물을 내리다||||The word 'flush' appeared on the worksheet.|'flush'라는 단어가 학습지에 나왔다.
+transmit|word|noun|/trænzmɪt/|전송하다||||The word 'transmit' appeared on the worksheet.|'transmit'라는 단어가 학습지에 나왔다.
+interact|word|noun|/ɪntɜːrækt/|상호 작용을 하다||||The word 'interact' appeared on the worksheet.|'interact'라는 단어가 학습지에 나왔다.
+dedicate to|phrase|phrase|/dedʌkeɪt tuː/|~에 헌신하다||||We practiced the phrase 'dedicate to' in class.|우리는 수업에서 'dedicate to' 표현을 연습했다.
+calculation|word|noun|/kælkjʌleɪʃʌn/|계산||||The word 'calculation' appeared on the worksheet.|'calculation'라는 단어가 학습지에 나왔다.
+contribute to|phrase|phrase|/kʌntrɪbjuːt tuː/|~에 기여하다||||We practiced the phrase 'contribute to' in class.|우리는 수업에서 'contribute to' 표현을 연습했다.
+collective|word|noun|/kʌlektɪv/|집합적인,집단적인||||The word 'collective' appeared on the worksheet.|'collective'라는 단어가 학습지에 나왔다.
+alternative|word|noun|/ɔːltɜːrnʌtɪv/|대안,대체 수단||||The word 'alternative' appeared on the worksheet.|'alternative'라는 단어가 학습지에 나왔다.
+reserve|word|noun|/rɪzɜːrv/|마련해 두다,예약하다||||The word 'reserve' appeared on the worksheet.|'reserve'라는 단어가 학습지에 나왔다.
+extensive|word|noun|/ɪkstensɪv/|광범위한||||The word 'extensive' appeared on the worksheet.|'extensive'라는 단어가 학습지에 나왔다.
+pedestrian|word|noun|/pʌdestriːʌn/|보행자||||The word 'pedestrian' appeared on the worksheet.|'pedestrian'라는 단어가 학습지에 나왔다.
+motivate|word|noun|/moʊtʌveɪt/|동기를 부여하다||||The word 'motivate' appeared on the worksheet.|'motivate'라는 단어가 학습지에 나왔다.
+travel|word|noun|/trævʌl/|이동하다||||The word 'travel' appeared on the worksheet.|'travel'라는 단어가 학습지에 나왔다.
+convert|word|noun|/kɑːnvɜːrt/|전환하다||||The word 'convert' appeared on the worksheet.|'convert'라는 단어가 학습지에 나왔다.
+accommodate|word|noun|/ʌkɑːmʌdeɪt/|수용하다||||The word 'accommodate' appeared on the worksheet.|'accommodate'라는 단어가 학습지에 나왔다.
+emergency vehicle|phrase|phrase|/ɪmɜːrdʒʌnsiː viːhɪkʌl/|긴급 차량,비상 차량||||We practiced the phrase 'emergency vehicle' in class.|우리는 수업에서 'emergency vehicle' 표현을 연습했다.
+frequently|word|adverb|/friːkwʌntliː/|자주||||The word 'frequently' appeared on the worksheet.|'frequently'라는 단어가 학습지에 나왔다.
+target|word|noun|/tɑːrɡʌt/|대상,목표||||The word 'target' appeared on the worksheet.|'target'라는 단어가 학습지에 나왔다.
+component|word|noun|/kʌmpoʊnʌnt/|구성 요소||||The word 'component' appeared on the worksheet.|'component'라는 단어가 학습지에 나왔다.
+packed|word|noun|/pækt/|꽉 들어찬||||The word 'packed' appeared on the worksheet.|'packed'라는 단어가 학습지에 나왔다.
+hybrid|word|noun|/haɪbrʌd/|하이브리드||||The word 'hybrid' appeared on the worksheet.|'hybrid'라는 단어가 학습지에 나왔다.
+vendor|word|noun|/vendɜːr/|상인,행상인||||The word 'vendor' appeared on the worksheet.|'vendor'라는 단어가 학습지에 나왔다.
+operate|word|noun|/ɑːpɜːreɪt/|운영하다||||The word 'operate' appeared on the worksheet.|'operate'라는 단어가 학습지에 나왔다.
+output|word|noun|/aʊtpʊt/|성과||||The word 'output' appeared on the worksheet.|'output'라는 단어가 학습지에 나왔다.
+earn|word|noun|/ɜːrn/|벌다||||The word 'earn' appeared on the worksheet.|'earn'라는 단어가 학습지에 나왔다.
+overall|word|noun|/oʊvɜːrɔːl/|전반적인,전체의,전반적으로||||The word 'overall' appeared on the worksheet.|'overall'라는 단어가 학습지에 나왔다.
+satisfaction|word|noun|/sætʌsfækʃʌn/|만족,충족||||The word 'satisfaction' appeared on the worksheet.|'satisfaction'라는 단어가 학습지에 나왔다.
+essentially|word|adverb|/esenʃʌliː/|근본적으로,기본적으로||||The word 'essentially' appeared on the worksheet.|'essentially'라는 단어가 학습지에 나왔다.
+related to|phrase|phrase|/rɪleɪtɪd tuː/|~와 관련된||||We practiced the phrase 'related to' in class.|우리는 수업에서 'related to' 표현을 연습했다.
+metaphor|word|noun|/metʌfɔːr/|은유||||The word 'metaphor' appeared on the worksheet.|'metaphor'라는 단어가 학습지에 나왔다.
+linguistic|word|noun|/lɪŋɡwɪstɪk/|언어의,언어학의||||The word 'linguistic' appeared on the worksheet.|'linguistic'라는 단어가 학습지에 나왔다.
+passive|word|noun|/pæsɪv/|수동적인||||The word 'passive' appeared on the worksheet.|'passive'라는 단어가 학습지에 나왔다.
+audience|word|noun|/ɑːdiːʌns/|청자,청중,관객||||The word 'audience' appeared on the worksheet.|'audience'라는 단어가 학습지에 나왔다.
+beggar|word|noun|/beɡɜːr/|구걸하는 자||||The word 'beggar' appeared on the worksheet.|'beggar'라는 단어가 학습지에 나왔다.
+prose|word|noun|/proʊz/|산문||||The word 'prose' appeared on the worksheet.|'prose'라는 단어가 학습지에 나왔다.
+impose|word|noun|/ɪmpoʊz/|부과하다,강요하다||||The word 'impose' appeared on the worksheet.|'impose'라는 단어가 학습지에 나왔다.
+artifact|word|noun|/ɑːrtʌfækt/|인공물||||The word 'artifact' appeared on the worksheet.|'artifact'라는 단어가 학습지에 나왔다.
+horizon|word|noun|/hɜːraɪzʌn/|지평선||||The word 'horizon' appeared on the worksheet.|'horizon'라는 단어가 학습지에 나왔다.
+require|word|noun|/riːkwaɪɜːr/|요구하다,필요로 하다||||The word 'require' appeared on the worksheet.|'require'라는 단어가 학습지에 나왔다.
+potential|word|noun|/pʌtenʃʌl/|잠재적인,가능성이 있는,잠재력||||The word 'potential' appeared on the worksheet.|'potential'라는 단어가 학습지에 나왔다.
+wonder|word|noun|/wʌndɜːr/|궁금해하다,놀라다,놀라움||||The word 'wonder' appeared on the worksheet.|'wonder'라는 단어가 학습지에 나왔다.
+obvious|word|noun|/ɑːbviːʌs/|분명한,명백한||||The word 'obvious' appeared on the worksheet.|'obvious'라는 단어가 학습지에 나왔다.
+beloved|word|noun|/bɪlʌvd/|총애받는,사랑하는||||The word 'beloved' appeared on the worksheet.|'beloved'라는 단어가 학습지에 나왔다.
+in part|phrase|phrase|/ɪn pɑːrt/|부분적으로||||We practiced the phrase 'in part' in class.|우리는 수업에서 'in part' 표현을 연습했다.
+immediately|word|adverb|/ɪmiːdiːʌtliː/|즉시,즉각적으로||||The word 'immediately' appeared on the worksheet.|'immediately'라는 단어가 학습지에 나왔다.
+magnetic|word|noun|/mæɡnetɪk/|자석의||||The word 'magnetic' appeared on the worksheet.|'magnetic'라는 단어가 학습지에 나왔다.
+resonance|word|noun|/rezʌnʌns/|울림,공명||||The word 'resonance' appeared on the worksheet.|'resonance'라는 단어가 학습지에 나왔다.
+reveal|word|noun|/rɪviːl/|드러내다||||The word 'reveal' appeared on the worksheet.|'reveal'라는 단어가 학습지에 나왔다.
+light up|phrase|phrase|/laɪt ʌp/|불을 밝히다||||We practiced the phrase 'light up' in class.|우리는 수업에서 'light up' 표현을 연습했다.
+intense|word|noun|/ɪntens/|극심한,치열한||||The word 'intense' appeared on the worksheet.|'intense'라는 단어가 학습지에 나왔다.
+pronunciation|word|noun|/proʊnʌnsiːeɪʃʌn/|발음||||The word 'pronunciation' appeared on the worksheet.|'pronunciation'라는 단어가 학습지에 나왔다.
+connective|word|noun|/kʌnektɪv/|연결하는,결합하는||||The word 'connective' appeared on the worksheet.|'connective'라는 단어가 학습지에 나왔다.
+concentration|word|noun|/kɑːnsʌntreɪʃʌn/|집중,농도||||The word 'concentration' appeared on the worksheet.|'concentration'라는 단어가 학습지에 나왔다.
+force|word|noun|/fɔːrs/|강요하다||||The word 'force' appeared on the worksheet.|'force'라는 단어가 학습지에 나왔다.
+stimulation|word|noun|/stɪmjʌleɪʃʌn/|자극||||The word 'stimulation' appeared on the worksheet.|'stimulation'라는 단어가 학습지에 나왔다.
+behavior|word|noun|/bɪheɪvjɜːr/|행동,태도||||The word 'behavior' appeared on the worksheet.|'behavior'라는 단어가 학습지에 나왔다.
+identity|word|noun|/aɪdentɪtiː/|신원,정체성||||The word 'identity' appeared on the worksheet.|'identity'라는 단어가 학습지에 나왔다.
+consciously|word|adverb|/kɑːnʃʌsliː/|의식하여,의식적으로||||The word 'consciously' appeared on the worksheet.|'consciously'라는 단어가 학습지에 나왔다.
+research|word|noun|/riːsɜːrtʃ/|연구하다,조사하다,연구,조사||||The word 'research' appeared on the worksheet.|'research'라는 단어가 학습지에 나왔다.
+aspect|word|noun|/æspekt/|측면||||The word 'aspect' appeared on the worksheet.|'aspect'라는 단어가 학습지에 나왔다.
+claim|word|noun|/kleɪm/|주장하다,요구하다,주장,요구||||The word 'claim' appeared on the worksheet.|'claim'라는 단어가 학습지에 나왔다.
