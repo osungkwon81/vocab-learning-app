@@ -70,8 +70,11 @@ class OfflineFirstStudyRepository(
         )
     }
 
-    override suspend fun loadDashboard(grade: SchoolGrade): DashboardSnapshot {
-        val progress = loadWordProgress(grade)
+    override suspend fun loadDashboard(
+        grade: SchoolGrade,
+        sourceBook: String?,
+    ): DashboardSnapshot {
+        val progress = loadWordProgress(grade, sourceBook)
         val stats = progress.map { it.stat }
         val totalAttempts = stats.sumOf { it.totalSolvedCount }
         val totalElapsed = stats.sumOf { it.totalElapsedMs }
@@ -87,8 +90,11 @@ class OfflineFirstStudyRepository(
         )
     }
 
-    override suspend fun loadWordProgress(grade: SchoolGrade): List<WordProgress> {
-        val words = loadWords(grade)
+    override suspend fun loadWordProgress(
+        grade: SchoolGrade,
+        sourceBook: String?,
+    ): List<WordProgress> {
+        val words = loadWords(grade).filterBySourceBook(sourceBook)
         val stats = wordStatDao.getAll()
             .associateBy { it.wordId }
 
@@ -103,10 +109,14 @@ class OfflineFirstStudyRepository(
     override suspend fun loadStudyDeck(
         grade: SchoolGrade,
         count: Int,
-    ): List<WordProgress> = studyDeckPlanner.prioritize(loadWordProgress(grade), count)
+        sourceBook: String?,
+    ): List<WordProgress> = studyDeckPlanner.prioritize(loadWordProgress(grade, sourceBook), count)
 
-    override suspend fun loadReviewItems(grade: SchoolGrade): List<ReviewItem> =
-        loadWordProgress(grade)
+    override suspend fun loadReviewItems(
+        grade: SchoolGrade,
+        sourceBook: String?,
+    ): List<ReviewItem> =
+        loadWordProgress(grade, sourceBook)
             .mapNotNull { progress ->
                 val reasons = buildList {
                     if (progress.stat.wrongCount >= 2) add(ReviewReason.MANY_WRONG)
@@ -128,6 +138,14 @@ class OfflineFirstStudyRepository(
                     ReviewItem(progress = progress, reasons = reasons)
                 }
             }
+
+    private fun List<WordEntry>.filterBySourceBook(sourceBook: String?): List<WordEntry> {
+        val selectedBook = sourceBook?.trim().orEmpty()
+        if (selectedBook.isBlank()) return this
+        return filter { entry ->
+            entry.sources.any { source -> source.book.trim() == selectedBook }
+        }
+    }
 
     override suspend fun recordLearningResult(
         wordId: Long,

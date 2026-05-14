@@ -28,6 +28,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.MenuBook
 import androidx.compose.material.icons.rounded.Assessment
 import androidx.compose.material.icons.rounded.Campaign
+import androidx.compose.material.icons.rounded.Search
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.TaskAlt
@@ -295,6 +296,13 @@ private fun MainAppShell(
             } else {
                 Spacer(modifier = Modifier.height(8.dp))
             }
+
+            SourceBookSelector(
+                sourceBookOptions = uiState.sourceBookOptions,
+                selectedSourceBook = uiState.selectedSourceBook,
+                onSelectSourceBook = viewModel::selectSourceBook,
+            )
+            Spacer(modifier = Modifier.height(8.dp))
 
             when (currentTab) {
                 AppTab.STUDY -> StudyTab(
@@ -1428,6 +1436,57 @@ private fun GradeSelector(
 }
 
 @Composable
+private fun SourceBookSelector(
+    sourceBookOptions: List<String>,
+    selectedSourceBook: String?,
+    onSelectSourceBook: (String?) -> Unit,
+) {
+    var expanded by remember { mutableStateOf(false) }
+    val label = selectedSourceBook ?: "모두"
+
+    Box(modifier = Modifier.fillMaxWidth()) {
+        OutlinedButton(
+            onClick = { expanded = true },
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    text = label,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                Text("▼")
+            }
+        }
+        DropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false },
+        ) {
+            DropdownMenuItem(
+                text = { Text("모두") },
+                onClick = {
+                    onSelectSourceBook(null)
+                    expanded = false
+                },
+            )
+            sourceBookOptions.forEach { sourceBook ->
+                DropdownMenuItem(
+                    text = { Text(sourceBook) },
+                    onClick = {
+                        onSelectSourceBook(sourceBook)
+                        expanded = false
+                    },
+                )
+            }
+        }
+    }
+}
+
+@Composable
 private fun WordCatalogTab(
     grade: SchoolGrade,
     wordProgress: List<WordProgress>,
@@ -1436,9 +1495,13 @@ private fun WordCatalogTab(
     modifier: Modifier = Modifier,
 ) {
     var selectedSortModeName by rememberSaveable { mutableStateOf(WordListSortMode.PRIORITY.name) }
+    var searchQuery by rememberSaveable { mutableStateOf("") }
     val selectedSortMode = WordListSortMode.valueOf(selectedSortModeName)
     val sortedProgress = remember(wordProgress, selectedSortMode) {
         sortWordProgress(wordProgress, selectedSortMode)
+    }
+    val filteredProgress = remember(sortedProgress, searchQuery) {
+        sortedProgress.filterBySearchQuery(searchQuery)
     }
 
     if (wordProgress.isEmpty()) {
@@ -1458,12 +1521,19 @@ private fun WordCatalogTab(
             )
         }
         item {
-            WordListSortSelector(
+            WordListControls(
+                searchQuery = searchQuery,
+                onSearchQueryChange = { searchQuery = it },
                 selectedSortMode = selectedSortMode,
                 onSelectSortMode = { selectedSortModeName = it.name },
             )
         }
-        items(sortedProgress, key = { it.entry.wordId }) { progress ->
+        if (filteredProgress.isEmpty()) {
+            item {
+                EmptyState("검색 결과가 없습니다.")
+            }
+        }
+        items(filteredProgress, key = { it.entry.wordId }) { progress ->
             WordCatalogCard(
                 progress = progress,
                 onPlayWordAudio = onPlayWordAudio,
@@ -1474,13 +1544,58 @@ private fun WordCatalogTab(
 }
 
 @Composable
-private fun WordListSortSelector(
+private fun WordListControls(
+    searchQuery: String,
+    onSearchQueryChange: (String) -> Unit,
     selectedSortMode: WordListSortMode,
     onSelectSortMode: (WordListSortMode) -> Unit,
 ) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        WordListSearchField(
+            searchQuery = searchQuery,
+            onSearchQueryChange = onSearchQueryChange,
+            modifier = Modifier.weight(1f),
+        )
+        WordListSortSelector(
+            selectedSortMode = selectedSortMode,
+            onSelectSortMode = onSelectSortMode,
+            modifier = Modifier.width(132.dp),
+        )
+    }
+}
+
+@Composable
+private fun WordListSearchField(
+    searchQuery: String,
+    onSearchQueryChange: (String) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    OutlinedTextField(
+        value = searchQuery,
+        onValueChange = onSearchQueryChange,
+        modifier = modifier,
+        label = { Text("영어 또는 뜻 검색") },
+        leadingIcon = {
+            Icon(Icons.Rounded.Search, contentDescription = null)
+        },
+        singleLine = true,
+        keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None),
+    )
+}
+
+@Composable
+private fun WordListSortSelector(
+    selectedSortMode: WordListSortMode,
+    onSelectSortMode: (WordListSortMode) -> Unit,
+    modifier: Modifier = Modifier,
+) {
     var expanded by remember { mutableStateOf(false) }
 
-    Box(modifier = Modifier.fillMaxWidth()) {
+    Box(modifier = modifier) {
         OutlinedButton(
             onClick = { expanded = true },
             modifier = Modifier.fillMaxWidth(),
@@ -1579,7 +1694,13 @@ private fun WordCatalogCard(
                         )
                     }
                 }
-                WordProgressTags(progress = progress)
+                Column(
+                    horizontalAlignment = Alignment.End,
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    WordSourceLabels(word = word)
+                    WordProgressTags(progress = progress)
+                }
             }
 
             WordMetadataRow(word = word)
@@ -1634,6 +1755,23 @@ private fun WordCatalogCard(
                     label = { Text("예문 듣기") },
                 )
             }
+        }
+    }
+}
+
+@Composable
+private fun WordSourceLabels(
+    word: WordEntry,
+) {
+    val labels = word.formattedSourceLabels()
+    if (labels.isEmpty()) return
+
+    Column(
+        horizontalAlignment = Alignment.End,
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        labels.take(2).forEach { label ->
+            Tag(label)
         }
     }
 }
@@ -1729,6 +1867,22 @@ private fun formatPartOfSpeech(value: String): String =
         else -> value
     }
 
+private fun WordEntry.formattedSourceLabels(): List<String> =
+    sources.mapNotNull { source ->
+        val book = source.book.trim()
+        if (book.isBlank()) {
+            null
+        } else {
+            listOf(
+                book,
+                source.day.trim(),
+                source.section.trim(),
+                source.originalNo.trim(),
+            ).filter { it.isNotBlank() }
+                .joinToString(" · ")
+        }
+    }.distinct()
+
 private fun sortWordProgress(
     wordProgress: List<WordProgress>,
     sortMode: WordListSortMode,
@@ -1775,6 +1929,16 @@ private fun wordListPriorityScore(progress: WordProgress): Int {
     val reviewScore = if (stat.needReview) 5 else 0
     return unseenScore + reviewScore + (stat.wrongCount * 4) - (stat.correctCount * 2)
 }
+
+private fun List<WordProgress>.filterBySearchQuery(query: String): List<WordProgress> {
+    val normalizedQuery = query.trim()
+    if (normalizedQuery.isBlank()) return this
+    return filter { it.entry.matchesSearchQuery(normalizedQuery) }
+}
+
+private fun WordEntry.matchesSearchQuery(query: String): Boolean =
+    word.contains(query, ignoreCase = true) ||
+        meanings.any { meaning -> meaning.contains(query, ignoreCase = true) }
 
 @Composable
 private fun LabeledText(

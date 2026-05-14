@@ -125,6 +125,7 @@ def generate(
     audio_storage_prefix=DEFAULT_AUDIO_STORAGE_PREFIX,
     existing_data=None,
     force_word_audio=False,
+    update_existing=False,
 ):
     input_file = Path(input_file)
     output_file = Path(output_file)
@@ -139,7 +140,7 @@ def generate(
         data["grade"] = grade
         data["version"] = version
         data.setdefault("words", [])
-        word_map = {normalize(item.get("word", "")): True for item in data["words"] if item.get("word")}
+        word_map = {normalize(item.get("word", "")): item for item in data["words"] if item.get("word")}
         word_id = max(max_word_id(data) + 1, word_id_start)
         print(f"기존 단어 {len(word_map)}개 유지, 새 단어 ID 시작: {word_id}")
         if generate_word_audio or upload_word_audio:
@@ -177,8 +178,8 @@ def generate(
             word = parts[0]
             key = normalize(word)
 
-            # 중복 제거
-            if key in word_map:
+            existing_item = word_map.get(key)
+            if existing_item and not update_existing:
                 continue
 
             word_audio_url = ""
@@ -226,6 +227,12 @@ def generate(
                 "wordAudioUrl": word_audio_url,
                 "exampleAudioUrl": "",
             }
+
+            if existing_item:
+                item["wordId"] = existing_item.get("wordId", item["wordId"])
+                item["wordAudioUrl"] = existing_item.get("wordAudioUrl", "")
+                item["exampleAudioUrl"] = existing_item.get("exampleAudioUrl", "")
+
             if generate_word_audio or upload_word_audio:
                 update_word_audio(
                     item,
@@ -235,9 +242,12 @@ def generate(
                     force_word_audio=force_word_audio,
                 )
 
-            data["words"].append(item)
-            word_map[key] = True
-            word_id += 1
+            if existing_item:
+                existing_item.update(item)
+            else:
+                data["words"].append(item)
+                word_map[key] = item
+                word_id += 1
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -328,6 +338,7 @@ def main():
     parser.add_argument("--audio-output-dir", default=DEFAULT_AUDIO_OUTPUT_DIR)
     parser.add_argument("--audio-storage-prefix", default=DEFAULT_AUDIO_STORAGE_PREFIX)
     parser.add_argument("--replace-remote", action="store_true")
+    parser.add_argument("--update-existing", action="store_true")
     args = parser.parse_args()
 
     storage_path = args.storage_path or f"{args.storage_prefix}/{args.output}"
@@ -347,6 +358,7 @@ def main():
         audio_storage_prefix=args.audio_storage_prefix,
         existing_data=existing_data,
         force_word_audio=args.force_word_audio,
+        update_existing=args.update_existing,
     )
     if args.update_assets:
         copy_to_assets(output_file, args.output)

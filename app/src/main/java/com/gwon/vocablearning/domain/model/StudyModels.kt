@@ -14,8 +14,16 @@ data class WordEntry(
     val antonyms: List<String> = emptyList(),
     val exampleSentence: String,
     val exampleTranslation: String,
+    val sources: List<WordSource> = emptyList(),
     val wordAudioUrl: String,
     val exampleAudioUrl: String,
+)
+
+data class WordSource(
+    val book: String = "",
+    val day: String = "",
+    val section: String = "",
+    val originalNo: String = "",
 )
 
 enum class QuizType(val label: String) {

@@ -3,6 +3,7 @@ package com.gwon.vocablearning.data.remote
 import com.gwon.vocablearning.domain.model.Language
 import com.gwon.vocablearning.domain.model.SchoolGrade
 import com.gwon.vocablearning.domain.model.WordEntry
+import com.gwon.vocablearning.domain.model.WordSource
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
@@ -77,8 +78,17 @@ data class WordDto(
     val antonyms: List<String> = emptyList(),
     val exampleSentence: String,
     val exampleTranslation: String,
+    val sources: List<WordSourceDto> = emptyList(),
     val wordAudioUrl: String,
     val exampleAudioUrl: String,
+)
+
+@Serializable
+data class WordSourceDto(
+    val book: String = "",
+    val day: String = "",
+    val section: String = "",
+    val originalNo: String = "",
 )
 
 fun WordSetDto.toDomain(): List<WordEntry> {
@@ -99,6 +109,14 @@ fun WordSetDto.toDomain(): List<WordEntry> {
             antonyms = dto.antonyms,
             exampleSentence = dto.exampleSentence,
             exampleTranslation = dto.exampleTranslation,
+            sources = dto.sources.map { source ->
+                WordSource(
+                    book = source.book,
+                    day = source.day,
+                    section = source.section,
+                    originalNo = source.originalNo,
+                )
+            },
             wordAudioUrl = dto.wordAudioUrl,
             exampleAudioUrl = dto.exampleAudioUrl,
         )

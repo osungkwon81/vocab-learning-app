@@ -47,6 +47,7 @@ parser.add_argument("--generate-word-audio", action="store_true")
 parser.add_argument("--upload-word-audio", action="store_true")
 parser.add_argument("--force-word-audio", action="store_true")
 parser.add_argument("--replace-remote", action="store_true")
+parser.add_argument("--update-existing", action="store_true")
 args = parser.parse_args()
 
 
@@ -73,6 +74,7 @@ for vocabulary in selected_vocabularies:
         upload_word_audio=args.upload_word_audio,
         existing_data=existing_data,
         force_word_audio=args.force_word_audio,
+        update_existing=args.update_existing,
     )
     if args.update_assets:
         copy_to_assets(output_file, vocabulary["output_file"])

@@ -100,6 +100,8 @@ data class MainUiState(
     val showStudyStartDialog: Boolean = false,
     val showQuizStartDialog: Boolean = false,
     val words: List<WordEntry> = emptyList(),
+    val sourceBookOptions: List<String> = emptyList(),
+    val selectedSourceBook: String? = null,
     val dashboard: DashboardSnapshot = DashboardSnapshot(),
     val wordProgress: List<WordProgress> = emptyList(),
     val reviewItems: List<ReviewItem> = emptyList(),
@@ -191,7 +193,7 @@ class MainViewModel(
     }
 
     fun selectGrade(grade: SchoolGrade) {
-        _uiState.update { it.copy(selectedGrade = grade) }
+        _uiState.update { it.copy(selectedGrade = grade, selectedSourceBook = null) }
 
         viewModelScope.launch {
             repository.setSelectedGrade(grade)
@@ -220,6 +222,20 @@ class MainViewModel(
 
     fun updateLearningCount(count: Int) {
         _uiState.update { it.copy(learningCount = count.coerceIn(1, 999)) }
+    }
+
+    fun selectSourceBook(sourceBook: String?) {
+        _uiState.update {
+            it.copy(
+                selectedSourceBook = sourceBook?.takeIf { book -> book.isNotBlank() },
+                learningSession = null,
+                quizSession = null,
+            )
+        }
+
+        viewModelScope.launch {
+            refreshReferenceData(_uiState.value.selectedGrade)
+        }
     }
 
     fun adjustLearningCount(delta: Int) {
@@ -504,7 +520,8 @@ class MainViewModel(
     private suspend fun buildLearningSession() {
         val grade = _uiState.value.selectedGrade
         val targetCount = _uiState.value.learningCount
-        val deck = repository.loadStudyDeck(grade, targetCount).mapIndexed { index, progress ->
+        val sourceBook = _uiState.value.selectedSourceBook
+        val deck = repository.loadStudyDeck(grade, targetCount, sourceBook).mapIndexed { index, progress ->
             LearningDeckItem(
                 id = index,
                 progress = progress,
@@ -532,7 +549,8 @@ class MainViewModel(
     private suspend fun buildQuizSession() {
         val grade = _uiState.value.selectedGrade
         val targetCount = _uiState.value.quizCount
-        val words = repository.loadWords(grade)
+        val sourceBook = _uiState.value.selectedSourceBook
+        val words = repository.loadWords(grade).filterBySourceBook(sourceBook)
         val questions = quizFactory.createQuestions(
             words = words,
             count = targetCount,
@@ -572,18 +590,38 @@ class MainViewModel(
     }
 
     private suspend fun refreshReferenceData(grade: SchoolGrade) {
-        val words = repository.loadWords(grade)
-        val wordProgress = repository.loadWordProgress(grade)
-        val dashboard = repository.loadDashboard(grade)
-        val reviewItems = repository.loadReviewItems(grade)
+        val allWords = repository.loadWords(grade)
+        val sourceBookOptions = allWords.sourceBookOptions()
+        val selectedSourceBook = _uiState.value.selectedSourceBook
+            ?.takeIf { it in sourceBookOptions }
+        val words = allWords.filterBySourceBook(selectedSourceBook)
+        val wordProgress = repository.loadWordProgress(grade, selectedSourceBook)
+        val dashboard = repository.loadDashboard(grade, selectedSourceBook)
+        val reviewItems = repository.loadReviewItems(grade, selectedSourceBook)
 
         _uiState.update {
             it.copy(
                 words = words,
+                sourceBookOptions = sourceBookOptions,
+                selectedSourceBook = selectedSourceBook,
                 dashboard = dashboard,
                 wordProgress = wordProgress,
                 reviewItems = reviewItems,
             )
+        }
+    }
+
+    private fun List<WordEntry>.sourceBookOptions(): List<String> =
+        flatMap { entry -> entry.sources.map { source -> source.book.trim() } }
+            .filter { it.isNotBlank() }
+            .distinct()
+            .sorted()
+
+    private fun List<WordEntry>.filterBySourceBook(sourceBook: String?): List<WordEntry> {
+        val selectedBook = sourceBook?.trim().orEmpty()
+        if (selectedBook.isBlank()) return this
+        return filter { entry ->
+            entry.sources.any { source -> source.book.trim() == selectedBook }
         }
     }
 

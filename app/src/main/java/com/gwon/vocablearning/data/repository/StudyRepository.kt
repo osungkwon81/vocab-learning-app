@@ -21,10 +21,10 @@ interface StudyRepository {
     suspend fun setOnboardingCompleted(completed: Boolean)
     suspend fun loadWords(grade: SchoolGrade): List<WordEntry>
     suspend fun getSyncStatus(grade: SchoolGrade): SyncStatus
-    suspend fun loadDashboard(grade: SchoolGrade): DashboardSnapshot
-    suspend fun loadWordProgress(grade: SchoolGrade): List<WordProgress>
-    suspend fun loadStudyDeck(grade: SchoolGrade, count: Int): List<WordProgress>
-    suspend fun loadReviewItems(grade: SchoolGrade): List<ReviewItem>
+    suspend fun loadDashboard(grade: SchoolGrade, sourceBook: String? = null): DashboardSnapshot
+    suspend fun loadWordProgress(grade: SchoolGrade, sourceBook: String? = null): List<WordProgress>
+    suspend fun loadStudyDeck(grade: SchoolGrade, count: Int, sourceBook: String? = null): List<WordProgress>
+    suspend fun loadReviewItems(grade: SchoolGrade, sourceBook: String? = null): List<ReviewItem>
     suspend fun recordLearningResult(
         wordId: Long,
         response: LearningResponse,

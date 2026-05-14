@@ -64,6 +64,13 @@ python3 tools/vocabulary/generate_all.py --upload --upload-manifest
 python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --upload --upload-manifest
 ```
 
+기존 단어도 입력 txt 기준으로 덮어쓰고 싶다면 `--update-existing`를 붙입니다.
+이 옵션은 단어, 품사, 뜻, 예문, 출처 같은 JSON 필드는 갱신하지만 `wordAudioUrl`과 `exampleAudioUrl`은 유지합니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --update-existing --upload --upload-manifest
+```
+
 기존 원격 JSON을 무시하고 완전히 새로 교체해야 할 때만 `--replace-remote`를 붙입니다.
 
 ```bash
