@@ -75,6 +75,7 @@ class OfflineFirstStudyRepository(
         sourceBook: String?,
     ): DashboardSnapshot {
         val progress = loadWordProgress(grade, sourceBook)
+        val now = System.currentTimeMillis()
         val stats = progress.map { it.stat }
         val totalAttempts = stats.sumOf { it.totalSolvedCount }
         val totalElapsed = stats.sumOf { it.totalElapsedMs }
@@ -86,7 +87,10 @@ class OfflineFirstStudyRepository(
             correctAnswers = stats.sumOf { it.correctCount },
             wrongAnswers = stats.sumOf { it.wrongCount },
             averageElapsedMs = if (totalAttempts == 0) 0 else totalElapsed / totalAttempts,
-            reviewCount = progress.count { it.stat.needReview },
+            reviewCount = progress.count { item ->
+                item.stat.totalSolvedCount > 0 &&
+                    (item.stat.needReview || (item.stat.nextReviewAt ?: Long.MAX_VALUE) <= now)
+            },
         )
     }
 
@@ -110,7 +114,13 @@ class OfflineFirstStudyRepository(
         grade: SchoolGrade,
         count: Int,
         sourceBook: String?,
-    ): List<WordProgress> = studyDeckPlanner.prioritize(loadWordProgress(grade, sourceBook), count)
+    ): List<WordProgress> = studyDeckPlanner.buildLearningDeck(loadWordProgress(grade, sourceBook), count)
+
+    override suspend fun loadQuizDeck(
+        grade: SchoolGrade,
+        count: Int,
+        sourceBook: String?,
+    ): List<WordProgress> = studyDeckPlanner.buildQuizDeck(loadWordProgress(grade, sourceBook), count)
 
     override suspend fun loadReviewItems(
         grade: SchoolGrade,
@@ -118,18 +128,24 @@ class OfflineFirstStudyRepository(
     ): List<ReviewItem> =
         loadWordProgress(grade, sourceBook)
             .mapNotNull { progress ->
+                val now = System.currentTimeMillis()
                 val reasons = buildList {
                     if (progress.stat.wrongCount >= 2) add(ReviewReason.MANY_WRONG)
                     if (
                         progress.stat.lastSolvedAt != null &&
-                        System.currentTimeMillis() - progress.stat.lastSolvedAt >= StudyDeckPlanner.OLD_WORD_THRESHOLD_MS
+                        now - progress.stat.lastSolvedAt >= StudyDeckPlanner.OLD_WORD_THRESHOLD_MS
                     ) {
                         add(ReviewReason.LONG_TIME_NO_SEE)
                     }
                     if (progress.stat.averageElapsedMs >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS) {
                         add(ReviewReason.SLOW_RESPONSE)
                     }
-                    if (progress.stat.needReview) add(ReviewReason.EXPLICIT_REVIEW)
+                    if (
+                        progress.stat.needReview ||
+                        (progress.stat.nextReviewAt ?: Long.MAX_VALUE) <= now
+                    ) {
+                        add(ReviewReason.EXPLICIT_REVIEW)
+                    }
                 }.distinct()
 
                 if (reasons.isEmpty()) {
@@ -158,6 +174,7 @@ class OfflineFirstStudyRepository(
             isCorrect = response.isCorrect,
             elapsedMs = elapsedMs,
             wrongWeight = if (response == LearningResponse.UNKNOWN) 2 else 1,
+            response = response,
         )
     }
 
@@ -167,7 +184,13 @@ class OfflineFirstStudyRepository(
         isCorrect: Boolean,
         elapsedMs: Long,
     ) {
-        persistResult(wordId, quizType, isCorrect, elapsedMs)
+        persistResult(
+            wordId = wordId,
+            quizType = quizType,
+            isCorrect = isCorrect,
+            elapsedMs = elapsedMs,
+            response = if (isCorrect) LearningResponse.KNOWN else LearningResponse.UNKNOWN,
+        )
     }
 
     private suspend fun persistResult(
@@ -176,9 +199,17 @@ class OfflineFirstStudyRepository(
         isCorrect: Boolean,
         elapsedMs: Long,
         wrongWeight: Int = 1,
+        response: LearningResponse,
     ) {
         val current = wordStatDao.getByWordId(wordId)
+        val now = System.currentTimeMillis()
         val updated = if (current == null) {
+            val memoryStrength = initialMemoryStrength(response)
+            val nextReviewAt = calculateNextReviewAt(
+                now = now,
+                response = response,
+                memoryStrength = memoryStrength,
+            )
             WordStatEntity(
                 wordId = wordId,
                 totalSolvedCount = 1,
@@ -186,8 +217,17 @@ class OfflineFirstStudyRepository(
                 wrongCount = if (isCorrect) 0 else wrongWeight,
                 totalElapsedMs = elapsedMs,
                 averageElapsedMs = elapsedMs,
-                lastSolvedAt = System.currentTimeMillis(),
-                needReview = !isCorrect || elapsedMs >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS,
+                lastSolvedAt = now,
+                needReview = shouldNeedReview(
+                    isCorrect = isCorrect,
+                    response = response,
+                    averageElapsedMs = elapsedMs,
+                    memoryStrength = memoryStrength,
+                ),
+                nextReviewAt = nextReviewAt,
+                memoryStrength = memoryStrength,
+                consecutiveCorrectCount = if (isCorrect) 1 else 0,
+                lastLearningResponse = response.name,
             )
         } else {
             val totalSolvedCount = current.totalSolvedCount + 1
@@ -195,7 +235,13 @@ class OfflineFirstStudyRepository(
             val wrongCount = current.wrongCount + if (isCorrect) 0 else wrongWeight
             val totalElapsed = current.totalElapsedMs + elapsedMs
             val averageElapsed = totalElapsed / totalSolvedCount
-            val needsMoreCorrectAnswers = wrongCount > correctCount
+            val consecutiveCorrectCount = if (isCorrect) current.consecutiveCorrectCount + 1 else 0
+            val memoryStrength = updatedMemoryStrength(current.memoryStrength, response)
+            val nextReviewAt = calculateNextReviewAt(
+                now = now,
+                response = response,
+                memoryStrength = memoryStrength,
+            )
             WordStatEntity(
                 wordId = wordId,
                 totalSolvedCount = totalSolvedCount,
@@ -203,8 +249,17 @@ class OfflineFirstStudyRepository(
                 wrongCount = wrongCount,
                 totalElapsedMs = totalElapsed,
                 averageElapsedMs = averageElapsed,
-                lastSolvedAt = System.currentTimeMillis(),
-                needReview = needsMoreCorrectAnswers || averageElapsed >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS,
+                lastSolvedAt = now,
+                needReview = shouldNeedReview(
+                    isCorrect = isCorrect,
+                    response = response,
+                    averageElapsedMs = averageElapsed,
+                    memoryStrength = memoryStrength,
+                ),
+                nextReviewAt = nextReviewAt,
+                memoryStrength = memoryStrength,
+                consecutiveCorrectCount = consecutiveCorrectCount,
+                lastLearningResponse = response.name,
             )
         }
 
@@ -215,9 +270,59 @@ class OfflineFirstStudyRepository(
                 quizType = quizType.name,
                 isCorrect = isCorrect,
                 elapsedMs = elapsedMs,
-                solvedAt = System.currentTimeMillis(),
+                solvedAt = now,
             ),
         )
+    }
+
+    private fun initialMemoryStrength(response: LearningResponse): Int =
+        when (response) {
+            LearningResponse.KNOWN -> 1
+            LearningResponse.HESITANT -> 0
+            LearningResponse.UNKNOWN -> 0
+        }
+
+    private fun updatedMemoryStrength(
+        currentStrength: Int,
+        response: LearningResponse,
+    ): Int =
+        when (response) {
+            LearningResponse.KNOWN -> (currentStrength + 1).coerceAtMost(MAX_MEMORY_STRENGTH)
+            LearningResponse.HESITANT -> currentStrength.coerceIn(0, MAX_MEMORY_STRENGTH)
+            LearningResponse.UNKNOWN -> (currentStrength - 2).coerceAtLeast(0)
+        }
+
+    private fun calculateNextReviewAt(
+        now: Long,
+        response: LearningResponse,
+        memoryStrength: Int,
+    ): Long =
+        now + when (response) {
+            LearningResponse.UNKNOWN -> 30L * 60 * 1000
+            LearningResponse.HESITANT -> 6L * 60 * 60 * 1000
+            LearningResponse.KNOWN -> when (memoryStrength) {
+                0 -> 6L * 60 * 60 * 1000
+                1 -> 12L * 60 * 60 * 1000
+                2 -> 1L * 24 * 60 * 60 * 1000
+                3 -> 3L * 24 * 60 * 60 * 1000
+                4 -> 7L * 24 * 60 * 60 * 1000
+                else -> 14L * 24 * 60 * 60 * 1000
+            }
+        }
+
+    private fun shouldNeedReview(
+        isCorrect: Boolean,
+        response: LearningResponse,
+        averageElapsedMs: Long,
+        memoryStrength: Int,
+    ): Boolean =
+        !isCorrect ||
+            response != LearningResponse.KNOWN ||
+            averageElapsedMs >= StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS ||
+            memoryStrength <= 1
+
+    private companion object {
+        const val MAX_MEMORY_STRENGTH = 5
     }
 
     override suspend fun syncCatalog(

@@ -23,6 +23,7 @@ interface StudyRepository {
     suspend fun getSyncStatus(grade: SchoolGrade): SyncStatus
     suspend fun loadDashboard(grade: SchoolGrade, sourceBook: String? = null): DashboardSnapshot
     suspend fun loadWordProgress(grade: SchoolGrade, sourceBook: String? = null): List<WordProgress>
+    suspend fun loadQuizDeck(grade: SchoolGrade, count: Int, sourceBook: String? = null): List<WordProgress>
     suspend fun loadStudyDeck(grade: SchoolGrade, count: Int, sourceBook: String? = null): List<WordProgress>
     suspend fun loadReviewItems(grade: SchoolGrade, sourceBook: String? = null): List<ReviewItem>
     suspend fun recordLearningResult(

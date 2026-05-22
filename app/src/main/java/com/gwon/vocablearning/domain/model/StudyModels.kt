@@ -56,6 +56,10 @@ data class WordStat(
     val averageElapsedMs: Long = 0,
     val lastSolvedAt: Long? = null,
     val needReview: Boolean = false,
+    val nextReviewAt: Long? = null,
+    val memoryStrength: Int = 0,
+    val consecutiveCorrectCount: Int = 0,
+    val lastLearningResponse: LearningResponse? = null,
 )
 
 data class WordProgress(

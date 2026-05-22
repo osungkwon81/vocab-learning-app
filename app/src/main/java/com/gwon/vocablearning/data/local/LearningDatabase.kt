@@ -1,12 +1,14 @@
 package com.gwon.vocablearning.data.local
 
 import android.content.Context
+import androidx.room.migration.Migration
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.sqlite.db.SupportSQLiteDatabase
 
 private const val LEARNING_DB_NAME = "learning.db"
-private const val LEARNING_DB_VERSION = 1
+private const val LEARNING_DB_VERSION = 2
 
 @Database(
     entities = [WordStatEntity::class, QuizHistoryEntity::class],
@@ -30,7 +32,8 @@ abstract class LearningDatabase : RoomDatabase() {
                 context,
                 LearningDatabase::class.java,
                 LEARNING_DB_NAME,
-            ).build()
+            ).addMigrations(MIGRATION_1_2)
+                .build()
 
             return try {
                 // Force the first open here so migration failures happen after a safety backup exists.
@@ -43,5 +46,23 @@ abstract class LearningDatabase : RoomDatabase() {
                 throw throwable
             }
         }
+
+        private val MIGRATION_1_2 =
+            object : Migration(1, 2) {
+                override fun migrate(database: SupportSQLiteDatabase) {
+                    database.execSQL(
+                        "ALTER TABLE word_stat ADD COLUMN next_review_at INTEGER",
+                    )
+                    database.execSQL(
+                        "ALTER TABLE word_stat ADD COLUMN memory_strength INTEGER NOT NULL DEFAULT 0",
+                    )
+                    database.execSQL(
+                        "ALTER TABLE word_stat ADD COLUMN consecutive_correct_count INTEGER NOT NULL DEFAULT 0",
+                    )
+                    database.execSQL(
+                        "ALTER TABLE word_stat ADD COLUMN last_learning_response TEXT",
+                    )
+                }
+            }
     }
 }

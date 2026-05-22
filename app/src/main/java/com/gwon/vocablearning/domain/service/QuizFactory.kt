@@ -3,11 +3,31 @@ package com.gwon.vocablearning.domain.service
 import com.gwon.vocablearning.domain.model.QuizQuestion
 import com.gwon.vocablearning.domain.model.QuizType
 import com.gwon.vocablearning.domain.model.WordEntry
+import com.gwon.vocablearning.domain.model.WordProgress
 import kotlin.random.Random
 
 class QuizFactory(
     private val random: Random = Random.Default,
 ) {
+    fun createQuestions(
+        progress: List<WordProgress>,
+        count: Int,
+    ): List<QuizQuestion> {
+        if (progress.isEmpty()) return emptyList()
+
+        val safeCount = count.coerceAtLeast(1)
+        val rotation = List(safeCount) { index -> progress[index % progress.size] }
+        val pool = progress.map { it.entry }
+
+        return rotation.mapIndexed { index, item ->
+            createQuestion(
+                entry = item.entry,
+                pool = pool,
+                type = selectQuizType(item, index),
+            )
+        }
+    }
+
     fun createQuestions(
         words: List<WordEntry>,
         count: Int,
@@ -21,13 +41,31 @@ class QuizFactory(
             .take(safeCount)
             .toList()
 
-        return rotation.map { entry ->
-            when (type) {
-                QuizType.LEARNING_CARD -> createWordToMeaning(entry, words)
-                QuizType.WORD_TO_MEANING -> createWordToMeaning(entry, words)
-                QuizType.MEANING_TO_WORD -> createMeaningToWord(entry, words)
-                QuizType.SENTENCE_BLANK -> createSentenceBlank(entry, words)
-            }
+        return rotation.map { entry -> createQuestion(entry, words, type) }
+    }
+
+    private fun createQuestion(
+        entry: WordEntry,
+        pool: List<WordEntry>,
+        type: QuizType,
+    ): QuizQuestion =
+        when (type) {
+            QuizType.LEARNING_CARD -> createWordToMeaning(entry, pool)
+            QuizType.WORD_TO_MEANING -> createWordToMeaning(entry, pool)
+            QuizType.MEANING_TO_WORD -> createMeaningToWord(entry, pool)
+            QuizType.SENTENCE_BLANK -> createSentenceBlank(entry, pool)
+        }
+
+    private fun selectQuizType(
+        progress: WordProgress,
+        index: Int,
+    ): QuizType {
+        val stat = progress.stat
+        return when {
+            stat.totalSolvedCount == 0 || stat.memoryStrength <= 1 -> QuizType.WORD_TO_MEANING
+            stat.needReview || stat.wrongCount >= stat.correctCount -> QuizType.MEANING_TO_WORD
+            stat.memoryStrength >= 4 || index % 3 == 2 -> QuizType.SENTENCE_BLANK
+            else -> QuizType.MEANING_TO_WORD
         }
     }
 

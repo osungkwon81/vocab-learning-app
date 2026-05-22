@@ -3,6 +3,7 @@ package com.gwon.vocablearning.data.local
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.WordStat
 
 @Entity(tableName = "word_stat")
@@ -24,6 +25,14 @@ data class WordStatEntity(
     val lastSolvedAt: Long?,
     @ColumnInfo(name = "need_review")
     val needReview: Boolean,
+    @ColumnInfo(name = "next_review_at")
+    val nextReviewAt: Long?,
+    @ColumnInfo(name = "memory_strength")
+    val memoryStrength: Int,
+    @ColumnInfo(name = "consecutive_correct_count")
+    val consecutiveCorrectCount: Int,
+    @ColumnInfo(name = "last_learning_response")
+    val lastLearningResponse: String?,
 )
 
 fun WordStatEntity.toDomain(): WordStat =
@@ -36,5 +45,8 @@ fun WordStatEntity.toDomain(): WordStat =
         averageElapsedMs = averageElapsedMs,
         lastSolvedAt = lastSolvedAt,
         needReview = needReview,
+        nextReviewAt = nextReviewAt,
+        memoryStrength = memoryStrength,
+        consecutiveCorrectCount = consecutiveCorrectCount,
+        lastLearningResponse = lastLearningResponse?.let(LearningResponse::valueOf),
     )
-

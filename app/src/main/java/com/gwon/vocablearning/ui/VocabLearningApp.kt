@@ -1925,9 +1925,12 @@ private fun sortWordProgress(
 
 private fun wordListPriorityScore(progress: WordProgress): Int {
     val stat = progress.stat
-    val unseenScore = if (stat.totalSolvedCount == 0) 4 else 0
-    val reviewScore = if (stat.needReview) 5 else 0
-    return unseenScore + reviewScore + (stat.wrongCount * 4) - (stat.correctCount * 2)
+    val now = System.currentTimeMillis()
+    val unseenScore = if (stat.totalSolvedCount == 0) 10_000 else 0
+    val dueScore = if ((stat.nextReviewAt ?: Long.MAX_VALUE) <= now && stat.totalSolvedCount > 0) 6_000 else 0
+    val reviewScore = if (stat.needReview) 3_000 else 0
+    val memoryScore = (5 - stat.memoryStrength.coerceIn(0, 5)) * 300
+    return unseenScore + dueScore + reviewScore + memoryScore + (stat.wrongCount * 4) - (stat.correctCount * 2)
 }
 
 private fun List<WordProgress>.filterBySearchQuery(query: String): List<WordProgress> {

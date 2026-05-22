@@ -550,11 +550,10 @@ class MainViewModel(
         val grade = _uiState.value.selectedGrade
         val targetCount = _uiState.value.quizCount
         val sourceBook = _uiState.value.selectedSourceBook
-        val words = repository.loadWords(grade).filterBySourceBook(sourceBook)
+        val deck = repository.loadQuizDeck(grade, targetCount, sourceBook)
         val questions = quizFactory.createQuestions(
-            words = words,
+            progress = deck,
             count = targetCount,
-            type = QuizType.WORD_TO_MEANING,
         )
 
         _uiState.update {
