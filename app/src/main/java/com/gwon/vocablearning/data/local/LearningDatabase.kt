@@ -1,9 +1,11 @@
 package com.gwon.vocablearning.data.local
 
 import android.content.Context
+import android.util.Log
 import androidx.room.migration.Migration
 import androidx.room.Database
 import androidx.room.Room
+import androidx.room.RoomDatabase.Builder
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 
@@ -26,24 +28,54 @@ abstract class LearningDatabase : RoomDatabase() {
                 databaseName = LEARNING_DB_NAME,
                 targetVersion = LEARNING_DB_VERSION,
             )
+            val requiresVersionUpgrade = protection.requiresVersionUpgrade()
             protection.backupBeforeVersionChange()
 
-            val database = Room.databaseBuilder(
-                context,
-                LearningDatabase::class.java,
-                LEARNING_DB_NAME,
-            ).addMigrations(MIGRATION_1_2)
-                .build()
+            val database = createBuilder(context).build()
 
             return try {
                 // Force the first open here so migration failures happen after a safety backup exists.
-                database.openHelper.writableDatabase
+                open(database)
                 database
             } catch (throwable: RuntimeException) {
                 runCatching { database.close() }
                 val restored = protection.restoreLatestBackupIfDatabaseMissing()
                 protection.recordOpenFailure(throwable, restored)
-                throw throwable
+                if (!requiresVersionUpgrade) {
+                    throw throwable
+                }
+
+                recoverWithDestructiveMigration(context, throwable)
+            }
+        }
+
+        private fun createBuilder(context: Context): Builder<LearningDatabase> =
+            Room.databaseBuilder(
+                context,
+                LearningDatabase::class.java,
+                LEARNING_DB_NAME,
+            ).addMigrations(MIGRATION_1_2)
+
+        private fun open(database: LearningDatabase) {
+            database.openHelper.writableDatabase
+        }
+
+        private fun recoverWithDestructiveMigration(
+            context: Context,
+            originalThrowable: RuntimeException,
+        ): LearningDatabase {
+            Log.e(TAG, "Migration open failed. Falling back to destructive migration.", originalThrowable)
+            val fallbackDatabase = createBuilder(context)
+                .fallbackToDestructiveMigration()
+                .build()
+
+            return try {
+                open(fallbackDatabase)
+                fallbackDatabase
+            } catch (fallbackThrowable: RuntimeException) {
+                runCatching { fallbackDatabase.close() }
+                fallbackThrowable.addSuppressed(originalThrowable)
+                throw fallbackThrowable
             }
         }
 
@@ -64,5 +96,7 @@ abstract class LearningDatabase : RoomDatabase() {
                     )
                 }
             }
+
+        private const val TAG = "LearningDatabase"
     }
 }

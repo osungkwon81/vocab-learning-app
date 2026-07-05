@@ -13,10 +13,13 @@ class CatalogFileStore(
     private val context: Context,
     private val json: Json = Json { ignoreUnknownKeys = true },
 ) {
+    private val wordSetCache = mutableMapOf<SchoolGrade, WordSetDto>()
+
     suspend fun loadWordSet(grade: SchoolGrade): WordSetDto =
         withContext(Dispatchers.IO) {
+            wordSetCache[grade]?.let { return@withContext it }
             val localFile = localCatalogFile(grade)
-            if (localFile.exists()) {
+            val wordSet = if (localFile.exists()) {
                 runCatching {
                     json.decodeFromString<WordSetDto>(localFile.readText())
                 }.getOrElse {
@@ -27,6 +30,8 @@ class CatalogFileStore(
             } else {
                 loadBundledWordSet(grade)
             }
+            wordSetCache[grade] = wordSet
+            wordSet
         }
 
     suspend fun loadBundledManifest(): VersionManifestDto =
@@ -40,6 +45,7 @@ class CatalogFileStore(
             val target = localCatalogFile(grade)
             target.parentFile?.mkdirs()
             target.writeBytes(payload)
+            wordSetCache.remove(grade)
         }
     }
 

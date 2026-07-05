@@ -1,7 +1,7 @@
 {
   "language": "en",
   "grade": "high1",
-  "version": 4,
+  "version": 8,
   "words": [
     {
       "wordId": 400001,
@@ -51777,6 +51777,5158 @@
         }
       ],
       "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fclaim.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401276,
+      "word": "partially blinded",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "부분적으로 눈이 먼"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "He supported the partially blinded veteran.",
+      "exampleTranslation": "그는 부분적으로 눈이 먼 재향 군인을 도왔다. observe",
+      "examples": [
+        {
+          "sentence": "He supported the partially blinded veteran.",
+          "translation": "그는 부분적으로 눈이 먼 재향 군인을 도왔다. observe"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fpartially-blinded.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401277,
+      "word": "self-aware",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "스스로를 인식하는"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Computers may become self-aware in the future.",
+      "exampleTranslation": "미래에는 컴퓨터가 스스로를 인식하게 될지도 모른다. pursue",
+      "examples": [
+        {
+          "sentence": "Computers may become self-aware in the future.",
+          "translation": "미래에는 컴퓨터가 스스로를 인식하게 될지도 모른다. pursue"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fself-aware.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401278,
+      "word": "attention",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "관심"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The speaker attracted the attention of the audience.",
+      "exampleTranslation": "연설자는 청중의 관심을 끌었다. ignore",
+      "examples": [
+        {
+          "sentence": "The speaker attracted the attention of the audience.",
+          "translation": "연설자는 청중의 관심을 끌었다. ignore"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fattention.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401279,
+      "word": "activate",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "활성화하다"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "You need to enter a code to activate the card.",
+      "exampleTranslation": "카드를 활성화하려면 코드를 입력해야 한다. adapt",
+      "examples": [
+        {
+          "sentence": "You need to enter a code to activate the card.",
+          "translation": "카드를 활성화하려면 코드를 입력해야 한다. adapt"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Factivate.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401280,
+      "word": "relatively",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "상대적으로"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The test was relatively easy.",
+      "exampleTranslation": "그 시험은 상대적으로 쉬웠다. unconscious",
+      "examples": [
+        {
+          "sentence": "The test was relatively easy.",
+          "translation": "그 시험은 상대적으로 쉬웠다. unconscious"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Frelatively.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401281,
+      "word": "obligation",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "의무",
+        "책임"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "We have a legal obligation to pay taxes.",
+      "exampleTranslation": "우리는 세금을 낼 법적 의무가 있다. room",
+      "examples": [
+        {
+          "sentence": "We have a legal obligation to pay taxes.",
+          "translation": "우리는 세금을 낼 법적 의무가 있다. room"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Fobligation.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401282,
+      "word": "take the high road",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "올바른 길을 택하다"
+      ],
+      "meaningsEn": [],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "He decided to take the high road during the debate.",
+      "exampleTranslation": "그는 토론 중에 올바른 길을 택하기로 했다. tempting",
+      "examples": [
+        {
+          "sentence": "He decided to take the high road during the debate.",
+          "translation": "그는 토론 중에 올바른 길을 택하기로 했다. tempting"
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "https://firebasestorage.googleapis.com/v0/b/vocab-learning-ff783.firebasestorage.app/o/audio%2Fen%2Fwords%2Ftake-the-high-road.mp3?alt=media",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401283,
+      "word": "partially",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ˈpɑːrʃəli/",
+      "meanings": [
+        "부분적으로"
+      ],
+      "meaningsEn": [
+        "not completely"
+      ],
+      "synonyms": [
+        "partly"
+      ],
+      "antonyms": [
+        "completely"
+      ],
+      "exampleSentence": "The window was partially open during the experiment.",
+      "exampleTranslation": "실험 중 창문은 부분적으로 열려 있었다.",
+      "examples": [
+        {
+          "sentence": "The window was partially open during the experiment.",
+          "translation": "실험 중 창문은 부분적으로 열려 있었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401284,
+      "word": "blinded",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈblaɪndɪd/",
+      "meanings": [
+        "눈이 먼"
+      ],
+      "meaningsEn": [
+        "unable to see"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The blinded animal needed help to survive.",
+      "exampleTranslation": "눈이 먼 동물은 살아남기 위해 도움이 필요했다.",
+      "examples": [
+        {
+          "sentence": "The blinded animal needed help to survive.",
+          "translation": "눈이 먼 동물은 살아남기 위해 도움이 필요했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401285,
+      "word": "from a distance",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "멀리서"
+      ],
+      "meaningsEn": [
+        "not near someone or something"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "We watched the whale from a distance.",
+      "exampleTranslation": "우리는 멀리서 고래를 보았다.",
+      "examples": [
+        {
+          "sentence": "We watched the whale from a distance.",
+          "translation": "우리는 멀리서 고래를 보았다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401286,
+      "word": "evolutionary biology",
+      "type": "phrase",
+      "pos": [
+        "noun phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "진화 생물학"
+      ],
+      "meaningsEn": [
+        "the study of how living things change over time"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Evolutionary biology explains how species change.",
+      "exampleTranslation": "진화 생물학은 종이 어떻게 변하는지 설명한다.",
+      "examples": [
+        {
+          "sentence": "Evolutionary biology explains how species change.",
+          "translation": "진화 생물학은 종이 어떻게 변하는지 설명한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401287,
+      "word": "eventually",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ɪˈventʃuəli/",
+      "meanings": [
+        "마침내"
+      ],
+      "meaningsEn": [
+        "in the end"
+      ],
+      "synonyms": [
+        "finally"
+      ],
+      "antonyms": [
+        "initially"
+      ],
+      "exampleSentence": "She eventually became a famous biologist.",
+      "exampleTranslation": "그녀는 마침내 유명한 생물학자가 되었다.",
+      "examples": [
+        {
+          "sentence": "She eventually became a famous biologist.",
+          "translation": "그녀는 마침내 유명한 생물학자가 되었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401288,
+      "word": "biology",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/baɪˈɑːlədʒi/",
+      "meanings": [
+        "생물학"
+      ],
+      "meaningsEn": [
+        "the scientific study of living things"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Biology helps us understand living things.",
+      "exampleTranslation": "생물학은 우리가 생명체를 이해하도록 돕는다.",
+      "examples": [
+        {
+          "sentence": "Biology helps us understand living things.",
+          "translation": "생물학은 우리가 생명체를 이해하도록 돕는다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401289,
+      "word": "Ph.D.",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌpiː eɪtʃ ˈdiː/",
+      "meanings": [
+        "박사 학위"
+      ],
+      "meaningsEn": [
+        "the highest university degree"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "She earned a Ph.D. in biology.",
+      "exampleTranslation": "그녀는 생물학 박사 학위를 받았다.",
+      "examples": [
+        {
+          "sentence": "She earned a Ph.D. in biology.",
+          "translation": "그녀는 생물학 박사 학위를 받았다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401290,
+      "word": "release",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/rɪˈliːs/",
+      "meanings": [
+        "발표하다",
+        "공개하다"
+      ],
+      "meaningsEn": [
+        "to make information available"
+      ],
+      "synonyms": [
+        "publish",
+        "free"
+      ],
+      "antonyms": [
+        "hold"
+      ],
+      "exampleSentence": "The group released a report on climate change.",
+      "exampleTranslation": "그 단체는 기후 변화에 관한 보고서를 발표했다.",
+      "examples": [
+        {
+          "sentence": "The group released a report on climate change.",
+          "translation": "그 단체는 기후 변화에 관한 보고서를 발표했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401291,
+      "word": "movement",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈmuːvmənt/",
+      "meanings": [
+        "운동",
+        "움직임"
+      ],
+      "meaningsEn": [
+        "a group of people working for a shared goal"
+      ],
+      "synonyms": [
+        "campaign"
+      ],
+      "antonyms": [
+        "stillness"
+      ],
+      "exampleSentence": "The environmental movement grew quickly.",
+      "exampleTranslation": "환경 운동은 빠르게 성장했다.",
+      "examples": [
+        {
+          "sentence": "The environmental movement grew quickly.",
+          "translation": "환경 운동은 빠르게 성장했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401292,
+      "word": "harm",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/hɑːrm/",
+      "meanings": [
+        "해를 끼치다"
+      ],
+      "meaningsEn": [
+        "to hurt or damage someone or something"
+      ],
+      "synonyms": [
+        "damage",
+        "hurt"
+      ],
+      "antonyms": [
+        "protect"
+      ],
+      "exampleSentence": "Plastic waste can harm marine animals.",
+      "exampleTranslation": "플라스틱 쓰레기는 해양 동물에게 해를 끼칠 수 있다.",
+      "examples": [
+        {
+          "sentence": "Plastic waste can harm marine animals.",
+          "translation": "플라스틱 쓰레기는 해양 동물에게 해를 끼칠 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401293,
+      "word": "marine",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/məˈriːn/",
+      "meanings": [
+        "해양의"
+      ],
+      "meaningsEn": [
+        "related to the sea"
+      ],
+      "synonyms": [
+        "oceanic"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Marine animals need clean oceans.",
+      "exampleTranslation": "해양 동물들은 깨끗한 바다가 필요하다.",
+      "examples": [
+        {
+          "sentence": "Marine animals need clean oceans.",
+          "translation": "해양 동물들은 깨끗한 바다가 필요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401294,
+      "word": "mammal",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈmæml/",
+      "meanings": [
+        "포유류"
+      ],
+      "meaningsEn": [
+        "an animal that feeds its babies with milk"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "A whale is a marine mammal.",
+      "exampleTranslation": "고래는 해양 포유류이다.",
+      "examples": [
+        {
+          "sentence": "A whale is a marine mammal.",
+          "translation": "고래는 해양 포유류이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401295,
+      "word": "ban",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/bæn/",
+      "meanings": [
+        "금지하다",
+        "금지"
+      ],
+      "meaningsEn": [
+        "to officially stop something"
+      ],
+      "synonyms": [
+        "prohibit"
+      ],
+      "antonyms": [
+        "allow"
+      ],
+      "exampleSentence": "Many countries ban commercial whaling.",
+      "exampleTranslation": "많은 나라들이 상업적 포경을 금지한다.",
+      "examples": [
+        {
+          "sentence": "Many countries ban commercial whaling.",
+          "translation": "많은 나라들이 상업적 포경을 금지한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401296,
+      "word": "commercial",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/kəˈmɜːrʃl/",
+      "meanings": [
+        "상업적인"
+      ],
+      "meaningsEn": [
+        "related to business or trade"
+      ],
+      "synonyms": [
+        "business"
+      ],
+      "antonyms": [
+        "noncommercial"
+      ],
+      "exampleSentence": "Commercial whaling caused serious problems.",
+      "exampleTranslation": "상업적 포경은 심각한 문제를 일으켰다.",
+      "examples": [
+        {
+          "sentence": "Commercial whaling caused serious problems.",
+          "translation": "상업적 포경은 심각한 문제를 일으켰다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401297,
+      "word": "whaling",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈweɪlɪŋ/",
+      "meanings": [
+        "고래 포획"
+      ],
+      "meaningsEn": [
+        "the activity of hunting whales"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Whaling has been banned in many areas.",
+      "exampleTranslation": "고래 포획은 많은 지역에서 금지되었다.",
+      "examples": [
+        {
+          "sentence": "Whaling has been banned in many areas.",
+          "translation": "고래 포획은 많은 지역에서 금지되었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401298,
+      "word": "evolution",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌevəˈluːʃn/",
+      "meanings": [
+        "진화"
+      ],
+      "meaningsEn": [
+        "the gradual change of living things over time"
+      ],
+      "synonyms": [
+        "development"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Evolution is connected with adaptation.",
+      "exampleTranslation": "진화는 적응과 관련이 있다.",
+      "examples": [
+        {
+          "sentence": "Evolution is connected with adaptation.",
+          "translation": "진화는 적응과 관련이 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401299,
+      "word": "be associated with",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~과 연관되다"
+      ],
+      "meaningsEn": [
+        "to be connected with something"
+      ],
+      "synonyms": [
+        "be connected with"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Language is associated with human intelligence.",
+      "exampleTranslation": "언어는 인간의 지능과 연관되어 있다.",
+      "examples": [
+        {
+          "sentence": "Language is associated with human intelligence.",
+          "translation": "언어는 인간의 지능과 연관되어 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401300,
+      "word": "concept",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈkɑːnsept/",
+      "meanings": [
+        "개념"
+      ],
+      "meaningsEn": [
+        "an idea"
+      ],
+      "synonyms": [
+        "idea",
+        "notion"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The concept of evolution is important in biology.",
+      "exampleTranslation": "진화의 개념은 생물학에서 중요하다.",
+      "examples": [
+        {
+          "sentence": "The concept of evolution is important in biology.",
+          "translation": "진화의 개념은 생물학에서 중요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401301,
+      "word": "singularity",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌsɪŋɡjuˈlærəti/",
+      "meanings": [
+        "특이점"
+      ],
+      "meaningsEn": [
+        "a point where something becomes extremely different"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The singularity is often discussed in AI studies.",
+      "exampleTranslation": "특이점은 인공지능 연구에서 자주 논의된다.",
+      "examples": [
+        {
+          "sentence": "The singularity is often discussed in AI studies.",
+          "translation": "특이점은 인공지능 연구에서 자주 논의된다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401302,
+      "word": "refer",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/rɪˈfɜːr/",
+      "meanings": [
+        "의미하다",
+        "언급하다"
+      ],
+      "meaningsEn": [
+        "to mean or mention something"
+      ],
+      "synonyms": [
+        "mean",
+        "mention"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The word refers to a future event.",
+      "exampleTranslation": "그 단어는 미래의 사건을 의미한다.",
+      "examples": [
+        {
+          "sentence": "The word refers to a future event.",
+          "translation": "그 단어는 미래의 사건을 의미한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401303,
+      "word": "exceed",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪkˈsiːd/",
+      "meanings": [
+        "넘어서다"
+      ],
+      "meaningsEn": [
+        "to be greater than a limit"
+      ],
+      "synonyms": [
+        "surpass"
+      ],
+      "antonyms": [
+        "fall short of"
+      ],
+      "exampleSentence": "The machine may exceed human ability.",
+      "exampleTranslation": "그 기계는 인간의 능력을 넘어설지도 모른다.",
+      "examples": [
+        {
+          "sentence": "The machine may exceed human ability.",
+          "translation": "그 기계는 인간의 능력을 넘어설지도 모른다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401304,
+      "word": "intelligence",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "meanings": [
+        "지능"
+      ],
+      "meaningsEn": [
+        "the ability to learn and understand"
+      ],
+      "synonyms": [
+        "intellect"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Human intelligence is difficult to measure.",
+      "exampleTranslation": "인간의 지능은 측정하기 어렵다.",
+      "examples": [
+        {
+          "sentence": "Human intelligence is difficult to measure.",
+          "translation": "인간의 지능은 측정하기 어렵다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401305,
+      "word": "accelerated",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/əkˈseləreɪtɪd/",
+      "meanings": [
+        "가속화된"
+      ],
+      "meaningsEn": [
+        "happening faster than usual"
+      ],
+      "synonyms": [
+        "speeded-up"
+      ],
+      "antonyms": [
+        "slowed"
+      ],
+      "exampleSentence": "Technology has brought accelerated change.",
+      "exampleTranslation": "기술은 가속화된 변화를 가져왔다.",
+      "examples": [
+        {
+          "sentence": "Technology has brought accelerated change.",
+          "translation": "기술은 가속화된 변화를 가져왔다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401306,
+      "word": "dimension",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/daɪˈmenʃn/",
+      "meanings": [
+        "차원"
+      ],
+      "meaningsEn": [
+        "an aspect or side of something"
+      ],
+      "synonyms": [
+        "aspect"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The issue has a social dimension.",
+      "exampleTranslation": "그 문제에는 사회적 차원이 있다.",
+      "examples": [
+        {
+          "sentence": "The issue has a social dimension.",
+          "translation": "그 문제에는 사회적 차원이 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401307,
+      "word": "intellectual",
+      "type": "word",
+      "pos": [
+        "adjective",
+        "noun"
+      ],
+      "phonetic": "/ˌɪntəˈlektʃuəl/",
+      "meanings": [
+        "지적인"
+      ],
+      "meaningsEn": [
+        "related to thinking and learning"
+      ],
+      "synonyms": [
+        "mental"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Reading gives us intellectual stimulation.",
+      "exampleTranslation": "독서는 우리에게 지적인 자극을 준다.",
+      "examples": [
+        {
+          "sentence": "Reading gives us intellectual stimulation.",
+          "translation": "독서는 우리에게 지적인 자극을 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401308,
+      "word": "inspire",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪnˈspaɪər/",
+      "meanings": [
+        "불어넣다",
+        "영감을 주다"
+      ],
+      "meaningsEn": [
+        "to make someone feel a strong desire to do something"
+      ],
+      "synonyms": [
+        "encourage",
+        "motivate"
+      ],
+      "antonyms": [
+        "discourage"
+      ],
+      "exampleSentence": "A good teacher can inspire students.",
+      "exampleTranslation": "좋은 선생님은 학생들에게 영감을 줄 수 있다.",
+      "examples": [
+        {
+          "sentence": "A good teacher can inspire students.",
+          "translation": "좋은 선생님은 학생들에게 영감을 줄 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401309,
+      "word": "conversely",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ˈkɑːnvɜːrsli/",
+      "meanings": [
+        "반대로"
+      ],
+      "meaningsEn": [
+        "in an opposite way"
+      ],
+      "synonyms": [
+        "on the other hand"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Exercise helps the body, conversely, stress can harm it.",
+      "exampleTranslation": "운동은 몸에 도움이 되고 반대로 스트레스는 해로울 수 있다.",
+      "examples": [
+        {
+          "sentence": "Exercise helps the body, conversely, stress can harm it.",
+          "translation": "운동은 몸에 도움이 되고 반대로 스트레스는 해로울 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401310,
+      "word": "ethics",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈeθɪks/",
+      "meanings": [
+        "윤리"
+      ],
+      "meaningsEn": [
+        "moral principles"
+      ],
+      "synonyms": [
+        "morality"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Science should be guided by ethics.",
+      "exampleTranslation": "과학은 윤리에 의해 이끌려야 한다.",
+      "examples": [
+        {
+          "sentence": "Science should be guided by ethics.",
+          "translation": "과학은 윤리에 의해 이끌려야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401311,
+      "word": "incorporate",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪnˈkɔːrpəreɪt/",
+      "meanings": [
+        "통합시키다"
+      ],
+      "meaningsEn": [
+        "to include something as part of a whole"
+      ],
+      "synonyms": [
+        "include",
+        "integrate"
+      ],
+      "antonyms": [
+        "exclude"
+      ],
+      "exampleSentence": "The program incorporates new ideas.",
+      "exampleTranslation": "그 프로그램은 새로운 생각을 통합한다.",
+      "examples": [
+        {
+          "sentence": "The program incorporates new ideas.",
+          "translation": "그 프로그램은 새로운 생각을 통합한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401312,
+      "word": "mutual",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈmjuːtʃuəl/",
+      "meanings": [
+        "상호의"
+      ],
+      "meaningsEn": [
+        "shared by two or more people"
+      ],
+      "synonyms": [
+        "shared"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Mutual respect is important in society.",
+      "exampleTranslation": "상호 존중은 사회에서 중요하다.",
+      "examples": [
+        {
+          "sentence": "Mutual respect is important in society.",
+          "translation": "상호 존중은 사회에서 중요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401313,
+      "word": "coexistence",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌkoʊɪɡˈzɪstəns/",
+      "meanings": [
+        "공존"
+      ],
+      "meaningsEn": [
+        "living or existing together"
+      ],
+      "synonyms": [
+        "cohabitation"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Peaceful coexistence requires understanding.",
+      "exampleTranslation": "평화로운 공존은 이해를 필요로 한다.",
+      "examples": [
+        {
+          "sentence": "Peaceful coexistence requires understanding.",
+          "translation": "평화로운 공존은 이해를 필요로 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401314,
+      "word": "carbon dioxide",
+      "type": "phrase",
+      "pos": [
+        "noun phrase"
+      ],
+      "phonetic": "/ˌkɑːrbən daɪˈɑːksaɪd/",
+      "meanings": [
+        "이산화 탄소"
+      ],
+      "meaningsEn": [
+        "a gas produced by breathing and burning fuel"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Trees absorb carbon dioxide from the air.",
+      "exampleTranslation": "나무는 공기 중의 이산화 탄소를 흡수한다.",
+      "examples": [
+        {
+          "sentence": "Trees absorb carbon dioxide from the air.",
+          "translation": "나무는 공기 중의 이산화 탄소를 흡수한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401315,
+      "word": "take out of",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~으로부터 ~을 빼내다"
+      ],
+      "meaningsEn": [
+        "to remove something from a place"
+      ],
+      "synonyms": [
+        "remove"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Plants take carbon dioxide out of the atmosphere.",
+      "exampleTranslation": "식물은 대기에서 이산화 탄소를 빼낸다.",
+      "examples": [
+        {
+          "sentence": "Plants take carbon dioxide out of the atmosphere.",
+          "translation": "식물은 대기에서 이산화 탄소를 빼낸다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401316,
+      "word": "atmosphere",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈætməsfɪr/",
+      "meanings": [
+        "대기"
+      ],
+      "meaningsEn": [
+        "the air around the earth"
+      ],
+      "synonyms": [
+        "air"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The atmosphere protects life on Earth.",
+      "exampleTranslation": "대기는 지구의 생명체를 보호한다.",
+      "examples": [
+        {
+          "sentence": "The atmosphere protects life on Earth.",
+          "translation": "대기는 지구의 생명체를 보호한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401317,
+      "word": "absorb",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/əbˈzɔːrb/",
+      "meanings": [
+        "흡수하다"
+      ],
+      "meaningsEn": [
+        "to take in liquid",
+        "gas",
+        "or energy"
+      ],
+      "synonyms": [
+        "take in"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "exampleSentence": "The ocean absorbs heat from the sun.",
+      "exampleTranslation": "바다는 태양의 열을 흡수한다.",
+      "examples": [
+        {
+          "sentence": "The ocean absorbs heat from the sun.",
+          "translation": "바다는 태양의 열을 흡수한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401318,
+      "word": "perspective",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/pərˈspektɪv/",
+      "meanings": [
+        "관점"
+      ],
+      "meaningsEn": [
+        "a way of thinking about something"
+      ],
+      "synonyms": [
+        "viewpoint"
+      ],
+      "antonyms": [],
+      "exampleSentence": "We need to see the problem from a new perspective.",
+      "exampleTranslation": "우리는 그 문제를 새로운 관점에서 볼 필요가 있다.",
+      "examples": [
+        {
+          "sentence": "We need to see the problem from a new perspective.",
+          "translation": "우리는 그 문제를 새로운 관점에서 볼 필요가 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401319,
+      "word": "equivalent",
+      "type": "word",
+      "pos": [
+        "adjective",
+        "noun"
+      ],
+      "phonetic": "/ɪˈkwɪvələnt/",
+      "meanings": [
+        "상응하는 것",
+        "동가물"
+      ],
+      "meaningsEn": [
+        "equal in value or meaning"
+      ],
+      "synonyms": [
+        "equal"
+      ],
+      "antonyms": [
+        "different"
+      ],
+      "exampleSentence": "This result is equivalent to a large reduction in waste.",
+      "exampleTranslation": "이 결과는 쓰레기를 크게 줄이는 것과 상응한다.",
+      "examples": [
+        {
+          "sentence": "This result is equivalent to a large reduction in waste.",
+          "translation": "이 결과는 쓰레기를 크게 줄이는 것과 상응한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401320,
+      "word": "fertilize",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈfɜːrtəlaɪz/",
+      "meanings": [
+        "비옥하게 하다"
+      ],
+      "meaningsEn": [
+        "to make soil rich for plants"
+      ],
+      "synonyms": [
+        "enrich"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Farmers fertilize the soil before planting.",
+      "exampleTranslation": "농부들은 심기 전에 토양을 비옥하게 한다.",
+      "examples": [
+        {
+          "sentence": "Farmers fertilize the soil before planting.",
+          "translation": "농부들은 심기 전에 토양을 비옥하게 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401321,
+      "word": "estimate",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/ˈestɪmeɪt/",
+      "meanings": [
+        "추정하다",
+        "추산하다"
+      ],
+      "meaningsEn": [
+        "to guess an amount based on information"
+      ],
+      "synonyms": [
+        "calculate",
+        "guess"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Scientists estimate the number of whales.",
+      "exampleTranslation": "과학자들은 고래의 수를 추정한다.",
+      "examples": [
+        {
+          "sentence": "Scientists estimate the number of whales.",
+          "translation": "과학자들은 고래의 수를 추정한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401322,
+      "word": "call for",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~을 필요로 하다",
+        "요구하다"
+      ],
+      "meaningsEn": [
+        "to require or demand something"
+      ],
+      "synonyms": [
+        "require",
+        "demand"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Climate change calls for immediate action.",
+      "exampleTranslation": "기후 변화는 즉각적인 행동을 필요로 한다.",
+      "examples": [
+        {
+          "sentence": "Climate change calls for immediate action.",
+          "translation": "기후 변화는 즉각적인 행동을 필요로 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401323,
+      "word": "preindustrial",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˌpriːɪnˈdʌstriəl/",
+      "meanings": [
+        "산업화 이전의"
+      ],
+      "meaningsEn": [
+        "before the development of industry"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Carbon levels were lower in preindustrial times.",
+      "exampleTranslation": "산업화 이전 시대에는 탄소 수준이 더 낮았다.",
+      "examples": [
+        {
+          "sentence": "Carbon levels were lower in preindustrial times.",
+          "translation": "산업화 이전 시대에는 탄소 수준이 더 낮았다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401324,
+      "word": "restoration",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌrestəˈreɪʃn/",
+      "meanings": [
+        "복원",
+        "복구"
+      ],
+      "meaningsEn": [
+        "the act of bringing something back to its former state"
+      ],
+      "synonyms": [
+        "recovery"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Forest restoration helps protect animals.",
+      "exampleTranslation": "숲 복원은 동물을 보호하는 데 도움이 된다.",
+      "examples": [
+        {
+          "sentence": "Forest restoration helps protect animals.",
+          "translation": "숲 복원은 동물을 보호하는 데 도움이 된다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401325,
+      "word": "slow down",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "늦추다"
+      ],
+      "meaningsEn": [
+        "to become slower or make something slower"
+      ],
+      "synonyms": [
+        "decelerate"
+      ],
+      "antonyms": [
+        "speed up"
+      ],
+      "exampleSentence": "We must slow down climate change.",
+      "exampleTranslation": "우리는 기후 변화를 늦춰야 한다.",
+      "examples": [
+        {
+          "sentence": "We must slow down climate change.",
+          "translation": "우리는 기후 변화를 늦춰야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401326,
+      "word": "when it comes to",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~에 관해서라면"
+      ],
+      "meaningsEn": [
+        "when speaking about something"
+      ],
+      "synonyms": [
+        "regarding"
+      ],
+      "antonyms": [],
+      "exampleSentence": "When it comes to science, evidence is important.",
+      "exampleTranslation": "과학에 관해서라면 증거가 중요하다.",
+      "examples": [
+        {
+          "sentence": "When it comes to science, evidence is important.",
+          "translation": "과학에 관해서라면 증거가 중요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401327,
+      "word": "don't have to do",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~할 필요가 없다"
+      ],
+      "meaningsEn": [
+        "not need to do something"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "You do not have to do everything alone.",
+      "exampleTranslation": "너는 모든 일을 혼자 할 필요가 없다.",
+      "examples": [
+        {
+          "sentence": "You do not have to do everything alone.",
+          "translation": "너는 모든 일을 혼자 할 필요가 없다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401328,
+      "word": "care",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/ker/",
+      "meanings": [
+        "관심을 가지다",
+        "돌봄"
+      ],
+      "meaningsEn": [
+        "to feel concern about someone or something"
+      ],
+      "synonyms": [
+        "mind",
+        "look after"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "exampleSentence": "Friends care about each other.",
+      "exampleTranslation": "친구들은 서로에게 관심을 가진다.",
+      "examples": [
+        {
+          "sentence": "Friends care about each other.",
+          "translation": "친구들은 서로에게 관심을 가진다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401329,
+      "word": "lonely",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈloʊnli/",
+      "meanings": [
+        "외로운"
+      ],
+      "meaningsEn": [
+        "sad because one is alone"
+      ],
+      "synonyms": [
+        "alone"
+      ],
+      "antonyms": [],
+      "exampleSentence": "She felt lonely in a new school.",
+      "exampleTranslation": "그녀는 새 학교에서 외로움을 느꼈다.",
+      "examples": [
+        {
+          "sentence": "She felt lonely in a new school.",
+          "translation": "그녀는 새 학교에서 외로움을 느꼈다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401330,
+      "word": "all by oneself",
+      "type": "phrase",
+      "pos": [
+        "phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "혼자",
+        "다른 사람 없이"
+      ],
+      "meaningsEn": [
+        "alone without help"
+      ],
+      "synonyms": [
+        "alone"
+      ],
+      "antonyms": [],
+      "exampleSentence": "He solved the problem all by himself.",
+      "exampleTranslation": "그는 그 문제를 혼자 해결했다.",
+      "examples": [
+        {
+          "sentence": "He solved the problem all by himself.",
+          "translation": "그는 그 문제를 혼자 해결했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401331,
+      "word": "owe to",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~은 ~ 덕분이다"
+      ],
+      "meaningsEn": [
+        "to be caused by someone or something"
+      ],
+      "synonyms": [
+        "be due to"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Her success owes much to her effort.",
+      "exampleTranslation": "그녀의 성공은 많은 부분이 그녀의 노력 덕분이다.",
+      "examples": [
+        {
+          "sentence": "Her success owes much to her effort.",
+          "translation": "그녀의 성공은 많은 부분이 그녀의 노력 덕분이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401332,
+      "word": "ignore",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪɡˈnɔːr/",
+      "meanings": [
+        "무시하다"
+      ],
+      "meaningsEn": [
+        "to pay no attention to someone or something"
+      ],
+      "synonyms": [
+        "disregard"
+      ],
+      "antonyms": [
+        "notice"
+      ],
+      "exampleSentence": "Do not ignore small problems.",
+      "exampleTranslation": "작은 문제들을 무시하지 마라.",
+      "examples": [
+        {
+          "sentence": "Do not ignore small problems.",
+          "translation": "작은 문제들을 무시하지 마라."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401333,
+      "word": "pass by",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "옆을 지나가다"
+      ],
+      "meaningsEn": [
+        "to go past someone or something"
+      ],
+      "synonyms": [
+        "go past"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Many people passed by the lonely man.",
+      "exampleTranslation": "많은 사람들이 그 외로운 남자 옆을 지나갔다.",
+      "examples": [
+        {
+          "sentence": "Many people passed by the lonely man.",
+          "translation": "많은 사람들이 그 외로운 남자 옆을 지나갔다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401334,
+      "word": "exist",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪɡˈzɪst/",
+      "meanings": [
+        "존재하다"
+      ],
+      "meaningsEn": [
+        "to be real or present"
+      ],
+      "synonyms": [
+        "be"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Many kinds of life exist in the ocean.",
+      "exampleTranslation": "많은 종류의 생명체가 바다에 존재한다.",
+      "examples": [
+        {
+          "sentence": "Many kinds of life exist in the ocean.",
+          "translation": "많은 종류의 생명체가 바다에 존재한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401335,
+      "word": "avoid",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/əˈvɔɪd/",
+      "meanings": [
+        "피하다"
+      ],
+      "meaningsEn": [
+        "to stay away from something"
+      ],
+      "synonyms": [
+        "escape"
+      ],
+      "antonyms": [
+        "face"
+      ],
+      "exampleSentence": "Animals avoid dangerous places.",
+      "exampleTranslation": "동물들은 위험한 장소를 피한다.",
+      "examples": [
+        {
+          "sentence": "Animals avoid dangerous places.",
+          "translation": "동물들은 위험한 장소를 피한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401336,
+      "word": "scare off",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~을 겁을 주어 쫓아내다"
+      ],
+      "meaningsEn": [
+        "to make someone or something go away by frightening them"
+      ],
+      "synonyms": [
+        "frighten away"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Loud sounds can scare off birds.",
+      "exampleTranslation": "큰 소리는 새들을 겁주어 쫓아낼 수 있다.",
+      "examples": [
+        {
+          "sentence": "Loud sounds can scare off birds.",
+          "translation": "큰 소리는 새들을 겁주어 쫓아낼 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401337,
+      "word": "threat",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/θret/",
+      "meanings": [
+        "위협"
+      ],
+      "meaningsEn": [
+        "a danger or warning of harm"
+      ],
+      "synonyms": [
+        "danger"
+      ],
+      "antonyms": [
+        "safety"
+      ],
+      "exampleSentence": "Pollution is a threat to marine life.",
+      "exampleTranslation": "오염은 해양 생물에게 위협이다.",
+      "examples": [
+        {
+          "sentence": "Pollution is a threat to marine life.",
+          "translation": "오염은 해양 생물에게 위협이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401338,
+      "word": "bond with",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~과 유대감을 형성하다"
+      ],
+      "meaningsEn": [
+        "to develop a close relationship with someone"
+      ],
+      "synonyms": [
+        "connect with"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Children bond with their friends through play.",
+      "exampleTranslation": "아이들은 놀이를 통해 친구들과 유대감을 형성한다.",
+      "examples": [
+        {
+          "sentence": "Children bond with their friends through play.",
+          "translation": "아이들은 놀이를 통해 친구들과 유대감을 형성한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401339,
+      "word": "trigger",
+      "type": "word",
+      "pos": [
+        "verb",
+        "noun"
+      ],
+      "phonetic": "/ˈtrɪɡər/",
+      "meanings": [
+        "유발하다"
+      ],
+      "meaningsEn": [
+        "to cause something to start"
+      ],
+      "synonyms": [
+        "cause"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "exampleSentence": "Fear can trigger a quick reaction.",
+      "exampleTranslation": "두려움은 빠른 반응을 유발할 수 있다.",
+      "examples": [
+        {
+          "sentence": "Fear can trigger a quick reaction.",
+          "translation": "두려움은 빠른 반응을 유발할 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401340,
+      "word": "direct",
+      "type": "word",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "phonetic": "/dəˈrekt/",
+      "meanings": [
+        "지시하다",
+        "직접적인"
+      ],
+      "meaningsEn": [
+        "to guide or control something"
+      ],
+      "synonyms": [
+        "guide"
+      ],
+      "antonyms": [
+        "indirect"
+      ],
+      "exampleSentence": "The coach directed the players during practice.",
+      "exampleTranslation": "코치는 연습 중 선수들을 지시했다.",
+      "examples": [
+        {
+          "sentence": "The coach directed the players during practice.",
+          "translation": "코치는 연습 중 선수들을 지시했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401341,
+      "word": "including",
+      "type": "word",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "/ɪnˈkluːdɪŋ/",
+      "meanings": [
+        "~을 포함하여"
+      ],
+      "meaningsEn": [
+        "having something as part of a group"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Many animals, including whales, are mammals.",
+      "exampleTranslation": "고래를 포함한 많은 동물들은 포유류이다.",
+      "examples": [
+        {
+          "sentence": "Many animals, including whales, are mammals.",
+          "translation": "고래를 포함한 많은 동물들은 포유류이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401342,
+      "word": "attentive",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/əˈtentɪv/",
+      "meanings": [
+        "주의 깊은"
+      ],
+      "meaningsEn": [
+        "listening or watching carefully"
+      ],
+      "synonyms": [
+        "careful"
+      ],
+      "antonyms": [
+        "inattentive"
+      ],
+      "exampleSentence": "An attentive student notices important details.",
+      "exampleTranslation": "주의 깊은 학생은 중요한 세부 사항을 알아차린다.",
+      "examples": [
+        {
+          "sentence": "An attentive student notices important details.",
+          "translation": "주의 깊은 학생은 중요한 세부 사항을 알아차린다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401343,
+      "word": "narrow",
+      "type": "word",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "phonetic": "/ˈnæroʊ/",
+      "meanings": [
+        "좁히다",
+        "좁은"
+      ],
+      "meaningsEn": [
+        "to make something less wide or limited"
+      ],
+      "synonyms": [
+        "limit",
+        "widen"
+      ],
+      "antonyms": [
+        "broaden"
+      ],
+      "exampleSentence": "The researcher narrowed the topic.",
+      "exampleTranslation": "연구자는 주제를 좁혔다.",
+      "examples": [
+        {
+          "sentence": "The researcher narrowed the topic.",
+          "translation": "연구자는 주제를 좁혔다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401344,
+      "word": "perceptual",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/pərˈseptʃuəl/",
+      "meanings": [
+        "지각의"
+      ],
+      "meaningsEn": [
+        "related to the way we notice things through senses"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Perceptual skills help us understand images.",
+      "exampleTranslation": "지각 능력은 우리가 이미지를 이해하도록 돕는다.",
+      "examples": [
+        {
+          "sentence": "Perceptual skills help us understand images.",
+          "translation": "지각 능력은 우리가 이미지를 이해하도록 돕는다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401345,
+      "word": "stimulus",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈstɪmjələs/",
+      "meanings": [
+        "자극"
+      ],
+      "meaningsEn": [
+        "something that causes a reaction"
+      ],
+      "synonyms": [
+        "trigger"
+      ],
+      "antonyms": [],
+      "exampleSentence": "A sudden sound can be a strong stimulus.",
+      "exampleTranslation": "갑작스러운 소리는 강한 자극이 될 수 있다.",
+      "examples": [
+        {
+          "sentence": "A sudden sound can be a strong stimulus.",
+          "translation": "갑작스러운 소리는 강한 자극이 될 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401346,
+      "word": "acutely",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/əˈkjuːtli/",
+      "meanings": [
+        "강렬하게",
+        "예민하게"
+      ],
+      "meaningsEn": [
+        "very strongly or sharply"
+      ],
+      "synonyms": [
+        "keenly"
+      ],
+      "antonyms": [],
+      "exampleSentence": "She was acutely aware of the danger.",
+      "exampleTranslation": "그녀는 위험을 예민하게 인식했다.",
+      "examples": [
+        {
+          "sentence": "She was acutely aware of the danger.",
+          "translation": "그녀는 위험을 예민하게 인식했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401347,
+      "word": "regardless of",
+      "type": "phrase",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~에 관계없이"
+      ],
+      "meaningsEn": [
+        "without being affected by something"
+      ],
+      "synonyms": [
+        "despite"
+      ],
+      "antonyms": [],
+      "exampleSentence": "We should respect others regardless of age.",
+      "exampleTranslation": "우리는 나이에 관계없이 다른 사람들을 존중해야 한다.",
+      "examples": [
+        {
+          "sentence": "We should respect others regardless of age.",
+          "translation": "우리는 나이에 관계없이 다른 사람들을 존중해야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401348,
+      "word": "specific",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/spəˈsɪfɪk/",
+      "meanings": [
+        "구체적인"
+      ],
+      "meaningsEn": [
+        "clear and exact"
+      ],
+      "synonyms": [
+        "particular"
+      ],
+      "antonyms": [
+        "general"
+      ],
+      "exampleSentence": "The teacher gave specific instructions.",
+      "exampleTranslation": "선생님은 구체적인 지시를 주셨다.",
+      "examples": [
+        {
+          "sentence": "The teacher gave specific instructions.",
+          "translation": "선생님은 구체적인 지시를 주셨다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401349,
+      "word": "evolve",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ɪˈvɑːlv/",
+      "meanings": [
+        "진화하다"
+      ],
+      "meaningsEn": [
+        "to develop gradually"
+      ],
+      "synonyms": [
+        "develop"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Species evolve over a long time.",
+      "exampleTranslation": "종은 오랜 시간에 걸쳐 진화한다.",
+      "examples": [
+        {
+          "sentence": "Species evolve over a long time.",
+          "translation": "종은 오랜 시간에 걸쳐 진화한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401350,
+      "word": "grade school",
+      "type": "phrase",
+      "pos": [
+        "noun phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "초등학교"
+      ],
+      "meaningsEn": [
+        "an elementary school"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "I learned basic science in grade school.",
+      "exampleTranslation": "나는 초등학교에서 기초 과학을 배웠다.",
+      "examples": [
+        {
+          "sentence": "I learned basic science in grade school.",
+          "translation": "나는 초등학교에서 기초 과학을 배웠다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401351,
+      "word": "certainly",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ˈsɜːrtnli/",
+      "meanings": [
+        "확실히"
+      ],
+      "meaningsEn": [
+        "without doubt"
+      ],
+      "synonyms": [
+        "surely"
+      ],
+      "antonyms": [
+        "doubtfully"
+      ],
+      "exampleSentence": "The result is certainly important.",
+      "exampleTranslation": "그 결과는 확실히 중요하다.",
+      "examples": [
+        {
+          "sentence": "The result is certainly important.",
+          "translation": "그 결과는 확실히 중요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401352,
+      "word": "organism",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈɔːrɡənɪzəm/",
+      "meanings": [
+        "유기체"
+      ],
+      "meaningsEn": [
+        "a living thing"
+      ],
+      "synonyms": [
+        "living thing"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Every organism needs energy to live.",
+      "exampleTranslation": "모든 유기체는 살기 위해 에너지가 필요하다.",
+      "examples": [
+        {
+          "sentence": "Every organism needs energy to live.",
+          "translation": "모든 유기체는 살기 위해 에너지가 필요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401353,
+      "word": "succession",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/səkˈseʃn/",
+      "meanings": [
+        "연속",
+        "잇따름"
+      ],
+      "meaningsEn": [
+        "a series of things following one another"
+      ],
+      "synonyms": [
+        "sequence"
+      ],
+      "antonyms": [],
+      "exampleSentence": "A succession of events changed the ecosystem.",
+      "exampleTranslation": "일련의 사건들이 생태계를 바꾸었다.",
+      "examples": [
+        {
+          "sentence": "A succession of events changed the ecosystem.",
+          "translation": "일련의 사건들이 생태계를 바꾸었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401354,
+      "word": "logical",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈlɑːdʒɪkl/",
+      "meanings": [
+        "논리적인"
+      ],
+      "meaningsEn": [
+        "reasonable and based on clear thinking"
+      ],
+      "synonyms": [
+        "reasonable"
+      ],
+      "antonyms": [
+        "illogical"
+      ],
+      "exampleSentence": "A logical explanation is easy to understand.",
+      "exampleTranslation": "논리적인 설명은 이해하기 쉽다.",
+      "examples": [
+        {
+          "sentence": "A logical explanation is easy to understand.",
+          "translation": "논리적인 설명은 이해하기 쉽다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401355,
+      "word": "observation",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌɑːbzərˈveɪʃn/",
+      "meanings": [
+        "관찰"
+      ],
+      "meaningsEn": [
+        "the act of watching carefully"
+      ],
+      "synonyms": [
+        "watching"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Careful observation is important in science.",
+      "exampleTranslation": "주의 깊은 관찰은 과학에서 중요하다.",
+      "examples": [
+        {
+          "sentence": "Careful observation is important in science.",
+          "translation": "주의 깊은 관찰은 과학에서 중요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401356,
+      "word": "uncertainty",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ʌnˈsɜːrtnti/",
+      "meanings": [
+        "불확실함"
+      ],
+      "meaningsEn": [
+        "the state of not being sure"
+      ],
+      "synonyms": [
+        "doubt"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "exampleSentence": "Uncertainty makes decisions difficult.",
+      "exampleTranslation": "불확실함은 결정을 어렵게 만든다.",
+      "examples": [
+        {
+          "sentence": "Uncertainty makes decisions difficult.",
+          "translation": "불확실함은 결정을 어렵게 만든다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401357,
+      "word": "depending upon",
+      "type": "phrase",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~에 따라"
+      ],
+      "meaningsEn": [
+        "decided by something"
+      ],
+      "synonyms": [
+        "depending on"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The result changes depending upon the weather.",
+      "exampleTranslation": "결과는 날씨에 따라 달라진다.",
+      "examples": [
+        {
+          "sentence": "The result changes depending upon the weather.",
+          "translation": "결과는 날씨에 따라 달라진다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401358,
+      "word": "remain",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/rɪˈmeɪn/",
+      "meanings": [
+        "남아 있다"
+      ],
+      "meaningsEn": [
+        "to continue to exist or stay"
+      ],
+      "synonyms": [
+        "stay"
+      ],
+      "antonyms": [
+        "leave"
+      ],
+      "exampleSentence": "Some questions remain unanswered.",
+      "exampleTranslation": "몇몇 질문들은 답이 없는 채로 남아 있다.",
+      "examples": [
+        {
+          "sentence": "Some questions remain unanswered.",
+          "translation": "몇몇 질문들은 답이 없는 채로 남아 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401359,
+      "word": "experimental",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ɪkˌsperɪˈmentl/",
+      "meanings": [
+        "실험적인"
+      ],
+      "meaningsEn": [
+        "related to experiments"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "The class used experimental data.",
+      "exampleTranslation": "그 수업은 실험 데이터를 사용했다.",
+      "examples": [
+        {
+          "sentence": "The class used experimental data.",
+          "translation": "그 수업은 실험 데이터를 사용했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401360,
+      "word": "eyewitness",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈaɪwɪtnəs/",
+      "meanings": [
+        "목격자"
+      ],
+      "meaningsEn": [
+        "a person who saw an event happen"
+      ],
+      "synonyms": [
+        "witness"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The eyewitness described the accident.",
+      "exampleTranslation": "목격자는 그 사고를 설명했다.",
+      "examples": [
+        {
+          "sentence": "The eyewitness described the accident.",
+          "translation": "목격자는 그 사고를 설명했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401361,
+      "word": "testimony",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈtestɪmoʊni/",
+      "meanings": [
+        "증언"
+      ],
+      "meaningsEn": [
+        "a formal statement about what someone saw or knows"
+      ],
+      "synonyms": [
+        "statement"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Eyewitness testimony is not always accurate.",
+      "exampleTranslation": "목격자 증언이 항상 정확한 것은 아니다.",
+      "examples": [
+        {
+          "sentence": "Eyewitness testimony is not always accurate.",
+          "translation": "목격자 증언이 항상 정확한 것은 아니다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401362,
+      "word": "deliberation",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/dɪˌlɪbəˈreɪʃn/",
+      "meanings": [
+        "숙고",
+        "신중함"
+      ],
+      "meaningsEn": [
+        "careful thought before making a decision"
+      ],
+      "synonyms": [
+        "consideration"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Deliberation helps us avoid mistakes.",
+      "exampleTranslation": "숙고는 우리가 실수를 피하도록 돕는다.",
+      "examples": [
+        {
+          "sentence": "Deliberation helps us avoid mistakes.",
+          "translation": "숙고는 우리가 실수를 피하도록 돕는다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401363,
+      "word": "procedure",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/prəˈsiːdʒər/",
+      "meanings": [
+        "절차"
+      ],
+      "meaningsEn": [
+        "a set of steps for doing something"
+      ],
+      "synonyms": [
+        "process"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Follow the procedure during the experiment.",
+      "exampleTranslation": "실험 중 절차를 따르라.",
+      "examples": [
+        {
+          "sentence": "Follow the procedure during the experiment.",
+          "translation": "실험 중 절차를 따르라."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401364,
+      "word": "inaccurate",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ɪnˈækjərət/",
+      "meanings": [
+        "부정확한"
+      ],
+      "meaningsEn": [
+        "not correct or exact"
+      ],
+      "synonyms": [
+        "incorrect"
+      ],
+      "antonyms": [
+        "accurate"
+      ],
+      "exampleSentence": "An inaccurate report can cause confusion.",
+      "exampleTranslation": "부정확한 보고서는 혼란을 일으킬 수 있다.",
+      "examples": [
+        {
+          "sentence": "An inaccurate report can cause confusion.",
+          "translation": "부정확한 보고서는 혼란을 일으킬 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401365,
+      "word": "identification",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/aɪˌdentɪfɪˈkeɪʃn/",
+      "meanings": [
+        "식별",
+        "신원 확인"
+      ],
+      "meaningsEn": [
+        "the act of recognizing someone or something"
+      ],
+      "synonyms": [
+        "recognition"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The identification of the suspect was difficult.",
+      "exampleTranslation": "용의자 식별은 어려웠다.",
+      "examples": [
+        {
+          "sentence": "The identification of the suspect was difficult.",
+          "translation": "용의자 식별은 어려웠다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401366,
+      "word": "pop out",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "갑자기 떠오르다",
+        "튀어나오다"
+      ],
+      "meaningsEn": [
+        "to appear suddenly"
+      ],
+      "synonyms": [
+        "appear suddenly"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The answer popped out during the discussion.",
+      "exampleTranslation": "토론 중에 답이 갑자기 떠올랐다.",
+      "examples": [
+        {
+          "sentence": "The answer popped out during the discussion.",
+          "translation": "토론 중에 답이 갑자기 떠올랐다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401367,
+      "word": "tend to do",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~하는 경향이 있다"
+      ],
+      "meaningsEn": [
+        "to usually do something"
+      ],
+      "synonyms": [
+        "be likely to"
+      ],
+      "antonyms": [],
+      "exampleSentence": "People tend to trust what they see.",
+      "exampleTranslation": "사람들은 자신이 본 것을 믿는 경향이 있다.",
+      "examples": [
+        {
+          "sentence": "People tend to trust what they see.",
+          "translation": "사람들은 자신이 본 것을 믿는 경향이 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401368,
+      "word": "automatic",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˌɔːtəˈmætɪk/",
+      "meanings": [
+        "자동적인"
+      ],
+      "meaningsEn": [
+        "happening without thinking"
+      ],
+      "synonyms": [
+        "instinctive"
+      ],
+      "antonyms": [
+        "manual"
+      ],
+      "exampleSentence": "Fear can cause an automatic reaction.",
+      "exampleTranslation": "두려움은 자동적인 반응을 일으킬 수 있다.",
+      "examples": [
+        {
+          "sentence": "Fear can cause an automatic reaction.",
+          "translation": "두려움은 자동적인 반응을 일으킬 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401369,
+      "word": "reaction",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/riˈækʃn/",
+      "meanings": [
+        "반응"
+      ],
+      "meaningsEn": [
+        "something done because of an event"
+      ],
+      "synonyms": [
+        "response"
+      ],
+      "antonyms": [],
+      "exampleSentence": "His reaction was quick and strong.",
+      "exampleTranslation": "그의 반응은 빠르고 강했다.",
+      "examples": [
+        {
+          "sentence": "His reaction was quick and strong.",
+          "translation": "그의 반응은 빠르고 강했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401370,
+      "word": "interpretation",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "meanings": [
+        "해석"
+      ],
+      "meaningsEn": [
+        "an explanation of meaning"
+      ],
+      "synonyms": [
+        "explanation"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Different people may have different interpretations.",
+      "exampleTranslation": "사람마다 다른 해석을 할 수 있다.",
+      "examples": [
+        {
+          "sentence": "Different people may have different interpretations.",
+          "translation": "사람마다 다른 해석을 할 수 있다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401371,
+      "word": "reasoned",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈriːznd/",
+      "meanings": [
+        "논리적인",
+        "신중한"
+      ],
+      "meaningsEn": [
+        "based on careful thought"
+      ],
+      "synonyms": [
+        "logical"
+      ],
+      "antonyms": [],
+      "exampleSentence": "A reasoned answer is better than a quick guess.",
+      "exampleTranslation": "논리적인 답은 빠른 추측보다 낫다.",
+      "examples": [
+        {
+          "sentence": "A reasoned answer is better than a quick guess.",
+          "translation": "논리적인 답은 빠른 추측보다 낫다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401372,
+      "word": "demonstrate",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈdemənstreɪt/",
+      "meanings": [
+        "보여 주다",
+        "입증하다"
+      ],
+      "meaningsEn": [
+        "to show clearly"
+      ],
+      "synonyms": [
+        "show",
+        "prove"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The experiment demonstrates the idea clearly.",
+      "exampleTranslation": "그 실험은 그 생각을 명확히 보여 준다.",
+      "examples": [
+        {
+          "sentence": "The experiment demonstrates the idea clearly.",
+          "translation": "그 실험은 그 생각을 명확히 보여 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401373,
+      "word": "compared to",
+      "type": "phrase",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~에 비해서"
+      ],
+      "meaningsEn": [
+        "when judged against something else"
+      ],
+      "synonyms": [
+        "in comparison with"
+      ],
+      "antonyms": [],
+      "exampleSentence": "This method is faster compared to the old one.",
+      "exampleTranslation": "이 방법은 예전 방법에 비해 더 빠르다.",
+      "examples": [
+        {
+          "sentence": "This method is faster compared to the old one.",
+          "translation": "이 방법은 예전 방법에 비해 더 빠르다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401374,
+      "word": "step-by-step",
+      "type": "word",
+      "pos": [
+        "adjective",
+        "adverb"
+      ],
+      "phonetic": "/ˌstep baɪ ˈstep/",
+      "meanings": [
+        "단계적인"
+      ],
+      "meaningsEn": [
+        "done in a series of clear stages"
+      ],
+      "synonyms": [
+        "gradual"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The teacher gave a step-by-step explanation.",
+      "exampleTranslation": "선생님은 단계적인 설명을 해 주셨다.",
+      "examples": [
+        {
+          "sentence": "The teacher gave a step-by-step explanation.",
+          "translation": "선생님은 단계적인 설명을 해 주셨다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401375,
+      "word": "justification",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+      "meanings": [
+        "정당화"
+      ],
+      "meaningsEn": [
+        "a good reason for doing something"
+      ],
+      "synonyms": [
+        "reason",
+        "excuse"
+      ],
+      "antonyms": [],
+      "exampleSentence": "You need clear justification for your opinion.",
+      "exampleTranslation": "너의 의견에는 분명한 정당화가 필요하다.",
+      "examples": [
+        {
+          "sentence": "You need clear justification for your opinion.",
+          "translation": "너의 의견에는 분명한 정당화가 필요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401376,
+      "word": "commitment",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/kəˈmɪtmənt/",
+      "meanings": [
+        "전념",
+        "몰두"
+      ],
+      "meaningsEn": [
+        "a promise or strong effort to do something"
+      ],
+      "synonyms": [
+        "dedication"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Success requires commitment and practice.",
+      "exampleTranslation": "성공은 전념과 연습을 필요로 한다.",
+      "examples": [
+        {
+          "sentence": "Success requires commitment and practice.",
+          "translation": "성공은 전념과 연습을 필요로 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401377,
+      "word": "dedicated",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈdedɪkeɪtɪd/",
+      "meanings": [
+        "전념하는"
+      ],
+      "meaningsEn": [
+        "working hard for a purpose"
+      ],
+      "synonyms": [
+        "devoted"
+      ],
+      "antonyms": [],
+      "exampleSentence": "She is dedicated to helping others.",
+      "exampleTranslation": "그녀는 다른 사람들을 돕는 데 전념한다.",
+      "examples": [
+        {
+          "sentence": "She is dedicated to helping others.",
+          "translation": "그녀는 다른 사람들을 돕는 데 전념한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401378,
+      "word": "in the midst of",
+      "type": "phrase",
+      "pos": [
+        "preposition"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~의 한가운데에"
+      ],
+      "meaningsEn": [
+        "in the middle of something"
+      ],
+      "synonyms": [
+        "during"
+      ],
+      "antonyms": [],
+      "exampleSentence": "He stayed calm in the midst of trouble.",
+      "exampleTranslation": "그는 문제의 한가운데에서도 침착했다.",
+      "examples": [
+        {
+          "sentence": "He stayed calm in the midst of trouble.",
+          "translation": "그는 문제의 한가운데에서도 침착했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401379,
+      "word": "integrating",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˈɪntɪɡreɪtɪŋ/",
+      "meanings": [
+        "통합"
+      ],
+      "meaningsEn": [
+        "combining things into one whole"
+      ],
+      "synonyms": [
+        "combining"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Integrating exercise into daily life is useful.",
+      "exampleTranslation": "운동을 일상생활에 통합하는 것은 유용하다.",
+      "examples": [
+        {
+          "sentence": "Integrating exercise into daily life is useful.",
+          "translation": "운동을 일상생활에 통합하는 것은 유용하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401380,
+      "word": "household chore",
+      "type": "phrase",
+      "pos": [
+        "noun phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "집안일"
+      ],
+      "meaningsEn": [
+        "a regular job done at home"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "exampleSentence": "Washing dishes is a common household chore.",
+      "exampleTranslation": "설거지는 흔한 집안일이다.",
+      "examples": [
+        {
+          "sentence": "Washing dishes is a common household chore.",
+          "translation": "설거지는 흔한 집안일이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401381,
+      "word": "come into play",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "작동하기 시작하다"
+      ],
+      "meaningsEn": [
+        "to begin to have an effect"
+      ],
+      "synonyms": [
+        "become active"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Your values come into play when you choose.",
+      "exampleTranslation": "네 가치관은 선택할 때 작동하기 시작한다.",
+      "examples": [
+        {
+          "sentence": "Your values come into play when you choose.",
+          "translation": "네 가치관은 선택할 때 작동하기 시작한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401382,
+      "word": "realistic",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˌriːəˈlɪstɪk/",
+      "meanings": [
+        "현실적인"
+      ],
+      "meaningsEn": [
+        "based on what is possible"
+      ],
+      "synonyms": [
+        "practical"
+      ],
+      "antonyms": [
+        "unrealistic"
+      ],
+      "exampleSentence": "We need a realistic plan.",
+      "exampleTranslation": "우리는 현실적인 계획이 필요하다.",
+      "examples": [
+        {
+          "sentence": "We need a realistic plan.",
+          "translation": "우리는 현실적인 계획이 필요하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401383,
+      "word": "inevitable",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ɪnˈevɪtəbl/",
+      "meanings": [
+        "불가피한"
+      ],
+      "meaningsEn": [
+        "certain to happen"
+      ],
+      "synonyms": [
+        "unavoidable"
+      ],
+      "antonyms": [
+        "avoidable"
+      ],
+      "exampleSentence": "Change is inevitable in life.",
+      "exampleTranslation": "삶에서 변화는 불가피하다.",
+      "examples": [
+        {
+          "sentence": "Change is inevitable in life.",
+          "translation": "삶에서 변화는 불가피하다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401384,
+      "word": "task",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/tæsk/",
+      "meanings": [
+        "일",
+        "과제"
+      ],
+      "meaningsEn": [
+        "a piece of work to do"
+      ],
+      "synonyms": [
+        "job",
+        "duty"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The task was simple but important.",
+      "exampleTranslation": "그 일은 간단하지만 중요했다.",
+      "examples": [
+        {
+          "sentence": "The task was simple but important.",
+          "translation": "그 일은 간단하지만 중요했다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401385,
+      "word": "purely",
+      "type": "word",
+      "pos": [
+        "adverb"
+      ],
+      "phonetic": "/ˈpjʊrli/",
+      "meanings": [
+        "순전히"
+      ],
+      "meaningsEn": [
+        "only and completely"
+      ],
+      "synonyms": [
+        "only"
+      ],
+      "antonyms": [],
+      "exampleSentence": "He helped purely out of kindness.",
+      "exampleTranslation": "그는 순전히 친절함에서 도왔다.",
+      "examples": [
+        {
+          "sentence": "He helped purely out of kindness.",
+          "translation": "그는 순전히 친절함에서 도왔다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401386,
+      "word": "obligatory",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/əˈblɪɡətɔːri/",
+      "meanings": [
+        "의무적인"
+      ],
+      "meaningsEn": [
+        "required by rule or law"
+      ],
+      "synonyms": [
+        "required"
+      ],
+      "antonyms": [
+        "optional"
+      ],
+      "exampleSentence": "Wearing a uniform is obligatory at the school.",
+      "exampleTranslation": "그 학교에서는 교복 착용이 의무적이다.",
+      "examples": [
+        {
+          "sentence": "Wearing a uniform is obligatory at the school.",
+          "translation": "그 학교에서는 교복 착용이 의무적이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401387,
+      "word": "seize",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/siːz/",
+      "meanings": [
+        "붙잡다"
+      ],
+      "meaningsEn": [
+        "to take hold of something suddenly"
+      ],
+      "synonyms": [
+        "grab",
+        "catch"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "exampleSentence": "You should seize the chance to learn.",
+      "exampleTranslation": "너는 배울 기회를 붙잡아야 한다.",
+      "examples": [
+        {
+          "sentence": "You should seize the chance to learn.",
+          "translation": "너는 배울 기회를 붙잡아야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401388,
+      "word": "engage in",
+      "type": "phrase",
+      "pos": [
+        "verb phrase"
+      ],
+      "phonetic": "",
+      "meanings": [
+        "~에 참여하다"
+      ],
+      "meaningsEn": [
+        "to take part in something"
+      ],
+      "synonyms": [
+        "participate in"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Students engage in group discussions.",
+      "exampleTranslation": "학생들은 모둠 토의에 참여한다.",
+      "examples": [
+        {
+          "sentence": "Students engage in group discussions.",
+          "translation": "학생들은 모둠 토의에 참여한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401389,
+      "word": "overhear",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ˌoʊvərˈhɪr/",
+      "meanings": [
+        "우연히 듣다"
+      ],
+      "meaningsEn": [
+        "to hear something by chance"
+      ],
+      "synonyms": [
+        "hear accidentally"
+      ],
+      "antonyms": [],
+      "exampleSentence": "I overheard their conversation on the bus.",
+      "exampleTranslation": "나는 버스에서 그들의 대화를 우연히 들었다.",
+      "examples": [
+        {
+          "sentence": "I overheard their conversation on the bus.",
+          "translation": "나는 버스에서 그들의 대화를 우연히 들었다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401390,
+      "word": "principle",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˈprɪnsəpl/",
+      "meanings": [
+        "원칙",
+        "원리"
+      ],
+      "meaningsEn": [
+        "a basic rule or belief"
+      ],
+      "synonyms": [
+        "rule"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Honesty is an important principle.",
+      "exampleTranslation": "정직은 중요한 원칙이다.",
+      "examples": [
+        {
+          "sentence": "Honesty is an important principle.",
+          "translation": "정직은 중요한 원칙이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401391,
+      "word": "example",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ɪɡˈzæmpl/",
+      "meanings": [
+        "본보기",
+        "예"
+      ],
+      "meaningsEn": [
+        "something that shows what others are like"
+      ],
+      "synonyms": [
+        "model"
+      ],
+      "antonyms": [],
+      "exampleSentence": "The story gives an example of courage.",
+      "exampleTranslation": "그 이야기는 용기의 본보기를 보여 준다.",
+      "examples": [
+        {
+          "sentence": "The story gives an example of courage.",
+          "translation": "그 이야기는 용기의 본보기를 보여 준다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401392,
+      "word": "tempting",
+      "type": "word",
+      "pos": [
+        "adjective"
+      ],
+      "phonetic": "/ˈtemptɪŋ/",
+      "meanings": [
+        "유혹적인"
+      ],
+      "meaningsEn": [
+        "attractive and hard to refuse"
+      ],
+      "synonyms": [
+        "attractive"
+      ],
+      "antonyms": [
+        "unappealing"
+      ],
+      "exampleSentence": "It is tempting to give up, but keep trying.",
+      "exampleTranslation": "포기하고 싶은 유혹이 있지만 계속 노력해라.",
+      "examples": [
+        {
+          "sentence": "It is tempting to give up, but keep trying.",
+          "translation": "포기하고 싶은 유혹이 있지만 계속 노력해라."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401393,
+      "word": "uphold",
+      "type": "word",
+      "pos": [
+        "verb"
+      ],
+      "phonetic": "/ʌpˈhoʊld/",
+      "meanings": [
+        "유지하다",
+        "옹호하다"
+      ],
+      "meaningsEn": [
+        "to support or keep a rule or principle"
+      ],
+      "synonyms": [
+        "maintain",
+        "support"
+      ],
+      "antonyms": [
+        "oppose"
+      ],
+      "exampleSentence": "We should uphold fairness in our classroom.",
+      "exampleTranslation": "우리는 교실에서 공정함을 유지해야 한다.",
+      "examples": [
+        {
+          "sentence": "We should uphold fairness in our classroom.",
+          "translation": "우리는 교실에서 공정함을 유지해야 한다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401394,
+      "word": "compassion",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/kəmˈpæʃn/",
+      "meanings": [
+        "연민"
+      ],
+      "meaningsEn": [
+        "sympathy for others who are suffering"
+      ],
+      "synonyms": [
+        "sympathy"
+      ],
+      "antonyms": [
+        "cruelty"
+      ],
+      "exampleSentence": "Compassion helps people understand each other.",
+      "exampleTranslation": "연민은 사람들이 서로를 이해하도록 돕는다.",
+      "examples": [
+        {
+          "sentence": "Compassion helps people understand each other.",
+          "translation": "연민은 사람들이 서로를 이해하도록 돕는다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401395,
+      "word": "concern",
+      "type": "word",
+      "pos": [
+        "noun",
+        "verb"
+      ],
+      "phonetic": "/kənˈsɜːrn/",
+      "meanings": [
+        "걱정",
+        "우려"
+      ],
+      "meaningsEn": [
+        "worry about something"
+      ],
+      "synonyms": [
+        "worry"
+      ],
+      "antonyms": [
+        "calmness"
+      ],
+      "exampleSentence": "Climate change is a serious concern.",
+      "exampleTranslation": "기후 변화는 심각한 우려이다.",
+      "examples": [
+        {
+          "sentence": "Climate change is a serious concern.",
+          "translation": "기후 변화는 심각한 우려이다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
+      "exampleAudioUrl": ""
+    },
+    {
+      "wordId": 401396,
+      "word": "self-discipline",
+      "type": "word",
+      "pos": [
+        "noun"
+      ],
+      "phonetic": "/ˌself ˈdɪsəplɪn/",
+      "meanings": [
+        "자제력"
+      ],
+      "meaningsEn": [
+        "the ability to control your actions"
+      ],
+      "synonyms": [
+        "self-control"
+      ],
+      "antonyms": [],
+      "exampleSentence": "Self-discipline helps students reach their goals.",
+      "exampleTranslation": "자제력은 학생들이 목표에 도달하도록 돕는다.",
+      "examples": [
+        {
+          "sentence": "Self-discipline helps students reach their goals.",
+          "translation": "자제력은 학생들이 목표에 도달하도록 돕는다."
+        }
+      ],
+      "wordFamily": {
+        "prefix": "",
+        "prefixMeaning": "",
+        "relatedWords": []
+      },
+      "sources": [
+        {
+          "book": "학교",
+          "day": "",
+          "section": "",
+          "originalNo": ""
+        }
+      ],
+      "wordAudioUrl": "",
       "exampleAudioUrl": ""
     }
   ]

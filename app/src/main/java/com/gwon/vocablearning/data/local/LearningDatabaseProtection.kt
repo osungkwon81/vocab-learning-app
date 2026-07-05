@@ -20,6 +20,15 @@ internal class LearningDatabaseProtection(
     private val backupRoot = File(context.filesDir, "database-backups/$databaseName")
     private val lastPreparedFingerprintFile = File(backupRoot, "last-preopen-fingerprint.txt")
 
+    fun requiresVersionUpgrade(): Boolean {
+        if (!databaseFile.exists()) {
+            return false
+        }
+
+        val currentVersion = readUserVersion(databaseFile) ?: return false
+        return currentVersion != targetVersion
+    }
+
     fun backupBeforeVersionChange() {
         if (!databaseFile.exists()) {
             return

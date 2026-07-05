@@ -34,6 +34,7 @@ import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.TaskAlt
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
@@ -297,6 +298,15 @@ private fun MainAppShell(
                 Spacer(modifier = Modifier.height(8.dp))
             }
 
+            if (uiState.hasCatalogUpdate && !uiState.catalogUpdateMessage.isNullOrBlank()) {
+                CatalogUpdateBanner(
+                    message = uiState.catalogUpdateMessage,
+                    isSyncing = uiState.isSyncing,
+                    onUpdate = { viewModel.syncCatalog() },
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+            }
+
             SourceBookSelector(
                 sourceBookOptions = uiState.sourceBookOptions,
                 selectedSourceBook = uiState.selectedSourceBook,
@@ -315,6 +325,7 @@ private fun MainAppShell(
                     onAnswerCard = viewModel::answerCurrentCard,
                     onPlayWordAudio = { viewModel.playAudio(it, AudioType.WORD) },
                     onPlayExampleAudio = { viewModel.playAudio(it, AudioType.EXAMPLE) },
+                    onDeleteWord = viewModel::hideWord,
                 )
 
                 AppTab.QUIZ -> QuizTab(
@@ -339,7 +350,49 @@ private fun MainAppShell(
                     onNicknameChange = viewModel::updateNicknameInput,
                     onSaveNickname = viewModel::saveNickname,
                     onSelectGrade = viewModel::selectGrade,
+                    onRestoreWord = viewModel::restoreWord,
                 )
+            }
+        }
+    }
+}
+
+@Composable
+private fun CatalogUpdateBanner(
+    message: String,
+    isSyncing: Boolean,
+    onUpdate: () -> Unit,
+) {
+    ElevatedCard(
+        colors = CardDefaults.elevatedCardColors(containerColor = Mist),
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 14.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(4.dp),
+            ) {
+                Text(
+                    text = "업데이트 가능",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                Text(
+                    text = message,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Button(
+                onClick = onUpdate,
+                enabled = !isSyncing,
+            ) {
+                Text("지금 받기")
             }
         }
     }
@@ -428,6 +481,7 @@ private fun StudyTab(
     onAnswerCard: (LearningResponse) -> Unit,
     onPlayWordAudio: (WordEntry) -> Unit,
     onPlayExampleAudio: (WordEntry) -> Unit,
+    onDeleteWord: (WordEntry) -> Unit,
 ) {
     val session = uiState.learningSession
     var selectedStudyModeName by rememberSaveable { mutableStateOf(StudyMode.TODAY.name) }
@@ -454,6 +508,7 @@ private fun StudyTab(
                     wordProgress = uiState.wordProgress,
                     onPlayWordAudio = onPlayWordAudio,
                     onPlayExampleAudio = onPlayExampleAudio,
+                    onDeleteWord = onDeleteWord,
                     modifier = Modifier.weight(1f),
                 )
             }
@@ -607,7 +662,7 @@ private fun TodayStudyCard(
                         fontWeight = FontWeight.Bold,
                     )
                     Text(
-                        text = "목표 ${uiState.learningCount}개 · 등록 ${uiState.words.size}개",
+                        text = "목표 ${uiState.learningCount}개 · 등록 ${uiState.wordProgress.size}개",
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
@@ -618,7 +673,7 @@ private fun TodayStudyCard(
                 modifier = Modifier
                     .fillMaxWidth()
                     .heightIn(min = 54.dp),
-                enabled = uiState.words.isNotEmpty(),
+                enabled = uiState.wordProgress.isNotEmpty(),
             ) {
                 Text("학습 시작")
             }
@@ -1115,7 +1170,10 @@ private fun SettingsTab(
     onNicknameChange: (String) -> Unit,
     onSaveNickname: () -> Unit,
     onSelectGrade: (SchoolGrade) -> Unit,
+    onRestoreWord: (WordEntry) -> Unit,
 ) {
+    var showDeletedWords by rememberSaveable { mutableStateOf(false) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -1168,6 +1226,41 @@ private fun SettingsTab(
                     onSelectGrade = onSelectGrade,
                 )
                 Tag("학습 개수는 학습 탭의 시작 버튼에서 선택")
+            }
+        }
+
+        ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+            Column(
+                modifier = Modifier.padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                Text(
+                    text = "삭제 목록",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                Text(
+                    text = "단어 목록에서 숨긴 단어를 여기서 다시 볼 수 있고 복원할 수 있습니다.",
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                OutlinedButton(
+                    onClick = { showDeletedWords = !showDeletedWords },
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Text(
+                        if (showDeletedWords) {
+                            "삭제 목록 닫기 (${uiState.deletedWordProgress.size})"
+                        } else {
+                            "삭제 목록 보기 (${uiState.deletedWordProgress.size})"
+                        },
+                    )
+                }
+                if (showDeletedWords) {
+                    DeletedWordList(
+                        deletedWordProgress = uiState.deletedWordProgress,
+                        onRestoreWord = onRestoreWord,
+                    )
+                }
             }
         }
     }
@@ -1492,10 +1585,12 @@ private fun WordCatalogTab(
     wordProgress: List<WordProgress>,
     onPlayWordAudio: (WordEntry) -> Unit,
     onPlayExampleAudio: (WordEntry) -> Unit,
+    onDeleteWord: (WordEntry) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     var selectedSortModeName by rememberSaveable { mutableStateOf(WordListSortMode.PRIORITY.name) }
     var searchQuery by rememberSaveable { mutableStateOf("") }
+    var pendingDeleteWord by remember { mutableStateOf<WordEntry?>(null) }
     val selectedSortMode = WordListSortMode.valueOf(selectedSortModeName)
     val sortedProgress = remember(wordProgress, selectedSortMode) {
         sortWordProgress(wordProgress, selectedSortMode)
@@ -1538,8 +1633,20 @@ private fun WordCatalogTab(
                 progress = progress,
                 onPlayWordAudio = onPlayWordAudio,
                 onPlayExampleAudio = onPlayExampleAudio,
+                onDeleteWord = { pendingDeleteWord = it },
             )
         }
+    }
+
+    pendingDeleteWord?.let { word ->
+        ConfirmWordDeleteDialog(
+            word = word,
+            onDismiss = { pendingDeleteWord = null },
+            onConfirm = {
+                pendingDeleteWord = null
+                onDeleteWord(word)
+            },
+        )
     }
 }
 
@@ -1660,6 +1767,7 @@ private fun WordCatalogCard(
     progress: WordProgress,
     onPlayWordAudio: (WordEntry) -> Unit,
     onPlayExampleAudio: (WordEntry) -> Unit,
+    onDeleteWord: (WordEntry) -> Unit,
 ) {
     val word = progress.entry
     ElevatedCard(modifier = Modifier.fillMaxWidth()) {
@@ -1754,6 +1862,110 @@ private fun WordCatalogCard(
                     onClick = { onPlayExampleAudio(word) },
                     label = { Text("예문 듣기") },
                 )
+                Button(
+                    onClick = { onDeleteWord(word) },
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = MaterialTheme.colorScheme.errorContainer,
+                        contentColor = MaterialTheme.colorScheme.onErrorContainer,
+                    ),
+                ) {
+                    Text("삭제")
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DeletedWordList(
+    deletedWordProgress: List<WordProgress>,
+    onRestoreWord: (WordEntry) -> Unit,
+) {
+    if (deletedWordProgress.isEmpty()) {
+        EmptyState("삭제된 단어가 없습니다.")
+        return
+    }
+
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        deletedWordProgress.forEach { progress ->
+            ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(14.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Column(
+                        modifier = Modifier.weight(1f),
+                        verticalArrangement = Arrangement.spacedBy(4.dp),
+                    ) {
+                        Text(
+                            text = progress.entry.word,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.SemiBold,
+                        )
+                        Text(
+                            text = progress.entry.meanings.joinToString(", "),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                    OutlinedButton(onClick = { onRestoreWord(progress.entry) }) {
+                        Text("복원")
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ConfirmWordDeleteDialog(
+    word: WordEntry,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit,
+) {
+    Dialog(onDismissRequest = onDismiss) {
+        Surface(
+            shape = RoundedCornerShape(24.dp),
+            color = MaterialTheme.colorScheme.surface,
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(20.dp),
+                verticalArrangement = Arrangement.spacedBy(14.dp),
+            ) {
+                Text(
+                    text = "삭제 하겠습니까?",
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                )
+                Text(
+                    text = "'${word.word}' 단어는 목록에서 숨겨지고, 설정의 삭제 목록에서 다시 복원할 수 있습니다.",
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    OutlinedButton(
+                        onClick = onDismiss,
+                        modifier = Modifier.weight(1f),
+                    ) {
+                        Text("취소")
+                    }
+                    Button(
+                        onClick = onConfirm,
+                        modifier = Modifier.weight(1f),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.error,
+                            contentColor = MaterialTheme.colorScheme.onError,
+                        ),
+                    ) {
+                        Text("삭제")
+                    }
+                }
             }
         }
     }

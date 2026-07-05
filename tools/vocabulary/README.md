@@ -56,12 +56,31 @@ export FIREBASE_STORAGE_BUCKET="vocab-learning-ff783.firebasestorage.app"
 python3 tools/vocabulary/generate_all.py --upload --upload-manifest
 ```
 
+`--version`을 생략하면 기존 버전에서 자동으로 1 증가합니다. 수동으로 지정하고 싶을 때만 `--version 5`처럼 넣으면 됩니다.
+출처 책/범위를 `sources[0].book`에 넣고 싶으면 `--source-book "학교"`처럼 지정합니다.
+삭제할 단어가 있으면 `--delete-list delete_words_high1.txt`처럼 한 줄에 단어 하나씩 적은 파일을 넘깁니다.
+
 단어 mp3를 생성해서 `audio/en/words/{word}.mp3` 경로로 업로드하고, JSON의 `wordAudioUrl`에 URL을 넣으려면 `--upload-word-audio`를 함께 사용합니다.
 `exampleAudioUrl`은 아직 생성하지 않고 빈 문자열로 둡니다.
 업로드 시에는 기존 원격 JSON을 먼저 읽고, 이미 있는 단어는 유지한 뒤 새 단어만 추가해서 다시 업로드합니다.
+기본적으로 오디오 처리는 이번 입력 txt에 들어 있는 단어만 대상으로 합니다.
 
 ```bash
 python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --upload --upload-manifest
+```
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --source-book "학교" --upload --upload-manifest
+```
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade high1 --delete-list delete_words_high1.txt --upload --upload-manifest
+```
+
+기존 원격 JSON에 있던 단어들까지 다시 훑어서 오디오를 검수하거나 재업로드하려면 `--check-existing-word-audio`를 함께 붙입니다.
+
+```bash
+python3 tools/vocabulary/generate_all.py --grade middle3 --upload-word-audio --check-existing-word-audio --upload --upload-manifest
 ```
 
 기존 단어도 입력 txt 기준으로 덮어쓰고 싶다면 `--update-existing`를 붙입니다.

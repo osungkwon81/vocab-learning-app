@@ -113,6 +113,18 @@ def load_existing_catalog_from_firebase(destination_path):
     return data
 
 
+def load_existing_manifest_from_firebase(destination_path="version.json"):
+    blob = firebase_blob(destination_path)
+    if not blob.exists():
+        print(f"원격 매니페스트 없음, 새로 생성: gs://{blob.bucket.name}/{destination_path}")
+        return None
+
+    payload = blob.download_as_bytes()
+    data = json.loads(payload.decode("utf-8"))
+    print(f"원격 매니페스트 로드 완료: gs://{blob.bucket.name}/{destination_path}")
+    return data
+
+
 def generate(
     input_file,
     output_file,
@@ -126,6 +138,9 @@ def generate(
     existing_data=None,
     force_word_audio=False,
     update_existing=False,
+    check_existing_word_audio=False,
+    source_book="",
+    delete_words=None,
 ):
     input_file = Path(input_file)
     output_file = Path(output_file)
@@ -143,7 +158,7 @@ def generate(
         word_map = {normalize(item.get("word", "")): item for item in data["words"] if item.get("word")}
         word_id = max(max_word_id(data) + 1, word_id_start)
         print(f"기존 단어 {len(word_map)}개 유지, 새 단어 ID 시작: {word_id}")
-        if generate_word_audio or upload_word_audio:
+        if check_existing_word_audio and (generate_word_audio or upload_word_audio):
             for item in data["words"]:
                 update_word_audio(
                     item,
@@ -163,6 +178,12 @@ def generate(
         word_id = word_id_start
 
     audio_slug_map = {}
+    delete_word_keys = {normalize(word) for word in (delete_words or []) if normalize(word)}
+    processed_count = 0
+    skipped_duplicate_count = 0
+    added_count = 0
+    updated_count = 0
+    deleted_count = 0
 
     with open(input_file, "r", encoding="utf-8") as f:
         for line in f:
@@ -175,11 +196,13 @@ def generate(
             if len(parts) < 10:
                 continue
 
+            processed_count += 1
             word = parts[0]
             key = normalize(word)
 
             existing_item = word_map.get(key)
             if existing_item and not update_existing:
+                skipped_duplicate_count += 1
                 continue
 
             word_audio_url = ""
@@ -218,7 +241,7 @@ def generate(
                 },
                 "sources": [
                     {
-                        "book": "",
+                        "book": source_book,
                         "day": "",
                         "section": "",
                         "originalNo": "",
@@ -244,14 +267,32 @@ def generate(
 
             if existing_item:
                 existing_item.update(item)
+                updated_count += 1
             else:
                 data["words"].append(item)
                 word_map[key] = item
                 word_id += 1
+                added_count += 1
+
+    if delete_word_keys:
+        before_delete_count = len(data["words"])
+        data["words"] = [
+            item for item in data["words"]
+            if normalize(item.get("word", "")) not in delete_word_keys
+        ]
+        deleted_count = before_delete_count - len(data["words"])
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+    print(
+        "입력 처리 요약: "
+        f"총 {processed_count}개, "
+        f"중복 건너뜀 {skipped_duplicate_count}개, "
+        f"새 추가 {added_count}개, "
+        f"기존 갱신 {updated_count}개, "
+        f"삭제 {deleted_count}개"
+    )
     print(f"완료: {output_file}")
     return output_file
 
@@ -359,6 +400,8 @@ def main():
         existing_data=existing_data,
         force_word_audio=args.force_word_audio,
         update_existing=args.update_existing,
+        check_existing_word_audio=False,
+        source_book="",
     )
     if args.update_assets:
         copy_to_assets(output_file, args.output)

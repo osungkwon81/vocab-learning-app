@@ -145,6 +145,52 @@ class SettingsPreferencesRepository(
         }
     }
 
+    suspend fun getDeletedWordIds(): Set<Long> =
+        context.dataStore.data
+            .catch {
+                if (it is IOException) {
+                    emit(emptyPreferences())
+                } else {
+                    throw it
+                }
+            }
+            .map { preferences ->
+                preferences[DELETED_WORD_IDS]
+                    ?.let { stored ->
+                        runCatching {
+                            json.decodeFromString<Set<Long>>(stored)
+                        }.getOrDefault(emptySet())
+                    }
+                    ?: emptySet()
+            }
+            .first()
+
+    suspend fun addDeletedWordId(wordId: Long) {
+        context.dataStore.edit { preferences ->
+            val current = preferences[DELETED_WORD_IDS]
+                ?.let { stored ->
+                    runCatching {
+                        json.decodeFromString<Set<Long>>(stored)
+                    }.getOrDefault(emptySet())
+                }
+                ?: emptySet()
+            preferences[DELETED_WORD_IDS] = json.encodeToString(current + wordId)
+        }
+    }
+
+    suspend fun removeDeletedWordId(wordId: Long) {
+        context.dataStore.edit { preferences ->
+            val current = preferences[DELETED_WORD_IDS]
+                ?.let { stored ->
+                    runCatching {
+                        json.decodeFromString<Set<Long>>(stored)
+                    }.getOrDefault(emptySet())
+                }
+                ?: emptySet()
+            preferences[DELETED_WORD_IDS] = json.encodeToString(current - wordId)
+        }
+    }
+
     private fun preferencesToSyncState(preferences: Preferences): SyncState {
         val fileVersionsJson = preferences[FILE_VERSIONS]
         val decoded = fileVersionsJson
@@ -169,5 +215,6 @@ class SettingsPreferencesRepository(
         val REMOTE_BASE_URL = stringPreferencesKey("remote_base_url")
         val MANIFEST_VERSION = intPreferencesKey("manifest_version")
         val FILE_VERSIONS = stringPreferencesKey("file_versions")
+        val DELETED_WORD_IDS = stringPreferencesKey("deleted_word_ids")
     }
 }

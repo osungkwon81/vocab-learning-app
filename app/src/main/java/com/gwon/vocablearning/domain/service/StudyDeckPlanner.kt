@@ -192,7 +192,7 @@ class StudyDeckPlanner {
         private const val HOUR_MS = 1000L * 60 * 60
         private const val MAX_MEMORY_STRENGTH = 5
         private const val MAX_OVERDUE_HOURS = 72
-        private const val UNSEEN_WEIGHT = 10_000
+        private const val UNSEEN_WEIGHT = 14_000
         private const val DUE_WEIGHT = 6_000
         private const val WRONG_WEIGHT = 4
         private const val CORRECT_WEIGHT = 2
@@ -200,7 +200,7 @@ class StudyDeckPlanner {
         private const val MEMORY_GAP_WEIGHT = 300
         private const val SLOW_RESPONSE_WEIGHT = 2
         private const val OLD_WORD_WEIGHT = 1
-        private val learningQuota = SessionQuota(unseenPercent = 30, duePercent = 50, strengtheningPercent = 20)
-        private val quizQuota = SessionQuota(unseenPercent = 20, duePercent = 50, strengtheningPercent = 30)
+        private val learningQuota = SessionQuota(unseenPercent = 45, duePercent = 35, strengtheningPercent = 20)
+        private val quizQuota = SessionQuota(unseenPercent = 35, duePercent = 35, strengtheningPercent = 30)
     }
 }

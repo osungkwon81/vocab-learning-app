@@ -20,12 +20,15 @@ interface StudyRepository {
     suspend fun hasCompletedOnboarding(): Boolean
     suspend fun setOnboardingCompleted(completed: Boolean)
     suspend fun loadWords(grade: SchoolGrade): List<WordEntry>
+    suspend fun loadDeletedWordProgress(grade: SchoolGrade): List<WordProgress>
     suspend fun getSyncStatus(grade: SchoolGrade): SyncStatus
     suspend fun loadDashboard(grade: SchoolGrade, sourceBook: String? = null): DashboardSnapshot
     suspend fun loadWordProgress(grade: SchoolGrade, sourceBook: String? = null): List<WordProgress>
     suspend fun loadQuizDeck(grade: SchoolGrade, count: Int, sourceBook: String? = null): List<WordProgress>
     suspend fun loadStudyDeck(grade: SchoolGrade, count: Int, sourceBook: String? = null): List<WordProgress>
     suspend fun loadReviewItems(grade: SchoolGrade, sourceBook: String? = null): List<ReviewItem>
+    suspend fun hideWord(wordId: Long)
+    suspend fun restoreWord(wordId: Long)
     suspend fun recordLearningResult(
         wordId: Long,
         response: LearningResponse,
@@ -38,6 +41,8 @@ interface StudyRepository {
         isCorrect: Boolean,
         elapsedMs: Long,
     )
+
+    suspend fun checkCatalogUpdate(selectedGrade: SchoolGrade): SyncSummary
 
     suspend fun syncCatalog(
         selectedGrade: SchoolGrade? = null,

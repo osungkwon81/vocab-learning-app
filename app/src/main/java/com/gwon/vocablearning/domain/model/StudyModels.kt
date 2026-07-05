@@ -102,6 +102,7 @@ data class QuizQuestion(
 data class SyncSummary(
     val remoteConfigured: Boolean,
     val manifestVersion: Int?,
+    val pendingFiles: List<String> = emptyList(),
     val updatedFiles: List<String>,
     val errorMessage: String? = null,
 )

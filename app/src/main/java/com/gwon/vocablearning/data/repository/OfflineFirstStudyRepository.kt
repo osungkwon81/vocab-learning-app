@@ -62,6 +62,20 @@ class OfflineFirstStudyRepository(
     override suspend fun loadWords(grade: SchoolGrade): List<WordEntry> =
         catalogFileStore.loadWordSet(grade).toDomain()
 
+    override suspend fun loadDeletedWordProgress(grade: SchoolGrade): List<WordProgress> {
+        val deletedIds = settingsRepository.getDeletedWordIds()
+        if (deletedIds.isEmpty()) return emptyList()
+
+        val words = loadWords(grade).filter { it.wordId in deletedIds }
+        val stats = wordStatDao.getAll().associateBy { it.wordId }
+        return words.map { entry ->
+            WordProgress(
+                entry = entry,
+                stat = stats[entry.wordId]?.toDomain() ?: WordStat(wordId = entry.wordId),
+            )
+        }
+    }
+
     override suspend fun getSyncStatus(grade: SchoolGrade): SyncStatus {
         val syncState = settingsRepository.getSyncState()
         return SyncStatus(
@@ -98,7 +112,10 @@ class OfflineFirstStudyRepository(
         grade: SchoolGrade,
         sourceBook: String?,
     ): List<WordProgress> {
-        val words = loadWords(grade).filterBySourceBook(sourceBook)
+        val deletedIds = settingsRepository.getDeletedWordIds()
+        val words = loadWords(grade)
+            .filterBySourceBook(sourceBook)
+            .filterNot { it.wordId in deletedIds }
         val stats = wordStatDao.getAll()
             .associateBy { it.wordId }
 
@@ -161,6 +178,14 @@ class OfflineFirstStudyRepository(
         return filter { entry ->
             entry.sources.any { source -> source.book.trim() == selectedBook }
         }
+    }
+
+    override suspend fun hideWord(wordId: Long) {
+        settingsRepository.addDeletedWordId(wordId)
+    }
+
+    override suspend fun restoreWord(wordId: Long) {
+        settingsRepository.removeDeletedWordId(wordId)
     }
 
     override suspend fun recordLearningResult(
@@ -325,6 +350,40 @@ class OfflineFirstStudyRepository(
         const val MAX_MEMORY_STRENGTH = 5
     }
 
+    override suspend fun checkCatalogUpdate(selectedGrade: SchoolGrade): SyncSummary {
+        val baseUrl = settingsRepository.getRemoteBaseUrl(BuildConfig.DEFAULT_STORAGE_BASE_URL).trim()
+        if (baseUrl.isBlank()) {
+            return SyncSummary(
+                remoteConfigured = false,
+                manifestVersion = null,
+                updatedFiles = emptyList(),
+            )
+        }
+
+        val bundledManifest = catalogFileStore.loadBundledManifest()
+        val localSyncState = settingsRepository.getSyncState()
+        val remoteManifest = runCatching { remoteCatalogService.fetchManifest(baseUrl) }
+            .getOrElse { bundledManifest }
+        val targetGrades = listOf(selectedGrade)
+        val pendingFiles = targetGrades.mapNotNull { grade ->
+            val remoteVersion = remoteManifest.files[grade.fileKey] ?: return@mapNotNull null
+            val localVersion = localSyncState.fileVersions[grade.fileKey] ?: 0
+            grade.fileKey.takeIf { remoteVersion > localVersion }
+        }
+
+        settingsRepository.updateSyncState(
+            manifestVersion = maxOf(localSyncState.manifestVersion, remoteManifest.version),
+            fileVersions = localSyncState.fileVersions,
+        )
+
+        return SyncSummary(
+            remoteConfigured = true,
+            manifestVersion = remoteManifest.version,
+            pendingFiles = pendingFiles,
+            updatedFiles = emptyList(),
+        )
+    }
+
     override suspend fun syncCatalog(
         selectedGrade: SchoolGrade?,
         forceSelectedGrade: Boolean,
@@ -342,11 +401,17 @@ class OfflineFirstStudyRepository(
         val localSyncState = settingsRepository.getSyncState()
         val remoteManifest = runCatching { remoteCatalogService.fetchManifest(baseUrl) }
             .getOrElse { bundledManifest }
+        val targetGrades = selectedGrade?.let(::listOf) ?: SchoolGrade.entries
 
+        val pendingFiles = targetGrades.mapNotNull { grade ->
+            val remoteVersion = remoteManifest.files[grade.fileKey] ?: return@mapNotNull null
+            val localVersion = localSyncState.fileVersions[grade.fileKey] ?: 0
+            grade.fileKey.takeIf { remoteVersion > localVersion }
+        }
         val updatedFiles = mutableListOf<String>()
         var errorMessage: String? = null
 
-        SchoolGrade.entries.forEach { grade ->
+        targetGrades.forEach { grade ->
             val remoteVersion = remoteManifest.files[grade.fileKey] ?: return@forEach
             val localVersion = localSyncState.fileVersions[grade.fileKey] ?: 0
             val shouldDownload = remoteVersion > localVersion || (forceSelectedGrade && selectedGrade == grade)
@@ -378,6 +443,7 @@ class OfflineFirstStudyRepository(
         return SyncSummary(
             remoteConfigured = true,
             manifestVersion = remoteManifest.version,
+            pendingFiles = pendingFiles,
             updatedFiles = updatedFiles,
             errorMessage = errorMessage,
         )

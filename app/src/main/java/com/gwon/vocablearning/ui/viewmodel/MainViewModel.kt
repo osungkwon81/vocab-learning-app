@@ -12,6 +12,7 @@ import com.gwon.vocablearning.domain.model.LearningResponse
 import com.gwon.vocablearning.domain.model.QuizQuestion
 import com.gwon.vocablearning.domain.model.QuizType
 import com.gwon.vocablearning.domain.model.ReviewItem
+import com.gwon.vocablearning.domain.model.ReviewReason
 import com.gwon.vocablearning.domain.model.SchoolGrade
 import com.gwon.vocablearning.domain.model.WordEntry
 import com.gwon.vocablearning.domain.model.WordProgress
@@ -99,9 +100,11 @@ data class MainUiState(
     val quizCount: Int = 20,
     val showStudyStartDialog: Boolean = false,
     val showQuizStartDialog: Boolean = false,
-    val words: List<WordEntry> = emptyList(),
+    val deletedWordProgress: List<WordProgress> = emptyList(),
     val sourceBookOptions: List<String> = emptyList(),
     val selectedSourceBook: String? = null,
+    val hasCatalogUpdate: Boolean = false,
+    val catalogUpdateMessage: String? = null,
     val dashboard: DashboardSnapshot = DashboardSnapshot(),
     val wordProgress: List<WordProgress> = emptyList(),
     val reviewItems: List<ReviewItem> = emptyList(),
@@ -146,7 +149,7 @@ class MainViewModel(
 
             if (hasCompletedOnboarding) {
                 refreshReferenceData(grade)
-                syncCatalog(manual = false)
+                checkCatalogUpdate(grade)
             }
         }
     }
@@ -199,6 +202,7 @@ class MainViewModel(
             repository.setSelectedGrade(grade)
             if (_uiState.value.setupStep == SetupStep.READY) {
                 refreshReferenceData(grade)
+                checkCatalogUpdate(grade)
                 _uiState.update {
                     it.copy(
                         learningSession = null,
@@ -216,7 +220,7 @@ class MainViewModel(
             repository.setOnboardingCompleted(true)
             _uiState.update { it.copy(setupStep = SetupStep.READY) }
             refreshReferenceData(_uiState.value.selectedGrade)
-            syncCatalog(manual = false)
+            checkCatalogUpdate(_uiState.value.selectedGrade)
         }
     }
 
@@ -466,6 +470,30 @@ class MainViewModel(
         }
     }
 
+    fun hideWord(word: WordEntry) {
+        viewModelScope.launch {
+            repository.hideWord(word.wordId)
+            refreshReferenceData(_uiState.value.selectedGrade)
+            _uiState.update {
+                it.copy(
+                    learningSession = null,
+                    quizSession = null,
+                    noticeMessage = "'${word.word}' 단어를 삭제 목록으로 보냈습니다.",
+                )
+            }
+        }
+    }
+
+    fun restoreWord(word: WordEntry) {
+        viewModelScope.launch {
+            repository.restoreWord(word.wordId)
+            refreshReferenceData(_uiState.value.selectedGrade)
+            _uiState.update {
+                it.copy(noticeMessage = "'${word.word}' 단어를 복원했습니다.")
+            }
+        }
+    }
+
     fun syncCatalog(manual: Boolean = true) {
         viewModelScope.launch {
             _uiState.update { it.copy(isSyncing = true) }
@@ -475,13 +503,17 @@ class MainViewModel(
                     selectedGrade = selectedGrade,
                     forceSelectedGrade = manual,
                 )
-                if (_uiState.value.setupStep == SetupStep.READY) {
+                if (_uiState.value.setupStep == SetupStep.READY && (manual || summary.updatedFiles.isNotEmpty())) {
                     refreshReferenceData(selectedGrade)
                 }
                 val syncStatus = repository.getSyncStatus(selectedGrade)
-                val currentWordCount = _uiState.value.words.size
+                val currentWordCount = _uiState.value.wordProgress.size
                 _uiState.update { state ->
                     state.copy(
+                        hasCatalogUpdate = summary.pendingFiles.isNotEmpty() && summary.updatedFiles.isEmpty(),
+                        catalogUpdateMessage = summary.pendingFiles
+                            .takeIf { it.isNotEmpty() && summary.updatedFiles.isEmpty() }
+                            ?.let { buildCatalogUpdateMessage(selectedGrade, it.size) },
                         noticeMessage = when {
                             !summary.remoteConfigured && manual -> "아직 연결된 원격 저장소 주소가 없습니다."
                             !summary.remoteConfigured -> null
@@ -505,6 +537,30 @@ class MainViewModel(
                 }
             }
             _uiState.update { it.copy(isSyncing = false) }
+        }
+    }
+
+    private fun checkCatalogUpdate(grade: SchoolGrade) {
+        viewModelScope.launch {
+            runCatching {
+                repository.checkCatalogUpdate(grade)
+            }.onSuccess { summary ->
+                _uiState.update {
+                    it.copy(
+                        hasCatalogUpdate = summary.pendingFiles.isNotEmpty(),
+                        catalogUpdateMessage = summary.pendingFiles
+                            .takeIf { files -> files.isNotEmpty() }
+                            ?.let { buildCatalogUpdateMessage(grade, it.size) },
+                    )
+                }
+            }.onFailure {
+                _uiState.update {
+                    it.copy(
+                        hasCatalogUpdate = false,
+                        catalogUpdateMessage = null,
+                    )
+                }
+            }
         }
     }
 
@@ -579,6 +635,14 @@ class MainViewModel(
         append("저장된 단어 ${wordCount}개 · 전체 버전 ${manifestVersion} · 단어장 버전 ${fileVersion}")
     }
 
+    private fun buildCatalogUpdateMessage(
+        grade: SchoolGrade,
+        pendingCount: Int,
+    ): String = when {
+        pendingCount <= 1 -> "${grade.label} 단어장 업데이트가 있습니다."
+        else -> "새 단어장 업데이트 ${pendingCount}건이 있습니다."
+    }
+
     private fun buildSyncFailureMessage(rawMessage: String?): String {
         val detail = rawMessage
             ?.substringBefore('\n')
@@ -589,18 +653,18 @@ class MainViewModel(
     }
 
     private suspend fun refreshReferenceData(grade: SchoolGrade) {
-        val allWords = repository.loadWords(grade)
-        val sourceBookOptions = allWords.sourceBookOptions()
+        val allVisibleProgress = repository.loadWordProgress(grade)
+        val sourceBookOptions = allVisibleProgress.map { it.entry }.sourceBookOptions()
         val selectedSourceBook = _uiState.value.selectedSourceBook
             ?.takeIf { it in sourceBookOptions }
-        val words = allWords.filterBySourceBook(selectedSourceBook)
-        val wordProgress = repository.loadWordProgress(grade, selectedSourceBook)
-        val dashboard = repository.loadDashboard(grade, selectedSourceBook)
-        val reviewItems = repository.loadReviewItems(grade, selectedSourceBook)
+        val wordProgress = allVisibleProgress.filterBySourceBook(selectedSourceBook)
+        val dashboard = wordProgress.toDashboardSnapshot()
+        val reviewItems = wordProgress.toReviewItems()
+        val deletedWordProgress = repository.loadDeletedWordProgress(grade)
 
         _uiState.update {
             it.copy(
-                words = words,
+                deletedWordProgress = deletedWordProgress,
                 sourceBookOptions = sourceBookOptions,
                 selectedSourceBook = selectedSourceBook,
                 dashboard = dashboard,
@@ -616,11 +680,57 @@ class MainViewModel(
             .distinct()
             .sorted()
 
-    private fun List<WordEntry>.filterBySourceBook(sourceBook: String?): List<WordEntry> {
+    private fun List<WordProgress>.filterBySourceBook(sourceBook: String?): List<WordProgress> {
         val selectedBook = sourceBook?.trim().orEmpty()
         if (selectedBook.isBlank()) return this
-        return filter { entry ->
-            entry.sources.any { source -> source.book.trim() == selectedBook }
+        return filter { progress ->
+            progress.entry.sources.any { source -> source.book.trim() == selectedBook }
+        }
+    }
+
+    private fun List<WordProgress>.toDashboardSnapshot(): DashboardSnapshot {
+        val now = System.currentTimeMillis()
+        val stats = map { it.stat }
+        val totalAttempts = stats.sumOf { it.totalSolvedCount }
+        val totalElapsed = stats.sumOf { it.totalElapsedMs }
+
+        return DashboardSnapshot(
+            totalWords = size,
+            solvedWords = count { it.stat.totalSolvedCount > 0 },
+            totalAttempts = totalAttempts,
+            correctAnswers = stats.sumOf { it.correctCount },
+            wrongAnswers = stats.sumOf { it.wrongCount },
+            averageElapsedMs = if (totalAttempts == 0) 0 else totalElapsed / totalAttempts,
+            reviewCount = count { item ->
+                item.stat.totalSolvedCount > 0 &&
+                    (item.stat.needReview || (item.stat.nextReviewAt ?: Long.MAX_VALUE) <= now)
+            },
+        )
+    }
+
+    private fun List<WordProgress>.toReviewItems(): List<ReviewItem> {
+        val now = System.currentTimeMillis()
+        return mapNotNull { progress ->
+            val reasons = buildList {
+                if (progress.stat.wrongCount >= 2) add(ReviewReason.MANY_WRONG)
+                if (
+                    progress.stat.lastSolvedAt != null &&
+                    now - progress.stat.lastSolvedAt >= com.gwon.vocablearning.domain.service.StudyDeckPlanner.OLD_WORD_THRESHOLD_MS
+                ) {
+                    add(ReviewReason.LONG_TIME_NO_SEE)
+                }
+                if (progress.stat.averageElapsedMs >= com.gwon.vocablearning.domain.service.StudyDeckPlanner.SLOW_RESPONSE_THRESHOLD_MS) {
+                    add(ReviewReason.SLOW_RESPONSE)
+                }
+                if (
+                    progress.stat.needReview ||
+                    (progress.stat.nextReviewAt ?: Long.MAX_VALUE) <= now
+                ) {
+                    add(ReviewReason.EXPLICIT_REVIEW)
+                }
+            }.distinct()
+
+            if (reasons.isEmpty()) null else ReviewItem(progress = progress, reasons = reasons)
         }
     }
 
